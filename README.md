@@ -4,7 +4,7 @@ This application is using some of the graphic libraries created by our lecturer 
 
 I was mainly responsible for wrapping up the Bullet Physics Engine, collisions/collision shapes, controls, debugging, import/export geometry, implementation of game features.
                                                                                                                   
-![](https://github.com/Elyg/OpenGL_Flocking/blob/master/flocking_demo.gif)
+![](https://github.com/Elyg/Larry_Game/demo/larry_game_demo.gif)
 
 # Library dependancies
 
