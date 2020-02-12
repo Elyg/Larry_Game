@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_coin" kind="class" prot="public">
+    <compoundname>Coin</compoundname>
+    <includes refid="_coin_8h" local="no">Coin.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_trigger" kindref="compound">Trigger</ref> *</type>
+        <definition>Trigger* Coin::m_coinTrigger</definition>
+        <argsstring></argsstring>
+        <name>m_coinTrigger</name>
+        <briefdescription>
+<para>pointer to the trigger class, used for the coin&apos;s trigger box </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="67" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin</referencedby>
+        <referencedby refid="class_coin_1ad0371a6d98c194a0f6de615206829b16" compoundref="_coin_8cpp" startline="20" endline="24">~Coin</referencedby>
+        <referencedby refid="class_coin_1af1e8ee1867e6598ac3f031343dacafc5" compoundref="_coin_8cpp" startline="31" endline="34">getTrigger</referencedby>
+        <referencedby refid="class_coin_1a6ee947aab0802f2bef303d1375459f44" compoundref="_coin_8cpp" startline="36" endline="40">isCoinHit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_1a70aae6475b7b8802569b15db5659d97f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* Coin::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>pointer to our physicsWorld </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="71" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Coin::m_coinPos</definition>
+        <argsstring></argsstring>
+        <name>m_coinPos</name>
+        <briefdescription>
+<para>vector position of the coin (x,y,z) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="75" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin</referencedby>
+        <referencedby refid="class_coin_1af37350c3b81923c3c577fc571136b4f1" compoundref="_coin_8cpp" startline="26" endline="29">getCoinPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_1a03eae9d4311b1548c5a94aa0f314e4b4" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Coin::m_coinID</definition>
+        <argsstring></argsstring>
+        <name>m_coinID</name>
+        <briefdescription>
+<para>identifier for coin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="79" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_1a0cd3ca9ac75b7a2d4e228623f989c185" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Coin::m_bboxMin</definition>
+        <argsstring></argsstring>
+        <name>m_bboxMin</name>
+        <briefdescription>
+<para>min bounding box co-ordinates for coin&apos;s trigger (xmin,ymin,zmin) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="83" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_1a3628e045fc69caa87995bbc0bea33241" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Coin::m_bboxMax</definition>
+        <argsstring></argsstring>
+        <name>m_bboxMax</name>
+        <briefdescription>
+<para>max bounding box co-ordinates for coin&apos;s trigger (xmax,ymax,zmax) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="87" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Coin::m_coinState</definition>
+        <argsstring></argsstring>
+        <name>m_coinState</name>
+        <initializer>=1</initializer>
+        <briefdescription>
+<para>holds the current state of the coin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="91" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="91" bodyend="-1"/>
+        <referencedby refid="class_coin_1a010ea12b65a5bec9f748dc664d225a12" compoundref="_coin_8cpp" startline="42" endline="52">setCoinState</referencedby>
+        <referencedby refid="class_coin_1adb67c9f3c2affb5a8730c6fa69deac80" compoundref="_coin_8h" startline="55" endline="55">getCoinState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" prot="private" static="no" mutable="no">
+        <type><ref refid="class_l_timer" kindref="compound">LTimer</ref></type>
+        <definition>LTimer Coin::m_coinTimer</definition>
+        <argsstring></argsstring>
+        <name>m_coinTimer</name>
+        <briefdescription>
+<para>store the current age of the coin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="95" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="95" bodyend="-1"/>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin</referencedby>
+        <referencedby refid="class_coin_1ac30185e74f0824d6c462b581da2497f2" compoundref="_coin_8cpp" startline="54" endline="57">startTime</referencedby>
+        <referencedby refid="class_coin_1a498f9320e169a11b7d809702404165f2" compoundref="_coin_8h" startline="60" endline="60">getTime</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Coin::Coin</definition>
+        <argsstring>(ngl::Vec3 _pos, std::string _id, PhysicsWorld *_physics)</argsstring>
+        <name>Coin</name>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pos</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>ctor of the animation class </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector position of coin (x,y,z) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>identifier for coin </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_physics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to our <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="25" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coin.cpp" bodystart="3" bodyend="18"/>
+        <references refid="class_coin_1a3628e045fc69caa87995bbc0bea33241" compoundref="_coin_8h" startline="87">m_bboxMax</references>
+        <references refid="class_coin_1a0cd3ca9ac75b7a2d4e228623f989c185" compoundref="_coin_8h" startline="83">m_bboxMin</references>
+        <references refid="class_coin_1a03eae9d4311b1548c5a94aa0f314e4b4" compoundref="_coin_8h" startline="79">m_coinID</references>
+        <references refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" compoundref="_coin_8h" startline="75">m_coinPos</references>
+        <references refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" compoundref="_coin_8h" startline="95">m_coinTimer</references>
+        <references refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" compoundref="_coin_8h" startline="67">m_coinTrigger</references>
+        <references refid="class_coin_1a70aae6475b7b8802569b15db5659d97f" compoundref="_coin_8h" startline="71">m_physics</references>
+        <references refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" compoundref="_ltimer_8cpp" startline="38" endline="49">LTimer::pause</references>
+        <references refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">LTimer::start</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_1ad0371a6d98c194a0f6de615206829b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Coin::~Coin</definition>
+        <argsstring>()</argsstring>
+        <name>~Coin</name>
+        <briefdescription>
+<para>dtor of the animation class </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="29" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coin.cpp" bodystart="20" bodyend="24"/>
+        <references refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" compoundref="_coin_8h" startline="67">m_coinTrigger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_1af37350c3b81923c3c577fc571136b4f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Coin::getCoinPos</definition>
+        <argsstring>()</argsstring>
+        <name>getCoinPos</name>
+        <briefdescription>
+<para>returns a vector position of the coin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="33" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coin.cpp" bodystart="26" bodyend="29"/>
+        <references refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" compoundref="_coin_8h" startline="75">m_coinPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_1af1e8ee1867e6598ac3f031343dacafc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_trigger" kindref="compound">Trigger</ref> *</type>
+        <definition>Trigger * Coin::getTrigger</definition>
+        <argsstring>()</argsstring>
+        <name>getTrigger</name>
+        <briefdescription>
+<para>returns a pointer to the coin&apos;s trigger </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="37" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coin.cpp" bodystart="31" bodyend="34"/>
+        <references refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" compoundref="_coin_8h" startline="67">m_coinTrigger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_1a6ee947aab0802f2bef303d1375459f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Coin::isCoinHit</definition>
+        <argsstring>(std::string _playerName)</argsstring>
+        <name>isCoinHit</name>
+        <param>
+          <type>std::string</type>
+          <declname>_playerName</declname>
+        </param>
+        <briefdescription>
+<para>returns bool value whether player is in contact with coin&apos;s trigger </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="41" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coin.cpp" bodystart="36" bodyend="40"/>
+        <references refid="class_trigger_1aa93984db488edcfe733bd269755587bc" compoundref="_trigger_8cpp" startline="51" endline="70">Trigger::isHit</references>
+        <references refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" compoundref="_coin_8h" startline="67">m_coinTrigger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_1a010ea12b65a5bec9f748dc664d225a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Coin::setCoinState</definition>
+        <argsstring>(bool _state)</argsstring>
+        <name>setCoinState</name>
+        <param>
+          <type>bool</type>
+          <declname>_state</declname>
+        </param>
+        <briefdescription>
+<para>set whether coin state is active or deactivated </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="46" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coin.cpp" bodystart="42" bodyend="52"/>
+        <references refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" compoundref="_coin_8h" startline="91">m_coinState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_1ac30185e74f0824d6c462b581da2497f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Coin::startTime</definition>
+        <argsstring>()</argsstring>
+        <name>startTime</name>
+        <briefdescription>
+<para>start the coin timer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="50" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coin.cpp" bodystart="54" bodyend="57"/>
+        <references refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" compoundref="_coin_8h" startline="95">m_coinTimer</references>
+        <references refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" compoundref="_ltimer_8cpp" startline="50" endline="64">LTimer::unpause</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_1adb67c9f3c2affb5a8730c6fa69deac80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Coin::getCoinState</definition>
+        <argsstring>()</argsstring>
+        <name>getCoinState</name>
+        <briefdescription>
+<para>returns the current state of coin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="55" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="55" bodyend="55"/>
+        <references refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" compoundref="_coin_8h" startline="91">m_coinState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_1a498f9320e169a11b7d809702404165f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Coin::getTime</definition>
+        <argsstring>()</argsstring>
+        <name>getTime</name>
+        <briefdescription>
+<para>returns the current coin time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="60" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="60" bodyend="60"/>
+        <references refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">LTimer::getTicks</references>
+        <references refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" compoundref="_coin_8h" startline="95">m_coinTimer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class creates the coin. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="99">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="100" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="101">
+        <label>LTimer</label>
+        <link refid="class_l_timer"/>
+      </node>
+      <node id="102">
+        <label>Trigger</label>
+        <link refid="class_trigger"/>
+        <childnode refid="99" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+      </node>
+      <node id="100">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+      <node id="98">
+        <label>Coin</label>
+        <link refid="class_coin"/>
+        <childnode refid="99" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+        <childnode refid="101" relation="usage">
+          <edgelabel>-m_coinTimer</edgelabel>
+        </childnode>
+        <childnode refid="102" relation="usage">
+          <edgelabel>-m_coinTrigger</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" line="17" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h" bodystart="16" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" prot="public" virt="non-virtual"><scope>Coin</scope><name>Coin</name></member>
+      <member refid="class_coin_1af37350c3b81923c3c577fc571136b4f1" prot="public" virt="non-virtual"><scope>Coin</scope><name>getCoinPos</name></member>
+      <member refid="class_coin_1adb67c9f3c2affb5a8730c6fa69deac80" prot="public" virt="non-virtual"><scope>Coin</scope><name>getCoinState</name></member>
+      <member refid="class_coin_1a498f9320e169a11b7d809702404165f2" prot="public" virt="non-virtual"><scope>Coin</scope><name>getTime</name></member>
+      <member refid="class_coin_1af1e8ee1867e6598ac3f031343dacafc5" prot="public" virt="non-virtual"><scope>Coin</scope><name>getTrigger</name></member>
+      <member refid="class_coin_1a6ee947aab0802f2bef303d1375459f44" prot="public" virt="non-virtual"><scope>Coin</scope><name>isCoinHit</name></member>
+      <member refid="class_coin_1a3628e045fc69caa87995bbc0bea33241" prot="private" virt="non-virtual"><scope>Coin</scope><name>m_bboxMax</name></member>
+      <member refid="class_coin_1a0cd3ca9ac75b7a2d4e228623f989c185" prot="private" virt="non-virtual"><scope>Coin</scope><name>m_bboxMin</name></member>
+      <member refid="class_coin_1a03eae9d4311b1548c5a94aa0f314e4b4" prot="private" virt="non-virtual"><scope>Coin</scope><name>m_coinID</name></member>
+      <member refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" prot="private" virt="non-virtual"><scope>Coin</scope><name>m_coinPos</name></member>
+      <member refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" prot="private" virt="non-virtual"><scope>Coin</scope><name>m_coinState</name></member>
+      <member refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" prot="private" virt="non-virtual"><scope>Coin</scope><name>m_coinTimer</name></member>
+      <member refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" prot="private" virt="non-virtual"><scope>Coin</scope><name>m_coinTrigger</name></member>
+      <member refid="class_coin_1a70aae6475b7b8802569b15db5659d97f" prot="private" virt="non-virtual"><scope>Coin</scope><name>m_physics</name></member>
+      <member refid="class_coin_1a010ea12b65a5bec9f748dc664d225a12" prot="public" virt="non-virtual"><scope>Coin</scope><name>setCoinState</name></member>
+      <member refid="class_coin_1ac30185e74f0824d6c462b581da2497f2" prot="public" virt="non-virtual"><scope>Coin</scope><name>startTime</name></member>
+      <member refid="class_coin_1ad0371a6d98c194a0f6de615206829b16" prot="public" virt="non-virtual"><scope>Coin</scope><name>~Coin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

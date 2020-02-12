@@ -1,0 +1,9 @@
+<map id="GUIDraw::drawExitScreen" name="GUIDraw::drawExitScreen">
+<area shape="rect" id="node2" href="$main_8cpp.html#a822c103b79ef8d6a36c81a14cd038e07" title="exit" alt="" coords="232,132,275,159"/>
+<area shape="rect" id="node3" href="$class_coin_factory.html#a01111c06edf1c226c50e3b974db97660" title="reads in a text file that specifies the x,y,z position of each coin " alt="" coords="323,5,527,32"/>
+<area shape="rect" id="node4" href="$class_high_score.html#a51f8f4009cf565f7eba681fbf7792691" title="reads the value from a txt file " alt="" coords="335,56,515,83"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="576,132,627,159"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a2913e48f3b2449d53db8292db54accb4" title="function to quit SDL with error message " alt="" coords="376,157,475,184"/>
+<area shape="rect" id="node7" href="$class_text.html#a5454ef14fc670f5ef68bdbe2fe2fad3b" title="ctor must pass in a ready constructed QFont make sure the size and emphasis is set before doing this ..." alt="" coords="384,208,467,235"/>
+<area shape="rect" id="node8" href="$class_trigger_factory.html#ad9baf0e40c92308cff1646e8bcb91a78" title="reads trigger volume position data from a txt file " alt="" coords="336,259,515,301"/>
+</map>

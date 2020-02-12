@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_level_8cpp" kind="file">
+    <compoundname>Level.cpp</compoundname>
+    <includes refid="_level_8h" local="yes">Level.h</includes>
+    <incdepgraph>
+      <node id="2107">
+        <label>list</label>
+      </node>
+      <node id="2094">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="2072" relation="include">
+        </childnode>
+      </node>
+      <node id="2098">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="2099" relation="include">
+        </childnode>
+        <childnode refid="2083" relation="include">
+        </childnode>
+        <childnode refid="2100" relation="include">
+        </childnode>
+      </node>
+      <node id="2082">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="2069" relation="include">
+        </childnode>
+        <childnode refid="2083" relation="include">
+        </childnode>
+        <childnode refid="2091" relation="include">
+        </childnode>
+        <childnode refid="2094" relation="include">
+        </childnode>
+      </node>
+      <node id="2101">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="2072">
+        <label>SDL.h</label>
+      </node>
+      <node id="2078">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="2093">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="2067">
+        <label>Level.cpp</label>
+        <link refid="Level.cpp"/>
+        <childnode refid="2068" relation="include">
+        </childnode>
+      </node>
+      <node id="2071">
+        <label>ngl/Light.h</label>
+      </node>
+      <node id="2079">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="2088">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="2089" relation="include">
+        </childnode>
+        <childnode refid="2090" relation="include">
+        </childnode>
+        <childnode refid="2085" relation="include">
+        </childnode>
+      </node>
+      <node id="2077">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="2073">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="2091">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="2084" relation="include">
+        </childnode>
+        <childnode refid="2092" relation="include">
+        </childnode>
+        <childnode refid="2074" relation="include">
+        </childnode>
+        <childnode refid="2093" relation="include">
+        </childnode>
+        <childnode refid="2080" relation="include">
+        </childnode>
+      </node>
+      <node id="2100">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="2085" relation="include">
+        </childnode>
+        <childnode refid="2083" relation="include">
+        </childnode>
+        <childnode refid="2101" relation="include">
+        </childnode>
+        <childnode refid="2073" relation="include">
+        </childnode>
+      </node>
+      <node id="2080">
+        <label>string</label>
+      </node>
+      <node id="2113">
+        <label>ngl/ShaderLib.h</label>
+      </node>
+      <node id="2081">
+        <label>map</label>
+      </node>
+      <node id="2103">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="2083" relation="include">
+        </childnode>
+        <childnode refid="2091" relation="include">
+        </childnode>
+        <childnode refid="2094" relation="include">
+        </childnode>
+      </node>
+      <node id="2102">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="2103" relation="include">
+        </childnode>
+        <childnode refid="2091" relation="include">
+        </childnode>
+      </node>
+      <node id="2104">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="2105" relation="include">
+        </childnode>
+        <childnode refid="2094" relation="include">
+        </childnode>
+        <childnode refid="2106" relation="include">
+        </childnode>
+      </node>
+      <node id="2068">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="2069" relation="include">
+        </childnode>
+        <childnode refid="2083" relation="include">
+        </childnode>
+        <childnode refid="2091" relation="include">
+        </childnode>
+        <childnode refid="2076" relation="include">
+        </childnode>
+      </node>
+      <node id="2075">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2111">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="2076">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="2077" relation="include">
+        </childnode>
+        <childnode refid="2078" relation="include">
+        </childnode>
+        <childnode refid="2079" relation="include">
+        </childnode>
+        <childnode refid="2080" relation="include">
+        </childnode>
+        <childnode refid="2081" relation="include">
+        </childnode>
+      </node>
+      <node id="2090">
+        <label>vector</label>
+      </node>
+      <node id="2069">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="2070" relation="include">
+        </childnode>
+        <childnode refid="2071" relation="include">
+        </childnode>
+        <childnode refid="2072" relation="include">
+        </childnode>
+        <childnode refid="2073" relation="include">
+        </childnode>
+        <childnode refid="2074" relation="include">
+        </childnode>
+        <childnode refid="2075" relation="include">
+        </childnode>
+        <childnode refid="2076" relation="include">
+        </childnode>
+        <childnode refid="2082" relation="include">
+        </childnode>
+        <childnode refid="2068" relation="include">
+        </childnode>
+        <childnode refid="2095" relation="include">
+        </childnode>
+        <childnode refid="2097" relation="include">
+        </childnode>
+        <childnode refid="2098" relation="include">
+        </childnode>
+        <childnode refid="2102" relation="include">
+        </childnode>
+        <childnode refid="2104" relation="include">
+        </childnode>
+        <childnode refid="2100" relation="include">
+        </childnode>
+        <childnode refid="2107" relation="include">
+        </childnode>
+        <childnode refid="2108" relation="include">
+        </childnode>
+        <childnode refid="2112" relation="include">
+        </childnode>
+      </node>
+      <node id="2086">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="2097">
+        <label>Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="2083" relation="include">
+        </childnode>
+        <childnode refid="2070" relation="include">
+        </childnode>
+      </node>
+      <node id="2095">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="2069" relation="include">
+        </childnode>
+        <childnode refid="2096" relation="include">
+        </childnode>
+      </node>
+      <node id="2105">
+        <label>iostream</label>
+      </node>
+      <node id="2106">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="2092">
+        <label>unordered_map</label>
+      </node>
+      <node id="2096">
+        <label>ngl/NCCAPointBake.h</label>
+      </node>
+      <node id="2110">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="2112">
+        <label>ShaderFactory.h</label>
+        <link refid="_shader_factory_8h"/>
+        <childnode refid="2113" relation="include">
+        </childnode>
+      </node>
+      <node id="2084">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2099">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="2069" relation="include">
+        </childnode>
+        <childnode refid="2100" relation="include">
+        </childnode>
+        <childnode refid="2094" relation="include">
+        </childnode>
+      </node>
+      <node id="2089">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="2087">
+        <label>set</label>
+      </node>
+      <node id="2108">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="2100" relation="include">
+        </childnode>
+        <childnode refid="2109" relation="include">
+        </childnode>
+        <childnode refid="2106" relation="include">
+        </childnode>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2111" relation="include">
+        </childnode>
+      </node>
+      <node id="2085">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="2109">
+        <label>ngl/NGLStream.h</label>
+      </node>
+      <node id="2070">
+        <label>ngl/Camera.h</label>
+      </node>
+      <node id="2074">
+        <label>memory</label>
+      </node>
+      <node id="2083">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="2084" relation="include">
+        </childnode>
+        <childnode refid="2085" relation="include">
+        </childnode>
+        <childnode refid="2086" relation="include">
+        </childnode>
+        <childnode refid="2075" relation="include">
+        </childnode>
+        <childnode refid="2074" relation="include">
+        </childnode>
+        <childnode refid="2087" relation="include">
+        </childnode>
+        <childnode refid="2088" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_level_8h" kindref="compound">Level.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_level_1a49973d34eb54883629c86b73151c5515" refkind="member"><highlight class="normal"><ref refid="class_level_1a49973d34eb54883629c86b73151c5515" kindref="member">Level::Level</ref>(<ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*_physics)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><ref refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" kindref="member">m_physics</ref><sp/>=<sp/>_physics;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>.reset(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_text" kindref="compound">Text</ref>(</highlight><highlight class="stringliteral">&quot;font/arial.ttf&quot;</highlight><highlight class="normal">,50));</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//initialises<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><ref refid="class_level_1ada6b7907873234363dfea6bea39f0340" kindref="member">m_formOne</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;sphere&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><ref refid="class_level_1ac409de1af7b9ae686cceec58cdae6d1d" kindref="member">m_formTwo</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;larry&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref><sp/>=<sp/>ngl::Vec3(0,6,0);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><ref refid="class_level_1ad052e896fc39fc6636293a0cefefd36c" kindref="member">m_check1</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><ref refid="class_level_1afa0fa3df45d99ebf54652103b6773049" kindref="member">m_check2</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><ref refid="class_level_1a2a416117f27ae5a5cb83d8da2a67f085" kindref="member">m_check3</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><ref refid="class_level_1ad1a3fcf754d35020890bba329c6b92c7" kindref="member">m_check4</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="class_level_1a6ceb6845c44cdceaf49d266749a04931" kindref="member">m_check5</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><ref refid="class_collision_shape" kindref="compound">CollisionShape</ref><sp/>*shapes=<ref refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" kindref="member">CollisionShape::instance</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//adds<sp/>all<sp/>the<sp/>level<sp/>meshes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_1.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_2_part_1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_2_part_1.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_2_part_2&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_2_part_2.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_2_part_3a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_2_part_3a.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_2_part_3b&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_2_part_3b.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_3&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_3.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_4_part_1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_4_part_1.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_4_part_2&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_4_part_2.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_5&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;models/level_5.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;level_5Stick&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;models/level_5_sticky.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>shapes-&gt;<ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="stringliteral">&quot;finish&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;models/finish_line.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_level_1af91b84fa1d96f6ee770c2d10f252c4b1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_level_1af91b84fa1d96f6ee770c2d10f252c4b1" kindref="member">Level::createLevel</ref>(std::string<sp/>_levelName,<sp/>ngl::Vec3<sp/>_pos)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><ref refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" kindref="member">m_physics</ref>-&gt;<ref refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" kindref="member">addLevelMesh</ref>(_levelName,<sp/>_pos);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_level_1a0f8e9f66981e317ae853306c67a90a4d" refkind="member"><highlight class="normal">ngl::Vec3<sp/><ref refid="class_level_1a0f8e9f66981e317ae853306c67a90a4d" kindref="member">Level::getInitialPos</ref>()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" kindref="member">Level::checkpoints</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_shapeshift)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//find<sp/>which<sp/>form<sp/>the<sp/>character<sp/>is<sp/>and<sp/>gets<sp/>the<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_shapeshift==</highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref><sp/>=<sp/><ref refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" kindref="member">m_physics</ref>-&gt;<ref refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" kindref="member">getPosition</ref>(<ref refid="class_level_1ada6b7907873234363dfea6bea39f0340" kindref="member">m_formOne</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_shapeshift==</highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref><sp/>=<sp/><ref refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" kindref="member">m_physics</ref>-&gt;<ref refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" kindref="member">getPosition</ref>(<ref refid="class_level_1ac409de1af7b9ae686cceec58cdae6d1d" kindref="member">m_formTwo</ref>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>character<sp/>hits<sp/>checkpoint<sp/>1<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&lt;=-104<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&gt;=-120<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&lt;=8<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&gt;=-8)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Writes<sp/>CHECKPOINT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;setColour(0.0,1.0,0.0);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;renderText(500,250,</highlight><highlight class="stringliteral">&quot;CHECKPOINT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n<sp/>\n<sp/>Pos:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;<ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n<sp/>\n<sp/>Initial<sp/>Pos:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;<ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_level_1ad052e896fc39fc6636293a0cefefd36c" kindref="member">m_check1</ref><sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Changes<sp/>start<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_x<sp/>=<sp/>-110;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_y<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_z<sp/>=<sp/>1.5;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1ad052e896fc39fc6636293a0cefefd36c" kindref="member">m_check1</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>character<sp/>hits<sp/>checkpoint<sp/>2<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&lt;=-138<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&gt;=-149<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&lt;=-112<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&gt;=-128)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Writes<sp/>CHECKPOINT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;setColour(0.0,1.0,0.0);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;renderText(500,250,</highlight><highlight class="stringliteral">&quot;CHECKPOINT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_level_1afa0fa3df45d99ebf54652103b6773049" kindref="member">m_check2</ref><sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Changes<sp/>start<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_x<sp/>=<sp/>-145;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_y<sp/>=<sp/>-19;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_z<sp/>=<sp/>-120;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1afa0fa3df45d99ebf54652103b6773049" kindref="member">m_check2</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>character<sp/>hits<sp/>checkpoint<sp/>3<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&lt;=-186<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&gt;=-206<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&lt;=-204<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&gt;=-216)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Writes<sp/>CHECKPOINT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;setColour(0.0,1.0,0.0);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;renderText(500,250,</highlight><highlight class="stringliteral">&quot;CHECKPOINT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_level_1a2a416117f27ae5a5cb83d8da2a67f085" kindref="member">m_check3</ref><sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Changes<sp/>start<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_x<sp/>=<sp/>-196;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_y<sp/>=<sp/>-43;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_z<sp/>=<sp/>-210;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a2a416117f27ae5a5cb83d8da2a67f085" kindref="member">m_check3</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>character<sp/>hits<sp/>checkpoint<sp/>4<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&lt;=-117<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&gt;=-142<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&lt;=-378<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&gt;=-397)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Writes<sp/>CHECKPOINT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;setColour(0.0,1.0,0.0);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;renderText(500,250,</highlight><highlight class="stringliteral">&quot;CHECKPOINT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_level_1ad1a3fcf754d35020890bba329c6b92c7" kindref="member">m_check4</ref><sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Changes<sp/>start<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_x<sp/>=<sp/>-130;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_y<sp/>=<sp/>-150;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_z<sp/>=<sp/>-389;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1ad1a3fcf754d35020890bba329c6b92c7" kindref="member">m_check4</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>character<sp/>hits<sp/>checkpoint<sp/>5<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&lt;=-117<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_x&gt;=-142<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&lt;=-610<sp/>&amp;&amp;<sp/><ref refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kindref="member">m_charPos</ref>.m_z&gt;=-629)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Writes<sp/>CHECKPOINT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;setColour(0.0,1.0,0.0);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kindref="member">m_text</ref>-&gt;renderText(500,250,</highlight><highlight class="stringliteral">&quot;CHECKPOINT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_level_1a6ceb6845c44cdceaf49d266749a04931" kindref="member">m_check5</ref><sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Changes<sp/>start<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_x<sp/>=<sp/>-130;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_y<sp/>=<sp/>-150;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kindref="member">m_initialBallPos</ref>.m_z<sp/>=<sp/>-619;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_level_1a6ceb6845c44cdceaf49d266749a04931" kindref="member">m_check5</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Level.cpp"/>
+  </compounddef>
+</doxygen>

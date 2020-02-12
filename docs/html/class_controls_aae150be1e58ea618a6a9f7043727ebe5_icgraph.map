@@ -1,0 +1,5 @@
+<map id="Controls::stopJumpHopTimer" name="Controls::stopJumpHopTimer">
+<area shape="rect" id="node2" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="266,5,321,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a7b84a91f70b351e6694c824f3085edd8" title="pauseMenu" alt="" coords="249,56,338,83"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="387,31,437,57"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="Level.h" name="Level.h">
+<area shape="rect" id="node2" href="$_n_g_l_draw_8h.html" title="NGLDraw.h" alt="" coords="1154,80,1245,107"/>
+<area shape="rect" id="node16" href="$_physics_world_8h.html" title="PhysicsWorld.h" alt="" coords="1117,379,1232,405"/>
+<area shape="rect" id="node24" href="$_collision_shape_8h.html" title="CollisionShape.h" alt="" coords="589,304,709,331"/>
+<area shape="rect" id="node9" href="$_text_8h.html" title="Basic text rendering for OpenGL 3.x. " alt="" coords="261,155,320,181"/>
+<area shape="rect" id="node15" href="$_character_8h.html" title="Character.h" alt="" coords="1000,229,1090,256"/>
+<area shape="rect" id="node28" href="$_animation_8h.html" title="Animation.h" alt="" coords="756,155,846,181"/>
+<area shape="rect" id="node30" href="$_camera_8h.html" title="Camera.h" alt="" coords="1199,155,1277,181"/>
+<area shape="rect" id="node31" href="$_coin_factory_8h.html" title="CoinFactory.h" alt="" coords="1468,155,1572,181"/>
+<area shape="rect" id="node35" href="$_platform_factory_8h.html" title="PlatformFactory.h" alt="" coords="871,155,997,181"/>
+<area shape="rect" id="node37" href="$_high_score_8h.html" title="HighScore.h" alt="" coords="1647,155,1741,181"/>
+<area shape="rect" id="node33" href="$_trigger_8h.html" title="Trigger.h" alt="" coords="1498,304,1570,331"/>
+<area shape="rect" id="node41" href="$_trigger_factory_8h.html" title="TriggerFactory.h" alt="" coords="2049,155,2166,181"/>
+<area shape="rect" id="node45" href="$_shader_factory_8h.html" title="ShaderFactory.h" alt="" coords="2362,155,2480,181"/>
+<area shape="rect" id="node27" href="$_ltimer_8h.html" title="Ltimer.h" alt="" coords="1404,304,1473,331"/>
+<area shape="rect" id="node21" href="$_bullet_debug_draw_8h.html" title="BulletDebugDraw.h" alt="" coords="1215,453,1349,480"/>
+<area shape="rect" id="node32" href="$_coin_8h.html" title="Coin.h" alt="" coords="1443,229,1502,256"/>
+<area shape="rect" id="node36" href="$_platform_8h.html" title="Platform.h" alt="" coords="893,229,976,256"/>
+</map>

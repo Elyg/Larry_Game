@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_g_u_i_draw_8cpp" kind="file">
+    <compoundname>GUIDraw.cpp</compoundname>
+    <includes refid="_g_u_i_draw_8h" local="yes">GUIDraw.h</includes>
+    <includes local="no">ngl/ShaderLib.h</includes>
+    <includes local="no">ngl/NGLInit.h</includes>
+    <includes local="no">ngl/Material.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">ngl/NGLStream.h</includes>
+    <includes local="no">QGLWidget</includes>
+    <includes local="no">sstream</includes>
+    <incdepgraph>
+      <node id="2017">
+        <label>ngl/NGLInit.h</label>
+      </node>
+      <node id="2012">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="2007">
+        <label>GUIDraw.cpp</label>
+        <link refid="GUIDraw.cpp"/>
+        <childnode refid="2008" relation="include">
+        </childnode>
+        <childnode refid="2016" relation="include">
+        </childnode>
+        <childnode refid="2017" relation="include">
+        </childnode>
+        <childnode refid="2018" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="2020" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2022" relation="include">
+        </childnode>
+      </node>
+      <node id="2013">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="2011">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="2014">
+        <label>string</label>
+      </node>
+      <node id="2016">
+        <label>ngl/ShaderLib.h</label>
+      </node>
+      <node id="2015">
+        <label>map</label>
+      </node>
+      <node id="2009">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2018">
+        <label>ngl/Material.h</label>
+      </node>
+      <node id="2010">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="2011" relation="include">
+        </childnode>
+        <childnode refid="2012" relation="include">
+        </childnode>
+        <childnode refid="2013" relation="include">
+        </childnode>
+        <childnode refid="2014" relation="include">
+        </childnode>
+        <childnode refid="2015" relation="include">
+        </childnode>
+      </node>
+      <node id="2022">
+        <label>sstream</label>
+      </node>
+      <node id="2021">
+        <label>QGLWidget</label>
+      </node>
+      <node id="2019">
+        <label>math.h</label>
+      </node>
+      <node id="2008">
+        <label>GUIDraw.h</label>
+        <link refid="_g_u_i_draw_8h"/>
+        <childnode refid="2009" relation="include">
+        </childnode>
+        <childnode refid="2010" relation="include">
+        </childnode>
+      </node>
+      <node id="2020">
+        <label>ngl/NGLStream.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_g_u_i_draw_8h" kindref="compound">GUIDraw.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/ShaderLib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/NGLInit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/Material.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/NGLStream.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QGLWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_g_u_i_draw_1aa15d0061a46297ab7763c7af6b3f013c" refkind="member"><highlight class="normal"><ref refid="class_g_u_i_draw_1aa15d0061a46297ab7763c7af6b3f013c" kindref="member">GUIDraw::GUIDraw</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" kindref="member">m_textPause</ref>.reset(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_text" kindref="compound">Text</ref>(</highlight><highlight class="stringliteral">&quot;font/arial.ttf&quot;</highlight><highlight class="normal">,50));</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kindref="member">m_textPauseOptions</ref>.reset(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_text" kindref="compound">Text</ref>(</highlight><highlight class="stringliteral">&quot;font/arial.ttf&quot;</highlight><highlight class="normal">,25));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>ngl::NGLInit::instance();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>ngl::ShaderLib<sp/>*shader=ngl::ShaderLib::instance();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>creates<sp/>shader<sp/>for<sp/>menu<sp/>textures</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>shader-&gt;createShaderProgram(</highlight><highlight class="stringliteral">&quot;TextureMenu&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>shader-&gt;attachShader(</highlight><highlight class="stringliteral">&quot;TextureMenuVertex&quot;</highlight><highlight class="normal">,ngl::ShaderType::VERTEX);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>shader-&gt;attachShader(</highlight><highlight class="stringliteral">&quot;TextureMenuFragment&quot;</highlight><highlight class="normal">,ngl::ShaderType::FRAGMENT);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>shader-&gt;loadShaderSource(</highlight><highlight class="stringliteral">&quot;TextureMenuVertex&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;shaders/TextureVert.glsl&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>shader-&gt;loadShaderSource(</highlight><highlight class="stringliteral">&quot;TextureMenuFragment&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;shaders/TextureFrag.glsl&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/>shader-&gt;compileShader(</highlight><highlight class="stringliteral">&quot;TextureMenuVertex&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>shader-&gt;compileShader(</highlight><highlight class="stringliteral">&quot;TextureMenuFragment&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>shader-&gt;attachShaderToProgram(</highlight><highlight class="stringliteral">&quot;TextureMenu&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;TextureVertex&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>shader-&gt;attachShaderToProgram(</highlight><highlight class="stringliteral">&quot;TextureMenu&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;TextureFragment&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>shader-&gt;linkProgramObject(</highlight><highlight class="stringliteral">&quot;TextureMenu&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>creates<sp/>shader<sp/>for<sp/>colour<sp/>used<sp/>in<sp/>fade<sp/>in<sp/>/<sp/>out<sp/>effects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>shader-&gt;createShaderProgram(</highlight><highlight class="stringliteral">&quot;Colour&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>shader-&gt;attachShader(</highlight><highlight class="stringliteral">&quot;ColourVertex&quot;</highlight><highlight class="normal">,ngl::ShaderType::VERTEX);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>shader-&gt;attachShader(</highlight><highlight class="stringliteral">&quot;ColourFragment&quot;</highlight><highlight class="normal">,ngl::ShaderType::FRAGMENT);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>shader-&gt;loadShaderSource(</highlight><highlight class="stringliteral">&quot;ColourVertex&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;shaders/ColourVertex.glsl&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>shader-&gt;loadShaderSource(</highlight><highlight class="stringliteral">&quot;ColourFragment&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;shaders/ColourFragment.glsl&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>shader-&gt;compileShader(</highlight><highlight class="stringliteral">&quot;ColourVertex&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>shader-&gt;compileShader(</highlight><highlight class="stringliteral">&quot;ColourFragment&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>shader-&gt;attachShaderToProgram(</highlight><highlight class="stringliteral">&quot;Colour&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;ColourVertex&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>shader-&gt;attachShaderToProgram(</highlight><highlight class="stringliteral">&quot;Colour&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;ColourFragment&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>shader-&gt;linkProgramObject(</highlight><highlight class="stringliteral">&quot;Colour&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_g_u_i_draw_1a6e8378c339e6ebb13a3bb7dca8690614" refkind="member"><highlight class="normal"><ref refid="class_g_u_i_draw_1a6e8378c339e6ebb13a3bb7dca8690614" kindref="member">GUIDraw::~GUIDraw</ref>()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>delete<sp/>all<sp/>textures<sp/>in<sp/>the<sp/>texture<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i<sp/>&lt;=<sp/>401;<sp/>i++)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>glDeleteTextures(1,&amp;<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[i]);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_g_u_i_draw_1af5643c91cd0715092e9b19845d4a5541" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1af5643c91cd0715092e9b19845d4a5541" kindref="member">GUIDraw::loadAllTextures</ref>()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>ngl::ShaderLib<sp/>*shader=ngl::ShaderLib::instance();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>shader-&gt;use(</highlight><highlight class="stringliteral">&quot;TextureMenu&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//load<sp/>all<sp/>the<sp/>frames<sp/>in<sp/>the<sp/>cutscene</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=1;<sp/>i&lt;=349;<sp/>i++)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::stringstream<sp/>ss;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ss<sp/>&lt;&lt;<sp/>i;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>m_timeString<sp/>=<sp/>ss.str();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>cutscenePath<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;textures/introCutscene/cutscene&quot;</highlight><highlight class="normal">+<sp/>m_timeString<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(cutscenePath,i+20);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//load<sp/>all<sp/>the<sp/>frames<sp/>in<sp/>the<sp/>title<sp/>opening<sp/>sequence</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=1;<sp/>i&lt;=30;<sp/>i++)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::stringstream<sp/>ss;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ss<sp/>&lt;&lt;<sp/>i;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>m_timeString<sp/>=<sp/>ss.str();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>cutscenePath<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;textures/titleOpening/titleOpening&quot;</highlight><highlight class="normal">+<sp/>m_timeString<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(cutscenePath,i+370);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>the<sp/>menu<sp/>textures<sp/>and<sp/>assign<sp/>them<sp/>an<sp/>id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/menu_title.png&quot;</highlight><highlight class="normal">,1);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/menu_title_text.png&quot;</highlight><highlight class="normal">,2);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/menu_blank.png&quot;</highlight><highlight class="normal">,3);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/controlsScreen.png&quot;</highlight><highlight class="normal">,4);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/quitMenu.png&quot;</highlight><highlight class="normal">,5);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_start.png&quot;</highlight><highlight class="normal">,6);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_start_down.png&quot;</highlight><highlight class="normal">,7);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_controls.png&quot;</highlight><highlight class="normal">,8);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_controls_down.png&quot;</highlight><highlight class="normal">,9);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_quit.png&quot;</highlight><highlight class="normal">,10);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_quit_down.png&quot;</highlight><highlight class="normal">,11);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_yes.png&quot;</highlight><highlight class="normal">,12);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_yes_down.png&quot;</highlight><highlight class="normal">,13);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_no.png&quot;</highlight><highlight class="normal">,14);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/button_no_down.png&quot;</highlight><highlight class="normal">,15);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/menuOpenBottom.png&quot;</highlight><highlight class="normal">,16);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(</highlight><highlight class="stringliteral">&quot;textures/menuOpenTop.png&quot;</highlight><highlight class="normal">,17);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="class_g_u_i_draw_1a5a52309d626e0a5c7199e5bd6d4e8be1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a5a52309d626e0a5c7199e5bd6d4e8be1" kindref="member">GUIDraw::drawOpeningCredits</ref>()</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT<sp/>|<sp/>GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[0]);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0,1,0,1,0);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="class_g_u_i_draw_1a9199f932d0e9e3beecc16742e8587788" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a9199f932d0e9e3beecc16742e8587788" kindref="member">GUIDraw::drawOpeningCutscene</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1aedc733b9f483ec1601221904d018caae" kindref="member">cutsceneTime</ref>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT<sp/>|<sp/>GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[cutsceneTime+20]);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0,1,0,1,0);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="class_g_u_i_draw_1a3ff67aa72fc75944f855907d94494895" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a3ff67aa72fc75944f855907d94494895" kindref="member">GUIDraw::drawOpeningTitleSequence</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1aedc733b9f483ec1601221904d018caae" kindref="member">cutsceneTime</ref>)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT<sp/>|<sp/>GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[cutsceneTime+370]);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0,1,0,1,0);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="class_g_u_i_draw_1a815df87e097bca965f788d58e6e92fcb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a815df87e097bca965f788d58e6e92fcb" kindref="member">GUIDraw::drawTitleScreenNoText</ref>()</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT<sp/>|<sp/>GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[1]);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0,1,0,1,0);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="class_g_u_i_draw_1af50d253fbef63f8a4256641dfb5ef2da" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1af50d253fbef63f8a4256641dfb5ef2da" kindref="member">GUIDraw::drawTitleScreen</ref>()</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT<sp/>|<sp/>GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[2]);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0,1,0,1,0);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="class_g_u_i_draw_1a05cc9177428f5e544390f9ac4df2589d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a05cc9177428f5e544390f9ac4df2589d" kindref="member">GUIDraw::drawMainMenu</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>button)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//draw<sp/>the<sp/>menu<sp/>background</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT<sp/>|<sp/>GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[3]);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0,1,0,1,0);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//draws<sp/>the<sp/>buttons<sp/>on<sp/>top,<sp/>pressed<sp/>button<sp/>images<sp/>are<sp/>drawn<sp/>instead<sp/>when<sp/>mouse<sp/>is<sp/>over<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(button<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[7]);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[6]);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0.7,0.9,0.3,0.7,0.1);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(button<sp/>==<sp/>2)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[9]);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[8]);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0.4,0.6,0.3,0.7,0.1);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(button<sp/>==<sp/>3)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[10]);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[11]);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0.1,0.3,0.3,0.7,0.1);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="class_g_u_i_draw_1a9cda4a50453ae0ad7a4813137f56e1a4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a9cda4a50453ae0ad7a4813137f56e1a4" kindref="member">GUIDraw::drawControlsScreen</ref>()</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT<sp/>|<sp/>GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[4]);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0,1,0,1,0);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="class_g_u_i_draw_1a3d1840dd78e2a636d704bf5d90f7ea30" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a3d1840dd78e2a636d704bf5d90f7ea30" kindref="member">GUIDraw::drawExitScreen</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>button)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//draw<sp/>the<sp/>menu<sp/>background</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT<sp/>|<sp/>GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[5]);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0,1,0,1,0);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//draws<sp/>the<sp/>buttons<sp/>on<sp/>top,<sp/>pressed<sp/>button<sp/>images<sp/>are<sp/>drawn<sp/>instead<sp/>when<sp/>mouse<sp/>is<sp/>over<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(button<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[13]);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[12]);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0.3,0.5,0.05,0.45,0.1);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(button<sp/>==<sp/>2)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[15]);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[14]);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(0.3,0.5,0.55,0.95,0.1);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="class_g_u_i_draw_1a408f4a09c1755aecaf416f13c835cf1e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a408f4a09c1755aecaf416f13c835cf1e" kindref="member">GUIDraw::drawPauseScreen</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>resumeSelect,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mainMenuSelect)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>draws<sp/>&apos;PAUSE&apos;<sp/>text</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" kindref="member">m_textPause</ref>-&gt;setColour(1,1,1);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" kindref="member">m_textPause</ref>-&gt;renderText(0.4*w,0.3*h,</highlight><highlight class="stringliteral">&quot;PAUSE&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//draws<sp/>&apos;RESUME&apos;<sp/>and<sp/>&apos;MAIN<sp/>MENU&apos;<sp/>texts.<sp/>They<sp/>are<sp/>coloured<sp/>yellow<sp/>if<sp/>the<sp/>mouse<sp/>is<sp/>over<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resumeSelect)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kindref="member">m_textPauseOptions</ref>-&gt;setColour(1,1,0);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kindref="member">m_textPauseOptions</ref>-&gt;setColour(1,1,1);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kindref="member">m_textPauseOptions</ref>-&gt;renderText(0.4*w,0.5*h,</highlight><highlight class="stringliteral">&quot;RESUME&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mainMenuSelect)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kindref="member">m_textPauseOptions</ref>-&gt;setColour(1,1,0);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kindref="member">m_textPauseOptions</ref>-&gt;setColour(1,1,1);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kindref="member">m_textPauseOptions</ref>-&gt;renderText(0.4*w,0.6*h,</highlight><highlight class="stringliteral">&quot;MAIN<sp/>MENU&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="class_g_u_i_draw_1a8643ededfc1c8d8521b788da3175d334" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a8643ededfc1c8d8521b788da3175d334" kindref="member">GUIDraw::drawMenuOpenTop</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a88e8484615a06a6acfeb9c7a6e61600f" kindref="member">move</ref>)</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[17]);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//moves<sp/>the<sp/>texture<sp/>upwards</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(move,move+1,0,1,0.2);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="class_g_u_i_draw_1a890e1c5e968918d3268d6839f5ab448d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a890e1c5e968918d3268d6839f5ab448d" kindref="member">GUIDraw::drawMenuOpenBottom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a88e8484615a06a6acfeb9c7a6e61600f" kindref="member">move</ref>)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[16]);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//moves<sp/>the<sp/>texture<sp/>downwards</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(-move,-move+1,0,1,0.3);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">GUIDraw::drawTexture</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_t,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_l,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_d)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>invert<sp/>_d<sp/>and<sp/>convert<sp/>ranges<sp/>of<sp/>coordinates<sp/>from<sp/>(0..1)<sp/>to<sp/>(-1..1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/>_d<sp/>*=<sp/>-1;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/>_b<sp/>=<sp/>(_b<sp/>-<sp/>0.5)<sp/>*2;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/>_t<sp/>=<sp/>(_t<sp/>-<sp/>0.5)<sp/>*2;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/>_l<sp/>=<sp/>(_l<sp/>-<sp/>0.5)<sp/>*2;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/>_r<sp/>=<sp/>(_r<sp/>-<sp/>0.5)<sp/>*2;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/>glEnable(GL_BLEND);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/>glBlendFunc(GL_SRC_ALPHA,<sp/>GL_ONE_MINUS_SRC_ALPHA);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/>ngl::ShaderLib<sp/>*shader=ngl::ShaderLib::instance();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/>shader-&gt;use(</highlight><highlight class="stringliteral">&quot;TextureMenu&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/>ngl::Mat4<sp/>MVP=1;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/>shader-&gt;setShaderParamFromMat4(</highlight><highlight class="stringliteral">&quot;MVP&quot;</highlight><highlight class="normal">,MVP);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/>ngl::VertexArrayObject<sp/>*quad=ngl::VertexArrayObject::createVOA(GL_TRIANGLES);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>vert<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[18];<sp/><sp/></highlight><highlight class="comment">//<sp/>vertex<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>uv<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[12];<sp/><sp/></highlight><highlight class="comment">//<sp/>uv<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/>vert[0]<sp/>=_l;<sp/>vert[1]<sp/>=<sp/><sp/>_t;<sp/>vert[2]<sp/>=_d;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/>vert[3]<sp/>=<sp/>_r;<sp/>vert[4]<sp/>=<sp/><sp/>_t;<sp/>vert[5]<sp/>=_d;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/>vert[6]<sp/>=<sp/>_l;<sp/>vert[7]<sp/>=<sp/>_b;<sp/>vert[8]=<sp/>_d;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/>vert[9]<sp/>=_l;<sp/>vert[10]=<sp/>_b;<sp/>vert[11]=_d;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/>vert[12]<sp/>=_r;<sp/>vert[13]=_t;<sp/>vert[14]=_d;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/>vert[15]<sp/>=_r;<sp/>vert[16]=<sp/>_b;<sp/>vert[17]=_d;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/>uv[0]<sp/>=0.0;<sp/>uv[1]<sp/>=<sp/><sp/>1.0;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/>uv[2]<sp/>=<sp/>1.0;<sp/>uv[3]<sp/>=<sp/><sp/>1.0;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/>uv[4]<sp/>=<sp/>0.0;<sp/>uv[5]<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/>uv[6]<sp/>=0.0;<sp/>uv[7]=<sp/>0.0;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/>uv[8]<sp/>=1.0;<sp/>uv[9]=<sp/>1.0;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/>uv[10]<sp/>=1.0;<sp/>uv[11]=<sp/>0.0;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/>quad-&gt;bind();</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/>quad-&gt;setData(18*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(GLfloat),vert[0]);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/>quad-&gt;setVertexAttributePointer(0,3,GL_FLOAT,0,0);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/>quad-&gt;setData(12*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(GLfloat),uv[0]);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/>quad-&gt;setVertexAttributePointer(1,2,GL_FLOAT,0,0);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/>quad-&gt;setNumIndices(6);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/>quad-&gt;draw();</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/>quad-&gt;unbind();</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/>quad-&gt;removeVOA();</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>quad;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>uv;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/>glDisable(GL_BLEND);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">GUIDraw::loadTexture</ref>(std::string<sp/>filePath,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ID)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/>QImage<sp/>image;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//converts<sp/>std::string<sp/>to<sp/>QString<sp/>so<sp/>load<sp/>function<sp/>will<sp/>read<sp/>the<sp/>string</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/>QString<sp/>qFilePath<sp/>=<sp/>QString::fromUtf8(filePath.c_str());</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>loaded=image.load(qFilePath);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(loaded<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width=image.width();</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height=image.height();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>note<sp/>this<sp/>method<sp/>is<sp/>depracted<sp/>as<sp/>it<sp/>uses<sp/>the<sp/>Older<sp/>GLWidget<sp/>but<sp/>does<sp/>work</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>image<sp/>=<sp/>QGLWidget::convertToGLFormat(image);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>glActiveTexture(GL_TEXTURE0);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>glGenTextures(1,&amp;<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[ID]);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[ID]);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>glTexParameteri(GL_TEXTURE_2D,<sp/>GL_TEXTURE_MAG_FILTER,<sp/>GL_NEAREST);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>glTexParameteri(GL_TEXTURE_2D,<sp/>GL_TEXTURE_MIN_FILTER,<sp/>GL_NEAREST_MIPMAP_NEAREST);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>glTexImage2D(GL_TEXTURE_2D,<sp/>0,<sp/>GL_RGBA,<sp/>width,<sp/>height,</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/>GL_RGBA,<sp/>GL_UNSIGNED_BYTE,<sp/>image.bits());</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>glGenerateMipmap(GL_TEXTURE_2D);<sp/></highlight><highlight class="comment">//<sp/><sp/>Allocate<sp/>the<sp/>mipmaps</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="class_g_u_i_draw_1a4a3e8808152b45cb323ae374bb60a4fb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a4a3e8808152b45cb323ae374bb60a4fb" kindref="member">GUIDraw::drawQuadColour</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_t,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_l,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_r,<sp/>ngl::Vec3<sp/>colour,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>alpha)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>convert<sp/>ranges<sp/>of<sp/>coordinates<sp/>from<sp/>(0..1)<sp/>to<sp/>(-1..1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/>_b<sp/>=<sp/>(_b<sp/>-<sp/>0.5)<sp/>*2;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/>_t<sp/>=<sp/>(_t<sp/>-<sp/>0.5)<sp/>*2;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/>_l<sp/>=<sp/>(_l<sp/>-<sp/>0.5)<sp/>*2;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/>_r<sp/>=<sp/>(_r<sp/>-<sp/>0.5)<sp/>*2;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/>glEnable(GL_BLEND);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/>glBlendFunc(GL_SRC_ALPHA,<sp/>GL_ONE_MINUS_SRC_ALPHA);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/>ngl::ShaderLib<sp/>*shader=ngl::ShaderLib::instance();</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/>shader-&gt;use(</highlight><highlight class="stringliteral">&quot;Colour&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/>ngl::Mat4<sp/>MVP=1;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/>shader-&gt;setShaderParamFromMat4(</highlight><highlight class="stringliteral">&quot;MVP&quot;</highlight><highlight class="normal">,MVP);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/>ngl::VertexArrayObject<sp/>*quad=ngl::VertexArrayObject::createVOA(GL_TRIANGLES);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>vert<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[18];<sp/><sp/></highlight><highlight class="comment">//<sp/>vertex<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>col<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[24];<sp/></highlight><highlight class="comment">//<sp/>color<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/>vert[0]<sp/>=_l;<sp/>vert[1]<sp/>=<sp/><sp/>_t;<sp/>vert[2]<sp/>=-1.0;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/>vert[3]<sp/>=<sp/>_r;<sp/>vert[4]<sp/>=<sp/><sp/>_t;<sp/>vert[5]<sp/>=-1.0;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/>vert[6]<sp/>=<sp/>_l;<sp/>vert[7]<sp/>=<sp/>_b;<sp/>vert[8]=<sp/>-1.0;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/>vert[9]<sp/>=_l;<sp/>vert[10]=<sp/>_b;<sp/>vert[11]=-1.0;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/>vert[12]<sp/>=_r;<sp/>vert[13]=_t;<sp/>vert[14]=-1.0;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/>vert[15]<sp/>=_r;<sp/>vert[16]=<sp/>_b;<sp/>vert[17]=-1.0;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/>col[0]<sp/>=colour.m_x;<sp/>col[1]<sp/>=colour.m_y;<sp/>col[2]<sp/>=colour.m_z;<sp/>col[3]<sp/>=alpha;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/>col[4]<sp/>=colour.m_x;<sp/>col[5]<sp/>=colour.m_y;<sp/>col[6]<sp/>=colour.m_z;<sp/>col[7]<sp/>=alpha;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/>col[8]<sp/>=colour.m_x;<sp/>col[9]<sp/>=colour.m_y;<sp/>col[10]<sp/>=colour.m_z;<sp/>col[11]<sp/>=alpha;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/>col[12]<sp/>=colour.m_x;<sp/>col[13]<sp/>=colour.m_y;<sp/>col[14]<sp/>=colour.m_z;<sp/>col[15]<sp/>=alpha;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/>col[16]<sp/>=colour.m_x;<sp/>col[17]<sp/>=colour.m_y;<sp/>col[18]<sp/>=colour.m_z;<sp/>col[19]<sp/>=alpha;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/>col[20]<sp/>=colour.m_x;<sp/>col[21]<sp/>=colour.m_y;<sp/>col[22]<sp/>=colour.m_z;<sp/>col[23]<sp/>=alpha;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/>quad-&gt;bind();</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/>quad-&gt;setData(18*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(GLfloat),vert[0]);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/>quad-&gt;setVertexAttributePointer(0,3,GL_FLOAT,0,0);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/>quad-&gt;setData(24*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(GLfloat),col[0]);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/>quad-&gt;setVertexAttributePointer(1,4,GL_FLOAT,0,0);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/>quad-&gt;setNumIndices(6);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/>quad-&gt;draw();</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/>quad-&gt;unbind();</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/>quad-&gt;removeVOA();</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>quad;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/>glDisable(GL_BLEND);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp"/>
+  </compounddef>
+</doxygen>

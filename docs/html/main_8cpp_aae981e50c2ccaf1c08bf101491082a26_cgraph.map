@@ -1,0 +1,7 @@
+<map id="openingCutscene" name="openingCutscene">
+<area shape="rect" id="node2" href="$class_g_u_i_draw.html#a9199f932d0e9e3beecc16742e8587788" title="draws the opening cutscene " alt="" coords="177,5,394,32"/>
+<area shape="rect" id="node4" href="$class_g_u_i_draw.html#a4a3e8808152b45cb323ae374bb60a4fb" title="draws a colour on a two triangle quad " alt="" coords="194,56,377,83"/>
+<area shape="rect" id="node5" href="$class_l_timer.html#a57c4bdca0f7bdd75c65b6ab1499de1e7" title="LTimer::getTicks" alt="" coords="225,107,345,133"/>
+<area shape="rect" id="node6" href="$class_l_timer.html#a7dc11f05cf5098a6d06ebd6ebec96ed6" title="LTimer::start" alt="" coords="237,157,333,184"/>
+<area shape="rect" id="node3" href="$class_g_u_i_draw.html#a6ff5333a16605bf165d9295031e8c48c" title="draws a texture on a two triangle quad " alt="" coords="443,5,600,32"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="Character.h" name="Character.h">
+<area shape="rect" id="node2" href="$_n_g_l_draw_8h.html" title="NGLDraw.h" alt="" coords="1191,80,1281,107"/>
+<area shape="rect" id="node16" href="$_physics_world_8h.html" title="PhysicsWorld.h" alt="" coords="861,379,976,405"/>
+<area shape="rect" id="node24" href="$_collision_shape_8h.html" title="CollisionShape.h" alt="" coords="1528,304,1648,331"/>
+<area shape="rect" id="node34" href="$_ltimer_8h.html" title="Ltimer.h" alt="" coords="196,304,265,331"/>
+<area shape="rect" id="node9" href="$_text_8h.html" title="Basic text rendering for OpenGL 3.x. " alt="" coords="1317,229,1376,256"/>
+<area shape="rect" id="node15" href="$_level_8h.html" title="Level.h" alt="" coords="1387,155,1451,181"/>
+<area shape="rect" id="node27" href="$_animation_8h.html" title="Animation.h" alt="" coords="1629,155,1720,181"/>
+<area shape="rect" id="node29" href="$_camera_8h.html" title="Camera.h" alt="" coords="1475,155,1553,181"/>
+<area shape="rect" id="node30" href="$_coin_factory_8h.html" title="CoinFactory.h" alt="" coords="307,155,411,181"/>
+<area shape="rect" id="node35" href="$_platform_factory_8h.html" title="PlatformFactory.h" alt="" coords="1173,155,1299,181"/>
+<area shape="rect" id="node37" href="$_high_score_8h.html" title="HighScore.h" alt="" coords="541,155,635,181"/>
+<area shape="rect" id="node32" href="$_trigger_8h.html" title="Trigger.h" alt="" coords="301,304,373,331"/>
+<area shape="rect" id="node41" href="$_trigger_factory_8h.html" title="TriggerFactory.h" alt="" coords="823,155,940,181"/>
+<area shape="rect" id="node45" href="$_shader_factory_8h.html" title="ShaderFactory.h" alt="" coords="1795,155,1913,181"/>
+<area shape="rect" id="node21" href="$_bullet_debug_draw_8h.html" title="BulletDebugDraw.h" alt="" coords="963,453,1097,480"/>
+<area shape="rect" id="node31" href="$_coin_8h.html" title="Coin.h" alt="" coords="201,229,260,256"/>
+<area shape="rect" id="node36" href="$_platform_8h.html" title="Platform.h" alt="" coords="1211,229,1293,256"/>
+</map>

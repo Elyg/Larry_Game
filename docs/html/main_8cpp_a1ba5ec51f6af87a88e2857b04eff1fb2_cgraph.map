@@ -1,0 +1,9 @@
+<map id="mainMenu" name="mainMenu">
+<area shape="rect" id="node2" href="$class_g_u_i_draw.html#a05cc9177428f5e544390f9ac4df2589d" title="draws the main menu " alt="" coords="159,5,332,32"/>
+<area shape="rect" id="node4" href="$class_g_u_i_draw.html#a890e1c5e968918d3268d6839f5ab448d" title="draws the bottom part of the menu texture " alt="" coords="136,56,355,83"/>
+<area shape="rect" id="node5" href="$class_g_u_i_draw.html#a8643ededfc1c8d8521b788da3175d334" title="draws the top part of the menu texture " alt="" coords="146,107,345,133"/>
+<area shape="rect" id="node6" href="$class_g_u_i_draw.html#a4a3e8808152b45cb323ae374bb60a4fb" title="draws a colour on a two triangle quad " alt="" coords="154,157,337,184"/>
+<area shape="rect" id="node7" href="$class_l_timer.html#a57c4bdca0f7bdd75c65b6ab1499de1e7" title="LTimer::getTicks" alt="" coords="185,208,305,235"/>
+<area shape="rect" id="node8" href="$class_l_timer.html#a7dc11f05cf5098a6d06ebd6ebec96ed6" title="LTimer::start" alt="" coords="197,259,293,285"/>
+<area shape="rect" id="node3" href="$class_g_u_i_draw.html#a6ff5333a16605bf165d9295031e8c48c" title="draws a texture on a two triangle quad " alt="" coords="403,56,560,83"/>
+</map>

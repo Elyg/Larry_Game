@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_controls" kind="class" prot="public">
+    <compoundname>Controls</compoundname>
+    <includes refid="_controls_8h" local="no">Controls.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_controls_1a327aa6cddb871bf75037d9be2e22b6b8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* Controls::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>a pointer used to hold the physics world pointer to acces the physics world of the game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="126" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="class_controls_1a3fec86d9b99b17d3fb3087207306e883" compoundref="_controls_8cpp" startline="3" endline="9">Controls</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_controls_1a024d109da79e781107c763e1033707cb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_character" kindref="compound">Character</ref> *</type>
+        <definition>Character* Controls::m_character</definition>
+        <argsstring></argsstring>
+        <name>m_character</name>
+        <briefdescription>
+<para>a pointer used to hold the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="130" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" bodystart="130" bodyend="-1"/>
+        <referencedby refid="class_controls_1a3fec86d9b99b17d3fb3087207306e883" compoundref="_controls_8cpp" startline="3" endline="9">Controls</referencedby>
+        <referencedby refid="class_controls_1a472ff85242095dbe9435de7e5ab51bf5" compoundref="_controls_8cpp" startline="11" endline="14">jumpImpulse</referencedby>
+        <referencedby refid="class_controls_1aae150be1e58ea618a6a9f7043727ebe5" compoundref="_controls_8cpp" startline="16" endline="19">stopJumpHopTimer</referencedby>
+        <referencedby refid="class_controls_1a508630b1ee74d999f41e238c9c45c4c5" compoundref="_controls_8cpp" startline="21" endline="24">startJumpHopTimer</referencedby>
+        <referencedby refid="class_controls_1a37be7d2dd9722a8c4c65e34728b521e5" compoundref="_controls_8cpp" startline="26" endline="29">godMode</referencedby>
+        <referencedby refid="class_controls_1a739d7f836e424b3e52bbed5254d05bb2" compoundref="_controls_8cpp" startline="31" endline="34">setMassPositive</referencedby>
+        <referencedby refid="class_controls_1a72d9f9954b5bd7f2d9c1eaf8d3e4c133" compoundref="_controls_8cpp" startline="36" endline="39">setMassNegative</referencedby>
+        <referencedby refid="class_controls_1a7ffcbd7eb08abe5ad3384fab5023e6ee" compoundref="_controls_8cpp" startline="41" endline="44">setMaxVelPositive</referencedby>
+        <referencedby refid="class_controls_1a2b50d9bdd337494c1593be5e6fef5f69" compoundref="_controls_8cpp" startline="46" endline="49">setMaxVelNegative</referencedby>
+        <referencedby refid="class_controls_1a027e4320b6abb12c327a7469d2a4d42e" compoundref="_controls_8cpp" startline="51" endline="54">setMultiplierPositive</referencedby>
+        <referencedby refid="class_controls_1a5d1e9f2f35434f638cf1cf101002ca8c" compoundref="_controls_8cpp" startline="56" endline="59">setMultiplierNegative</referencedby>
+        <referencedby refid="class_controls_1a05b74314f8236b971e20d1868d437286" compoundref="_controls_8cpp" startline="61" endline="64">characterMovement</referencedby>
+        <referencedby refid="class_controls_1a3fed9472c6e44b18935eee2100af7922" compoundref="_controls_8cpp" startline="66" endline="69">getMass</referencedby>
+        <referencedby refid="class_controls_1af6f57c51504181c793dc5a973e7d2ff7" compoundref="_controls_8cpp" startline="71" endline="74">getMaxVelocity</referencedby>
+        <referencedby refid="class_controls_1af04921210f113d639ff0f3564d5ac1e4" compoundref="_controls_8cpp" startline="76" endline="79">getMultiplier</referencedby>
+        <referencedby refid="class_controls_1accc352189480c1031ee1446c378cc071" compoundref="_controls_8cpp" startline="81" endline="84">shapeshift</referencedby>
+        <referencedby refid="class_controls_1a7a9edd2f6c56973f63338d2a0c214ced" compoundref="_controls_8cpp" startline="86" endline="89">setJumpForcePositive</referencedby>
+        <referencedby refid="class_controls_1ae47be44b42b8bebeb0c53572da912db8" compoundref="_controls_8cpp" startline="91" endline="94">setJumpForceNegative</referencedby>
+        <referencedby refid="class_controls_1a570899be599209ec6f9bf7f2666c8021" compoundref="_controls_8cpp" startline="96" endline="99">setJumpHopMaxTimePositive</referencedby>
+        <referencedby refid="class_controls_1aef45854f27613d3bc5178cbdee862f68" compoundref="_controls_8cpp" startline="101" endline="104">setJumpHopMaxTimeNegative</referencedby>
+        <referencedby refid="class_controls_1aeeb1c64a0043037a3e22220c0d0e57eb" compoundref="_controls_8cpp" startline="106" endline="109">getJumpForce</referencedby>
+        <referencedby refid="class_controls_1ad5d8ded931c665b857812049ca5f5186" compoundref="_controls_8cpp" startline="111" endline="114">getJumpHopMaxTime</referencedby>
+        <referencedby refid="class_controls_1a39668100d8fd76dad5f1cd7246fb1858" compoundref="_controls_8cpp" startline="116" endline="119">setFrictionPositive</referencedby>
+        <referencedby refid="class_controls_1ab39eb41cd98e9e53873b916a9d63cc41" compoundref="_controls_8cpp" startline="121" endline="124">setFrictionNegative</referencedby>
+        <referencedby refid="class_controls_1a0f163ad74f11e47455c023db515d44de" compoundref="_controls_8cpp" startline="126" endline="129">getFriction</referencedby>
+        <referencedby refid="class_controls_1a48fb94906d136cbc9abefe65a78e5477" compoundref="_controls_8cpp" startline="131" endline="134">getJumpHopTime</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_controls_1a3fec86d9b99b17d3fb3087207306e883" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Controls::Controls</definition>
+        <argsstring>(PhysicsWorld *_physics, Character *_character)</argsstring>
+        <name>Controls</name>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <param>
+          <type><ref refid="class_character" kindref="compound">Character</ref> *</type>
+          <declname>_character</declname>
+        </param>
+        <briefdescription>
+<para>ctor for <ref refid="class_controls" kindref="compound">Controls</ref> class </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_physics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the game physics world </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="20" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="3" bodyend="9"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_controls_1a327aa6cddb871bf75037d9be2e22b6b8" compoundref="_controls_8h" startline="126">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a739d7f836e424b3e52bbed5254d05bb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setMassPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setMassPositive</name>
+        <briefdescription>
+<para>increments the mass of the object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="24" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="31" bodyend="34"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1ad2a929e7c3f2403b92114d5d7bf50c3c" compoundref="_character_8cpp" startline="380" endline="383">Character::setMassPositive</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a72d9f9954b5bd7f2d9c1eaf8d3e4c133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setMassNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setMassNegative</name>
+        <briefdescription>
+<para>decrements the mass of the object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="28" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="36" bodyend="39"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a2521deae9b9dd48eb87d7870a7f83f1f" compoundref="_character_8cpp" startline="385" endline="388">Character::setMassNegative</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a7ffcbd7eb08abe5ad3384fab5023e6ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setMaxVelPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setMaxVelPositive</name>
+        <briefdescription>
+<para>increments the max velocity of the object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="32" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="41" bodyend="44"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1ad00fc05ccd10c3819c7b5f0efba7e1a2" compoundref="_character_8cpp" startline="390" endline="393">Character::setMaxVelPositive</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a2b50d9bdd337494c1593be5e6fef5f69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setMaxVelNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setMaxVelNegative</name>
+        <briefdescription>
+<para>decrements the max velocity of the object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="36" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="46" bodyend="49"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1ae9aa7651b279192c65b7649e2d624fad" compoundref="_character_8cpp" startline="395" endline="398">Character::setMaxVelNegative</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a027e4320b6abb12c327a7469d2a4d42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setMultiplierPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setMultiplierPositive</name>
+        <briefdescription>
+<para>increments the multiplier for velocity of the object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="40" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="51" bodyend="54"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a37eefb510c8be344bc5afc46b4686746" compoundref="_character_8cpp" startline="400" endline="403">Character::setMultiplierPositive</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a5d1e9f2f35434f638cf1cf101002ca8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setMultiplierNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setMultiplierNegative</name>
+        <briefdescription>
+<para>decrements the multiplier for velocity of the object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="44" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="56" bodyend="59"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1ac71793e33ec4e29a9289cd922e464b09" compoundref="_character_8cpp" startline="405" endline="408">Character::setMultiplierNegative</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a472ff85242095dbe9435de7e5ab51bf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::jumpImpulse</definition>
+        <argsstring>()</argsstring>
+        <name>jumpImpulse</name>
+        <briefdescription>
+<para>applies a jump impulse to the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="48" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="11" bodyend="14"/>
+        <references refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">Character::jumpImpulse</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1aae150be1e58ea618a6a9f7043727ebe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::stopJumpHopTimer</definition>
+        <argsstring>()</argsstring>
+        <name>stopJumpHopTimer</name>
+        <briefdescription>
+<para>stops the jump hop timer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="52" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="16" bodyend="19"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a128fe63126613c48f495a0c467ebe337" compoundref="_character_8cpp" startline="251" endline="255">Character::stopJumpHopTimer</references>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+        <referencedby refid="main_8cpp_1a7b84a91f70b351e6694c824f3085edd8" compoundref="main_8cpp" startline="673" endline="755">pauseMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a508630b1ee74d999f41e238c9c45c4c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::startJumpHopTimer</definition>
+        <argsstring>()</argsstring>
+        <name>startJumpHopTimer</name>
+        <briefdescription>
+<para>starts the jump hop timer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="56" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="21" bodyend="24"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1ae58527d608910235f06445cd9d274a56" compoundref="_character_8cpp" startline="238" endline="249">Character::startJumpHopTimer</references>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a37be7d2dd9722a8c4c65e34728b521e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::godMode</definition>
+        <argsstring>()</argsstring>
+        <name>godMode</name>
+        <briefdescription>
+<para>disables gravity (cheat mode, shapeshift to re-enable gravity) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="60" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="26" bodyend="29"/>
+        <references refid="class_character_1a6d677474346bf9589e9c940ae165537c" compoundref="_character_8cpp" startline="374" endline="378">Character::godMode</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1accc352189480c1031ee1446c378cc071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::shapeshift</definition>
+        <argsstring>()</argsstring>
+        <name>shapeshift</name>
+        <briefdescription>
+<para>shapeshifts the character into a ball/ball with legs </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="64" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="81" bodyend="84"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</references>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a05b74314f8236b971e20d1868d437286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::characterMovement</definition>
+        <argsstring>(ngl::Vec3 &amp;_move)</argsstring>
+        <name>characterMovement</name>
+        <param>
+          <type>ngl::Vec3 &amp;</type>
+          <declname>_move</declname>
+        </param>
+        <briefdescription>
+<para>moves the character based on the direction vector </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_move</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the direction vector for the character </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="69" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="61" bodyend="64"/>
+        <references refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">Character::characterMove</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a7a9edd2f6c56973f63338d2a0c214ced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setJumpForcePositive</definition>
+        <argsstring>()</argsstring>
+        <name>setJumpForcePositive</name>
+        <briefdescription>
+<para>increments the jump force value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="73" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="86" bodyend="89"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a879566e3231e71d372df9505c5f99a50" compoundref="_character_8cpp" startline="410" endline="413">Character::setJumpForcePositive</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1ae47be44b42b8bebeb0c53572da912db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setJumpForceNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setJumpForceNegative</name>
+        <briefdescription>
+<para>decrements the jump force value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="77" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="91" bodyend="94"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a90043197d4c927c2816d1b2892593fa8" compoundref="_character_8cpp" startline="415" endline="418">Character::setJumpForceNegative</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a570899be599209ec6f9bf7f2666c8021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setJumpHopMaxTimePositive</definition>
+        <argsstring>()</argsstring>
+        <name>setJumpHopMaxTimePositive</name>
+        <briefdescription>
+<para>increments the max jump time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="81" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="96" bodyend="99"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a8227f22bd71a7d880e7c28e41fc07602" compoundref="_character_8cpp" startline="419" endline="422">Character::setJumpHopMaxTimePositive</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1aef45854f27613d3bc5178cbdee862f68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setJumpHopMaxTimeNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setJumpHopMaxTimeNegative</name>
+        <briefdescription>
+<para>decrements the max jump time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="85" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="101" bodyend="104"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a34971bffe0ea866a0c7665ecf8a43244" compoundref="_character_8cpp" startline="424" endline="427">Character::setJumpHopMaxTimeNegative</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a39668100d8fd76dad5f1cd7246fb1858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setFrictionPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setFrictionPositive</name>
+        <briefdescription>
+<para>increments the characters friction </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="89" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="116" bodyend="119"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1ab5efbe11f7ea8e0d45fd37388de25532" compoundref="_character_8cpp" startline="429" endline="432">Character::setFrictionPositive</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1ab39eb41cd98e9e53873b916a9d63cc41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Controls::setFrictionNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setFrictionNegative</name>
+        <briefdescription>
+<para>decrements the characters friction </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="93" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="121" bodyend="124"/>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <references refid="class_character_1a6c2156c8ebaa2bf50dfb0a91233d0e10" compoundref="_character_8cpp" startline="434" endline="437">Character::setFrictionNegative</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a3fed9472c6e44b18935eee2100af7922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Controls::getMass</definition>
+        <argsstring>()</argsstring>
+        <name>getMass</name>
+        <briefdescription>
+<para>returns the mass of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="97" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="66" bodyend="69"/>
+        <references refid="class_character_1aff483f397946442bdfc2e3ba62a825b2" compoundref="_character_8h" startline="82" endline="82">Character::getMass</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1af6f57c51504181c793dc5a973e7d2ff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Controls::getMaxVelocity</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxVelocity</name>
+        <briefdescription>
+<para>returns the max velocity of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="101" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="71" bodyend="74"/>
+        <references refid="class_character_1af638ed886b717330d0f53ec423433732" compoundref="_character_8h" startline="86" endline="86">Character::getMaxVelocity</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1af04921210f113d639ff0f3564d5ac1e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Controls::getMultiplier</definition>
+        <argsstring>()</argsstring>
+        <name>getMultiplier</name>
+        <briefdescription>
+<para>returns the multiplier value of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="105" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="76" bodyend="79"/>
+        <references refid="class_character_1a4f20bbd3e971408207fcf28083051059" compoundref="_character_8h" startline="90" endline="90">Character::getMultiplier</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a0f163ad74f11e47455c023db515d44de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Controls::getFriction</definition>
+        <argsstring>()</argsstring>
+        <name>getFriction</name>
+        <briefdescription>
+<para>returns the friction value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="109" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="126" bodyend="129"/>
+        <references refid="class_character_1a6b464972284d01160193a39b736f1b75" compoundref="_character_8h" startline="195" endline="195">Character::getFriction</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1aeeb1c64a0043037a3e22220c0d0e57eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Controls::getJumpForce</definition>
+        <argsstring>()</argsstring>
+        <name>getJumpForce</name>
+        <briefdescription>
+<para>returns the jump force </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="113" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="106" bodyend="109"/>
+        <references refid="class_character_1af58c239cd248b99bb74a6e1534c0a51f" compoundref="_character_8h" startline="179" endline="179">Character::getJumpForce</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1a48fb94906d136cbc9abefe65a78e5477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Controls::getJumpHopTime</definition>
+        <argsstring>()</argsstring>
+        <name>getJumpHopTime</name>
+        <briefdescription>
+<para>returns the jump hop time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="117" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="131" bodyend="134"/>
+        <references refid="class_character_1aa231ac523656d8db870efe76689980b1" compoundref="_character_8h" startline="98" endline="98">Character::getJumpHopTime</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_controls_1ad5d8ded931c665b857812049ca5f5186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Controls::getJumpHopMaxTime</definition>
+        <argsstring>()</argsstring>
+        <name>getJumpHopMaxTime</name>
+        <briefdescription>
+<para>returns the maximum hop time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="121" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp" bodystart="111" bodyend="114"/>
+        <references refid="class_character_1a150a1c3197b04d03212a65d3881a2c8f" compoundref="_character_8h" startline="183" endline="183">Character::getJumpHopMaxTime</references>
+        <references refid="class_controls_1a024d109da79e781107c763e1033707cb" compoundref="_controls_8h" startline="130">m_character</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A wrapper class for all of the controls for the character of the game. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="113">
+        <label>Controls</label>
+        <link refid="class_controls"/>
+        <childnode refid="114" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+        <childnode refid="116" relation="usage">
+          <edgelabel>-m_character</edgelabel>
+        </childnode>
+      </node>
+      <node id="114">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="115" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="117">
+        <label>LTimer</label>
+        <link refid="class_l_timer"/>
+      </node>
+      <node id="116">
+        <label>Character</label>
+        <link refid="class_character"/>
+        <childnode refid="114" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+        <childnode refid="117" relation="usage">
+          <edgelabel>-m_freezeTimer</edgelabel>
+          <edgelabel>-jumpHopTimer</edgelabel>
+        </childnode>
+      </node>
+      <node id="115">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" line="14" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h" bodystart="13" bodyend="131"/>
+    <listofallmembers>
+      <member refid="class_controls_1a05b74314f8236b971e20d1868d437286" prot="public" virt="non-virtual"><scope>Controls</scope><name>characterMovement</name></member>
+      <member refid="class_controls_1a3fec86d9b99b17d3fb3087207306e883" prot="public" virt="non-virtual"><scope>Controls</scope><name>Controls</name></member>
+      <member refid="class_controls_1a0f163ad74f11e47455c023db515d44de" prot="public" virt="non-virtual"><scope>Controls</scope><name>getFriction</name></member>
+      <member refid="class_controls_1aeeb1c64a0043037a3e22220c0d0e57eb" prot="public" virt="non-virtual"><scope>Controls</scope><name>getJumpForce</name></member>
+      <member refid="class_controls_1ad5d8ded931c665b857812049ca5f5186" prot="public" virt="non-virtual"><scope>Controls</scope><name>getJumpHopMaxTime</name></member>
+      <member refid="class_controls_1a48fb94906d136cbc9abefe65a78e5477" prot="public" virt="non-virtual"><scope>Controls</scope><name>getJumpHopTime</name></member>
+      <member refid="class_controls_1a3fed9472c6e44b18935eee2100af7922" prot="public" virt="non-virtual"><scope>Controls</scope><name>getMass</name></member>
+      <member refid="class_controls_1af6f57c51504181c793dc5a973e7d2ff7" prot="public" virt="non-virtual"><scope>Controls</scope><name>getMaxVelocity</name></member>
+      <member refid="class_controls_1af04921210f113d639ff0f3564d5ac1e4" prot="public" virt="non-virtual"><scope>Controls</scope><name>getMultiplier</name></member>
+      <member refid="class_controls_1a37be7d2dd9722a8c4c65e34728b521e5" prot="public" virt="non-virtual"><scope>Controls</scope><name>godMode</name></member>
+      <member refid="class_controls_1a472ff85242095dbe9435de7e5ab51bf5" prot="public" virt="non-virtual"><scope>Controls</scope><name>jumpImpulse</name></member>
+      <member refid="class_controls_1a024d109da79e781107c763e1033707cb" prot="private" virt="non-virtual"><scope>Controls</scope><name>m_character</name></member>
+      <member refid="class_controls_1a327aa6cddb871bf75037d9be2e22b6b8" prot="private" virt="non-virtual"><scope>Controls</scope><name>m_physics</name></member>
+      <member refid="class_controls_1ab39eb41cd98e9e53873b916a9d63cc41" prot="public" virt="non-virtual"><scope>Controls</scope><name>setFrictionNegative</name></member>
+      <member refid="class_controls_1a39668100d8fd76dad5f1cd7246fb1858" prot="public" virt="non-virtual"><scope>Controls</scope><name>setFrictionPositive</name></member>
+      <member refid="class_controls_1ae47be44b42b8bebeb0c53572da912db8" prot="public" virt="non-virtual"><scope>Controls</scope><name>setJumpForceNegative</name></member>
+      <member refid="class_controls_1a7a9edd2f6c56973f63338d2a0c214ced" prot="public" virt="non-virtual"><scope>Controls</scope><name>setJumpForcePositive</name></member>
+      <member refid="class_controls_1aef45854f27613d3bc5178cbdee862f68" prot="public" virt="non-virtual"><scope>Controls</scope><name>setJumpHopMaxTimeNegative</name></member>
+      <member refid="class_controls_1a570899be599209ec6f9bf7f2666c8021" prot="public" virt="non-virtual"><scope>Controls</scope><name>setJumpHopMaxTimePositive</name></member>
+      <member refid="class_controls_1a72d9f9954b5bd7f2d9c1eaf8d3e4c133" prot="public" virt="non-virtual"><scope>Controls</scope><name>setMassNegative</name></member>
+      <member refid="class_controls_1a739d7f836e424b3e52bbed5254d05bb2" prot="public" virt="non-virtual"><scope>Controls</scope><name>setMassPositive</name></member>
+      <member refid="class_controls_1a2b50d9bdd337494c1593be5e6fef5f69" prot="public" virt="non-virtual"><scope>Controls</scope><name>setMaxVelNegative</name></member>
+      <member refid="class_controls_1a7ffcbd7eb08abe5ad3384fab5023e6ee" prot="public" virt="non-virtual"><scope>Controls</scope><name>setMaxVelPositive</name></member>
+      <member refid="class_controls_1a5d1e9f2f35434f638cf1cf101002ca8c" prot="public" virt="non-virtual"><scope>Controls</scope><name>setMultiplierNegative</name></member>
+      <member refid="class_controls_1a027e4320b6abb12c327a7469d2a4d42e" prot="public" virt="non-virtual"><scope>Controls</scope><name>setMultiplierPositive</name></member>
+      <member refid="class_controls_1accc352189480c1031ee1446c378cc071" prot="public" virt="non-virtual"><scope>Controls</scope><name>shapeshift</name></member>
+      <member refid="class_controls_1a508630b1ee74d999f41e238c9c45c4c5" prot="public" virt="non-virtual"><scope>Controls</scope><name>startJumpHopTimer</name></member>
+      <member refid="class_controls_1aae150be1e58ea618a6a9f7043727ebe5" prot="public" virt="non-virtual"><scope>Controls</scope><name>stopJumpHopTimer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

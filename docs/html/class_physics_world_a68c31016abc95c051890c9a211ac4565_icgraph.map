@@ -1,0 +1,4 @@
+<map id="PhysicsWorld::rayNormalTest" name="PhysicsWorld::rayNormalTest">
+<area shape="rect" id="node2" href="$class_character.html#a8c3293540d07bee2542a6ec32d4f3bc5" title="returns the normal of the collision object that the ray collides with " alt="" coords="251,5,448,32"/>
+<area shape="rect" id="node3" href="$class_character.html#a4794ae0e4c8c715d9f0cd1c1abc5b233" title="returns the normal of the collision object that the ray collides with " alt="" coords="496,5,653,32"/>
+</map>

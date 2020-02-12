@@ -1,0 +1,4 @@
+<map id="Character::speed" name="Character::speed">
+<area shape="rect" id="node2" href="$class_physics_world.html#ab00e4b94b999ddf53a637e4a999959ee" title="returns the linear velocity of the specified shape " alt="" coords="177,5,370,32"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a73a5f631224e1486c7d6343f0a148ac0" title="sets the linear velocity of the specified shape " alt="" coords="177,56,370,83"/>
+</map>

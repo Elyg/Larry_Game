@@ -1,0 +1,5 @@
+<map id="NGLDraw::increaseCoinColour" name="NGLDraw::increaseCoinColour">
+<area shape="rect" id="node2" href="$class_n_g_l_draw.html#aec8a377329da67db1e2ef007bd27f026" title="draw the scene " alt="" coords="257,31,373,57"/>
+<area shape="rect" id="node3" href="$class_n_g_l_draw.html#ae5151dc189fd5de5649b72c5e76bcf47" title="resize our screen and set the camera aspect ratio " alt="" coords="440,5,563,32"/>
+<area shape="rect" id="node4" href="$class_n_g_l_draw.html#a21c11b65d353b76a7cc984db69aad208" title="NGLDraw::updateDraw" alt="" coords="422,56,581,83"/>
+</map>

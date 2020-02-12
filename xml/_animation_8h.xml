@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_animation_8h" kind="file">
+    <compoundname>Animation.h</compoundname>
+    <includes refid="_n_g_l_draw_8h" local="no">NGLDraw.h</includes>
+    <includes local="no">ngl/NCCAPointBake.h</includes>
+    <includedby refid="_animation_8cpp" local="yes">Animation.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <includedby refid="_n_g_l_draw_8cpp" local="yes">NGLDraw.cpp</includedby>
+    <includedby refid="_n_g_l_draw_8h" local="yes">NGLDraw.h</includedby>
+    <incdepgraph>
+      <node id="1435">
+        <label>list</label>
+      </node>
+      <node id="1423">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1426">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1427" relation="include">
+        </childnode>
+        <childnode refid="1412" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+      </node>
+      <node id="1411">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1398" relation="include">
+        </childnode>
+        <childnode refid="1412" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+        <childnode refid="1423" relation="include">
+        </childnode>
+      </node>
+      <node id="1429">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="1401">
+        <label>SDL.h</label>
+      </node>
+      <node id="1407">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="1422">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="1400">
+        <label>ngl/Light.h</label>
+      </node>
+      <node id="1408">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="1417">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="1418" relation="include">
+        </childnode>
+        <childnode refid="1419" relation="include">
+        </childnode>
+        <childnode refid="1414" relation="include">
+        </childnode>
+      </node>
+      <node id="1406">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="1402">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="1420">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="1413" relation="include">
+        </childnode>
+        <childnode refid="1421" relation="include">
+        </childnode>
+        <childnode refid="1403" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+        <childnode refid="1409" relation="include">
+        </childnode>
+      </node>
+      <node id="1428">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1412" relation="include">
+        </childnode>
+        <childnode refid="1429" relation="include">
+        </childnode>
+        <childnode refid="1402" relation="include">
+        </childnode>
+      </node>
+      <node id="1409">
+        <label>string</label>
+      </node>
+      <node id="1441">
+        <label>ngl/ShaderLib.h</label>
+      </node>
+      <node id="1410">
+        <label>map</label>
+      </node>
+      <node id="1431">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="1412" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+        <childnode refid="1423" relation="include">
+        </childnode>
+      </node>
+      <node id="1430">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="1431" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+      </node>
+      <node id="1432">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="1433" relation="include">
+        </childnode>
+        <childnode refid="1423" relation="include">
+        </childnode>
+        <childnode refid="1434" relation="include">
+        </childnode>
+      </node>
+      <node id="1424">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1398" relation="include">
+        </childnode>
+        <childnode refid="1412" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+        <childnode refid="1405" relation="include">
+        </childnode>
+      </node>
+      <node id="1404">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="1439">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="1405">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="1406" relation="include">
+        </childnode>
+        <childnode refid="1407" relation="include">
+        </childnode>
+        <childnode refid="1408" relation="include">
+        </childnode>
+        <childnode refid="1409" relation="include">
+        </childnode>
+        <childnode refid="1410" relation="include">
+        </childnode>
+      </node>
+      <node id="1419">
+        <label>vector</label>
+      </node>
+      <node id="1398">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1399" relation="include">
+        </childnode>
+        <childnode refid="1400" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+        <childnode refid="1402" relation="include">
+        </childnode>
+        <childnode refid="1403" relation="include">
+        </childnode>
+        <childnode refid="1404" relation="include">
+        </childnode>
+        <childnode refid="1405" relation="include">
+        </childnode>
+        <childnode refid="1411" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1397" relation="include">
+        </childnode>
+        <childnode refid="1425" relation="include">
+        </childnode>
+        <childnode refid="1426" relation="include">
+        </childnode>
+        <childnode refid="1430" relation="include">
+        </childnode>
+        <childnode refid="1432" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+        <childnode refid="1435" relation="include">
+        </childnode>
+        <childnode refid="1436" relation="include">
+        </childnode>
+        <childnode refid="1440" relation="include">
+        </childnode>
+      </node>
+      <node id="1415">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="1425">
+        <label>Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="1412" relation="include">
+        </childnode>
+        <childnode refid="1399" relation="include">
+        </childnode>
+      </node>
+      <node id="1397">
+        <label>Animation.h</label>
+        <link refid="Animation.h"/>
+        <childnode refid="1398" relation="include">
+        </childnode>
+        <childnode refid="1442" relation="include">
+        </childnode>
+      </node>
+      <node id="1433">
+        <label>iostream</label>
+      </node>
+      <node id="1434">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="1421">
+        <label>unordered_map</label>
+      </node>
+      <node id="1442">
+        <label>ngl/NCCAPointBake.h</label>
+      </node>
+      <node id="1438">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="1440">
+        <label>ShaderFactory.h</label>
+        <link refid="_shader_factory_8h"/>
+        <childnode refid="1441" relation="include">
+        </childnode>
+      </node>
+      <node id="1413">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="1427">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="1398" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+        <childnode refid="1423" relation="include">
+        </childnode>
+      </node>
+      <node id="1418">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="1416">
+        <label>set</label>
+      </node>
+      <node id="1436">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="1428" relation="include">
+        </childnode>
+        <childnode refid="1437" relation="include">
+        </childnode>
+        <childnode refid="1434" relation="include">
+        </childnode>
+        <childnode refid="1438" relation="include">
+        </childnode>
+        <childnode refid="1439" relation="include">
+        </childnode>
+      </node>
+      <node id="1414">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="1437">
+        <label>ngl/NGLStream.h</label>
+      </node>
+      <node id="1399">
+        <label>ngl/Camera.h</label>
+      </node>
+      <node id="1403">
+        <label>memory</label>
+      </node>
+      <node id="1412">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="1413" relation="include">
+        </childnode>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1404" relation="include">
+        </childnode>
+        <childnode refid="1403" relation="include">
+        </childnode>
+        <childnode refid="1416" relation="include">
+        </childnode>
+        <childnode refid="1417" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1452">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1453" relation="include">
+        </childnode>
+        <childnode refid="1447" relation="include">
+        </childnode>
+      </node>
+      <node id="1448">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1449" relation="include">
+        </childnode>
+        <childnode refid="1447" relation="include">
+        </childnode>
+      </node>
+      <node id="1457">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="1451">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="1445">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1456">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1449" relation="include">
+        </childnode>
+        <childnode refid="1457" relation="include">
+        </childnode>
+        <childnode refid="1447" relation="include">
+        </childnode>
+      </node>
+      <node id="1454">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="1455" relation="include">
+        </childnode>
+        <childnode refid="1445" relation="include">
+        </childnode>
+      </node>
+      <node id="1453">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="1447">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1445" relation="include">
+        </childnode>
+        <childnode refid="1446" relation="include">
+        </childnode>
+        <childnode refid="1443" relation="include">
+        </childnode>
+        <childnode refid="1448" relation="include">
+        </childnode>
+        <childnode refid="1450" relation="include">
+        </childnode>
+        <childnode refid="1454" relation="include">
+        </childnode>
+        <childnode refid="1456" relation="include">
+        </childnode>
+      </node>
+      <node id="1446">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="1443">
+        <label>Animation.h</label>
+        <link refid="Animation.h"/>
+        <childnode refid="1444" relation="include">
+        </childnode>
+        <childnode refid="1445" relation="include">
+        </childnode>
+        <childnode refid="1446" relation="include">
+        </childnode>
+        <childnode refid="1447" relation="include">
+        </childnode>
+      </node>
+      <node id="1449">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="1444">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="1450">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="1451" relation="include">
+        </childnode>
+        <childnode refid="1452" relation="include">
+        </childnode>
+      </node>
+      <node id="1455">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_animation" prot="public">Animation</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_animation_8h_1adb300d88138d1dab49b16e9706f211b5" prot="public" static="no">
+        <name>animCycle</name>
+        <enumvalue id="_animation_8h_1adb300d88138d1dab49b16e9706f211b5abb2dfc184fa2e91373d3ff304cb01b8a" prot="public">
+          <name>WALK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a40222410c7347ec4b6bcaba3bcb21f3b" prot="public">
+          <name>JUMP</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a50780f47f6839d47d60bc4555ee00c3f" prot="public">
+          <name>REST</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_animation_8h_1adb300d88138d1dab49b16e9706f211b5adebfae3b16a947c76151de63710d3cc7" prot="public">
+          <name>REST2</name>
+          <initializer>=3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_animation_8h_1adb300d88138d1dab49b16e9706f211b5add6c30845bb26cf9caf2e3968192947d" prot="public">
+          <name>COIN_REST</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Animation.h" line="7" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Animation.h" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="enum" id="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" prot="public" static="no">
+        <name>animType</name>
+        <enumvalue id="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" prot="public">
+          <name>CHAR_TYPE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" prot="public">
+          <name>COIN_TYPE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Animation.h" line="8" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Animation.h" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Morgan Henty </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ANIMATION</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ANIMATION</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_n_g_l_draw_8h" kindref="compound">NGLDraw.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/NCCAPointBake.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5" kindref="member">animCycle</ref><sp/>{<ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5abb2dfc184fa2e91373d3ff304cb01b8a" kindref="member">WALK</ref><sp/>=<sp/>0,<ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a40222410c7347ec4b6bcaba3bcb21f3b" kindref="member">JUMP</ref><sp/>=<sp/>1,<sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a50780f47f6839d47d60bc4555ee00c3f" kindref="member">REST</ref><sp/>=<sp/>2,<sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5adebfae3b16a947c76151de63710d3cc7" kindref="member">REST2</ref><sp/>=3,<sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5add6c30845bb26cf9caf2e3968192947d" kindref="member">COIN_REST</ref><sp/>=<sp/>4};</highlight></codeline>
+<codeline lineno="8" refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>{<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" kindref="member">CHAR_TYPE</ref><sp/>=<sp/>0,<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" kindref="member">COIN_TYPE</ref><sp/>=<sp/>1};</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight><highlight class="comment">//--------------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_animation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_animation" kindref="compound">Animation</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_animation_1a83f0a16cef7117f187ad596de38dd9d6" kindref="member">Animation</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_animation_1a401b68793d4fbf48d481c030ee4b2a16" kindref="member">~Animation</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1aac1afb06935594fb8c18a6e2f9aae3ff" kindref="member">setAnimationTo</ref>(<ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5" kindref="member">animCycle</ref><sp/>_cycle);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a5bc23aec96e127173d415dab364b0d6e" kindref="member">loadAnimationData</ref>(<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1aa5c387b4815b70ef5dbcd5df63077f61" kindref="member">setAnimationLoopOn</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_state,<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a5bc4557cd8655a7c0f27e86714ad76a9" kindref="member">attachAnimToMesh</ref>(std::unique_ptr&lt;ngl::Obj&gt;<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>_mesh,<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a01db389fa87bb375521010f7d0a3ee36" kindref="member">initStartFrame</ref>();<sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a9356b81e836167df2a3a2c5288d6148b" kindref="member">setAnimUpdate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_update,<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_animation_1aea90609393fddad53e84062f225dce1b" kindref="member">getAnimUpdate</ref>(<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1aa4223bf81fb5cb06c3e60fc222fc63bd" kindref="member">incrCurrentFrame</ref>(<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="class_animation_1ae4b243d757d8b117048df190b83b364f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;ngl::NCCAPointBake&gt;<sp/><ref refid="class_animation_1ae4b243d757d8b117048df190b83b364f" kindref="member">m_characterAnimData</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="class_animation_1a82a4a77bd00d6a3f812a6ccb6bc7c183" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;ngl::NCCAPointBake&gt;<sp/><ref refid="class_animation_1a82a4a77bd00d6a3f812a6ccb6bc7c183" kindref="member">m_coinAnimData</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="class_animation_1a944006eacaa923620b3a6047d211708b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="class_animation_1a0837afaac12ad923bd3d253c816e9aa4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><ref refid="class_animation_1a0837afaac12ad923bd3d253c816e9aa4" kindref="member">m_coinAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="class_animation_1ae704c55c7784b443bd2e88419de1a4b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><ref refid="class_animation_1ae704c55c7784b443bd2e88419de1a4b1" kindref="member">m_coinAnimEndFrame</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="class_animation_1ade2fa6e2a13073502afe3d8402546a63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_animation_1ade2fa6e2a13073502afe3d8402546a63" kindref="member">m_charAnimUpdate</ref>;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="class_animation_1a8cc2ee1bb0cd86b743e0aa52ad597a60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a8cc2ee1bb0cd86b743e0aa52ad597a60" kindref="member">m_coinAnimUpdate</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>ANIMATION</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Animation.h"/>
+  </compounddef>
+</doxygen>

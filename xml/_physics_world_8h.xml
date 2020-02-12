@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_physics_world_8h" kind="file">
+    <compoundname>PhysicsWorld.h</compoundname>
+    <includes local="no">btBulletDynamicsCommon.h</includes>
+    <includes local="no">ngl/Vec3.h</includes>
+    <includes local="no">ngl/Mat4.h</includes>
+    <includes local="no">ngl/Obj.h</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">set</includes>
+    <includes refid="_bullet_debug_draw_8h" local="no">BulletDebugDraw.h</includes>
+    <includedby refid="_character_8cpp" local="yes">Character.cpp</includedby>
+    <includedby refid="_n_g_l_draw_8cpp" local="yes">NGLDraw.cpp</includedby>
+    <includedby refid="_physics_world_8cpp" local="yes">PhysicsWorld.cpp</includedby>
+    <includedby refid="_camera_8h" local="yes">Camera.h</includedby>
+    <includedby refid="_trigger_8h" local="yes">Trigger.h</includedby>
+    <includedby refid="_coin_factory_8h" local="yes">CoinFactory.h</includedby>
+    <includedby refid="_platform_8h" local="yes">Platform.h</includedby>
+    <includedby refid="_character_8h" local="yes">Character.h</includedby>
+    <includedby refid="_controls_8h" local="yes">Controls.h</includedby>
+    <includedby refid="_level_8h" local="yes">Level.h</includedby>
+    <incdepgraph>
+      <node id="2396">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="2397" relation="include">
+        </childnode>
+        <childnode refid="2398" relation="include">
+        </childnode>
+        <childnode refid="2391" relation="include">
+        </childnode>
+      </node>
+      <node id="2393">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2398">
+        <label>vector</label>
+      </node>
+      <node id="2392">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="2390">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2397">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="2395">
+        <label>set</label>
+      </node>
+      <node id="2391">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="2394">
+        <label>memory</label>
+      </node>
+      <node id="2389">
+        <label>PhysicsWorld.h</label>
+        <link refid="PhysicsWorld.h"/>
+        <childnode refid="2390" relation="include">
+        </childnode>
+        <childnode refid="2391" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+        <childnode refid="2393" relation="include">
+        </childnode>
+        <childnode refid="2394" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+        <childnode refid="2396" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2412">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="2413" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+      </node>
+      <node id="2409">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="2400" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+      </node>
+      <node id="2417">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="2411">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="2423">
+        <label>Platform.cpp</label>
+        <link refid="_platform_8cpp"/>
+      </node>
+      <node id="2418">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="2419" relation="include">
+        </childnode>
+        <childnode refid="2410" relation="include">
+        </childnode>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+        <childnode refid="2420" relation="include">
+        </childnode>
+      </node>
+      <node id="2406">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2421">
+        <label>TriggerFactory.cpp</label>
+        <link refid="_trigger_factory_8cpp"/>
+      </node>
+      <node id="2422">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="2423" relation="include">
+        </childnode>
+        <childnode refid="2424" relation="include">
+        </childnode>
+      </node>
+      <node id="2424">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="2425" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+      </node>
+      <node id="2416">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="2400" relation="include">
+        </childnode>
+        <childnode refid="2417" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+      </node>
+      <node id="2404">
+        <label>Camera.cpp</label>
+        <link refid="_camera_8cpp"/>
+      </node>
+      <node id="2414">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="2415" relation="include">
+        </childnode>
+        <childnode refid="2406" relation="include">
+        </childnode>
+      </node>
+      <node id="2402">
+        <label>PhysicsWorld.cpp</label>
+        <link refid="_physics_world_8cpp"/>
+      </node>
+      <node id="2419">
+        <label>Trigger.cpp</label>
+        <link refid="_trigger_8cpp"/>
+      </node>
+      <node id="2413">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="2405">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="2406" relation="include">
+        </childnode>
+        <childnode refid="2401" relation="include">
+        </childnode>
+        <childnode refid="2407" relation="include">
+        </childnode>
+        <childnode refid="2409" relation="include">
+        </childnode>
+        <childnode refid="2410" relation="include">
+        </childnode>
+        <childnode refid="2414" relation="include">
+        </childnode>
+        <childnode refid="2416" relation="include">
+        </childnode>
+      </node>
+      <node id="2401">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="2403">
+        <label>Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="2404" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+      </node>
+      <node id="2407">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="2408" relation="include">
+        </childnode>
+        <childnode refid="2406" relation="include">
+        </childnode>
+        <childnode refid="2401" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+      </node>
+      <node id="2400">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="2408">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="2425">
+        <label>PlatformFactory.cpp</label>
+        <link refid="_platform_factory_8cpp"/>
+      </node>
+      <node id="2410">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="2411" relation="include">
+        </childnode>
+        <childnode refid="2412" relation="include">
+        </childnode>
+      </node>
+      <node id="2415">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+      <node id="2420">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="2421" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+      </node>
+      <node id="2399">
+        <label>PhysicsWorld.h</label>
+        <link refid="PhysicsWorld.h"/>
+        <childnode refid="2400" relation="include">
+        </childnode>
+        <childnode refid="2401" relation="include">
+        </childnode>
+        <childnode refid="2402" relation="include">
+        </childnode>
+        <childnode refid="2403" relation="include">
+        </childnode>
+        <childnode refid="2418" relation="include">
+        </childnode>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2422" relation="include">
+        </childnode>
+        <childnode refid="2409" relation="include">
+        </childnode>
+        <childnode refid="2414" relation="include">
+        </childnode>
+        <childnode refid="2416" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_physics_world" prot="public">PhysicsWorld</innerclass>
+    <innerclass refid="struct_physics_world_1_1_body" prot="private">PhysicsWorld::Body</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Eligijus Titas, Morgan Henty, Tom Rule, Tarquin Pereira, Rebecca Maddison </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PHYSICSWORLD_H__</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PHYSICSWORLD_H__</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;btBulletDynamicsCommon.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/Vec3.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/Mat4.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/Obj.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;set&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_bullet_debug_draw_8h" kindref="compound">BulletDebugDraw.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"></highlight><highlight class="comment">//--------------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_physics_world" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" kindref="member">PhysicsWorld</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_debug);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_physics_world_1abf1573b008b52b60a83a8f36cbdd51bc" kindref="member">~PhysicsWorld</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_physics_world_1a0d04a6ac71656dbaa41394b3bfe9e4be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a0d04a6ac71656dbaa41394b3bfe9e4be" kindref="member">setGravity</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_z)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" kindref="member">m_dynamicsWorld</ref>-&gt;setGravity(btVector3(_x,_y,_z));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41" refid="class_physics_world_1a2cdbd862a8cd35eed77772fa870a3d83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a2cdbd862a8cd35eed77772fa870a3d83" kindref="member">setGravity</ref>(ngl::Vec3<sp/>_g)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" kindref="member">m_dynamicsWorld</ref>-&gt;setGravity(btVector3(_g.m_x,_g.m_y,_g.m_z));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_physics_world_1a23a2c8693eb25ad28e13b66e95a7c573" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a23a2c8693eb25ad28e13b66e95a7c573" kindref="member">getNumCollisionObjects</ref>()</highlight><highlight class="keyword">const</highlight></codeline>
+<codeline lineno="49"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" kindref="member">m_dynamicsWorld</ref>-&gt;getNumCollisionObjects();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="class_physics_world_1a68a706855bc60f6d404cfbab4ca0d8fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="class_physics_world_1a68a706855bc60f6d404cfbab4ca0d8fa" kindref="member">getBodyNameAtIndex</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" kindref="member">m_bodies</ref>[i].name;}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" kindref="member">addSphere</ref>(std::string<sp/>_shapeName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_pos,ngl::Real<sp/>_mass,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_inertia,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_draw);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" kindref="member">addLegSphere</ref>(std::string<sp/>_shapeName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_pos,ngl::Real<sp/>_mass,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_inertia);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" kindref="member">addMesh</ref>(std::string<sp/>_shapeName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_pos,ngl::Real<sp/>_mass,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_inertia);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" kindref="member">addLevelMesh</ref>(std::string<sp/>_shapeName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_pos);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" kindref="member">addBox</ref>(std::string<sp/>_shapeName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_pos);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a0a5ebdf9925b48d0a8725545010267f2" kindref="member">step</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_timeStep,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_maxSubSteps,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_fixedTimeStep);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" kindref="member">addPlatform</ref>(std::string<sp/>_shapeName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_pos,ngl::Real<sp/>_mass,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_inertia);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a4cb52e883aaf26f356dc6906757af84d" kindref="member">addImpulse</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_i,<sp/>std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1ac14ab775fcccc66e75fb4f70da54ac72" kindref="member">applyForceCentral</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_p,<sp/>std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" kindref="member">getLinVelocity</ref>(std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" kindref="member">setLinVelocity</ref>(std::string<sp/>_shape,<sp/>ngl::Vec3<sp/>&amp;_velocity);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_physics_world_1a63bc2c028b9a49498411038100181ed1" kindref="member">getAngVelocity</ref>(std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a9898273f563625b150091d5657de02f3" kindref="member">setAngVelocity</ref>(std::string<sp/>_shape,<sp/>ngl::Vec3<sp/>&amp;_velocity);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a2abd0187fc57fdef29022bc2f69980ea" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" kindref="member">getPosition</ref>(std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Mat4<sp/><ref refid="class_physics_world_1acef2efa13c576073a2a907709114422d" kindref="member">getTransformMatrix</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_index);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Mat4<sp/><ref refid="class_physics_world_1acef2efa13c576073a2a907709114422d" kindref="member">getTransformMatrix</ref>(std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a59241bfca0313e9d049f55f546e6b184" kindref="member">setTransformMatrix</ref>(std::string<sp/>_shape,<sp/>ngl::Mat4<sp/>_mat);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1ae993e38768816889858cc953e36271ed" kindref="member">printBodies</ref>();</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" kindref="member">removeCollisionObj</ref>(std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_physics_world_1a6d5cca57854b708690441dd0a75cb2fd" kindref="member">getCentreOfMass</ref>(std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a9912925d440ee83d22fc00f692574ca1" kindref="member">debugWorldDraw</ref>();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" kindref="member">rayTest</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_b);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" kindref="member">rayTest</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_b,<sp/>ngl::Vec3<sp/>&amp;_out);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_physics_world_1a2eb74a13ee526a3fcf449f28fa95c516" kindref="member">getVelocityOfPlatform</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_b);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_physics_world_1a68c31016abc95c051890c9a211ac4565" kindref="member">rayNormalTest</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ngl::Vec3<sp/>&amp;_b);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" kindref="member">setGravityForBody</ref>(std::string<sp/>_shape,<sp/>ngl::Vec3<sp/>_vec);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_physics_world_1a6f01ee5e9135ac370a8a19767de1a838" kindref="member">freezeBody</ref>(std::string<sp/>_shape);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>btRigidBody*<sp/><ref refid="class_physics_world_1a98831beb054a4668161a113aa770c3dc" kindref="member">FindGameObject</ref>(btRigidBody<sp/>*_shape);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="struct_physics_world_1_1_body" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="228" refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="229" refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>btRigidBody*<sp/><ref refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" kindref="member">body</ref>;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>}<ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref>;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="class_physics_world_1aafe85a6dd0cbccf4c6fe2fe74e467caf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;BulletDebugDraw&gt;<sp/><ref refid="class_physics_world_1aafe85a6dd0cbccf4c6fe2fe74e467caf" kindref="member">debugDrawer</ref>;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bullet<sp/>stuff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="class_physics_world_1a0e94c5e2ddfb045e096149274bcca439" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;btDefaultCollisionConfiguration&gt;<sp/><ref refid="class_physics_world_1a0e94c5e2ddfb045e096149274bcca439" kindref="member">m_collisionConfiguration</ref>;</highlight></codeline>
+<codeline lineno="237" refid="class_physics_world_1a16151e671d784d31a9b0fde1679804b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;btCollisionDispatcher&gt;<sp/><ref refid="class_physics_world_1a16151e671d784d31a9b0fde1679804b7" kindref="member">m_dispatcher</ref>;</highlight></codeline>
+<codeline lineno="238" refid="class_physics_world_1a6668df1ffb922daa039b5f7ffe4bba8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;btBroadphaseInterface&gt;<sp/><ref refid="class_physics_world_1a6668df1ffb922daa039b5f7ffe4bba8b" kindref="member">m_overlappingPairCache</ref><sp/>;</highlight></codeline>
+<codeline lineno="239" refid="class_physics_world_1af8d39a3b5ecea4037dd08446a8fcfd42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;btSequentialImpulseConstraintSolver&gt;<sp/><ref refid="class_physics_world_1af8d39a3b5ecea4037dd08446a8fcfd42" kindref="member">m_solver</ref>;</highlight></codeline>
+<codeline lineno="240" refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;btDiscreteDynamicsWorld&gt;<sp/><ref refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" kindref="member">m_dynamicsWorld</ref>;</highlight></codeline>
+<codeline lineno="241" refid="class_physics_world_1a8ca5d5cfae3ab66acc40bb705d1a955b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>btCollisionShape*<sp/><ref refid="class_physics_world_1a8ca5d5cfae3ab66acc40bb705d1a955b" kindref="member">m_groundShape</ref>;</highlight></codeline>
+<codeline lineno="242" refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector<sp/>&lt;Body&gt;<sp/><ref refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" kindref="member">m_bodies</ref>;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>collision<sp/>callback</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="class_physics_world_1a39c3dd8e153fb75904cef2bb43382ec6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::pair&lt;const<sp/>btRigidBody*,<sp/>const<sp/>btRigidBody*&gt;<sp/><ref refid="class_physics_world_1a39c3dd8e153fb75904cef2bb43382ec6" kindref="member">collisionPair</ref>;</highlight></codeline>
+<codeline lineno="246" refid="class_physics_world_1a91f5efbab95526e5882a43726f977ea3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::set&lt;collisionPair&gt;<sp/><ref refid="class_physics_world_1a91f5efbab95526e5882a43726f977ea3" kindref="member">collisionPairs</ref>;</highlight></codeline>
+<codeline lineno="247" refid="class_physics_world_1acc61607e3995af6acdd2d6b9bef041f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref><sp/><ref refid="class_physics_world_1acc61607e3995af6acdd2d6b9bef041f6" kindref="member">collisionPairA</ref>;</highlight></codeline>
+<codeline lineno="248" refid="class_physics_world_1a681fa4ec76a590735c2f6e6ad99f9324" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref><sp/><ref refid="class_physics_world_1a681fa4ec76a590735c2f6e6ad99f9324" kindref="member">collisionPairB</ref>;</highlight></codeline>
+<codeline lineno="249" refid="class_physics_world_1a0ba57170f80894014e04f33ff4a425ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector<sp/>&lt;Body&gt;<sp/><ref refid="class_physics_world_1a0ba57170f80894014e04f33ff4a425ed" kindref="member">m_collisionBodies</ref>;</highlight></codeline>
+<codeline lineno="250" refid="class_physics_world_1a1cf0d1b71518b8fb8fcbbdf9f760ad6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector<sp/>&lt;std::vector<sp/>&lt;Body&gt;&gt;<sp/><ref refid="class_physics_world_1a1cf0d1b71518b8fb8fcbbdf9f760ad6c" kindref="member">m_collisionBodiesPair</ref>;</highlight></codeline>
+<codeline lineno="251" refid="class_physics_world_1a258c6d6f5ba325725af45f66ebb2dc20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector<sp/>&lt;Body&gt;<sp/><ref refid="class_physics_world_1a258c6d6f5ba325725af45f66ebb2dc20" kindref="member">m_findGameBodies</ref>;</highlight></codeline>
+<codeline lineno="252" refid="class_physics_world_1a19acd3323c2662f4cc8af20b7d5101a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_physics_world_1a91f5efbab95526e5882a43726f977ea3" kindref="member">collisionPairs</ref><sp/><ref refid="class_physics_world_1a19acd3323c2662f4cc8af20b7d5101a2" kindref="member">m_pairsLastUpdate</ref>;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="257"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h"/>
+  </compounddef>
+</doxygen>

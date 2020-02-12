@@ -1,0 +1,5 @@
+<map id="HighScore::setHighScore" name="HighScore::setHighScore">
+<area shape="rect" id="node2" href="$class_high_score.html#a4ca2c8db5ae58bc4919650c657d36419" title="writes the highscore to a txt file " alt="" coords="227,5,407,32"/>
+<area shape="rect" id="node3" href="$class_high_score.html#a8bca1125eac9561fb1ded68299b1b246" title="sets the current score " alt="" coords="224,56,411,83"/>
+<area shape="rect" id="node4" href="$class_l_timer.html#a57c4bdca0f7bdd75c65b6ab1499de1e7" title="LTimer::getTicks" alt="" coords="459,56,579,83"/>
+</map>

@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_collision_shape" kind="class" prot="public">
+    <compoundname>CollisionShape</compoundname>
+    <includes refid="_collision_shape_8h" local="no">CollisionShape.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, std::unique_ptr&lt; btCollisionShape &gt; &gt;</type>
+        <definition>std::unordered_map&lt;std::string,std::unique_ptr&lt;btCollisionShape&gt; &gt; CollisionShape::m_shapes</definition>
+        <argsstring></argsstring>
+        <name>m_shapes</name>
+        <briefdescription>
+<para>a map of shapes with the name and a collision shape </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="89" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" bodystart="89" bodyend="-1"/>
+        <referencedby refid="class_collision_shape_1a3da0cfb413abcabe3195479a61df6344" compoundref="_collision_shape_8cpp" startline="12" endline="24">addMesh</referencedby>
+        <referencedby refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" compoundref="_collision_shape_8cpp" startline="25" endline="58">addLevelMesh</referencedby>
+        <referencedby refid="class_collision_shape_1a502ae0e27451fe9dfb65451dd424d645" compoundref="_collision_shape_8cpp" startline="59" endline="63">addSphere</referencedby>
+        <referencedby refid="class_collision_shape_1add599b7da4202fb060a1060f020d4c9f" compoundref="_collision_shape_8cpp" startline="65" endline="69">addBox</referencedby>
+        <referencedby refid="class_collision_shape_1a995aa2c673cca8b4a11b220c3f1f1706" compoundref="_collision_shape_8cpp" startline="71" endline="75">addCapsule</referencedby>
+        <referencedby refid="class_collision_shape_1aefc52093702cbb1c6f8c277758a10adf" compoundref="_collision_shape_8cpp" startline="76" endline="80">addCylinder</referencedby>
+        <referencedby refid="class_collision_shape_1abc87d7f44b86015dc0e5cbacbf414c35" compoundref="_collision_shape_8cpp" startline="82" endline="86">addCone</referencedby>
+        <referencedby refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" compoundref="_collision_shape_8cpp" startline="87" endline="97">getShape</referencedby>
+        <referencedby refid="class_collision_shape_1a577a537932f6650525bd52937ed597ab" compoundref="_collision_shape_8cpp" startline="98" endline="106">printShapeMap</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_collision_shape" kindref="compound">CollisionShape</ref> *</type>
+        <definition>CollisionShape * CollisionShape::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <briefdescription>
+<para>create instance of the collision shape </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="25" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="5" bodyend="10"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character::Character</referencedby>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level::Level</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a097605c7ddb2f1db44a775b7ce331cbf" compoundref="_n_g_l_draw_8cpp" startline="1336" endline="1348">NGLDraw::debugPhysicsWorld</referencedby>
+        <referencedby refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</referencedby>
+        <referencedby refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" compoundref="_physics_world_8cpp" startline="88" endline="125">PhysicsWorld::addLegSphere</referencedby>
+        <referencedby refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" compoundref="_physics_world_8cpp" startline="128" endline="153">PhysicsWorld::addLevelMesh</referencedby>
+        <referencedby refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" compoundref="_physics_world_8cpp" startline="154" endline="183">PhysicsWorld::addMesh</referencedby>
+        <referencedby refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" compoundref="_physics_world_8cpp" startline="185" endline="220">PhysicsWorld::addBox</referencedby>
+        <referencedby refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" compoundref="_physics_world_8cpp" startline="227" endline="262">PhysicsWorld::addPlatform</referencedby>
+        <referencedby refid="class_platform_1ab56212b4a4cdc789e1b276c99b7effef" compoundref="_platform_8cpp" startline="4" endline="60">Platform::Platform</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_collision_shape_1a3da0cfb413abcabe3195479a61df6344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionShape::addMesh</definition>
+        <argsstring>(const std::string &amp;_name, const std::string &amp;_objFilePath)</argsstring>
+        <name>addMesh</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_objFilePath</declname>
+        </param>
+        <briefdescription>
+<para>create instance of the collision shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the shape name of the collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_objFilePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file path for the obj file </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="31" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="12" bodyend="24"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+        <referencedby refid="class_platform_1ab56212b4a4cdc789e1b276c99b7effef" compoundref="_platform_8cpp" startline="4" endline="60">Platform::Platform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1a502ae0e27451fe9dfb65451dd424d645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionShape::addSphere</definition>
+        <argsstring>(const std::string &amp;_name, ngl::Real _rad)</argsstring>
+        <name>addSphere</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_rad</declname>
+        </param>
+        <briefdescription>
+<para>create instance of the collision shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the shape name of the collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_rad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the radius of the sphere </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="37" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="59" bodyend="63"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character::Character</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1add599b7da4202fb060a1060f020d4c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionShape::addBox</definition>
+        <argsstring>(const std::string &amp;_name, ngl::Real _w, ngl::Real _h, ngl::Real _d)</argsstring>
+        <name>addBox</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_w</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_h</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_d</declname>
+        </param>
+        <briefdescription>
+<para>create instance of the collision shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the shape name of the collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width of the box </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the height of the box </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the depth of the box </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="45" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="65" bodyend="69"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1a995aa2c673cca8b4a11b220c3f1f1706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionShape::addCapsule</definition>
+        <argsstring>(const std::string &amp;_name, ngl::Real _rad, ngl::Real _height)</argsstring>
+        <name>addCapsule</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_rad</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_height</declname>
+        </param>
+        <briefdescription>
+<para>create instance of the collision shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the shape name of the collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_rad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the radius of the capsule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>height of the capsule </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="52" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="71" bodyend="75"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character::Character</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1aefc52093702cbb1c6f8c277758a10adf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionShape::addCylinder</definition>
+        <argsstring>(const std::string &amp;_name, ngl::Real _rad, ngl::Real _height)</argsstring>
+        <name>addCylinder</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_rad</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_height</declname>
+        </param>
+        <briefdescription>
+<para>create instance of the collision shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the shape name of the collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_rad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the radius of the capsule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>height of the capsule </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="59" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="76" bodyend="80"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1abc87d7f44b86015dc0e5cbacbf414c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionShape::addCone</definition>
+        <argsstring>(const std::string &amp;_name, ngl::Real _rad, ngl::Real _height)</argsstring>
+        <name>addCone</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_rad</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_height</declname>
+        </param>
+        <briefdescription>
+<para>create instance of the collision shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the shape name of the collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_rad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the radius of the capsule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>height of the capsule </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="66" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="82" bodyend="86"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionShape::addLevelMesh</definition>
+        <argsstring>(const std::string &amp;_name, const std::string &amp;_objFilePath)</argsstring>
+        <name>addLevelMesh</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_objFilePath</declname>
+        </param>
+        <briefdescription>
+<para>create instance of the collision shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the shape name of the collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_objFilePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the path of the obj file for the shape </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="72" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="25" bodyend="58"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level::Level</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1a577a537932f6650525bd52937ed597ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionShape::printShapeMap</definition>
+        <argsstring>()</argsstring>
+        <name>printShapeMap</name>
+        <briefdescription>
+<para>prints the shape map </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="76" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="98" bodyend="106"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+        <referencedby refid="class_n_g_l_draw_1a097605c7ddb2f1db44a775b7ce331cbf" compoundref="_n_g_l_draw_8cpp" startline="1336" endline="1348">NGLDraw::debugPhysicsWorld</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>btCollisionShape *</type>
+        <definition>btCollisionShape * CollisionShape::getShape</definition>
+        <argsstring>(const std::string &amp;_name)</argsstring>
+        <name>getShape</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+<para>returns the shape of the given name </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the shape name of the collision shape </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="81" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/CollisionShape.cpp" bodystart="87" bodyend="97"/>
+        <references refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" compoundref="_collision_shape_8h" startline="89">m_shapes</references>
+        <referencedby refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</referencedby>
+        <referencedby refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" compoundref="_physics_world_8cpp" startline="88" endline="125">PhysicsWorld::addLegSphere</referencedby>
+        <referencedby refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" compoundref="_physics_world_8cpp" startline="128" endline="153">PhysicsWorld::addLevelMesh</referencedby>
+        <referencedby refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" compoundref="_physics_world_8cpp" startline="154" endline="183">PhysicsWorld::addMesh</referencedby>
+        <referencedby refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" compoundref="_physics_world_8cpp" startline="185" endline="220">PhysicsWorld::addBox</referencedby>
+        <referencedby refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" compoundref="_physics_world_8cpp" startline="227" endline="262">PhysicsWorld::addPlatform</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_collision_shape_1a960ed2630ac29e6b28d773c97fab1d18" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CollisionShape::CollisionShape</definition>
+        <argsstring>()</argsstring>
+        <name>CollisionShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="83" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1a8760b9bc6c12c924dcca59bca9e061e1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CollisionShape::CollisionShape</definition>
+        <argsstring>(const CollisionShape &amp;_c)=delete</argsstring>
+        <name>CollisionShape</name>
+        <param>
+          <type>const <ref refid="class_collision_shape" kindref="compound">CollisionShape</ref> &amp;</type>
+          <declname>_c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_collision_shape_1a36168d925d32d942a9a636cb5caf0a15" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_collision_shape" kindref="compound">CollisionShape</ref> &amp;</type>
+        <definition>CollisionShape&amp; CollisionShape::operator=</definition>
+        <argsstring>(const CollisionShape &amp;_c)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_collision_shape" kindref="compound">CollisionShape</ref> &amp;</type>
+          <declname>_c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="85" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>simple class to store instances of bullet collision shapes this is a singleton so we only have one instance of each shape. Modification: added a methods for the convex geometry and shape list </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="111">
+        <label>CollisionShape</label>
+        <link refid="class_collision_shape"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" line="20" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h" bodystart="19" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_collision_shape_1add599b7da4202fb060a1060f020d4c9f" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>addBox</name></member>
+      <member refid="class_collision_shape_1a995aa2c673cca8b4a11b220c3f1f1706" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>addCapsule</name></member>
+      <member refid="class_collision_shape_1abc87d7f44b86015dc0e5cbacbf414c35" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>addCone</name></member>
+      <member refid="class_collision_shape_1aefc52093702cbb1c6f8c277758a10adf" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>addCylinder</name></member>
+      <member refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>addLevelMesh</name></member>
+      <member refid="class_collision_shape_1a3da0cfb413abcabe3195479a61df6344" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>addMesh</name></member>
+      <member refid="class_collision_shape_1a502ae0e27451fe9dfb65451dd424d645" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>addSphere</name></member>
+      <member refid="class_collision_shape_1a960ed2630ac29e6b28d773c97fab1d18" prot="private" virt="non-virtual"><scope>CollisionShape</scope><name>CollisionShape</name></member>
+      <member refid="class_collision_shape_1a8760b9bc6c12c924dcca59bca9e061e1" prot="private" virt="non-virtual"><scope>CollisionShape</scope><name>CollisionShape</name></member>
+      <member refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>getShape</name></member>
+      <member refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>instance</name></member>
+      <member refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" prot="private" virt="non-virtual"><scope>CollisionShape</scope><name>m_shapes</name></member>
+      <member refid="class_collision_shape_1a36168d925d32d942a9a636cb5caf0a15" prot="private" virt="non-virtual"><scope>CollisionShape</scope><name>operator=</name></member>
+      <member refid="class_collision_shape_1a577a537932f6650525bd52937ed597ab" prot="public" virt="non-virtual"><scope>CollisionShape</scope><name>printShapeMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

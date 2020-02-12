@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_g_u_i_draw" kind="class" prot="public">
+    <compoundname>GUIDraw</compoundname>
+    <includes refid="_g_u_i_draw_8h" local="no">GUIDraw.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_text" kindref="compound">Text</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Text&gt; GUIDraw::m_textPause</definition>
+        <argsstring></argsstring>
+        <name>m_textPause</name>
+        <briefdescription>
+<para>the text object for the &apos;PAUSE&apos; title </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="91" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" bodystart="91" bodyend="-1"/>
+        <referencedby refid="class_g_u_i_draw_1aa15d0061a46297ab7763c7af6b3f013c" compoundref="_g_u_i_draw_8cpp" startline="10" endline="41">GUIDraw</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a408f4a09c1755aecaf416f13c835cf1e" compoundref="_g_u_i_draw_8cpp" startline="186" endline="203">drawPauseScreen</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_text" kindref="compound">Text</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Text&gt; GUIDraw::m_textPauseOptions</definition>
+        <argsstring></argsstring>
+        <name>m_textPauseOptions</name>
+        <briefdescription>
+<para>the text object for the pause options - &apos;RESUME&apos; and &apos;MAIN MENU&apos; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="94" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" bodystart="94" bodyend="-1"/>
+        <referencedby refid="class_g_u_i_draw_1aa15d0061a46297ab7763c7af6b3f013c" compoundref="_g_u_i_draw_8cpp" startline="10" endline="41">GUIDraw</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a408f4a09c1755aecaf416f13c835cf1e" compoundref="_g_u_i_draw_8cpp" startline="186" endline="203">drawPauseScreen</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint GUIDraw::m_textureMenuID[401]</definition>
+        <argsstring>[401]</argsstring>
+        <name>m_textureMenuID</name>
+        <briefdescription>
+<para>an array of textures used for the menus and cutscene </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="97" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" bodystart="97" bodyend="-1"/>
+        <referencedby refid="class_g_u_i_draw_1a6e8378c339e6ebb13a3bb7dca8690614" compoundref="_g_u_i_draw_8cpp" startline="43" endline="48">~GUIDraw</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a5a52309d626e0a5c7199e5bd6d4e8be1" compoundref="_g_u_i_draw_8cpp" startline="96" endline="101">drawOpeningCredits</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a9199f932d0e9e3beecc16742e8587788" compoundref="_g_u_i_draw_8cpp" startline="103" endline="108">drawOpeningCutscene</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a3ff67aa72fc75944f855907d94494895" compoundref="_g_u_i_draw_8cpp" startline="110" endline="115">drawOpeningTitleSequence</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a815df87e097bca965f788d58e6e92fcb" compoundref="_g_u_i_draw_8cpp" startline="117" endline="122">drawTitleScreenNoText</referencedby>
+        <referencedby refid="class_g_u_i_draw_1af50d253fbef63f8a4256641dfb5ef2da" compoundref="_g_u_i_draw_8cpp" startline="124" endline="129">drawTitleScreen</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a05cc9177428f5e544390f9ac4df2589d" compoundref="_g_u_i_draw_8cpp" startline="131" endline="156">drawMainMenu</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a9cda4a50453ae0ad7a4813137f56e1a4" compoundref="_g_u_i_draw_8cpp" startline="158" endline="163">drawControlsScreen</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a3d1840dd78e2a636d704bf5d90f7ea30" compoundref="_g_u_i_draw_8cpp" startline="165" endline="184">drawExitScreen</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a8643ededfc1c8d8521b788da3175d334" compoundref="_g_u_i_draw_8cpp" startline="205" endline="210">drawMenuOpenTop</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a890e1c5e968918d3268d6839f5ab448d" compoundref="_g_u_i_draw_8cpp" startline="212" endline="217">drawMenuOpenBottom</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" compoundref="_g_u_i_draw_8cpp" startline="271" endline="294">loadTexture</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_u_i_draw_1aa15d0061a46297ab7763c7af6b3f013c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GUIDraw::GUIDraw</definition>
+        <argsstring>()</argsstring>
+        <name>GUIDraw</name>
+        <briefdescription>
+<para>ctor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="16" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="10" bodyend="41"/>
+        <references refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" compoundref="_g_u_i_draw_8h" startline="91">m_textPause</references>
+        <references refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" compoundref="_g_u_i_draw_8h" startline="94">m_textPauseOptions</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a6e8378c339e6ebb13a3bb7dca8690614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GUIDraw::~GUIDraw</definition>
+        <argsstring>()</argsstring>
+        <name>~GUIDraw</name>
+        <briefdescription>
+<para>dtor used to remove textures </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="19" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="43" bodyend="48"/>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1af5643c91cd0715092e9b19845d4a5541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::loadAllTextures</definition>
+        <argsstring>()</argsstring>
+        <name>loadAllTextures</name>
+        <briefdescription>
+<para>loads the cutscene and menu images </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="22" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="50" bodyend="94"/>
+        <references refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" compoundref="_g_u_i_draw_8cpp" startline="271" endline="294">loadTexture</references>
+        <referencedby refid="main_8cpp_1af2acd4332bf651b5c269ed25c5818038" compoundref="main_8cpp" startline="169" endline="218">openingCredits</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a5a52309d626e0a5c7199e5bd6d4e8be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawOpeningCredits</definition>
+        <argsstring>()</argsstring>
+        <name>drawOpeningCredits</name>
+        <briefdescription>
+<para>draws the opening credits screen </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="25" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="96" bodyend="101"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1af2acd4332bf651b5c269ed25c5818038" compoundref="main_8cpp" startline="169" endline="218">openingCredits</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a9199f932d0e9e3beecc16742e8587788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawOpeningCutscene</definition>
+        <argsstring>(int cutsceneTime)</argsstring>
+        <name>drawOpeningCutscene</name>
+        <param>
+          <type>int</type>
+          <declname>cutsceneTime</declname>
+        </param>
+        <briefdescription>
+<para>draws the opening cutscene </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cutsceneTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the frame number of the cutscene to draw </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="29" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="103" bodyend="108"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1aae981e50c2ccaf1c08bf101491082a26" compoundref="main_8cpp" startline="220" endline="260">openingCutscene</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a3ff67aa72fc75944f855907d94494895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawOpeningTitleSequence</definition>
+        <argsstring>(int cutsceneTime)</argsstring>
+        <name>drawOpeningTitleSequence</name>
+        <param>
+          <type>int</type>
+          <declname>cutsceneTime</declname>
+        </param>
+        <briefdescription>
+<para>draws the opening title sequence </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cutsceneTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the frame number of the sequence to draw </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="33" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="110" bodyend="115"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1a8663d37ba83f2665d25b839badd52abf" compoundref="main_8cpp" startline="262" endline="336">titleScreen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1af50d253fbef63f8a4256641dfb5ef2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawTitleScreen</definition>
+        <argsstring>()</argsstring>
+        <name>drawTitleScreen</name>
+        <briefdescription>
+<para>draws the title screen with &apos;PRESS ENTER&apos; text </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="36" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="124" bodyend="129"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1a8663d37ba83f2665d25b839badd52abf" compoundref="main_8cpp" startline="262" endline="336">titleScreen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a815df87e097bca965f788d58e6e92fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawTitleScreenNoText</definition>
+        <argsstring>()</argsstring>
+        <name>drawTitleScreenNoText</name>
+        <briefdescription>
+<para>draws the title screen without text </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="39" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="117" bodyend="122"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1a8663d37ba83f2665d25b839badd52abf" compoundref="main_8cpp" startline="262" endline="336">titleScreen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a05cc9177428f5e544390f9ac4df2589d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawMainMenu</definition>
+        <argsstring>(int button)</argsstring>
+        <name>drawMainMenu</name>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+<para>draws the main menu </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">button</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the button the mouse is over </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="43" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="131" bodyend="156"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1a1ba5ec51f6af87a88e2857b04eff1fb2" compoundref="main_8cpp" startline="338" endline="427">mainMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a9cda4a50453ae0ad7a4813137f56e1a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawControlsScreen</definition>
+        <argsstring>()</argsstring>
+        <name>drawControlsScreen</name>
+        <briefdescription>
+<para>draws the controls screen </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="46" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="158" bodyend="163"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1a4331e8b5bd0d755477da1a99ecf6bd3d" compoundref="main_8cpp" startline="429" endline="461">controlsScreen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a3d1840dd78e2a636d704bf5d90f7ea30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawExitScreen</definition>
+        <argsstring>(int button)</argsstring>
+        <name>drawExitScreen</name>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+<para>draws the exit screen </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">button</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the button the mouse is over </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="50" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="165" bodyend="184"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1a822c103b79ef8d6a36c81a14cd038e07" compoundref="main_8cpp" startline="757" endline="810">exit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a408f4a09c1755aecaf416f13c835cf1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawPauseScreen</definition>
+        <argsstring>(int w, int h, bool resumeSelect, bool mainMenuSelect)</argsstring>
+        <name>drawPauseScreen</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>resumeSelect</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>mainMenuSelect</declname>
+        </param>
+        <briefdescription>
+<para>draws the pause screen </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width of the screen </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the height of the screen </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">resumeSelect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag to indicate if mouse is over &apos;resume&apos; text </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">mainMenuSelect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag to indicate if mouse is over &apos;mainMenu&apos; text </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="57" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="186" bodyend="203"/>
+        <references refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" compoundref="_g_u_i_draw_8h" startline="91">m_textPause</references>
+        <references refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" compoundref="_g_u_i_draw_8h" startline="94">m_textPauseOptions</references>
+        <referencedby refid="main_8cpp_1a7b84a91f70b351e6694c824f3085edd8" compoundref="main_8cpp" startline="673" endline="755">pauseMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawTexture</definition>
+        <argsstring>(float _b, float _t, float _l, float _r, float _d)</argsstring>
+        <name>drawTexture</name>
+        <param>
+          <type>float</type>
+          <declname>_b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_l</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_d</declname>
+        </param>
+        <briefdescription>
+<para>draws a texture on a two triangle quad </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the bottom of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the top of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the left side of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the right side of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the distance of the quad to the camera used for layering textures </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="65" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="219" bodyend="269"/>
+        <referencedby refid="class_g_u_i_draw_1a5a52309d626e0a5c7199e5bd6d4e8be1" compoundref="_g_u_i_draw_8cpp" startline="96" endline="101">drawOpeningCredits</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a9199f932d0e9e3beecc16742e8587788" compoundref="_g_u_i_draw_8cpp" startline="103" endline="108">drawOpeningCutscene</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a3ff67aa72fc75944f855907d94494895" compoundref="_g_u_i_draw_8cpp" startline="110" endline="115">drawOpeningTitleSequence</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a815df87e097bca965f788d58e6e92fcb" compoundref="_g_u_i_draw_8cpp" startline="117" endline="122">drawTitleScreenNoText</referencedby>
+        <referencedby refid="class_g_u_i_draw_1af50d253fbef63f8a4256641dfb5ef2da" compoundref="_g_u_i_draw_8cpp" startline="124" endline="129">drawTitleScreen</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a05cc9177428f5e544390f9ac4df2589d" compoundref="_g_u_i_draw_8cpp" startline="131" endline="156">drawMainMenu</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a9cda4a50453ae0ad7a4813137f56e1a4" compoundref="_g_u_i_draw_8cpp" startline="158" endline="163">drawControlsScreen</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a3d1840dd78e2a636d704bf5d90f7ea30" compoundref="_g_u_i_draw_8cpp" startline="165" endline="184">drawExitScreen</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a8643ededfc1c8d8521b788da3175d334" compoundref="_g_u_i_draw_8cpp" startline="205" endline="210">drawMenuOpenTop</referencedby>
+        <referencedby refid="class_g_u_i_draw_1a890e1c5e968918d3268d6839f5ab448d" compoundref="_g_u_i_draw_8cpp" startline="212" endline="217">drawMenuOpenBottom</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::loadTexture</definition>
+        <argsstring>(std::string filePath, int ID)</argsstring>
+        <name>loadTexture</name>
+        <param>
+          <type>std::string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ID</declname>
+        </param>
+        <briefdescription>
+<para>loads the texture from a file </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path to the texture file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the texture to bind </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="70" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="271" bodyend="294"/>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="class_g_u_i_draw_1af5643c91cd0715092e9b19845d4a5541" compoundref="_g_u_i_draw_8cpp" startline="50" endline="94">loadAllTextures</referencedby>
+        <referencedby refid="main_8cpp_1af2acd4332bf651b5c269ed25c5818038" compoundref="main_8cpp" startline="169" endline="218">openingCredits</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a4a3e8808152b45cb323ae374bb60a4fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawQuadColour</definition>
+        <argsstring>(float _b, float _t, float _l, float _r, ngl::Vec3 colour, float alpha)</argsstring>
+        <name>drawQuadColour</name>
+        <param>
+          <type>float</type>
+          <declname>_b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_l</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_r</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>colour</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>draws a colour on a two triangle quad </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the bottom of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the top of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the left side of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the right side of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">colour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the colour of the quad </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">alpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the transparency of the quad </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="79" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="296" bodyend="344"/>
+        <referencedby refid="main_8cpp_1af2acd4332bf651b5c269ed25c5818038" compoundref="main_8cpp" startline="169" endline="218">openingCredits</referencedby>
+        <referencedby refid="main_8cpp_1aae981e50c2ccaf1c08bf101491082a26" compoundref="main_8cpp" startline="220" endline="260">openingCutscene</referencedby>
+        <referencedby refid="main_8cpp_1a8663d37ba83f2665d25b839badd52abf" compoundref="main_8cpp" startline="262" endline="336">titleScreen</referencedby>
+        <referencedby refid="main_8cpp_1a1ba5ec51f6af87a88e2857b04eff1fb2" compoundref="main_8cpp" startline="338" endline="427">mainMenu</referencedby>
+        <referencedby refid="main_8cpp_1a7b84a91f70b351e6694c824f3085edd8" compoundref="main_8cpp" startline="673" endline="755">pauseMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a8643ededfc1c8d8521b788da3175d334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawMenuOpenTop</definition>
+        <argsstring>(float move)</argsstring>
+        <name>drawMenuOpenTop</name>
+        <param>
+          <type>float</type>
+          <declname>move</declname>
+        </param>
+        <briefdescription>
+<para>draws the top part of the menu texture </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">move</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the distance the texture will move upwards </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="83" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="205" bodyend="210"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1a1ba5ec51f6af87a88e2857b04eff1fb2" compoundref="main_8cpp" startline="338" endline="427">mainMenu</referencedby>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_draw_1a890e1c5e968918d3268d6839f5ab448d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIDraw::drawMenuOpenBottom</definition>
+        <argsstring>(float move)</argsstring>
+        <name>drawMenuOpenBottom</name>
+        <param>
+          <type>float</type>
+          <declname>move</declname>
+        </param>
+        <briefdescription>
+<para>draws the bottom part of the menu texture </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">move</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the distance the texture will move downwards </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="87" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/GUIDraw.cpp" bodystart="212" bodyend="217"/>
+        <references refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" compoundref="_g_u_i_draw_8cpp" startline="219" endline="269">drawTexture</references>
+        <references refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" compoundref="_g_u_i_draw_8h" startline="97">m_textureMenuID</references>
+        <referencedby refid="main_8cpp_1a1ba5ec51f6af87a88e2857b04eff1fb2" compoundref="main_8cpp" startline="338" endline="427">mainMenu</referencedby>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class manages the intro GUI. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="121">
+        <label>GUIDraw</label>
+        <link refid="class_g_u_i_draw"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" line="13" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h" bodystart="12" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_g_u_i_draw_1a9cda4a50453ae0ad7a4813137f56e1a4" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawControlsScreen</name></member>
+      <member refid="class_g_u_i_draw_1a3d1840dd78e2a636d704bf5d90f7ea30" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawExitScreen</name></member>
+      <member refid="class_g_u_i_draw_1a05cc9177428f5e544390f9ac4df2589d" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawMainMenu</name></member>
+      <member refid="class_g_u_i_draw_1a890e1c5e968918d3268d6839f5ab448d" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawMenuOpenBottom</name></member>
+      <member refid="class_g_u_i_draw_1a8643ededfc1c8d8521b788da3175d334" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawMenuOpenTop</name></member>
+      <member refid="class_g_u_i_draw_1a5a52309d626e0a5c7199e5bd6d4e8be1" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawOpeningCredits</name></member>
+      <member refid="class_g_u_i_draw_1a9199f932d0e9e3beecc16742e8587788" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawOpeningCutscene</name></member>
+      <member refid="class_g_u_i_draw_1a3ff67aa72fc75944f855907d94494895" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawOpeningTitleSequence</name></member>
+      <member refid="class_g_u_i_draw_1a408f4a09c1755aecaf416f13c835cf1e" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawPauseScreen</name></member>
+      <member refid="class_g_u_i_draw_1a4a3e8808152b45cb323ae374bb60a4fb" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawQuadColour</name></member>
+      <member refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawTexture</name></member>
+      <member refid="class_g_u_i_draw_1af50d253fbef63f8a4256641dfb5ef2da" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawTitleScreen</name></member>
+      <member refid="class_g_u_i_draw_1a815df87e097bca965f788d58e6e92fcb" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>drawTitleScreenNoText</name></member>
+      <member refid="class_g_u_i_draw_1aa15d0061a46297ab7763c7af6b3f013c" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>GUIDraw</name></member>
+      <member refid="class_g_u_i_draw_1af5643c91cd0715092e9b19845d4a5541" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>loadAllTextures</name></member>
+      <member refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>loadTexture</name></member>
+      <member refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" prot="private" virt="non-virtual"><scope>GUIDraw</scope><name>m_textPause</name></member>
+      <member refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" prot="private" virt="non-virtual"><scope>GUIDraw</scope><name>m_textPauseOptions</name></member>
+      <member refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" prot="private" virt="non-virtual"><scope>GUIDraw</scope><name>m_textureMenuID</name></member>
+      <member refid="class_g_u_i_draw_1a6e8378c339e6ebb13a3bb7dca8690614" prot="public" virt="non-virtual"><scope>GUIDraw</scope><name>~GUIDraw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

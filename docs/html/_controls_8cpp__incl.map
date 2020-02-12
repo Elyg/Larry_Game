@@ -1,0 +1,21 @@
+<map id="Controls.cpp" name="Controls.cpp">
+<area shape="rect" id="node2" href="$_controls_8h.html" title="Controls.h" alt="" coords="1621,80,1704,107"/>
+<area shape="rect" id="node3" href="$_n_g_l_draw_8h.html" title="NGLDraw.h" alt="" coords="953,155,1044,181"/>
+<area shape="rect" id="node17" href="$_physics_world_8h.html" title="PhysicsWorld.h" alt="" coords="1137,453,1252,480"/>
+<area shape="rect" id="node10" href="$_text_8h.html" title="Basic text rendering for OpenGL 3.x. " alt="" coords="864,304,923,331"/>
+<area shape="rect" id="node16" href="$_character_8h.html" title="Character.h" alt="" coords="701,304,792,331"/>
+<area shape="rect" id="node29" href="$_level_8h.html" title="Level.h" alt="" coords="796,229,860,256"/>
+<area shape="rect" id="node30" href="$_animation_8h.html" title="Animation.h" alt="" coords="68,229,159,256"/>
+<area shape="rect" id="node32" href="$_camera_8h.html" title="Camera.h" alt="" coords="1099,229,1177,256"/>
+<area shape="rect" id="node33" href="$_coin_factory_8h.html" title="CoinFactory.h" alt="" coords="1309,229,1413,256"/>
+<area shape="rect" id="node37" href="$_platform_factory_8h.html" title="PlatformFactory.h" alt="" coords="410,229,536,256"/>
+<area shape="rect" id="node39" href="$_high_score_8h.html" title="HighScore.h" alt="" coords="1438,229,1532,256"/>
+<area shape="rect" id="node35" href="$_trigger_8h.html" title="Trigger.h" alt="" coords="1365,379,1437,405"/>
+<area shape="rect" id="node43" href="$_trigger_factory_8h.html" title="TriggerFactory.h" alt="" coords="1712,229,1829,256"/>
+<area shape="rect" id="node47" href="$_shader_factory_8h.html" title="ShaderFactory.h" alt="" coords="2175,229,2293,256"/>
+<area shape="rect" id="node25" href="$_collision_shape_8h.html" title="CollisionShape.h" alt="" coords="284,379,404,405"/>
+<area shape="rect" id="node28" href="$_ltimer_8h.html" title="Ltimer.h" alt="" coords="716,379,785,405"/>
+<area shape="rect" id="node22" href="$_bullet_debug_draw_8h.html" title="BulletDebugDraw.h" alt="" coords="994,528,1128,555"/>
+<area shape="rect" id="node34" href="$_coin_8h.html" title="Coin.h" alt="" coords="1122,304,1181,331"/>
+<area shape="rect" id="node38" href="$_platform_8h.html" title="Platform.h" alt="" coords="432,304,515,331"/>
+</map>

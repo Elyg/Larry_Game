@@ -1,0 +1,4 @@
+<map id="Platform::movePlatform" name="Platform::movePlatform">
+<area shape="rect" id="node2" href="$class_physics_world.html#a692161a381b2015cba102b08c02f6c3f" title="returns the position of the specified shape " alt="" coords="223,5,399,32"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a73a5f631224e1486c7d6343f0a148ac0" title="sets the linear velocity of the specified shape " alt="" coords="214,56,407,83"/>
+</map>

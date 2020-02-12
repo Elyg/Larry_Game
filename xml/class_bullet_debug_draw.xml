@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_bullet_debug_draw" kind="class" prot="public">
+    <compoundname>BulletDebugDraw</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">btIDebugDraw</basecompoundref>
+    <includes refid="_bullet_debug_draw_8h" local="no">BulletDebugDraw.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bullet_debug_draw_1aafe4d0c73892cd570b4ec9f0ea97d92b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BulletDebugDraw::m_debugModes</definition>
+        <argsstring></argsstring>
+        <name>m_debugModes</name>
+        <briefdescription>
+<para>the debug mode variable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="71" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_bullet_debug_draw_1ab49da213af169e8833a099d08387d3b1" compoundref="_bullet_debug_draw_8cpp" startline="15" endline="20">setDebugMode</referencedby>
+        <referencedby refid="class_bullet_debug_draw_1ab96bf0cdcdedddc3115c41c9722d76a4" compoundref="_bullet_debug_draw_8h" startline="61" endline="61">getDebugMode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_bullet_debug_draw_1a97ec452974bcf40857bc415020cc95aa" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; ngl::Vec3 &gt;</type>
+        <definition>std::vector&lt;ngl::Vec3&gt; BulletDebugDraw::m_vertices</definition>
+        <argsstring></argsstring>
+        <name>m_vertices</name>
+        <briefdescription>
+<para>a list of points from bullet </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="75" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_bullet_debug_draw_1ac174806513ad9ff3dc9e437f80d10b84" compoundref="_bullet_debug_draw_8cpp" startline="7" endline="14">drawLine</referencedby>
+        <referencedby refid="class_bullet_debug_draw_1ab95af947ef1e3ab9e78ea0085c0a77ae" compoundref="_bullet_debug_draw_8cpp" startline="33" endline="61">drawUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bullet_debug_draw_1add0b2e732e1b7c842fcb62ae537acb51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BulletDebugDraw::BulletDebugDraw</definition>
+        <argsstring>()</argsstring>
+        <name>BulletDebugDraw</name>
+        <briefdescription>
+<para>ctor for <ref refid="class_bullet_debug_draw" kindref="compound">BulletDebugDraw</ref> class </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="21" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/BulletDebugDraw.cpp" bodystart="4" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_debug_draw_1a7f5af796edb107180193195c7e7e8860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BulletDebugDraw::~BulletDebugDraw</definition>
+        <argsstring>()</argsstring>
+        <name>~BulletDebugDraw</name>
+        <briefdescription>
+<para>destructor for the <ref refid="class_bullet_debug_draw" kindref="compound">BulletDebugDraw</ref> Class </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="25" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/BulletDebugDraw.cpp" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_debug_draw_1ac174806513ad9ff3dc9e437f80d10b84" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BulletDebugDraw::drawLine</definition>
+        <argsstring>(const btVector3 &amp;from, const btVector3 &amp;to, const btVector3 &amp;color)</argsstring>
+        <name>drawLine</name>
+        <param>
+          <type>const btVector3 &amp;</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>const btVector3 &amp;</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>const btVector3 &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>a virtual method from the bullet engine to draw the lines </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">&amp;from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first point of the vertex used to draw the line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">&amp;to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second point of the vertex used to draw the line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">&amp;color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a colour for the lines </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="32" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/BulletDebugDraw.cpp" bodystart="7" bodyend="14"/>
+        <references refid="class_bullet_debug_draw_1a97ec452974bcf40857bc415020cc95aa" compoundref="_bullet_debug_draw_8h" startline="75">m_vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_debug_draw_1ab49da213af169e8833a099d08387d3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BulletDebugDraw::setDebugMode</definition>
+        <argsstring>(int _debugMode)</argsstring>
+        <name>setDebugMode</name>
+        <param>
+          <type>int</type>
+          <declname>_debugMode</declname>
+        </param>
+        <briefdescription>
+<para>sets a debug mode (check bullet for different modes) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_debugMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sets the debug mode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="37" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/BulletDebugDraw.cpp" bodystart="15" bodyend="20"/>
+        <references refid="class_bullet_debug_draw_1aafe4d0c73892cd570b4ec9f0ea97d92b" compoundref="_bullet_debug_draw_8h" startline="71">m_debugModes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_debug_draw_1ab2c7c23095702e125478e77c695d251f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BulletDebugDraw::drawContactPoint</definition>
+        <argsstring>(const btVector3 &amp;PointOnB, const btVector3 &amp;normalOnB, btScalar distance, int lifeTime, const btVector3 &amp;color)</argsstring>
+        <name>drawContactPoint</name>
+        <param>
+          <type>const btVector3 &amp;</type>
+          <declname>PointOnB</declname>
+        </param>
+        <param>
+          <type>const btVector3 &amp;</type>
+          <declname>normalOnB</declname>
+        </param>
+        <param>
+          <type>btScalar</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lifeTime</declname>
+        </param>
+        <param>
+          <type>const btVector3 &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>draw contact point (not used in this case, but it needs to be defined in order to get the basic debug drawing) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">&amp;PointOnB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the normal of the contact </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">&amp;normalOnB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sets the normal for drawing </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the distance for the contact </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">lifeTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the lifetime for the contact point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sets the color for contact point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="46" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/BulletDebugDraw.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_debug_draw_1ae771752c3ce6f4beaca08ba677909256" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BulletDebugDraw::reportErrorWarning</definition>
+        <argsstring>(const char *warningString)</argsstring>
+        <name>reportErrorWarning</name>
+        <param>
+          <type>const char *</type>
+          <declname>warningString</declname>
+        </param>
+        <briefdescription>
+<para>bullets passes the warnings using this method </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">warningString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the warnings from bullet </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="51" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/BulletDebugDraw.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_debug_draw_1ad7b1601d3689c4d3098181377cd77aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BulletDebugDraw::draw3dText</definition>
+        <argsstring>(const btVector3 &amp;location, const char *textString)</argsstring>
+        <name>draw3dText</name>
+        <param>
+          <type>const btVector3 &amp;</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textString</declname>
+        </param>
+        <briefdescription>
+<para>bullets passes the warnings using this method </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">warningString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the warnings from bullet </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="56" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/BulletDebugDraw.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_debug_draw_1ab96bf0cdcdedddc3115c41c9722d76a4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int BulletDebugDraw::getDebugMode</definition>
+        <argsstring>() const </argsstring>
+        <name>getDebugMode</name>
+        <briefdescription>
+<para>returns the debug mode </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">warningString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the warnings from bullet </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="61" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" bodystart="61" bodyend="61"/>
+        <references refid="class_bullet_debug_draw_1aafe4d0c73892cd570b4ec9f0ea97d92b" compoundref="_bullet_debug_draw_8h" startline="71">m_debugModes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bullet_debug_draw_1ab95af947ef1e3ab9e78ea0085c0a77ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BulletDebugDraw::drawUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>drawUpdate</name>
+        <briefdescription>
+<para>update method for the drawing of the lines (not a very efficient way) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">warningString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the warnings from bullet </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="66" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/BulletDebugDraw.cpp" bodystart="33" bodyend="61"/>
+        <references refid="class_bullet_debug_draw_1a97ec452974bcf40857bc415020cc95aa" compoundref="_bullet_debug_draw_8h" startline="75">m_vertices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class gets the data from the bullet engine to draw debug meshes. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="85">
+        <label>btIDebugDraw</label>
+      </node>
+      <node id="84">
+        <label>BulletDebugDraw</label>
+        <link refid="class_bullet_debug_draw"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="87">
+        <label>btIDebugDraw</label>
+      </node>
+      <node id="86">
+        <label>BulletDebugDraw</label>
+        <link refid="class_bullet_debug_draw"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" line="16" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/BulletDebugDraw.h" bodystart="15" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_bullet_debug_draw_1add0b2e732e1b7c842fcb62ae537acb51" prot="public" virt="non-virtual"><scope>BulletDebugDraw</scope><name>BulletDebugDraw</name></member>
+      <member refid="class_bullet_debug_draw_1ad7b1601d3689c4d3098181377cd77aac" prot="public" virt="virtual"><scope>BulletDebugDraw</scope><name>draw3dText</name></member>
+      <member refid="class_bullet_debug_draw_1ab2c7c23095702e125478e77c695d251f" prot="public" virt="virtual"><scope>BulletDebugDraw</scope><name>drawContactPoint</name></member>
+      <member refid="class_bullet_debug_draw_1ac174806513ad9ff3dc9e437f80d10b84" prot="public" virt="virtual"><scope>BulletDebugDraw</scope><name>drawLine</name></member>
+      <member refid="class_bullet_debug_draw_1ab95af947ef1e3ab9e78ea0085c0a77ae" prot="public" virt="non-virtual"><scope>BulletDebugDraw</scope><name>drawUpdate</name></member>
+      <member refid="class_bullet_debug_draw_1ab96bf0cdcdedddc3115c41c9722d76a4" prot="public" virt="virtual"><scope>BulletDebugDraw</scope><name>getDebugMode</name></member>
+      <member refid="class_bullet_debug_draw_1aafe4d0c73892cd570b4ec9f0ea97d92b" prot="private" virt="non-virtual"><scope>BulletDebugDraw</scope><name>m_debugModes</name></member>
+      <member refid="class_bullet_debug_draw_1a97ec452974bcf40857bc415020cc95aa" prot="private" virt="non-virtual"><scope>BulletDebugDraw</scope><name>m_vertices</name></member>
+      <member refid="class_bullet_debug_draw_1ae771752c3ce6f4beaca08ba677909256" prot="public" virt="virtual"><scope>BulletDebugDraw</scope><name>reportErrorWarning</name></member>
+      <member refid="class_bullet_debug_draw_1ab49da213af169e8833a099d08387d3b1" prot="public" virt="virtual"><scope>BulletDebugDraw</scope><name>setDebugMode</name></member>
+      <member refid="class_bullet_debug_draw_1a7f5af796edb107180193195c7e7e8860" prot="public" virt="non-virtual"><scope>BulletDebugDraw</scope><name>~BulletDebugDraw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

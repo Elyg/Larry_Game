@@ -1,0 +1,3 @@
+<map id="PhysicsWorld::freezeBody" name="PhysicsWorld::freezeBody">
+<area shape="rect" id="node2" href="$class_character.html#ae8b490e08f56e1570caf7f60c1b8f7a9" title="freezes the character at his current position " alt="" coords="233,5,413,32"/>
+</map>

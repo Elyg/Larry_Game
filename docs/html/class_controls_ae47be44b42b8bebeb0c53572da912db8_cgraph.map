@@ -1,0 +1,3 @@
+<map id="Controls::setJumpForceNegative" name="Controls::setJumpForceNegative">
+<area shape="rect" id="node2" href="$class_character.html#a90043197d4c927c2816d1b2892593fa8" title="decrements the jump force " alt="" coords="270,5,493,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NGLDraw::updateDebugDraw" name="NGLDraw::updateDebugDraw">
+<area shape="rect" id="node2" href="$class_n_g_l_draw.html#a2d79c02d374ba7dd3db79f3c7058106c" title="method to pick a shader type and load object matrices to the shader " alt="" coords="251,81,407,108"/>
+<area shape="rect" id="node3" href="$class_camera.html#aef53a322f457d7524838961257a9209e" title="Returns the view matrix. " alt="" coords="486,5,645,32"/>
+<area shape="rect" id="node4" href="$class_camera.html#a376f5df8168b969cea49fea6b7881160" title="Returns the ViewProjection matrix. " alt="" coords="491,56,639,83"/>
+<area shape="rect" id="node5" href="$class_n_g_l_draw.html#a12e270822580926e2978f8b8fb147716" title="increment the lowThresholdKey for the disintegration effect " alt="" coords="456,107,675,133"/>
+<area shape="rect" id="node6" href="$class_n_g_l_draw.html#a68a2ef17374b678bc6bae8ea72a06648" title="increments the variable m_time " alt="" coords="462,157,669,184"/>
+</map>

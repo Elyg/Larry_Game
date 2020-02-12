@@ -1,0 +1,6 @@
+<map id="PhysicsWorld::getAngVelocity" name="PhysicsWorld::getAngVelocity">
+<area shape="rect" id="node2" href="$class_character.html#a55574c8044ccf90ef684ba1f2f607ace" title="method to change the character from ball to leged and back " alt="" coords="253,5,400,32"/>
+<area shape="rect" id="node3" href="$class_controls.html#accc352189480c1031ee1446c378cc071" title="shapeshifts the character into a ball/ball with legs " alt="" coords="448,5,587,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="635,5,690,32"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="739,5,789,32"/>
+</map>

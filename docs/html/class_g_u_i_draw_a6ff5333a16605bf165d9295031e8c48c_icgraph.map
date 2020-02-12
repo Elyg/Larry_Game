@@ -1,0 +1,25 @@
+<map id="GUIDraw::drawTexture" name="GUIDraw::drawTexture">
+<area shape="rect" id="node2" href="$class_g_u_i_draw.html#a5a52309d626e0a5c7199e5bd6d4e8be1" title="draws the opening credits screen " alt="" coords="219,441,421,468"/>
+<area shape="rect" id="node5" href="$class_g_u_i_draw.html#a9199f932d0e9e3beecc16742e8587788" title="draws the opening cutscene " alt="" coords="211,157,429,184"/>
+<area shape="rect" id="node7" href="$class_g_u_i_draw.html#a3ff67aa72fc75944f855907d94494895" title="draws the opening title sequence " alt="" coords="227,209,413,250"/>
+<area shape="rect" id="node9" href="$class_g_u_i_draw.html#a815df87e097bca965f788d58e6e92fcb" title="draws the title screen without text " alt="" coords="231,274,409,315"/>
+<area shape="rect" id="node10" href="$class_g_u_i_draw.html#af50d253fbef63f8a4256641dfb5ef2da" title="draws the title screen with &#39;PRESS ENTER&#39; text " alt="" coords="231,340,409,367"/>
+<area shape="rect" id="node11" href="$class_g_u_i_draw.html#a05cc9177428f5e544390f9ac4df2589d" title="draws the main menu " alt="" coords="233,107,407,133"/>
+<area shape="rect" id="node13" href="$class_g_u_i_draw.html#a9cda4a50453ae0ad7a4813137f56e1a4" title="draws the controls screen " alt="" coords="219,391,421,417"/>
+<area shape="rect" id="node15" href="$class_g_u_i_draw.html#a3d1840dd78e2a636d704bf5d90f7ea30" title="draws the exit screen " alt="" coords="231,492,409,519"/>
+<area shape="rect" id="node22" href="$class_g_u_i_draw.html#a8643ededfc1c8d8521b788da3175d334" title="draws the top part of the menu texture " alt="" coords="221,5,419,32"/>
+<area shape="rect" id="node24" href="$class_g_u_i_draw.html#a890e1c5e968918d3268d6839f5ab448d" title="draws the bottom part of the menu texture " alt="" coords="211,56,429,83"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#af2acd4332bf651b5c269ed25c5818038" title="openingCredits" alt="" coords="696,336,805,363"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="901,260,952,287"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#aae981e50c2ccaf1c08bf101491082a26" title="openingCutscene" alt="" coords="477,172,600,199"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#a8663d37ba83f2665d25b839badd52abf" title="titleScreen" alt="" coords="497,259,581,285"/>
+<area shape="rect" id="node12" href="$main_8cpp.html#a1ba5ec51f6af87a88e2857b04eff1fb2" title="mainMenu" alt="" coords="497,107,580,133"/>
+<area shape="rect" id="node14" href="$main_8cpp.html#a4331e8b5bd0d755477da1a99ecf6bd3d" title="controlsScreen" alt="" coords="484,361,593,388"/>
+<area shape="rect" id="node16" href="$main_8cpp.html#a822c103b79ef8d6a36c81a14cd038e07" title="exit" alt="" coords="517,492,560,519"/>
+<area shape="rect" id="node17" href="$class_coin_factory.html#a01111c06edf1c226c50e3b974db97660" title="reads in a text file that specifies the x,y,z position of each coin " alt="" coords="649,488,853,515"/>
+<area shape="rect" id="node18" href="$class_high_score.html#a51f8f4009cf565f7eba681fbf7792691" title="reads the value from a txt file " alt="" coords="661,539,841,565"/>
+<area shape="rect" id="node19" href="$main_8cpp.html#a2913e48f3b2449d53db8292db54accb4" title="function to quit SDL with error message " alt="" coords="701,437,800,464"/>
+<area shape="rect" id="node20" href="$class_text.html#a5454ef14fc670f5ef68bdbe2fe2fad3b" title="ctor must pass in a ready constructed QFont make sure the size and emphasis is set before doing this ..." alt="" coords="709,589,792,616"/>
+<area shape="rect" id="node21" href="$class_trigger_factory.html#ad9baf0e40c92308cff1646e8bcb91a78" title="reads trigger volume position data from a txt file " alt="" coords="661,641,840,682"/>
+<area shape="rect" id="node23" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="511,56,566,83"/>
+</map>

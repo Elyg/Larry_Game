@@ -1,0 +1,28 @@
+<map id="NGLDraw::resize" name="NGLDraw::resize">
+<area shape="rect" id="node2" href="$class_n_g_l_draw.html#aec8a377329da67db1e2ef007bd27f026" title="draw the scene " alt="" coords="183,309,299,336"/>
+<area shape="rect" id="node27" href="$class_camera.html#ae8ed31422d897f6a8df266048beb14ea" title="Sets the camera&#39;s shape. " alt="" coords="176,360,307,387"/>
+<area shape="rect" id="node3" href="$class_n_g_l_draw.html#ad3e4e95bd10a6590c083e3925a9570a0" title="draw the scene from the lights POV for the depth pass " alt="" coords="381,157,531,184"/>
+<area shape="rect" id="node16" href="$class_camera.html#a7c68c706aa05e265b14a140d97a04b75" title="Can be called as an alternative to updatePos. Sets the camera&#39;s ideal position based on input values ..." alt="" coords="620,309,748,336"/>
+<area shape="rect" id="node4" href="$class_camera.html#a3b565fb6a9ec8aab39fb5f57ee188a0d" title="Returns the Eye vector. " alt="" coords="625,56,743,83"/>
+<area shape="rect" id="node5" href="$class_camera.html#ae19b3c8112edf783476dd2197baa4a36" title="Returns the Look vector. " alt="" coords="623,107,745,133"/>
+<area shape="rect" id="node17" href="$class_n_g_l_draw.html#a5fd365ceef761c0f00f9ee81814e7c59" title="reset the game values " alt="" coords="355,411,557,437"/>
+<area shape="rect" id="node18" href="$class_n_g_l_draw.html#ae6223efa76b661563f20216adb4f474d" title="reset coin color to zero " alt="" coords="365,461,547,488"/>
+<area shape="rect" id="node19" href="$class_n_g_l_draw.html#af307e10fea4e3d0500b0d97f406bf30b" title="reset the lowThresholdKey to zero " alt="" coords="357,512,555,539"/>
+<area shape="rect" id="node20" href="$class_camera.html#a64a11237be8d57b468666cae99741864" title="Sets the distance between the camera and the focus. " alt="" coords="383,563,529,589"/>
+<area shape="rect" id="node6" href="$class_n_g_l_draw.html#a2d79c02d374ba7dd3db79f3c7058106c" title="method to pick a shader type and load object matrices to the shader " alt="" coords="606,157,762,184"/>
+<area shape="rect" id="node21" href="$class_camera.html#abd7aa4cdc35c9c95203090bbd4a8279a" title="Can be called as an alternative to updatePos. Snaps the camera&#39;s position to the default position OR ..." alt="" coords="621,389,747,416"/>
+<area shape="rect" id="node11" href="$class_camera.html#ab65565a0e02bd33806d264c972ed083d" title="Called each frame to update the camera&#39;s position. " alt="" coords="615,259,753,285"/>
+<area shape="rect" id="node7" href="$class_camera.html#aef53a322f457d7524838961257a9209e" title="Returns the view matrix. " alt="" coords="843,56,1002,83"/>
+<area shape="rect" id="node8" href="$class_camera.html#a376f5df8168b969cea49fea6b7881160" title="Returns the ViewProjection matrix. " alt="" coords="849,107,997,133"/>
+<area shape="rect" id="node9" href="$class_n_g_l_draw.html#a12e270822580926e2978f8b8fb147716" title="increment the lowThresholdKey for the disintegration effect " alt="" coords="813,157,1032,184"/>
+<area shape="rect" id="node10" href="$class_n_g_l_draw.html#a68a2ef17374b678bc6bae8ea72a06648" title="increments the variable m_time " alt="" coords="819,5,1026,32"/>
+<area shape="rect" id="node12" href="$class_physics_world.html#ab00e4b94b999ddf53a637e4a999959ee" title="returns the linear velocity of the specified shape " alt="" coords="826,309,1019,336"/>
+<area shape="rect" id="node13" href="$class_physics_world.html#a692161a381b2015cba102b08c02f6c3f" title="returns the position of the specified shape " alt="" coords="835,360,1011,387"/>
+<area shape="rect" id="node14" href="$class_physics_world.html#aa5c4661e5ac86c996bd4e8f66f39e980" title="fires a ray from a to b and returns true if a collision object is obstructing it " alt="" coords="845,208,1000,235"/>
+<area shape="rect" id="node15" href="$class_physics_world.html#a73a5f631224e1486c7d6343f0a148ac0" title="sets the linear velocity of the specified shape " alt="" coords="826,259,1019,285"/>
+<area shape="rect" id="node22" href="$class_physics_world.html#a416466367496b5525a6e676ef1e9d1a3" title="adds a rigid body sphere to the physics world " alt="" coords="836,477,1009,504"/>
+<area shape="rect" id="node25" href="$class_physics_world.html#a7195c3626fb4be06217660c8a8038ffe" title="removes the specified rigid body from the world " alt="" coords="811,528,1035,555"/>
+<area shape="rect" id="node26" href="$class_physics_world.html#af0f1309e7a7e9c47763248e5772b5230" title="sets the gravity multiplier for a specific body (useful for making things weightless) ..." alt="" coords="837,411,1008,453"/>
+<area shape="rect" id="node23" href="$class_collision_shape.html#a419073488476916f9dba2dd97ae2bf76" title="create instance of the collision shape " alt="" coords="1086,452,1253,479"/>
+<area shape="rect" id="node24" href="$class_collision_shape.html#ac2fc5b4b07d9b6f6551d1e021e65626e" title="returns the shape of the given name " alt="" coords="1083,503,1255,529"/>
+</map>

@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_level" kind="class" prot="public">
+    <compoundname>Level</compoundname>
+    <includes refid="_level_8h" local="no">Level.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_level_1a519efc6fae939621b08ffaee348ac4aa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* Level::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>pointer to physics world </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="44" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1af91b84fa1d96f6ee770c2d10f252c4b1" compoundref="_level_8cpp" startline="35" endline="38">createLevel</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Level::m_initialBallPos</definition>
+        <argsstring></argsstring>
+        <name>m_initialBallPos</name>
+        <briefdescription>
+<para>initial position of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="48" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1a0f8e9f66981e317ae853306c67a90a4d" compoundref="_level_8cpp" startline="40" endline="43">getInitialPos</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1a78c1bf190e2601af5240282d3aedd7c3" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_text" kindref="compound">Text</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Text&gt; Level::m_text</definition>
+        <argsstring></argsstring>
+        <name>m_text</name>
+        <briefdescription>
+<para>pointer to text </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="52" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1aecdfa1da0c250961e3dda5ab5195423f" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Level::m_charPos</definition>
+        <argsstring></argsstring>
+        <name>m_charPos</name>
+        <briefdescription>
+<para>current position of character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="56" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1ada6b7907873234363dfea6bea39f0340" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Level::m_formOne</definition>
+        <argsstring></argsstring>
+        <name>m_formOne</name>
+        <briefdescription>
+<para>name of one form of character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="60" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1ac409de1af7b9ae686cceec58cdae6d1d" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Level::m_formTwo</definition>
+        <argsstring></argsstring>
+        <name>m_formTwo</name>
+        <briefdescription>
+<para>name of one form of character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="64" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="64" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1ad052e896fc39fc6636293a0cefefd36c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Level::m_check1</definition>
+        <argsstring></argsstring>
+        <name>m_check1</name>
+        <briefdescription>
+<para>if character has gone through checkpoint 1 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="68" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1afa0fa3df45d99ebf54652103b6773049" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Level::m_check2</definition>
+        <argsstring></argsstring>
+        <name>m_check2</name>
+        <briefdescription>
+<para>if character has gone through checkpoint 2 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="72" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1a2a416117f27ae5a5cb83d8da2a67f085" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Level::m_check3</definition>
+        <argsstring></argsstring>
+        <name>m_check3</name>
+        <briefdescription>
+<para>if character has gone through checkpoint 3 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="76" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1ad1a3fcf754d35020890bba329c6b92c7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Level::m_check4</definition>
+        <argsstring></argsstring>
+        <name>m_check4</name>
+        <briefdescription>
+<para>if character has gone through checkpoint 4 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="80" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_level_1a6ceb6845c44cdceaf49d266749a04931" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Level::m_check5</definition>
+        <argsstring></argsstring>
+        <name>m_check5</name>
+        <briefdescription>
+<para>if character has gone through checkpoint 5 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="84" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_level_1a49973d34eb54883629c86b73151c5515" compoundref="_level_8cpp" startline="3" endline="33">Level</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">checkpoints</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_level_1a49973d34eb54883629c86b73151c5515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Level::Level</definition>
+        <argsstring>(PhysicsWorld *_physics)</argsstring>
+        <name>Level</name>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>ctor of the animation class </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="24" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Level.cpp" bodystart="3" bodyend="33"/>
+        <references refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" compoundref="_collision_shape_8cpp" startline="25" endline="58">CollisionShape::addLevelMesh</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_level_1ad052e896fc39fc6636293a0cefefd36c" compoundref="_level_8h" startline="68">m_check1</references>
+        <references refid="class_level_1afa0fa3df45d99ebf54652103b6773049" compoundref="_level_8h" startline="72">m_check2</references>
+        <references refid="class_level_1a2a416117f27ae5a5cb83d8da2a67f085" compoundref="_level_8h" startline="76">m_check3</references>
+        <references refid="class_level_1ad1a3fcf754d35020890bba329c6b92c7" compoundref="_level_8h" startline="80">m_check4</references>
+        <references refid="class_level_1a6ceb6845c44cdceaf49d266749a04931" compoundref="_level_8h" startline="84">m_check5</references>
+        <references refid="class_level_1ada6b7907873234363dfea6bea39f0340" compoundref="_level_8h" startline="60">m_formOne</references>
+        <references refid="class_level_1ac409de1af7b9ae686cceec58cdae6d1d" compoundref="_level_8h" startline="64">m_formTwo</references>
+        <references refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" compoundref="_level_8h" startline="48">m_initialBallPos</references>
+        <references refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" compoundref="_level_8h" startline="44">m_physics</references>
+        <references refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" compoundref="_level_8h" startline="52">m_text</references>
+      </memberdef>
+      <memberdef kind="function" id="class_level_1af91b84fa1d96f6ee770c2d10f252c4b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Level::createLevel</definition>
+        <argsstring>(std::string _levelName, ngl::Vec3 _pos)</argsstring>
+        <name>createLevel</name>
+        <param>
+          <type>std::string</type>
+          <declname>_levelName</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pos</declname>
+        </param>
+        <briefdescription>
+<para>used to create a level mesh </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_levelName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name that has been given to the level mesh </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position that the level should be </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="30" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Level.cpp" bodystart="35" bodyend="38"/>
+        <references refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" compoundref="_physics_world_8cpp" startline="128" endline="153">PhysicsWorld::addLevelMesh</references>
+        <references refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" compoundref="_level_8h" startline="44">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Level::checkpoints</definition>
+        <argsstring>(bool _shapeshift)</argsstring>
+        <name>checkpoints</name>
+        <param>
+          <type>bool</type>
+          <declname>_shapeshift</declname>
+        </param>
+        <briefdescription>
+<para>it checks the position of the checkpoints and if the character goes through them saves a new initial position </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_shapeshift</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>says which character you currently are </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="35" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Level.cpp" bodystart="45" bodyend="151"/>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" compoundref="_level_8h" startline="56">m_charPos</references>
+        <references refid="class_level_1ad052e896fc39fc6636293a0cefefd36c" compoundref="_level_8h" startline="68">m_check1</references>
+        <references refid="class_level_1afa0fa3df45d99ebf54652103b6773049" compoundref="_level_8h" startline="72">m_check2</references>
+        <references refid="class_level_1a2a416117f27ae5a5cb83d8da2a67f085" compoundref="_level_8h" startline="76">m_check3</references>
+        <references refid="class_level_1ad1a3fcf754d35020890bba329c6b92c7" compoundref="_level_8h" startline="80">m_check4</references>
+        <references refid="class_level_1a6ceb6845c44cdceaf49d266749a04931" compoundref="_level_8h" startline="84">m_check5</references>
+        <references refid="class_level_1ada6b7907873234363dfea6bea39f0340" compoundref="_level_8h" startline="60">m_formOne</references>
+        <references refid="class_level_1ac409de1af7b9ae686cceec58cdae6d1d" compoundref="_level_8h" startline="64">m_formTwo</references>
+        <references refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" compoundref="_level_8h" startline="48">m_initialBallPos</references>
+        <references refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" compoundref="_level_8h" startline="44">m_physics</references>
+        <references refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" compoundref="_level_8h" startline="52">m_text</references>
+      </memberdef>
+      <memberdef kind="function" id="class_level_1a0f8e9f66981e317ae853306c67a90a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Level::getInitialPos</definition>
+        <argsstring>()</argsstring>
+        <name>getInitialPos</name>
+        <briefdescription>
+<para>returns the initial position </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="39" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Level.cpp" bodystart="40" bodyend="43"/>
+        <references refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" compoundref="_level_8h" startline="48">m_initialBallPos</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class manages the levels. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="127">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="128" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="128">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+      <node id="126">
+        <label>Level</label>
+        <link refid="class_level"/>
+        <childnode refid="127" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" line="19" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Level.h" bodystart="18" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" prot="public" virt="non-virtual"><scope>Level</scope><name>checkpoints</name></member>
+      <member refid="class_level_1af91b84fa1d96f6ee770c2d10f252c4b1" prot="public" virt="non-virtual"><scope>Level</scope><name>createLevel</name></member>
+      <member refid="class_level_1a0f8e9f66981e317ae853306c67a90a4d" prot="public" virt="non-virtual"><scope>Level</scope><name>getInitialPos</name></member>
+      <member refid="class_level_1a49973d34eb54883629c86b73151c5515" prot="public" virt="non-virtual"><scope>Level</scope><name>Level</name></member>
+      <member refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" prot="private" virt="non-virtual"><scope>Level</scope><name>m_charPos</name></member>
+      <member refid="class_level_1ad052e896fc39fc6636293a0cefefd36c" prot="private" virt="non-virtual"><scope>Level</scope><name>m_check1</name></member>
+      <member refid="class_level_1afa0fa3df45d99ebf54652103b6773049" prot="private" virt="non-virtual"><scope>Level</scope><name>m_check2</name></member>
+      <member refid="class_level_1a2a416117f27ae5a5cb83d8da2a67f085" prot="private" virt="non-virtual"><scope>Level</scope><name>m_check3</name></member>
+      <member refid="class_level_1ad1a3fcf754d35020890bba329c6b92c7" prot="private" virt="non-virtual"><scope>Level</scope><name>m_check4</name></member>
+      <member refid="class_level_1a6ceb6845c44cdceaf49d266749a04931" prot="private" virt="non-virtual"><scope>Level</scope><name>m_check5</name></member>
+      <member refid="class_level_1ada6b7907873234363dfea6bea39f0340" prot="private" virt="non-virtual"><scope>Level</scope><name>m_formOne</name></member>
+      <member refid="class_level_1ac409de1af7b9ae686cceec58cdae6d1d" prot="private" virt="non-virtual"><scope>Level</scope><name>m_formTwo</name></member>
+      <member refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" prot="private" virt="non-virtual"><scope>Level</scope><name>m_initialBallPos</name></member>
+      <member refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" prot="private" virt="non-virtual"><scope>Level</scope><name>m_physics</name></member>
+      <member refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" prot="private" virt="non-virtual"><scope>Level</scope><name>m_text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

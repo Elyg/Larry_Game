@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_90d84e1c92b2f42d764579481f230c68" kind="dir">
+    <compoundname>LevelHeadsCVA3</compoundname>
+    <innerdir refid="dir_e8c581f4553a410c14d70eaf3351bfea">include</innerdir>
+    <innerdir refid="dir_517004237fc4e11094d7f8edc4c20806">src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/"/>
+  </compounddef>
+</doxygen>

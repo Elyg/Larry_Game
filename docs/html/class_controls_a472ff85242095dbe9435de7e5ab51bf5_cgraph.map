@@ -1,0 +1,10 @@
+<map id="Controls::jumpImpulse" name="Controls::jumpImpulse">
+<area shape="rect" id="node2" href="$class_character.html#ab78c29a4a476cd3e5530e4ea63d35ffb" title="creates a jump impulse " alt="" coords="209,123,370,149"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a4cb52e883aaf26f356dc6906757af84d" title="adds an impulse force to the shape " alt="" coords="427,5,605,32"/>
+<area shape="rect" id="node4" href="$class_character.html#aaced86bac9a90ddadf34c946c56f04a4" title="detects if character is standing on a mesh " alt="" coords="429,57,603,98"/>
+<area shape="rect" id="node7" href="$class_physics_world.html#ab00e4b94b999ddf53a637e4a999959ee" title="returns the linear velocity of the specified shape " alt="" coords="419,123,613,149"/>
+<area shape="rect" id="node8" href="$class_l_timer.html#a57c4bdca0f7bdd75c65b6ab1499de1e7" title="LTimer::getTicks" alt="" coords="456,173,576,200"/>
+<area shape="rect" id="node9" href="$class_physics_world.html#a73a5f631224e1486c7d6343f0a148ac0" title="sets the linear velocity of the specified shape " alt="" coords="419,224,613,251"/>
+<area shape="rect" id="node5" href="$class_physics_world.html#a692161a381b2015cba102b08c02f6c3f" title="returns the position of the specified shape " alt="" coords="661,39,837,65"/>
+<area shape="rect" id="node6" href="$class_physics_world.html#aa5c4661e5ac86c996bd4e8f66f39e980" title="fires a ray from a to b and returns true if a collision object is obstructing it " alt="" coords="672,89,827,116"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Camera::updatePos" name="Camera::updatePos">
+<area shape="rect" id="node2" href="$class_physics_world.html#ab00e4b94b999ddf53a637e4a999959ee" title="returns the linear velocity of the specified shape " alt="" coords="193,5,386,32"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a692161a381b2015cba102b08c02f6c3f" title="returns the position of the specified shape " alt="" coords="201,56,377,83"/>
+<area shape="rect" id="node4" href="$class_physics_world.html#aa5c4661e5ac86c996bd4e8f66f39e980" title="fires a ray from a to b and returns true if a collision object is obstructing it " alt="" coords="212,107,367,133"/>
+<area shape="rect" id="node5" href="$class_physics_world.html#a73a5f631224e1486c7d6343f0a148ac0" title="sets the linear velocity of the specified shape " alt="" coords="193,157,386,184"/>
+</map>

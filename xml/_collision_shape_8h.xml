@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_collision_shape_8h" kind="file">
+    <compoundname>CollisionShape.h</compoundname>
+    <includes local="no">btBulletDynamicsCommon.h</includes>
+    <includes local="no">unordered_map</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">ngl/Types.h</includes>
+    <includes local="no">string</includes>
+    <includedby refid="_collision_shape_8cpp" local="yes">CollisionShape.cpp</includedby>
+    <includedby refid="_n_g_l_draw_8cpp" local="yes">NGLDraw.cpp</includedby>
+    <includedby refid="_physics_world_8cpp" local="yes">PhysicsWorld.cpp</includedby>
+    <includedby refid="_platform_8h" local="yes">Platform.h</includedby>
+    <includedby refid="_platform_factory_8h" local="yes">PlatformFactory.h</includedby>
+    <includedby refid="_character_8h" local="yes">Character.h</includedby>
+    <includedby refid="_level_8h" local="yes">Level.h</includedby>
+    <incdepgraph>
+      <node id="1884">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="1880">
+        <label>CollisionShape.h</label>
+        <link refid="CollisionShape.h"/>
+        <childnode refid="1881" relation="include">
+        </childnode>
+        <childnode refid="1882" relation="include">
+        </childnode>
+        <childnode refid="1883" relation="include">
+        </childnode>
+        <childnode refid="1884" relation="include">
+        </childnode>
+        <childnode refid="1885" relation="include">
+        </childnode>
+      </node>
+      <node id="1885">
+        <label>string</label>
+      </node>
+      <node id="1882">
+        <label>unordered_map</label>
+      </node>
+      <node id="1881">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="1883">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1902">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1903" relation="include">
+        </childnode>
+        <childnode refid="1894" relation="include">
+        </childnode>
+      </node>
+      <node id="1898">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1899" relation="include">
+        </childnode>
+        <childnode refid="1894" relation="include">
+        </childnode>
+      </node>
+      <node id="1907">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="1901">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="1891">
+        <label>Platform.cpp</label>
+        <link refid="_platform_8cpp"/>
+      </node>
+      <node id="1886">
+        <label>CollisionShape.h</label>
+        <link refid="CollisionShape.h"/>
+        <childnode refid="1887" relation="include">
+        </childnode>
+        <childnode refid="1888" relation="include">
+        </childnode>
+        <childnode refid="1889" relation="include">
+        </childnode>
+        <childnode refid="1890" relation="include">
+        </childnode>
+        <childnode refid="1892" relation="include">
+        </childnode>
+        <childnode refid="1898" relation="include">
+        </childnode>
+        <childnode refid="1906" relation="include">
+        </childnode>
+      </node>
+      <node id="1895">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1890">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="1891" relation="include">
+        </childnode>
+        <childnode refid="1892" relation="include">
+        </childnode>
+      </node>
+      <node id="1892">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="1893" relation="include">
+        </childnode>
+        <childnode refid="1894" relation="include">
+        </childnode>
+      </node>
+      <node id="1906">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1899" relation="include">
+        </childnode>
+        <childnode refid="1907" relation="include">
+        </childnode>
+        <childnode refid="1894" relation="include">
+        </childnode>
+      </node>
+      <node id="1887">
+        <label>CollisionShape.cpp</label>
+        <link refid="_collision_shape_8cpp"/>
+      </node>
+      <node id="1904">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="1905" relation="include">
+        </childnode>
+        <childnode refid="1895" relation="include">
+        </childnode>
+      </node>
+      <node id="1889">
+        <label>PhysicsWorld.cpp</label>
+        <link refid="_physics_world_8cpp"/>
+      </node>
+      <node id="1903">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="1894">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1895" relation="include">
+        </childnode>
+        <childnode refid="1888" relation="include">
+        </childnode>
+        <childnode refid="1896" relation="include">
+        </childnode>
+        <childnode refid="1898" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+        <childnode refid="1904" relation="include">
+        </childnode>
+        <childnode refid="1906" relation="include">
+        </childnode>
+      </node>
+      <node id="1888">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="1896">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="1897" relation="include">
+        </childnode>
+        <childnode refid="1895" relation="include">
+        </childnode>
+        <childnode refid="1888" relation="include">
+        </childnode>
+        <childnode refid="1894" relation="include">
+        </childnode>
+      </node>
+      <node id="1899">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="1897">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="1893">
+        <label>PlatformFactory.cpp</label>
+        <link refid="_platform_factory_8cpp"/>
+      </node>
+      <node id="1900">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="1901" relation="include">
+        </childnode>
+        <childnode refid="1902" relation="include">
+        </childnode>
+      </node>
+      <node id="1905">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_collision_shape" prot="public">CollisionShape</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Jon Macey, modified by: Eligijus Titas </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>COLLISIONSHAPE_H__</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>COLLISIONSHAPE_H__</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;btBulletDynamicsCommon.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/Types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight><highlight class="comment">//--------------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_collision_shape" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_collision_shape" kindref="compound">CollisionShape</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape" kindref="compound">CollisionShape</ref><sp/>*<ref refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape_1a3da0cfb413abcabe3195479a61df6344" kindref="member">addMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>_name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;_objFilePath);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape_1a502ae0e27451fe9dfb65451dd424d645" kindref="member">addSphere</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>_name,<sp/>ngl::Real<sp/>_rad);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape_1add599b7da4202fb060a1060f020d4c9f" kindref="member">addBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>_name,<sp/>ngl::Real<sp/>_w,<sp/>ngl::Real<sp/>_h,<sp/>ngl::Real<sp/>_d);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape_1a995aa2c673cca8b4a11b220c3f1f1706" kindref="member">addCapsule</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>_name,<sp/>ngl::Real<sp/>_rad,<sp/>ngl::Real<sp/>_height);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape_1aefc52093702cbb1c6f8c277758a10adf" kindref="member">addCylinder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>_name,<sp/>ngl::Real<sp/>_rad,<sp/>ngl::Real<sp/>_height);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape_1abc87d7f44b86015dc0e5cbacbf414c35" kindref="member">addCone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>_name,<sp/>ngl::Real<sp/>_rad,<sp/>ngl::Real<sp/>_height);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kindref="member">addLevelMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>_name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;_objFilePath);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape_1a577a537932f6650525bd52937ed597ab" kindref="member">printShapeMap</ref>();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>btCollisionShape*<sp/><ref refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" kindref="member">getShape</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;_name);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="83" refid="class_collision_shape_1a960ed2630ac29e6b28d773c97fab1d18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_collision_shape_1a960ed2630ac29e6b28d773c97fab1d18" kindref="member">CollisionShape</ref>(){}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_collision_shape_1a960ed2630ac29e6b28d773c97fab1d18" kindref="member">CollisionShape</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape" kindref="compound">CollisionShape</ref><sp/>&amp;_c)=</highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_collision_shape" kindref="compound">CollisionShape</ref><sp/>&amp;<sp/><ref refid="class_collision_shape_1a36168d925d32d942a9a636cb5caf0a15" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_collision_shape" kindref="compound">CollisionShape</ref><sp/>&amp;_c)=</highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map<sp/>&lt;std::string,std::unique_ptr&lt;btCollisionShape&gt;&gt;<sp/><ref refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" kindref="member">m_shapes</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CollisionShape.h"/>
+  </compounddef>
+</doxygen>

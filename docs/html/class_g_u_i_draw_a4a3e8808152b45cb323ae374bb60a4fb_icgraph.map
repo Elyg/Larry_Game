@@ -1,0 +1,8 @@
+<map id="GUIDraw::drawQuadColour" name="GUIDraw::drawQuadColour">
+<area shape="rect" id="node2" href="$main_8cpp.html#af2acd4332bf651b5c269ed25c5818038" title="openingCredits" alt="" coords="244,5,353,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#aae981e50c2ccaf1c08bf101491082a26" title="openingCutscene" alt="" coords="237,56,360,83"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a8663d37ba83f2665d25b839badd52abf" title="titleScreen" alt="" coords="257,107,341,133"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a1ba5ec51f6af87a88e2857b04eff1fb2" title="mainMenu" alt="" coords="257,157,340,184"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#a7b84a91f70b351e6694c824f3085edd8" title="pauseMenu" alt="" coords="254,208,343,235"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="408,107,459,133"/>
+</map>

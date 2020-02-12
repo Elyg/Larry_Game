@@ -1,0 +1,4 @@
+<map id="PhysicsWorld::addPlatform" name="PhysicsWorld::addPlatform">
+<area shape="rect" id="node2" href="$class_platform.html#a929d8b9fcdbc32332673d8d48540b909" title="Creates a platform in the PhysicsWorld. " alt="" coords="235,5,399,32"/>
+<area shape="rect" id="node3" href="$class_platform_factory.html#a3f20e6b434a5bfa7b2532fde223e7c89" title="creates a new platform by calling our platform class " alt="" coords="448,5,656,32"/>
+</map>

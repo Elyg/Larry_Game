@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_l_timer" kind="class" prot="public">
+    <compoundname>LTimer</compoundname>
+    <includes refid="_ltimer_8h" local="no">Ltimer.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" prot="private" static="no" mutable="no">
+        <type>Uint32</type>
+        <definition>Uint32 LTimer::m_startTicks</definition>
+        <argsstring></argsstring>
+        <name>m_startTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="31" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" compoundref="_ltimer_8cpp" startline="3" endline="10">LTimer</referencedby>
+        <referencedby refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">start</referencedby>
+        <referencedby refid="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" compoundref="_ltimer_8cpp" startline="21" endline="25">reset</referencedby>
+        <referencedby refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" compoundref="_ltimer_8cpp" startline="26" endline="37">stop</referencedby>
+        <referencedby refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" compoundref="_ltimer_8cpp" startline="38" endline="49">pause</referencedby>
+        <referencedby refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" compoundref="_ltimer_8cpp" startline="50" endline="64">unpause</referencedby>
+        <referencedby refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">getTicks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" prot="private" static="no" mutable="no">
+        <type>Uint32</type>
+        <definition>Uint32 LTimer::m_pausedTicks</definition>
+        <argsstring></argsstring>
+        <name>m_pausedTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="33" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" compoundref="_ltimer_8cpp" startline="3" endline="10">LTimer</referencedby>
+        <referencedby refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">start</referencedby>
+        <referencedby refid="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" compoundref="_ltimer_8cpp" startline="21" endline="25">reset</referencedby>
+        <referencedby refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" compoundref="_ltimer_8cpp" startline="26" endline="37">stop</referencedby>
+        <referencedby refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" compoundref="_ltimer_8cpp" startline="38" endline="49">pause</referencedby>
+        <referencedby refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" compoundref="_ltimer_8cpp" startline="50" endline="64">unpause</referencedby>
+        <referencedby refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">getTicks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LTimer::m_paused</definition>
+        <argsstring></argsstring>
+        <name>m_paused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="35" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" compoundref="_ltimer_8cpp" startline="3" endline="10">LTimer</referencedby>
+        <referencedby refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">start</referencedby>
+        <referencedby refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" compoundref="_ltimer_8cpp" startline="26" endline="37">stop</referencedby>
+        <referencedby refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" compoundref="_ltimer_8cpp" startline="38" endline="49">pause</referencedby>
+        <referencedby refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" compoundref="_ltimer_8cpp" startline="50" endline="64">unpause</referencedby>
+        <referencedby refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">getTicks</referencedby>
+        <referencedby refid="class_l_timer_1ae1d9b504da6ed0f42e10f2338a9f88bb" compoundref="_ltimer_8cpp" startline="93" endline="97">isPaused</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LTimer::m_started</definition>
+        <argsstring></argsstring>
+        <name>m_started</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="36" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" compoundref="_ltimer_8cpp" startline="3" endline="10">LTimer</referencedby>
+        <referencedby refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">start</referencedby>
+        <referencedby refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" compoundref="_ltimer_8cpp" startline="26" endline="37">stop</referencedby>
+        <referencedby refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" compoundref="_ltimer_8cpp" startline="38" endline="49">pause</referencedby>
+        <referencedby refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" compoundref="_ltimer_8cpp" startline="50" endline="64">unpause</referencedby>
+        <referencedby refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">getTicks</referencedby>
+        <referencedby refid="class_l_timer_1a102ca688eaa4109dd733b4b60a29d27c" compoundref="_ltimer_8cpp" startline="87" endline="91">isStarted</referencedby>
+        <referencedby refid="class_l_timer_1ae1d9b504da6ed0f42e10f2338a9f88bb" compoundref="_ltimer_8cpp" startline="93" endline="97">isPaused</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LTimer::LTimer</definition>
+        <argsstring>()</argsstring>
+        <name>LTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="17" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="3" bodyend="10"/>
+        <references refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" compoundref="_ltimer_8h" startline="35">m_paused</references>
+        <references refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" compoundref="_ltimer_8h" startline="33">m_pausedTicks</references>
+        <references refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" compoundref="_ltimer_8h" startline="36">m_started</references>
+        <references refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" compoundref="_ltimer_8h" startline="31">m_startTicks</references>
+      </memberdef>
+      <memberdef kind="function" id="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LTimer::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="19" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="11" bodyend="20"/>
+        <references refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" compoundref="_ltimer_8h" startline="35">m_paused</references>
+        <references refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" compoundref="_ltimer_8h" startline="33">m_pausedTicks</references>
+        <references refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" compoundref="_ltimer_8h" startline="36">m_started</references>
+        <references refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" compoundref="_ltimer_8h" startline="31">m_startTicks</references>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character::Character</referencedby>
+        <referencedby refid="class_character_1ae58527d608910235f06445cd9d274a56" compoundref="_character_8cpp" startline="238" endline="249">Character::startJumpHopTimer</referencedby>
+        <referencedby refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" compoundref="_character_8cpp" startline="286" endline="301">Character::freezeCharacter</referencedby>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin::Coin</referencedby>
+        <referencedby refid="class_high_score_1a8c7ca6978542a107d43955544d6d0c3c" compoundref="_high_score_8cpp" startline="14" endline="18">HighScore::highScoreStart</referencedby>
+        <referencedby refid="main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="main_8cpp" startline="55" endline="167">main</referencedby>
+        <referencedby refid="main_8cpp_1af2acd4332bf651b5c269ed25c5818038" compoundref="main_8cpp" startline="169" endline="218">openingCredits</referencedby>
+        <referencedby refid="main_8cpp_1aae981e50c2ccaf1c08bf101491082a26" compoundref="main_8cpp" startline="220" endline="260">openingCutscene</referencedby>
+        <referencedby refid="main_8cpp_1a8663d37ba83f2665d25b839badd52abf" compoundref="main_8cpp" startline="262" endline="336">titleScreen</referencedby>
+        <referencedby refid="main_8cpp_1a1ba5ec51f6af87a88e2857b04eff1fb2" compoundref="main_8cpp" startline="338" endline="427">mainMenu</referencedby>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LTimer::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="20" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="26" bodyend="37"/>
+        <references refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" compoundref="_ltimer_8h" startline="35">m_paused</references>
+        <references refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" compoundref="_ltimer_8h" startline="33">m_pausedTicks</references>
+        <references refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" compoundref="_ltimer_8h" startline="36">m_started</references>
+        <references refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" compoundref="_ltimer_8h" startline="31">m_startTicks</references>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">Character::characterMove</referencedby>
+        <referencedby refid="class_character_1a128fe63126613c48f495a0c467ebe337" compoundref="_character_8cpp" startline="251" endline="255">Character::stopJumpHopTimer</referencedby>
+        <referencedby refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" compoundref="_character_8cpp" startline="286" endline="301">Character::freezeCharacter</referencedby>
+        <referencedby refid="main_8cpp_1a4331e8b5bd0d755477da1a99ecf6bd3d" compoundref="main_8cpp" startline="429" endline="461">controlsScreen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LTimer::pause</definition>
+        <argsstring>()</argsstring>
+        <name>pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="21" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="38" bodyend="49"/>
+        <references refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" compoundref="_ltimer_8h" startline="35">m_paused</references>
+        <references refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" compoundref="_ltimer_8h" startline="33">m_pausedTicks</references>
+        <references refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" compoundref="_ltimer_8h" startline="36">m_started</references>
+        <references refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" compoundref="_ltimer_8h" startline="31">m_startTicks</references>
+        <referencedby refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" compoundref="_coin_8cpp" startline="3" endline="18">Coin::Coin</referencedby>
+        <referencedby refid="class_high_score_1aabd3f50bf518fde51eb65fee1f7b3c56" compoundref="_high_score_8cpp" startline="19" endline="23">HighScore::highScorePause</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LTimer::unpause</definition>
+        <argsstring>()</argsstring>
+        <name>unpause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="22" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="50" bodyend="64"/>
+        <references refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" compoundref="_ltimer_8h" startline="35">m_paused</references>
+        <references refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" compoundref="_ltimer_8h" startline="33">m_pausedTicks</references>
+        <references refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" compoundref="_ltimer_8h" startline="36">m_started</references>
+        <references refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" compoundref="_ltimer_8h" startline="31">m_startTicks</references>
+        <referencedby refid="class_coin_1ac30185e74f0824d6c462b581da2497f2" compoundref="_coin_8cpp" startline="54" endline="57">Coin::startTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LTimer::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="23" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="21" bodyend="25"/>
+        <references refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" compoundref="_ltimer_8h" startline="33">m_pausedTicks</references>
+        <references refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" compoundref="_ltimer_8h" startline="31">m_startTicks</references>
+        <referencedby refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" compoundref="_character_8cpp" startline="286" endline="301">Character::freezeCharacter</referencedby>
+        <referencedby refid="main_8cpp_1a4331e8b5bd0d755477da1a99ecf6bd3d" compoundref="main_8cpp" startline="429" endline="461">controlsScreen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Uint32</type>
+        <definition>Uint32 LTimer::getTicks</definition>
+        <argsstring>()</argsstring>
+        <name>getTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="25" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="65" bodyend="86"/>
+        <references refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" compoundref="_ltimer_8h" startline="35">m_paused</references>
+        <references refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" compoundref="_ltimer_8h" startline="33">m_pausedTicks</references>
+        <references refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" compoundref="_ltimer_8h" startline="36">m_started</references>
+        <references refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" compoundref="_ltimer_8h" startline="31">m_startTicks</references>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">Character::jumpImpulse</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">Character::characterMove</referencedby>
+        <referencedby refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" compoundref="_character_8cpp" startline="286" endline="301">Character::freezeCharacter</referencedby>
+        <referencedby refid="class_coin_1a498f9320e169a11b7d809702404165f2" compoundref="_coin_8h" startline="60" endline="60">Coin::getTime</referencedby>
+        <referencedby refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" compoundref="_high_score_8cpp" startline="24" endline="28">HighScore::setCurrentScore</referencedby>
+        <referencedby refid="class_high_score_1a321f389400c1031bff7c2ecb7c728347" compoundref="_high_score_8h" startline="55" endline="55">HighScore::getScoreTime</referencedby>
+        <referencedby refid="main_8cpp_1af2acd4332bf651b5c269ed25c5818038" compoundref="main_8cpp" startline="169" endline="218">openingCredits</referencedby>
+        <referencedby refid="main_8cpp_1aae981e50c2ccaf1c08bf101491082a26" compoundref="main_8cpp" startline="220" endline="260">openingCutscene</referencedby>
+        <referencedby refid="main_8cpp_1a8663d37ba83f2665d25b839badd52abf" compoundref="main_8cpp" startline="262" endline="336">titleScreen</referencedby>
+        <referencedby refid="main_8cpp_1a1ba5ec51f6af87a88e2857b04eff1fb2" compoundref="main_8cpp" startline="338" endline="427">mainMenu</referencedby>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_l_timer_1a102ca688eaa4109dd733b4b60a29d27c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LTimer::isStarted</definition>
+        <argsstring>()</argsstring>
+        <name>isStarted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="27" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="87" bodyend="91"/>
+        <references refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" compoundref="_ltimer_8h" startline="36">m_started</references>
+      </memberdef>
+      <memberdef kind="function" id="class_l_timer_1ae1d9b504da6ed0f42e10f2338a9f88bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LTimer::isPaused</definition>
+        <argsstring>()</argsstring>
+        <name>isPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="28" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp" bodystart="93" bodyend="97"/>
+        <references refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" compoundref="_ltimer_8h" startline="35">m_paused</references>
+        <references refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" compoundref="_ltimer_8h" startline="36">m_started</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is timer that uses SDL to manage time Modified from -: Lazyfoo.net. (2014). Lazy Foo&apos; Productions. [online] Available at: <ulink url="http://lazyfoo.net/SDL_tutorials/lesson15/">http://lazyfoo.net/SDL_tutorials/lesson15/</ulink> [Accessed 8 Dec. 2015]. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="130">
+        <label>LTimer</label>
+        <link refid="class_l_timer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" line="14" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h" bodystart="13" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" prot="public" virt="non-virtual"><scope>LTimer</scope><name>getTicks</name></member>
+      <member refid="class_l_timer_1ae1d9b504da6ed0f42e10f2338a9f88bb" prot="public" virt="non-virtual"><scope>LTimer</scope><name>isPaused</name></member>
+      <member refid="class_l_timer_1a102ca688eaa4109dd733b4b60a29d27c" prot="public" virt="non-virtual"><scope>LTimer</scope><name>isStarted</name></member>
+      <member refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" prot="public" virt="non-virtual"><scope>LTimer</scope><name>LTimer</name></member>
+      <member refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" prot="private" virt="non-virtual"><scope>LTimer</scope><name>m_paused</name></member>
+      <member refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" prot="private" virt="non-virtual"><scope>LTimer</scope><name>m_pausedTicks</name></member>
+      <member refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" prot="private" virt="non-virtual"><scope>LTimer</scope><name>m_started</name></member>
+      <member refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" prot="private" virt="non-virtual"><scope>LTimer</scope><name>m_startTicks</name></member>
+      <member refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" prot="public" virt="non-virtual"><scope>LTimer</scope><name>pause</name></member>
+      <member refid="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" prot="public" virt="non-virtual"><scope>LTimer</scope><name>reset</name></member>
+      <member refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" prot="public" virt="non-virtual"><scope>LTimer</scope><name>start</name></member>
+      <member refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" prot="public" virt="non-virtual"><scope>LTimer</scope><name>stop</name></member>
+      <member refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" prot="public" virt="non-virtual"><scope>LTimer</scope><name>unpause</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

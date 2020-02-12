@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_high_score_8cpp" kind="file">
+    <compoundname>HighScore.cpp</compoundname>
+    <includes refid="_high_score_8h" local="yes">HighScore.h</includes>
+    <includes local="no">QtCore/QString</includes>
+    <includes local="no">QtCore/QFile</includes>
+    <includes local="no">QtCore/QDebug</includes>
+    <includes local="no">QtCore/QTextStream</includes>
+    <incdepgraph>
+      <node id="2038">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="2039" relation="include">
+        </childnode>
+      </node>
+      <node id="2039">
+        <label>SDL.h</label>
+      </node>
+      <node id="2036">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="2037" relation="include">
+        </childnode>
+        <childnode refid="2038" relation="include">
+        </childnode>
+        <childnode refid="2040" relation="include">
+        </childnode>
+      </node>
+      <node id="2043">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="2037">
+        <label>iostream</label>
+      </node>
+      <node id="2040">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="2041">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="2042">
+        <label>QtCore/QDebug</label>
+      </node>
+      <node id="2035">
+        <label>HighScore.cpp</label>
+        <link refid="HighScore.cpp"/>
+        <childnode refid="2036" relation="include">
+        </childnode>
+        <childnode refid="2040" relation="include">
+        </childnode>
+        <childnode refid="2041" relation="include">
+        </childnode>
+        <childnode refid="2042" relation="include">
+        </childnode>
+        <childnode refid="2043" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_high_score_8h" kindref="compound">HighScore.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/QFile&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/QTextStream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" refkind="member"><highlight class="normal"><ref refid="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" kindref="member">HighScore::HighScore</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//initialise<sp/>the<sp/>highscore<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" kindref="member">m_currentScore</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kindref="member">m_highScore</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" kindref="member">m_highScoreString</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14" refid="class_high_score_1a8c7ca6978542a107d43955544d6d0c3c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a8c7ca6978542a107d43955544d6d0c3c" kindref="member">HighScore::highScoreStart</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//start<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" kindref="member">m_scoreTimer</ref>.<ref refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19" refid="class_high_score_1aabd3f50bf518fde51eb65fee1f7b3c56" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1aabd3f50bf518fde51eb65fee1f7b3c56" kindref="member">HighScore::highScorePause</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//pause<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" kindref="member">m_scoreTimer</ref>.<ref refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" kindref="member">pause</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24" refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" kindref="member">HighScore::setCurrentScore</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//store<sp/>the<sp/>current<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" kindref="member">m_currentScore</ref><sp/>=<sp/><ref refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" kindref="member">m_scoreTimer</ref>.<ref refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" kindref="member">getTicks</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29" refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" kindref="member">HighScore::setHighScore</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//set<sp/>current<sp/>score<sp/>and<sp/>check<sp/>if<sp/>it<sp/>is<sp/>less<sp/>than<sp/>highscore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" kindref="member">setCurrentScore</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kindref="member">m_highScore</ref><sp/>&gt;<sp/><ref refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" kindref="member">m_currentScore</ref><sp/>||<sp/><ref refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kindref="member">m_highScore</ref><sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//store<sp/>and<sp/>write<sp/>it<sp/>to<sp/>the<sp/>txt<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kindref="member">m_highScore</ref><sp/>=<sp/><ref refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" kindref="member">m_currentScore</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" kindref="member">highScoreWrite</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40" refid="class_high_score_1a51f8f4009cf565f7eba681fbf7792691" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a51f8f4009cf565f7eba681fbf7792691" kindref="member">HighScore::highScoreRead</ref>()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//opens<sp/>the<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>QFile<sp/>inFile(</highlight><highlight class="stringliteral">&quot;Preferences/highScore.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!inFile.open(QIODevice::ReadOnly<sp/>|<sp/>QIODevice::Text))</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr&lt;&lt;</highlight><highlight class="stringliteral">&quot;Error<sp/>Reading<sp/>file&quot;</highlight><highlight class="normal">&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8cpp_1a822c103b79ef8d6a36c81a14cd038e07" kindref="member">std::exit</ref>(1);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//read<sp/>all<sp/>variables<sp/>as<sp/>string<sp/>lines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>QTextStream<sp/>in(&amp;inFile);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" kindref="member">m_highScoreString</ref><sp/>=<sp/>in.readLine();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//close<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>inFile.close();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><ref refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kindref="member">m_highScore</ref><sp/>=<sp/><ref refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" kindref="member">m_highScoreString</ref>.toInt();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56" refid="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" kindref="member">HighScore::highScoreWrite</ref>()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>QString<sp/>outputFilename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Preferences/highScore.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>QFile<sp/>outputFile(outputFilename);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>outputFile.open(QIODevice::WriteOnly);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Check<sp/>it<sp/>opened<sp/>OK<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!outputFile.isOpen())</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Point<sp/>a<sp/>QTextStream<sp/>object<sp/>at<sp/>the<sp/>file<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>QTextStream<sp/>outStream(&amp;outputFile);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Write<sp/>the<sp/>line<sp/>to<sp/>the<sp/>file<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>outStream<sp/>&lt;&lt;QString::number(<ref refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kindref="member">m_highScore</ref>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Close<sp/>the<sp/>file<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>outputFile.close();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/HighScore.cpp"/>
+  </compounddef>
+</doxygen>

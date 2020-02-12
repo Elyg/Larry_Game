@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_coin_factory" kind="class" prot="public">
+    <compoundname>CoinFactory</compoundname>
+    <includes refid="_coin_factory_8h" local="no">CoinFactory.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_coin_factory_1a5adfdbfc688574a74467dce1a87d9532" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CoinFactory::m_coinCounter</definition>
+        <argsstring></argsstring>
+        <name>m_coinCounter</name>
+        <briefdescription>
+<para>global coin counter </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="83" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_coin_factory_1a737e176c7f9f82e099ff1c664e6109eb" compoundref="_coinfactory_8cpp" startline="7" endline="11">CoinFactory</referencedby>
+        <referencedby refid="class_coin_factory_1aae043cfa76991afb2d3ec53e2c974d1e" compoundref="_coin_factory_8h" startline="68" endline="68">setCoinScore</referencedby>
+        <referencedby refid="class_coin_factory_1afb4f245060a0d37ba54c4246a482deda" compoundref="_coin_factory_8h" startline="73" endline="73">addCoinScore</referencedby>
+        <referencedby refid="class_coin_factory_1a180706b285382c2c0e1cf390d6299c65" compoundref="_coin_factory_8h" startline="77" endline="77">getCoinScore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_factory_1a6c56565e19a9cd01928d79f5e0e845e7" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_coin" kindref="compound">Coin</ref> * &gt;</type>
+        <definition>std::vector&lt;Coin *&gt; CoinFactory::m_coinList</definition>
+        <argsstring></argsstring>
+        <name>m_coinList</name>
+        <briefdescription>
+<para>vector list that hold pointers to all the coins created </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="87" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_coin_factory_1a114317e986201bc303df984fd3584149" compoundref="_coinfactory_8cpp" startline="13" endline="23">~CoinFactory</referencedby>
+        <referencedby refid="class_coin_factory_1a33e82d3274d0cac868158050a7ecc45c" compoundref="_coinfactory_8cpp" startline="25" endline="32">createCoin</referencedby>
+        <referencedby refid="class_coin_factory_1ad0329c17c081e4b912648b5a8123d2b1" compoundref="_coinfactory_8cpp" startline="34" endline="50">deleteCoin</referencedby>
+        <referencedby refid="class_coin_factory_1a621b962c65f182efd7d9b92c1dcc0407" compoundref="_coin_factory_8h" startline="64" endline="64">getCoins</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_factory_1ab9f039bf03ac92993d081d0f4a627a2f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_coin" kindref="compound">Coin</ref> *</type>
+        <definition>Coin* CoinFactory::m_coin</definition>
+        <argsstring></argsstring>
+        <name>m_coin</name>
+        <briefdescription>
+<para>pointer to coin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="91" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="91" bodyend="-1"/>
+        <referencedby refid="class_coin_factory_1a33e82d3274d0cac868158050a7ecc45c" compoundref="_coinfactory_8cpp" startline="25" endline="32">createCoin</referencedby>
+        <referencedby refid="class_coin_factory_1a4f0b79d4ec0a8a6eb35a11ab646ca84f" compoundref="_coin_factory_8h" startline="43" endline="43">getCoin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_factory_1a6094e562f9dde737962137b8e5292925" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* CoinFactory::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>pointer to our physicsWorld </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="95" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="95" bodyend="-1"/>
+        <referencedby refid="class_coin_factory_1a33e82d3274d0cac868158050a7ecc45c" compoundref="_coinfactory_8cpp" startline="25" endline="32">createCoin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_factory_1a3c2a553c594cade85112350ec157243b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_trigger" kindref="compound">Trigger</ref> *</type>
+        <definition>Trigger* CoinFactory::m_coinTrigger</definition>
+        <argsstring></argsstring>
+        <name>m_coinTrigger</name>
+        <briefdescription>
+<para>pointer to the coin&apos;s trigger </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="99" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_factory_1a5fe579a9bdc16932dda6d0bddc8472af" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; CoinFactory::m_coinPosListUnordered</definition>
+        <argsstring></argsstring>
+        <name>m_coinPosListUnordered</name>
+        <briefdescription>
+<para>raw data of text file that holds coin positions </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="103" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="103" bodyend="-1"/>
+        <referencedby refid="class_coin_factory_1a01111c06edf1c226c50e3b974db97660" compoundref="_coinfactory_8cpp" startline="52" endline="74">readCoinPosData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_factory_1a8adffa8b0101b938b24735c201bee6b2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; ngl::Vec3 &gt;</type>
+        <definition>std::vector&lt;ngl::Vec3&gt; CoinFactory::m_coinPosList</definition>
+        <argsstring></argsstring>
+        <name>m_coinPosList</name>
+        <briefdescription>
+<para>sorted data that holds the x,y,z position of the coins </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="107" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="107" bodyend="-1"/>
+        <referencedby refid="class_coin_factory_1a01111c06edf1c226c50e3b974db97660" compoundref="_coinfactory_8cpp" startline="52" endline="74">readCoinPosData</referencedby>
+        <referencedby refid="class_coin_factory_1a3640e87eacd4265e74f472d59a9e827f" compoundref="_coin_factory_8h" startline="51" endline="51">getCoinPosList</referencedby>
+        <referencedby refid="class_coin_factory_1ad144c1d069cef94ab8369b68d69d5a89" compoundref="_coin_factory_8h" startline="56" endline="56">getCoinPos</referencedby>
+        <referencedby refid="class_coin_factory_1a1b71af55f204e51d68f66c0087cfbd52" compoundref="_coin_factory_8h" startline="60" endline="60">getNumCoins</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_coin_factory_1a737e176c7f9f82e099ff1c664e6109eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CoinFactory::CoinFactory</definition>
+        <argsstring>()</argsstring>
+        <name>CoinFactory</name>
+        <briefdescription>
+<para>ctor of the coin factory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="23" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coinfactory.cpp" bodystart="7" bodyend="11"/>
+        <references refid="class_coin_factory_1a5adfdbfc688574a74467dce1a87d9532" compoundref="_coin_factory_8h" startline="83">m_coinCounter</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1a114317e986201bc303df984fd3584149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CoinFactory::~CoinFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~CoinFactory</name>
+        <briefdescription>
+<para>dtor for the coin factory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="27" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coinfactory.cpp" bodystart="13" bodyend="23"/>
+        <references refid="class_coin_factory_1a6c56565e19a9cd01928d79f5e0e845e7" compoundref="_coin_factory_8h" startline="87">m_coinList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1a33e82d3274d0cac868158050a7ecc45c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoinFactory::createCoin</definition>
+        <argsstring>(ngl::Vec3 _pos, std::string _id, PhysicsWorld *_physics)</argsstring>
+        <name>createCoin</name>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pos</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>creates a new coin by calling the coin class </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position of coin </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>identifier for coin </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_physics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to physicsworld class </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="34" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coinfactory.cpp" bodystart="25" bodyend="32"/>
+        <references refid="class_coin_factory_1ab9f039bf03ac92993d081d0f4a627a2f" compoundref="_coin_factory_8h" startline="91">m_coin</references>
+        <references refid="class_coin_factory_1a6c56565e19a9cd01928d79f5e0e845e7" compoundref="_coin_factory_8h" startline="87">m_coinList</references>
+        <references refid="class_coin_factory_1a6094e562f9dde737962137b8e5292925" compoundref="_coin_factory_8h" startline="95">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1ad0329c17c081e4b912648b5a8123d2b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoinFactory::deleteCoin</definition>
+        <argsstring>(Coin *_coin)</argsstring>
+        <name>deleteCoin</name>
+        <param>
+          <type><ref refid="class_coin" kindref="compound">Coin</ref> *</type>
+          <declname>_coin</declname>
+        </param>
+        <briefdescription>
+<para>deletes a specified coin along with this pointer </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_coin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to the coin class </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="39" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coinfactory.cpp" bodystart="34" bodyend="50"/>
+        <references refid="class_coin_factory_1a6c56565e19a9cd01928d79f5e0e845e7" compoundref="_coin_factory_8h" startline="87">m_coinList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1a4f0b79d4ec0a8a6eb35a11ab646ca84f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_coin" kindref="compound">Coin</ref> *</type>
+        <definition>Coin* CoinFactory::getCoin</definition>
+        <argsstring>()</argsstring>
+        <name>getCoin</name>
+        <briefdescription>
+<para>returns pointer to our coin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="43" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="43" bodyend="43"/>
+        <references refid="class_coin_factory_1ab9f039bf03ac92993d081d0f4a627a2f" compoundref="_coin_factory_8h" startline="91">m_coin</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1a01111c06edf1c226c50e3b974db97660" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoinFactory::readCoinPosData</definition>
+        <argsstring>()</argsstring>
+        <name>readCoinPosData</name>
+        <briefdescription>
+<para>reads in a text file that specifies the x,y,z position of each coin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="47" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coinfactory.cpp" bodystart="52" bodyend="74"/>
+        <references refid="main_8cpp_1a822c103b79ef8d6a36c81a14cd038e07" compoundref="main_8cpp" startline="757" endline="810">exit</references>
+        <references refid="class_coin_factory_1a8adffa8b0101b938b24735c201bee6b2" compoundref="_coin_factory_8h" startline="107">m_coinPosList</references>
+        <references refid="class_coin_factory_1a5fe579a9bdc16932dda6d0bddc8472af" compoundref="_coin_factory_8h" startline="103">m_coinPosListUnordered</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1a3640e87eacd4265e74f472d59a9e827f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; ngl::Vec3 &gt; &amp;</type>
+        <definition>const std::vector&lt;ngl::Vec3&gt;&amp; CoinFactory::getCoinPosList</definition>
+        <argsstring>()</argsstring>
+        <name>getCoinPosList</name>
+        <briefdescription>
+<para>returns a std::vector that holds all the positions of the coins </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="51" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="51" bodyend="51"/>
+        <references refid="class_coin_factory_1a8adffa8b0101b938b24735c201bee6b2" compoundref="_coin_factory_8h" startline="107">m_coinPosList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1ad144c1d069cef94ab8369b68d69d5a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 CoinFactory::getCoinPos</definition>
+        <argsstring>(int _index)</argsstring>
+        <name>getCoinPos</name>
+        <param>
+          <type>int</type>
+          <declname>_index</declname>
+        </param>
+        <briefdescription>
+<para>get the positions of a specific coin from the list </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="56" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="56" bodyend="56"/>
+        <references refid="class_coin_factory_1a8adffa8b0101b938b24735c201bee6b2" compoundref="_coin_factory_8h" startline="107">m_coinPosList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1a1b71af55f204e51d68f66c0087cfbd52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoinFactory::getNumCoins</definition>
+        <argsstring>()</argsstring>
+        <name>getNumCoins</name>
+        <briefdescription>
+<para>returns the number of coins within the std::vector </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="60" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="60" bodyend="60"/>
+        <references refid="class_coin_factory_1a8adffa8b0101b938b24735c201bee6b2" compoundref="_coin_factory_8h" startline="107">m_coinPosList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1a621b962c65f182efd7d9b92c1dcc0407" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_coin" kindref="compound">Coin</ref> * &gt;</type>
+        <definition>std::vector&lt;Coin*&gt; CoinFactory::getCoins</definition>
+        <argsstring>()</argsstring>
+        <name>getCoins</name>
+        <briefdescription>
+<para>returns a std::vector that holds pointers to all the coins </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="64" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="64" bodyend="64"/>
+        <references refid="class_coin_factory_1a6c56565e19a9cd01928d79f5e0e845e7" compoundref="_coin_factory_8h" startline="87">m_coinList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1aae043cfa76991afb2d3ec53e2c974d1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoinFactory::setCoinScore</definition>
+        <argsstring>()</argsstring>
+        <name>setCoinScore</name>
+        <briefdescription>
+<para>set the global coin score to zero </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="68" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="68" bodyend="68"/>
+        <references refid="class_coin_factory_1a5adfdbfc688574a74467dce1a87d9532" compoundref="_coin_factory_8h" startline="83">m_coinCounter</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1afb4f245060a0d37ba54c4246a482deda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoinFactory::addCoinScore</definition>
+        <argsstring>(int _score)</argsstring>
+        <name>addCoinScore</name>
+        <param>
+          <type>int</type>
+          <declname>_score</declname>
+        </param>
+        <briefdescription>
+<para>increment the global coin counter by a specific amount </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_score</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to add to the global score </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="73" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="73" bodyend="73"/>
+        <references refid="class_coin_factory_1a5adfdbfc688574a74467dce1a87d9532" compoundref="_coin_factory_8h" startline="83">m_coinCounter</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_factory_1a180706b285382c2c0e1cf390d6299c65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoinFactory::getCoinScore</definition>
+        <argsstring>()</argsstring>
+        <name>getCoinScore</name>
+        <briefdescription>
+<para>return the global coin score </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="77" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="77" bodyend="77"/>
+        <references refid="class_coin_factory_1a5adfdbfc688574a74467dce1a87d9532" compoundref="_coin_factory_8h" startline="83">m_coinCounter</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This manages coin creation and collisions of the coins. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="105">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="106" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="109">
+        <label>LTimer</label>
+        <link refid="class_l_timer"/>
+      </node>
+      <node id="107">
+        <label>Trigger</label>
+        <link refid="class_trigger"/>
+        <childnode refid="105" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+      </node>
+      <node id="106">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+      <node id="108">
+        <label>Coin</label>
+        <link refid="class_coin"/>
+        <childnode refid="105" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+        <childnode refid="109" relation="usage">
+          <edgelabel>-m_coinTimer</edgelabel>
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>-m_coinTrigger</edgelabel>
+        </childnode>
+      </node>
+      <node id="104">
+        <label>CoinFactory</label>
+        <link refid="class_coin_factory"/>
+        <childnode refid="105" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>-m_coinTrigger</edgelabel>
+        </childnode>
+        <childnode refid="108" relation="usage">
+          <edgelabel>-m_coin</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" line="18" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/CoinFactory.h" bodystart="17" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_coin_factory_1afb4f245060a0d37ba54c4246a482deda" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>addCoinScore</name></member>
+      <member refid="class_coin_factory_1a737e176c7f9f82e099ff1c664e6109eb" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>CoinFactory</name></member>
+      <member refid="class_coin_factory_1a33e82d3274d0cac868158050a7ecc45c" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>createCoin</name></member>
+      <member refid="class_coin_factory_1ad0329c17c081e4b912648b5a8123d2b1" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>deleteCoin</name></member>
+      <member refid="class_coin_factory_1a4f0b79d4ec0a8a6eb35a11ab646ca84f" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>getCoin</name></member>
+      <member refid="class_coin_factory_1ad144c1d069cef94ab8369b68d69d5a89" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>getCoinPos</name></member>
+      <member refid="class_coin_factory_1a3640e87eacd4265e74f472d59a9e827f" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>getCoinPosList</name></member>
+      <member refid="class_coin_factory_1a621b962c65f182efd7d9b92c1dcc0407" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>getCoins</name></member>
+      <member refid="class_coin_factory_1a180706b285382c2c0e1cf390d6299c65" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>getCoinScore</name></member>
+      <member refid="class_coin_factory_1a1b71af55f204e51d68f66c0087cfbd52" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>getNumCoins</name></member>
+      <member refid="class_coin_factory_1ab9f039bf03ac92993d081d0f4a627a2f" prot="private" virt="non-virtual"><scope>CoinFactory</scope><name>m_coin</name></member>
+      <member refid="class_coin_factory_1a5adfdbfc688574a74467dce1a87d9532" prot="private" virt="non-virtual"><scope>CoinFactory</scope><name>m_coinCounter</name></member>
+      <member refid="class_coin_factory_1a6c56565e19a9cd01928d79f5e0e845e7" prot="private" virt="non-virtual"><scope>CoinFactory</scope><name>m_coinList</name></member>
+      <member refid="class_coin_factory_1a8adffa8b0101b938b24735c201bee6b2" prot="private" virt="non-virtual"><scope>CoinFactory</scope><name>m_coinPosList</name></member>
+      <member refid="class_coin_factory_1a5fe579a9bdc16932dda6d0bddc8472af" prot="private" virt="non-virtual"><scope>CoinFactory</scope><name>m_coinPosListUnordered</name></member>
+      <member refid="class_coin_factory_1a3c2a553c594cade85112350ec157243b" prot="private" virt="non-virtual"><scope>CoinFactory</scope><name>m_coinTrigger</name></member>
+      <member refid="class_coin_factory_1a6094e562f9dde737962137b8e5292925" prot="private" virt="non-virtual"><scope>CoinFactory</scope><name>m_physics</name></member>
+      <member refid="class_coin_factory_1a01111c06edf1c226c50e3b974db97660" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>readCoinPosData</name></member>
+      <member refid="class_coin_factory_1aae043cfa76991afb2d3ec53e2c974d1e" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>setCoinScore</name></member>
+      <member refid="class_coin_factory_1a114317e986201bc303df984fd3584149" prot="public" virt="non-virtual"><scope>CoinFactory</scope><name>~CoinFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

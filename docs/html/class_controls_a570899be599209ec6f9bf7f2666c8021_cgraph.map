@@ -1,0 +1,3 @@
+<map id="Controls::setJumpHopMaxTimePositive" name="Controls::setJumpHopMaxTimePositive">
+<area shape="rect" id="node2" href="$class_character.html#a8227f22bd71a7d880e7c28e41fc07602" title="increments the time that the jump force is applied to the character " alt="" coords="261,5,448,46"/>
+</map>

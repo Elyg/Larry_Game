@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_text" kind="class" prot="public">
+    <compoundname>Text</compoundname>
+    <includes refid="_text_8h" local="no">Text.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_text_1a3fa2d5b1a68627c8415c500bd95ec353" prot="private" static="no" mutable="no">
+        <type>std::map&lt; char, <ref refid="struct_font_char" kindref="compound">FontChar</ref> &gt;</type>
+        <definition>std::map&lt;char,FontChar&gt; Text::m_characters</definition>
+        <argsstring></argsstring>
+        <name>m_characters</name>
+        <briefdescription>
+<para>a hash to store our <ref refid="struct_font_char" kindref="compound">FontChar</ref> data looked up by the char we want to render according to the Qt Docs a hash has faster lookups than QMap so using this </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="118" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" compoundref="_text_8cpp" startline="45" endline="213">Text</referencedby>
+        <referencedby refid="class_text_1a3d0591d0b3a6bd73543cb8637fbe91e5" compoundref="_text_8cpp" startline="232" endline="288">renderText</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Text::Text</definition>
+        <argsstring>(const std::string &amp;_f, int _size)</argsstring>
+        <name>Text</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_f</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_size</declname>
+        </param>
+        <briefdescription>
+<para>ctor must pass in a ready constructed QFont make sure the size and emphasis is set before doing this as you can&apos;t modify the font after construction and you will need a new <ref refid="class_text" kindref="compound">Text</ref> class for each different type of text / font </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the font to use for drawing the text </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="70" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Text.cpp" bodystart="45" bodyend="213"/>
+        <references refid="main_8cpp_1a822c103b79ef8d6a36c81a14cd038e07" compoundref="main_8cpp" startline="757" endline="810">exit</references>
+        <references refid="class_text_1a3fa2d5b1a68627c8415c500bd95ec353" compoundref="_text_8h" startline="118">m_characters</references>
+        <references refid="_text_8cpp_1aa1f6e37d2b388fc3b779638bc3fb714c" compoundref="_text_8cpp" startline="32" endline="41">nearestPowerOfTwo</references>
+        <references refid="class_text_1ad898e1ff3c2221029c115ed5de7f1b72" compoundref="_text_8cpp" startline="317" endline="325">setColour</references>
+        <references refid="class_text_1a6ec9d77b284824829150b8ebb436c358" compoundref="_text_8cpp" startline="338" endline="345">setTransform</references>
+        <references refid="struct_font_char_1ae1075095d8060c578b87d6437eccec2c" compoundref="_text_8h" startline="57">FontChar::textureID</references>
+        <references refid="struct_font_char_1a890a0845ed36a0d9aa80eff184f76230" compoundref="_text_8h" startline="58">FontChar::vao</references>
+        <references refid="struct_font_char_1ad9a465bf2576f17d4123d440d1b4a6cb" compoundref="_text_8h" startline="56">FontChar::width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_text_1a2d49e5c280e205125b149f7777ae30c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Text::~Text</definition>
+        <argsstring>()</argsstring>
+        <name>~Text</name>
+        <briefdescription>
+<para>dtor will clean / remove textures and VAO&apos;s for the class </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="75" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Text.cpp" bodystart="217" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_text_1a3d0591d0b3a6bd73543cb8637fbe91e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::renderText</definition>
+        <argsstring>(float _x, float _y, const std::string &amp;_text) const </argsstring>
+        <name>renderText</name>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_text</declname>
+        </param>
+        <briefdescription>
+<para>render the text to the screen at _x,_y where 0,0 is top left of the screen all positioning is relative to the screen size set with the setScreenSize method so it is important that changes in screen size are updated. These value will be sent to the nglTextShader to be rendered (see source ) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>font quad is drawn as 0,0 being bottom left so if we draw at 0,0 the font will not be visible, we need to add the offset of the font height to any y value (i.e. a 16pt font drawn at 0,16 will appear at top right of the screen) </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the x position of the text in screen space </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the y position of the text in screen space </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the text to draw (this is limited to ASCII chars &apos; &apos;-&gt;&apos;~&apos; at present but unicode will be done soon </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="87" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Text.cpp" bodystart="232" bodyend="288"/>
+        <references refid="class_text_1a3fa2d5b1a68627c8415c500bd95ec353" compoundref="_text_8h" startline="118">m_characters</references>
+        <references refid="struct_font_char_1ae1075095d8060c578b87d6437eccec2c" compoundref="_text_8h" startline="57">FontChar::textureID</references>
+        <references refid="struct_font_char_1a890a0845ed36a0d9aa80eff184f76230" compoundref="_text_8h" startline="58">FontChar::vao</references>
+        <references refid="struct_font_char_1ad9a465bf2576f17d4123d440d1b4a6cb" compoundref="_text_8h" startline="56">FontChar::width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_text_1adf20a23bc781824e83dc50c121f56aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setScreenSize</definition>
+        <argsstring>(int _w, int _h)</argsstring>
+        <name>setScreenSize</name>
+        <param>
+          <type>int</type>
+          <declname>_w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_h</declname>
+        </param>
+        <briefdescription>
+<para>set the size of the screen to scale our font to fit correctly this basically creates the orthographic projection needed for x/y assuming that the openGL window has 0,0 at the center and we use NDC co-ordinates -1 -&gt; 1 in X and Y we then get x=(x*xScale)+xtran y=(y*yScale)+ytrans; to place the text in screen space </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current width of the screen </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current height of the screen </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="96" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Text.cpp" bodystart="291" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_text_1ad898e1ff3c2221029c115ed5de7f1b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setColour</definition>
+        <argsstring>(const ngl::Colour &amp;_c)</argsstring>
+        <name>setColour</name>
+        <param>
+          <type>const ngl::Colour &amp;</type>
+          <declname>_c</declname>
+        </param>
+        <briefdescription>
+<para>set the colour of the font from an Colour </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the colour to set for the font (alpha is overridden by the texture) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="101" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Text.cpp" bodystart="317" bodyend="325"/>
+        <referencedby refid="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" compoundref="_text_8cpp" startline="45" endline="213">Text</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_text_1ae2ce0fc28fdfccc2842487d5be64e12a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setColour</definition>
+        <argsstring>(ngl::Real _r, ngl::Real _g, ngl::Real _b)</argsstring>
+        <name>setColour</name>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_r</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_g</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_b</declname>
+        </param>
+        <briefdescription>
+<para>set the colour of the font from three floats as a convenience method </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the red component of the colour for the font </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the green component of the colour for the font </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the blue component of the colour for the font </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="108" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Text.cpp" bodystart="329" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="class_text_1a6ec9d77b284824829150b8ebb436c358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setTransform</definition>
+        <argsstring>(float _x, float _y)</argsstring>
+        <name>setTransform</name>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="110" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Text.cpp" bodystart="338" bodyend="345"/>
+        <referencedby refid="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" compoundref="_text_8cpp" startline="45" endline="213">Text</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class to draw text </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>10/10/11 Initial version </para></simplesect>
+<xrefsect id="todo_1_todo000001"><xreftitle>Todo</xreftitle><xrefdescription><para>support unicode ASCII is so 1980&apos;s ;-0 This class will generate billboard textures and VertexArrayObjects for each of the font glyphs, this means we need a valid OpenGL context before using this class, therefore it should be constructed in initalizeGL or after. Note for efficiency once the font has been created we can only change the colour, if you need different sizes / emphasis you will need to create a new <ref refid="class_text" kindref="compound">Text</ref> object with the desired size / emphasis. This is accelerated as much as possible but text rendering will sometimes be slow as we bind a new texture for each char being drawn for more details look at the blog post here <ulink url="http://jonmacey.blogspot.com/2011/10/text-rendering-using-opengl-32.html">http://jonmacey.blogspot.com/2011/10/text-rendering-using-opengl-32.html</ulink> </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="151">
+        <label>Text</label>
+        <link refid="class_text"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="62" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" bodystart="61" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_text_1a3fa2d5b1a68627c8415c500bd95ec353" prot="private" virt="non-virtual"><scope>Text</scope><name>m_characters</name></member>
+      <member refid="class_text_1a3d0591d0b3a6bd73543cb8637fbe91e5" prot="public" virt="non-virtual"><scope>Text</scope><name>renderText</name></member>
+      <member refid="class_text_1ad898e1ff3c2221029c115ed5de7f1b72" prot="public" virt="non-virtual"><scope>Text</scope><name>setColour</name></member>
+      <member refid="class_text_1ae2ce0fc28fdfccc2842487d5be64e12a" prot="public" virt="non-virtual"><scope>Text</scope><name>setColour</name></member>
+      <member refid="class_text_1adf20a23bc781824e83dc50c121f56aea" prot="public" virt="non-virtual"><scope>Text</scope><name>setScreenSize</name></member>
+      <member refid="class_text_1a6ec9d77b284824829150b8ebb436c358" prot="public" virt="non-virtual"><scope>Text</scope><name>setTransform</name></member>
+      <member refid="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" prot="public" virt="non-virtual"><scope>Text</scope><name>Text</name></member>
+      <member refid="class_text_1a2d49e5c280e205125b149f7777ae30c7" prot="public" virt="non-virtual"><scope>Text</scope><name>~Text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

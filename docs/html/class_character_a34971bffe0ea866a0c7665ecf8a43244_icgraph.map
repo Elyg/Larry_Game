@@ -1,0 +1,3 @@
+<map id="Character::setJumpHopMaxTimeNegative" name="Character::setJumpHopMaxTimeNegative">
+<area shape="rect" id="node2" href="$class_controls.html#aef45854f27613d3bc5178cbdee862f68" title="decrements the max jump time " alt="" coords="241,5,447,46"/>
+</map>

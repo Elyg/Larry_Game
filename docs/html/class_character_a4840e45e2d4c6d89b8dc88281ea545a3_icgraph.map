@@ -1,0 +1,7 @@
+<map id="Character::speed" name="Character::speed">
+<area shape="rect" id="node2" href="$class_character.html#abf33e302dfc561564363d48a518f74a8" title="clamps velocity based on name " alt="" coords="176,5,317,32"/>
+<area shape="rect" id="node3" href="$class_character.html#a595fba03a652891741ee6631a6079674" title="makes character move based on the direction vector " alt="" coords="365,5,539,32"/>
+<area shape="rect" id="node4" href="$class_controls.html#a05b74314f8236b971e20d1868d437286" title="moves the character based on the direction vector " alt="" coords="587,5,781,32"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="830,5,885,32"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="933,5,984,32"/>
+</map>

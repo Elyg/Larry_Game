@@ -1,0 +1,10 @@
+<map id="Character::detectCollisionForJump" name="Character::detectCollisionForJump">
+<area shape="rect" id="node2" href="$class_character.html#ab78c29a4a476cd3e5530e4ea63d35ffb" title="creates a jump impulse " alt="" coords="247,56,409,83"/>
+<area shape="rect" id="node3" href="$class_character.html#a595fba03a652891741ee6631a6079674" title="makes character move based on the direction vector " alt="" coords="477,5,651,32"/>
+<area shape="rect" id="node8" href="$class_character.html#ae58527d608910235f06445cd9d274a56" title="starts the timer for the hop " alt="" coords="227,107,429,133"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="942,107,997,133"/>
+<area shape="rect" id="node7" href="$class_controls.html#a472ff85242095dbe9435de7e5ab51bf5" title="applies a jump impulse to the character " alt="" coords="487,56,641,83"/>
+<area shape="rect" id="node4" href="$class_controls.html#a05b74314f8236b971e20d1868d437286" title="moves the character based on the direction vector " alt="" coords="699,31,893,57"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1045,107,1096,133"/>
+<area shape="rect" id="node9" href="$class_controls.html#a508630b1ee74d999f41e238c9c45c4c5" title="starts the jump hop timer " alt="" coords="699,107,893,133"/>
+</map>

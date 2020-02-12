@@ -1,0 +1,4 @@
+<map id="Platform" name="Platform">
+<area shape="rect" id="node2" href="$class_physics_world.html" title="This manages coin creation and collisions of the coins. " alt="" coords="5,177,187,562"/>
+<area shape="rect" id="node3" href="$struct_physics_world_1_1_body.html" title="{PhysicsWorld::Body\n|+ name\l+ body\l|}" alt="" coords="25,6,167,98"/>
+</map>

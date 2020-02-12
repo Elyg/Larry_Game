@@ -1,0 +1,4 @@
+<map id="Coin::isCoinHit" name="Coin::isCoinHit">
+<area shape="rect" id="node2" href="$class_trigger.html#aa93984db488edcfe733bd269755587bc" title="Returns true if the specified physics body is inside the bounds. " alt="" coords="166,5,263,32"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a6d5cca57854b708690441dd0a75cb2fd" title="returns the position of the specified shape&#39;s centre of mass " alt="" coords="313,5,527,32"/>
+</map>
