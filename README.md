@@ -44,3 +44,7 @@ The controls for the game are as follows:
 [https://www.libsdl.org/download-2.0.php](https://www.libsdl.org/download-2.0.php)
 
 [https://github.com/NCCA/NGL](https://github.com/NCCA/NGL)
+```
+You can find the doxygen generated documentation for this project in the /docs folder, 
+just open the /docs/index.html with your preffered browser
+```
