@@ -1,10 +1,10 @@
 # Lozenge Larry's Road to Destiny
 This is my group university project, which is a platformer game developed with OpenGL, SDL, Bullet and NGL
-This application is using some of the graphic libraries created by our lecturer at Bournemouth University (NCCA)
+This application is using some of the graphic libraries (NGL) created by our lecturer at Bournemouth University (NCCA)
 
-I was mainly responsible for wrapping up the Bullet Physics Engine, collisions/collision shapes, controls, debugging, import/export geometry, implementation of game features.
+I was mainly responsible for wrapping up the Bullet Physics Engine, collisions/collision shapes, controls, debugging, import/export geometry, implementation of game features (the headers files contain the authors)
                                                                                                                   
-![](https://github.com/Elyg/OpenGL_Flocking/blob/master/flocking_demo.gif)
+![](https://github.com/Elyg/Larry_Game/blob/master/demo/larry_game_demo.gif)
 
 # Library dependancies
 
