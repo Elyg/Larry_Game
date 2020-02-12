@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_trigger_8h" kind="file">
+    <compoundname>Trigger.h</compoundname>
+    <includes local="yes">ngl/Vec3.h</includes>
+    <includes refid="_physics_world_8h" local="yes">PhysicsWorld.h</includes>
+    <includes local="yes">ngl/VAOPrimitives.h</includes>
+    <includes local="yes">ngl/Transformation.h</includes>
+    <includedby refid="_trigger_8cpp" local="yes">Trigger.cpp</includedby>
+    <includedby refid="_coin_8h" local="yes">Coin.h</includedby>
+    <includedby refid="_coin_factory_8h" local="yes">CoinFactory.h</includedby>
+    <includedby refid="_n_g_l_draw_8h" local="yes">NGLDraw.h</includedby>
+    <includedby refid="_trigger_factory_8h" local="yes">TriggerFactory.h</includedby>
+    <incdepgraph>
+      <node id="2622">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="2619">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="2620" relation="include">
+        </childnode>
+        <childnode refid="2621" relation="include">
+        </childnode>
+        <childnode refid="2612" relation="include">
+        </childnode>
+      </node>
+      <node id="2623">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="2611">
+        <label>Trigger.h</label>
+        <link refid="Trigger.h"/>
+        <childnode refid="2612" relation="include">
+        </childnode>
+        <childnode refid="2613" relation="include">
+        </childnode>
+        <childnode refid="2622" relation="include">
+        </childnode>
+        <childnode refid="2623" relation="include">
+        </childnode>
+      </node>
+      <node id="2616">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2621">
+        <label>vector</label>
+      </node>
+      <node id="2615">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="2614">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2620">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="2618">
+        <label>set</label>
+      </node>
+      <node id="2612">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="2617">
+        <label>memory</label>
+      </node>
+      <node id="2613">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="2614" relation="include">
+        </childnode>
+        <childnode refid="2612" relation="include">
+        </childnode>
+        <childnode refid="2615" relation="include">
+        </childnode>
+        <childnode refid="2616" relation="include">
+        </childnode>
+        <childnode refid="2617" relation="include">
+        </childnode>
+        <childnode refid="2618" relation="include">
+        </childnode>
+        <childnode refid="2619" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2628">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="2629" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+      </node>
+      <node id="2635">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="2636" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+      </node>
+      <node id="2640">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="2627">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="2624">
+        <label>Trigger.h</label>
+        <link refid="Trigger.h"/>
+        <childnode refid="2625" relation="include">
+        </childnode>
+        <childnode refid="2626" relation="include">
+        </childnode>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+        <childnode refid="2641" relation="include">
+        </childnode>
+      </node>
+      <node id="2631">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2642">
+        <label>TriggerFactory.cpp</label>
+        <link refid="_trigger_factory_8cpp"/>
+      </node>
+      <node id="2639">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="2636" relation="include">
+        </childnode>
+        <childnode refid="2640" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+      </node>
+      <node id="2637">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="2638" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+      </node>
+      <node id="2625">
+        <label>Trigger.cpp</label>
+        <link refid="_trigger_8cpp"/>
+      </node>
+      <node id="2629">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="2630">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="2631" relation="include">
+        </childnode>
+        <childnode refid="2632" relation="include">
+        </childnode>
+        <childnode refid="2633" relation="include">
+        </childnode>
+        <childnode refid="2635" relation="include">
+        </childnode>
+        <childnode refid="2626" relation="include">
+        </childnode>
+        <childnode refid="2637" relation="include">
+        </childnode>
+        <childnode refid="2639" relation="include">
+        </childnode>
+      </node>
+      <node id="2632">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="2633">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="2634" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+        <childnode refid="2632" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+      </node>
+      <node id="2636">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="2634">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="2626">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="2627" relation="include">
+        </childnode>
+        <childnode refid="2628" relation="include">
+        </childnode>
+      </node>
+      <node id="2638">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+      <node id="2641">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="2642" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_trigger" prot="public">Trigger</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Tom Rule </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TRIGGER</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TRIGGER</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ngl/Vec3.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_physics_world_8h" kindref="compound">PhysicsWorld.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ngl/VAOPrimitives.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ngl/Transformation.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_trigger" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_trigger" kindref="compound">Trigger</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" kindref="member">Trigger</ref>(std::string<sp/>_name,<sp/>ngl::Vec3<sp/>_pos1,<sp/>ngl::Vec3<sp/>_pos2,<sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<sp/>_physics);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_trigger_1a1a2d107dd06737f51c81c4897c75e59d" kindref="member">~Trigger</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_trigger_1aa93984db488edcfe733bd269755587bc" kindref="member">isHit</ref>(std::string<sp/>_name);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Transformation<sp/><ref refid="class_trigger_1a5a3b38ef64daee02fc3c08d71a61b22f" kindref="member">getTransform</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_trigger_1acbac4d9e2effcdb2c5a8c5a8289cab51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_trigger_1acbac4d9e2effcdb2c5a8c5a8289cab51" kindref="member">getTriggerID</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" kindref="member">m_triggerID</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<sp/><ref refid="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" kindref="member">m_physics</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" kindref="member">m_triggerID</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>TRIGGER</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h"/>
+  </compounddef>
+</doxygen>

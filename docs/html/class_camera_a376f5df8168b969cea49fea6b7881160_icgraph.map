@@ -1,0 +1,8 @@
+<map id="Camera::getVPMatrix" name="Camera::getVPMatrix">
+<area shape="rect" id="node2" href="$class_n_g_l_draw.html#a2d79c02d374ba7dd3db79f3c7058106c" title="method to pick a shader type and load object matrices to the shader " alt="" coords="203,56,359,83"/>
+<area shape="rect" id="node3" href="$class_n_g_l_draw.html#ad3e4e95bd10a6590c083e3925a9570a0" title="draw the scene from the lights POV for the depth pass " alt="" coords="431,5,582,32"/>
+<area shape="rect" id="node4" href="$class_n_g_l_draw.html#aec8a377329da67db1e2ef007bd27f026" title="draw the scene " alt="" coords="654,31,770,57"/>
+<area shape="rect" id="node7" href="$class_n_g_l_draw.html#a16334df95f8d9a51532f3338917e5f15" title="NGLDraw::updateDebugDraw" alt="" coords="409,107,605,133"/>
+<area shape="rect" id="node5" href="$class_n_g_l_draw.html#ae5151dc189fd5de5649b72c5e76bcf47" title="resize our screen and set the camera aspect ratio " alt="" coords="837,5,960,32"/>
+<area shape="rect" id="node6" href="$class_n_g_l_draw.html#a21c11b65d353b76a7cc984db69aad208" title="NGLDraw::updateDraw" alt="" coords="819,56,978,83"/>
+</map>

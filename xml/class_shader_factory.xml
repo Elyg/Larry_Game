@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_shader_factory" kind="class" prot="public">
+    <compoundname>ShaderFactory</compoundname>
+    <includes refid="_shader_factory_8h" local="no">ShaderFactory.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shader_factory_1afb7dddffa132654b2a6c7b4b1dfd7fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ShaderFactory::ShaderFactory</definition>
+        <argsstring>()</argsstring>
+        <name>ShaderFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/ShaderFactory.h" line="14" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/ShaderFactory.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shader_factory_1a24e606eeaf1f429b2cc8d4ddf23f92e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ShaderFactory::~ShaderFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~ShaderFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/ShaderFactory.h" line="15" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/ShaderFactory.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shader_factory_1a380d9159ce70475f4337d97bf2120416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShaderFactory::createDebugShader</definition>
+        <argsstring>()</argsstring>
+        <name>createDebugShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/ShaderFactory.h" line="17" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/ShaderFactory.cpp" bodystart="9" bodyend="33"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shader_factory_1a7c8dd505b5c3b2438784d99bc6dc0356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShaderFactory::createTextureShader</definition>
+        <argsstring>()</argsstring>
+        <name>createTextureShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/ShaderFactory.h" line="18" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/ShaderFactory.cpp" bodystart="35" bodyend="54"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shader_factory_1a6ea1c591503f6b4f0d044a1cf695f9a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShaderFactory::createGroundShader</definition>
+        <argsstring>()</argsstring>
+        <name>createGroundShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/ShaderFactory.h" line="19" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/ShaderFactory.cpp" bodystart="57" bodyend="83"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_shader_factory_1a51fbd5c27d493d2c80415a6c46efaf28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShaderFactory::createPhongShader</definition>
+        <argsstring>()</argsstring>
+        <name>createPhongShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/ShaderFactory.h" line="20" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/ShaderFactory.cpp" bodystart="85" bodyend="111"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class encapsulates the creation of all shader programs, loading and attaching of the sources, linking and compiling. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="149">
+        <label>ShaderFactory</label>
+        <link refid="class_shader_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/ShaderFactory.h" line="12" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/ShaderFactory.h" bodystart="11" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_shader_factory_1a380d9159ce70475f4337d97bf2120416" prot="public" virt="non-virtual"><scope>ShaderFactory</scope><name>createDebugShader</name></member>
+      <member refid="class_shader_factory_1a6ea1c591503f6b4f0d044a1cf695f9a5" prot="public" virt="non-virtual"><scope>ShaderFactory</scope><name>createGroundShader</name></member>
+      <member refid="class_shader_factory_1a51fbd5c27d493d2c80415a6c46efaf28" prot="public" virt="non-virtual"><scope>ShaderFactory</scope><name>createPhongShader</name></member>
+      <member refid="class_shader_factory_1a7c8dd505b5c3b2438784d99bc6dc0356" prot="public" virt="non-virtual"><scope>ShaderFactory</scope><name>createTextureShader</name></member>
+      <member refid="class_shader_factory_1afb7dddffa132654b2a6c7b4b1dfd7fb5" prot="public" virt="non-virtual"><scope>ShaderFactory</scope><name>ShaderFactory</name></member>
+      <member refid="class_shader_factory_1a24e606eeaf1f429b2cc8d4ddf23f92e2" prot="public" virt="non-virtual"><scope>ShaderFactory</scope><name>~ShaderFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

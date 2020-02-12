@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_platform_factory_8cpp" kind="file">
+    <compoundname>PlatformFactory.cpp</compoundname>
+    <includes refid="_platform_factory_8h" local="yes">PlatformFactory.h</includes>
+    <incdepgraph>
+      <node id="2498">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="2499" relation="include">
+        </childnode>
+      </node>
+      <node id="2499">
+        <label>SDL.h</label>
+      </node>
+      <node id="2496">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="2491">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="2492" relation="include">
+        </childnode>
+        <childnode refid="2493" relation="include">
+        </childnode>
+        <childnode refid="2486" relation="include">
+        </childnode>
+      </node>
+      <node id="2494">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2489" relation="include">
+        </childnode>
+        <childnode refid="2496" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+      </node>
+      <node id="2497">
+        <label>string</label>
+      </node>
+      <node id="2483">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="2484" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
+        </childnode>
+        <childnode refid="2498" relation="include">
+        </childnode>
+      </node>
+      <node id="2482">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
+        </childnode>
+      </node>
+      <node id="2488">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2493">
+        <label>vector</label>
+      </node>
+      <node id="2487">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="2495">
+        <label>unordered_map</label>
+      </node>
+      <node id="2481">
+        <label>PlatformFactory.cpp</label>
+        <link refid="PlatformFactory.cpp"/>
+        <childnode refid="2482" relation="include">
+        </childnode>
+      </node>
+      <node id="2485">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2492">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="2490">
+        <label>set</label>
+      </node>
+      <node id="2486">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="2489">
+        <label>memory</label>
+      </node>
+      <node id="2484">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2489" relation="include">
+        </childnode>
+        <childnode refid="2490" relation="include">
+        </childnode>
+        <childnode refid="2491" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_platform_factory_8h" kindref="compound">PlatformFactory.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_platform_factory_1a70521c77b81db54af5fb0664ecb4c644" refkind="member"><highlight class="normal"><ref refid="class_platform_factory_1a70521c77b81db54af5fb0664ecb4c644" kindref="member">PlatformFactory::PlatformFactory</ref>(<ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*_physics)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><ref refid="class_platform_factory_1a6349ee591dce85e8d107dcf41255cc17" kindref="member">m_physics</ref><sp/>=<sp/>_physics;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_platform_factory_1ade80c7b9a39ad8141bcfc3481375b684" refkind="member"><highlight class="normal"><ref refid="class_platform_factory_1ade80c7b9a39ad8141bcfc3481375b684" kindref="member">PlatformFactory::~PlatformFactory</ref>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>traverse<sp/>through<sp/>platforms</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i:<ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>delete<sp/>current<sp/>platform<sp/>in<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>clear<sp/>the<sp/>list<sp/>of<sp/>all<sp/>the<sp/>platform<sp/>pointers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>m_platformList.clear();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_platform_factory_1a3f20e6b434a5bfa7b2532fde223e7c89" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a3f20e6b434a5bfa7b2532fde223e7c89" kindref="member">PlatformFactory::createPlatform</ref>(ngl::Vec3<sp/>_pos,<sp/>std::string<sp/>_platName,<sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" kindref="member">PlatType</ref><sp/>_platType,<sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref>*<sp/>_physics)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>a<sp/>new<sp/>platform<sp/>from<sp/>our<sp/>platform<sp/>class<sp/>and<sp/>assign<sp/>a<sp/>pointer<sp/>to<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><ref refid="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" kindref="member">m_platform</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_platform" kindref="compound">Platform</ref>(_pos,_platName,_platType,_physics);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>call<sp/>the<sp/>creation<sp/>of<sp/>platform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" kindref="member">m_platform</ref>-&gt;<ref refid="class_platform_1a929d8b9fcdbc32332673d8d48540b909" kindref="member">createPlatform</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>add<sp/>the<sp/>platform&apos;s<sp/>pointer<sp/>to<sp/>a<sp/>vector<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>.push_back(<ref refid="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" kindref="member">m_platform</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_platform_factory_1a5cb7c239d6b133b79556e2276e4924e2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a5cb7c239d6b133b79556e2276e4924e2" kindref="member">PlatformFactory::movePlatform</ref>(std::string<sp/>_platformName,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_vel,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_range,<sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aa" kindref="member">Direction</ref><sp/>_d)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>traverse<sp/>through<sp/>platform<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i:<ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>iter++;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>pointer<sp/>to<sp/>platform<sp/>equals<sp/>the<sp/>specified<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i-&gt;getPlatformName()<sp/>==<sp/>_platformName)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//set<sp/>that<sp/>platform<sp/>to<sp/>move<sp/>by<sp/>our<sp/>parameter<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i-&gt;movePlatform(_vel,_range,_d);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_platform_factory_1a4fa150bea70885fd2dc8e3edaca7b5c3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a4fa150bea70885fd2dc8e3edaca7b5c3" kindref="member">PlatformFactory::rotatePlatform</ref>(std::string<sp/>_platformName,<sp/>std::string<sp/>_axis)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>traverse<sp/>through<sp/>platform<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i:<ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>iter++;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>pointer<sp/>to<sp/>platform<sp/>equals<sp/>specified<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i-&gt;getPlatformName()<sp/>==<sp/>_platformName)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>rotate<sp/>the<sp/>platform<sp/>by<sp/>parameter<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i-&gt;rotatePlatform(_axis);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_platform_factory_1a08c510204db74f4d7c490d9ae687a4bd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a08c510204db74f4d7c490d9ae687a4bd" kindref="member">PlatformFactory::addRot</ref>(std::string<sp/>_platformName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_deg)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i:<ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>iter++;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i-&gt;getPlatformName()<sp/>==<sp/>_platformName)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>add<sp/>rotation<sp/>to<sp/>specified<sp/>platform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i-&gt;addRot(_deg);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="class_platform_factory_1abb3150d373f411d74d76de4d7ec0e99a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1abb3150d373f411d74d76de4d7ec0e99a" kindref="member">PlatformFactory::setRot</ref>(std::string<sp/>_platformName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_rot)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>i:<ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>iter++;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i-&gt;getPlatformName()<sp/>==<sp/>_platformName)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i-&gt;setRot(_rot);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="class_platform_factory_1aaa0ba6838f914642fc71f1f06acfc0f9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1aaa0ba6838f914642fc71f1f06acfc0f9" kindref="member">PlatformFactory::deletePlatform</ref>(<ref refid="class_platform" kindref="compound">Platform</ref><sp/>*_platform)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i:<ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>iter++;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i<sp/>==<sp/>_platform)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//delete<sp/>platform<sp/>and<sp/>remove<sp/>pointer<sp/>from<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_platformList.erase(m_platformList.begin()+(iter-1),m_platformList.begin()+(iter));</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp"/>
+  </compounddef>
+</doxygen>

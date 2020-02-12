@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_trigger" kind="class" prot="public">
+    <compoundname>Trigger</compoundname>
+    <includes refid="_trigger_8h" local="no">Trigger.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* Trigger::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>pointer to the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> containing the bodies to test </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="42" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" compoundref="_trigger_8cpp" startline="3" endline="46">Trigger</referencedby>
+        <referencedby refid="class_trigger_1aa93984db488edcfe733bd269755587bc" compoundref="_trigger_8cpp" startline="51" endline="70">isHit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Trigger::m_pos1</definition>
+        <argsstring></argsstring>
+        <name>m_pos1</name>
+        <briefdescription>
+<para>The least corner. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="45" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" compoundref="_trigger_8cpp" startline="3" endline="46">Trigger</referencedby>
+        <referencedby refid="class_trigger_1aa93984db488edcfe733bd269755587bc" compoundref="_trigger_8cpp" startline="51" endline="70">isHit</referencedby>
+        <referencedby refid="class_trigger_1a5a3b38ef64daee02fc3c08d71a61b22f" compoundref="_trigger_8cpp" startline="72" endline="86">getTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Trigger::m_pos2</definition>
+        <argsstring></argsstring>
+        <name>m_pos2</name>
+        <briefdescription>
+<para>The greatest corner. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="48" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" compoundref="_trigger_8cpp" startline="3" endline="46">Trigger</referencedby>
+        <referencedby refid="class_trigger_1aa93984db488edcfe733bd269755587bc" compoundref="_trigger_8cpp" startline="51" endline="70">isHit</referencedby>
+        <referencedby refid="class_trigger_1a5a3b38ef64daee02fc3c08d71a61b22f" compoundref="_trigger_8cpp" startline="72" endline="86">getTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Trigger::m_triggerID</definition>
+        <argsstring></argsstring>
+        <name>m_triggerID</name>
+        <briefdescription>
+<para>The trigger&apos;s name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="51" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" compoundref="_trigger_8cpp" startline="3" endline="46">Trigger</referencedby>
+        <referencedby refid="class_trigger_1acbac4d9e2effcdb2c5a8c5a8289cab51" compoundref="_trigger_8h" startline="37" endline="37">getTriggerID</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Trigger::Trigger</definition>
+        <argsstring>(std::string _name, ngl::Vec3 _pos1, ngl::Vec3 _pos2, PhysicsWorld *_physics)</argsstring>
+        <name>Trigger</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pos1</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pos2</declname>
+        </param>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a name as an ID for the trigger box </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- one corner of the box </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the opposite corner to _pos1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_physics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- pointer to the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="24" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Trigger.cpp" bodystart="3" bodyend="46"/>
+        <references refid="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" compoundref="_trigger_8h" startline="42">m_physics</references>
+        <references refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" compoundref="_trigger_8h" startline="45">m_pos1</references>
+        <references refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" compoundref="_trigger_8h" startline="48">m_pos2</references>
+        <references refid="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" compoundref="_trigger_8h" startline="51">m_triggerID</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_1a1a2d107dd06737f51c81c4897c75e59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Trigger::~Trigger</definition>
+        <argsstring>()</argsstring>
+        <name>~Trigger</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="27" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Trigger.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_1aa93984db488edcfe733bd269755587bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Trigger::isHit</definition>
+        <argsstring>(std::string _name)</argsstring>
+        <name>isHit</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the specified physics body is inside the bounds. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the physics body to test for </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="31" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Trigger.cpp" bodystart="51" bodyend="70"/>
+        <references refid="class_physics_world_1a6d5cca57854b708690441dd0a75cb2fd" compoundref="_physics_world_8cpp" startline="541" endline="558">PhysicsWorld::getCentreOfMass</references>
+        <references refid="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" compoundref="_trigger_8h" startline="42">m_physics</references>
+        <references refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" compoundref="_trigger_8h" startline="45">m_pos1</references>
+        <references refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" compoundref="_trigger_8h" startline="48">m_pos2</references>
+        <referencedby refid="class_coin_1a6ee947aab0802f2bef303d1375459f44" compoundref="_coin_8cpp" startline="36" endline="40">Coin::isCoinHit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_1a5a3b38ef64daee02fc3c08d71a61b22f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation Trigger::getTransform</definition>
+        <argsstring>()</argsstring>
+        <name>getTransform</name>
+        <briefdescription>
+<para>Returns the transformation matrix for the box, ready for drawing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="34" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Trigger.cpp" bodystart="72" bodyend="86"/>
+        <references refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" compoundref="_trigger_8h" startline="45">m_pos1</references>
+        <references refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" compoundref="_trigger_8h" startline="48">m_pos2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_1acbac4d9e2effcdb2c5a8c5a8289cab51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Trigger::getTriggerID</definition>
+        <argsstring>()</argsstring>
+        <name>getTriggerID</name>
+        <briefdescription>
+<para>Returns the trigger&apos;s name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="37" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" bodystart="37" bodyend="37"/>
+        <references refid="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" compoundref="_trigger_8h" startline="51">m_triggerID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A box that detects if any specified member of the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> is inside. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="154">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="155" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="153">
+        <label>Trigger</label>
+        <link refid="class_trigger"/>
+        <childnode refid="154" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+      </node>
+      <node id="155">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" line="17" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Trigger.h" bodystart="16" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_trigger_1a5a3b38ef64daee02fc3c08d71a61b22f" prot="public" virt="non-virtual"><scope>Trigger</scope><name>getTransform</name></member>
+      <member refid="class_trigger_1acbac4d9e2effcdb2c5a8c5a8289cab51" prot="public" virt="non-virtual"><scope>Trigger</scope><name>getTriggerID</name></member>
+      <member refid="class_trigger_1aa93984db488edcfe733bd269755587bc" prot="public" virt="non-virtual"><scope>Trigger</scope><name>isHit</name></member>
+      <member refid="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" prot="private" virt="non-virtual"><scope>Trigger</scope><name>m_physics</name></member>
+      <member refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" prot="private" virt="non-virtual"><scope>Trigger</scope><name>m_pos1</name></member>
+      <member refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" prot="private" virt="non-virtual"><scope>Trigger</scope><name>m_pos2</name></member>
+      <member refid="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" prot="private" virt="non-virtual"><scope>Trigger</scope><name>m_triggerID</name></member>
+      <member refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" prot="public" virt="non-virtual"><scope>Trigger</scope><name>Trigger</name></member>
+      <member refid="class_trigger_1a1a2d107dd06737f51c81c4897c75e59d" prot="public" virt="non-virtual"><scope>Trigger</scope><name>~Trigger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

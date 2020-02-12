@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_platform_factory" kind="class" prot="public">
+    <compoundname>PlatformFactory</compoundname>
+    <includes refid="_platform_factory_8h" local="no">PlatformFactory.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_platform_factory_1a9129b359642360d557e1cf012cac4718" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_platform" kindref="compound">Platform</ref> * &gt;</type>
+        <definition>std::vector&lt;Platform *&gt; PlatformFactory::m_platformList</definition>
+        <argsstring></argsstring>
+        <name>m_platformList</name>
+        <briefdescription>
+<para>vector that stores the pointers to our platforms </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="71" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_platform_factory_1ade80c7b9a39ad8141bcfc3481375b684" compoundref="_platform_factory_8cpp" startline="9" endline="19">~PlatformFactory</referencedby>
+        <referencedby refid="class_platform_factory_1a3f20e6b434a5bfa7b2532fde223e7c89" compoundref="_platform_factory_8cpp" startline="21" endline="29">createPlatform</referencedby>
+        <referencedby refid="class_platform_factory_1a5cb7c239d6b133b79556e2276e4924e2" compoundref="_platform_factory_8cpp" startline="31" endline="46">movePlatform</referencedby>
+        <referencedby refid="class_platform_factory_1a4fa150bea70885fd2dc8e3edaca7b5c3" compoundref="_platform_factory_8cpp" startline="49" endline="64">rotatePlatform</referencedby>
+        <referencedby refid="class_platform_factory_1a08c510204db74f4d7c490d9ae687a4bd" compoundref="_platform_factory_8cpp" startline="66" endline="79">addRot</referencedby>
+        <referencedby refid="class_platform_factory_1abb3150d373f411d74d76de4d7ec0e99a" compoundref="_platform_factory_8cpp" startline="81" endline="93">setRot</referencedby>
+        <referencedby refid="class_platform_factory_1aaa0ba6838f914642fc71f1f06acfc0f9" compoundref="_platform_factory_8cpp" startline="96" endline="109">deletePlatform</referencedby>
+        <referencedby refid="class_platform_factory_1a1162e61bdb38e5acf4a2eb67d2ba280a" compoundref="_platform_factory_8h" startline="66" endline="66">getPlatformList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_platform" kindref="compound">Platform</ref> *</type>
+        <definition>Platform* PlatformFactory::m_platform</definition>
+        <argsstring></argsstring>
+        <name>m_platform</name>
+        <briefdescription>
+<para>pointer to a platform </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="75" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_platform_factory_1a3f20e6b434a5bfa7b2532fde223e7c89" compoundref="_platform_factory_8cpp" startline="21" endline="29">createPlatform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_platform_factory_1a6349ee591dce85e8d107dcf41255cc17" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* PlatformFactory::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>pointer to our physicsWorld </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="79" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_platform_factory_1a70521c77b81db54af5fb0664ecb4c644" compoundref="_platform_factory_8cpp" startline="3" endline="7">PlatformFactory</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platform_factory_1a70521c77b81db54af5fb0664ecb4c644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatformFactory::PlatformFactory</definition>
+        <argsstring>(PhysicsWorld *_physics)</argsstring>
+        <name>PlatformFactory</name>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>ctor of the platform factory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="21" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp" bodystart="3" bodyend="7"/>
+        <references refid="class_platform_factory_1a6349ee591dce85e8d107dcf41255cc17" compoundref="_platform_factory_8h" startline="79">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_platform_factory_1ade80c7b9a39ad8141bcfc3481375b684" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatformFactory::~PlatformFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~PlatformFactory</name>
+        <briefdescription>
+<para>dtor of the platform factory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="25" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp" bodystart="9" bodyend="19"/>
+        <references refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" compoundref="_platform_factory_8h" startline="71">m_platformList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_platform_factory_1a3f20e6b434a5bfa7b2532fde223e7c89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatformFactory::createPlatform</definition>
+        <argsstring>(ngl::Vec3 _pos, std::string _platName, PlatType _platType, PhysicsWorld *_physics)</argsstring>
+        <name>createPlatform</name>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pos</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_platName</declname>
+        </param>
+        <param>
+          <type><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" kindref="member">PlatType</ref></type>
+          <declname>_platType</declname>
+        </param>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>creates a new platform by calling our platform class </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position of our platform (x,y,z) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_platNaeme</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of our platform </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_platType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enum class that specifies the type of platform to create </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_physics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to our physicsWorld </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="33" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp" bodystart="21" bodyend="29"/>
+        <references refid="class_platform_1a929d8b9fcdbc32332673d8d48540b909" compoundref="_platform_8cpp" startline="62" endline="67">Platform::createPlatform</references>
+        <references refid="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" compoundref="_platform_factory_8h" startline="75">m_platform</references>
+        <references refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" compoundref="_platform_factory_8h" startline="71">m_platformList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_platform_factory_1a5cb7c239d6b133b79556e2276e4924e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatformFactory::movePlatform</definition>
+        <argsstring>(std::string _platformName, float _vel, float _range, Direction _d)</argsstring>
+        <name>movePlatform</name>
+        <param>
+          <type>std::string</type>
+          <declname>_platformName</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_vel</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_range</declname>
+        </param>
+        <param>
+          <type><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aa" kindref="member">Direction</ref></type>
+          <declname>_d</declname>
+        </param>
+        <briefdescription>
+<para>set a specified platform to move </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_platformName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the platform </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_vel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>velocity of the platform </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>distance that the platform will move between </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enum that specifies the direction of platform in either x,y or z </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="41" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp" bodystart="31" bodyend="46"/>
+        <references refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" compoundref="_platform_factory_8h" startline="71">m_platformList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_platform_factory_1a4fa150bea70885fd2dc8e3edaca7b5c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatformFactory::rotatePlatform</definition>
+        <argsstring>(std::string _platformName, std::string _axis)</argsstring>
+        <name>rotatePlatform</name>
+        <param>
+          <type>std::string</type>
+          <declname>_platformName</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_axis</declname>
+        </param>
+        <briefdescription>
+<para>set a the platform to rotate </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_platformName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of our platform </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_axis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string that specifies the axis rotation </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="47" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp" bodystart="49" bodyend="64"/>
+        <references refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" compoundref="_platform_factory_8h" startline="71">m_platformList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_platform_factory_1a08c510204db74f4d7c490d9ae687a4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatformFactory::addRot</definition>
+        <argsstring>(std::string _platformName, int _deg)</argsstring>
+        <name>addRot</name>
+        <param>
+          <type>std::string</type>
+          <declname>_platformName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_deg</declname>
+        </param>
+        <briefdescription>
+<para>add rotation value to the platform </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_platformName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the platform </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="52" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp" bodystart="66" bodyend="79"/>
+        <references refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" compoundref="_platform_factory_8h" startline="71">m_platformList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_platform_factory_1abb3150d373f411d74d76de4d7ec0e99a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatformFactory::setRot</definition>
+        <argsstring>(std::string _platformName, int _rot)</argsstring>
+        <name>setRot</name>
+        <param>
+          <type>std::string</type>
+          <declname>_platformName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_rot</declname>
+        </param>
+        <briefdescription>
+<para>set rotation value of the platform </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_platformName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the platform </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="57" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp" bodystart="81" bodyend="93"/>
+        <references refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" compoundref="_platform_factory_8h" startline="71">m_platformList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_platform_factory_1aaa0ba6838f914642fc71f1f06acfc0f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatformFactory::deletePlatform</definition>
+        <argsstring>(Platform *_platform)</argsstring>
+        <name>deletePlatform</name>
+        <param>
+          <type><ref refid="class_platform" kindref="compound">Platform</ref> *</type>
+          <declname>_platform</declname>
+        </param>
+        <briefdescription>
+<para>delete a specific platform </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_platform</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to a platform </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="62" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PlatformFactory.cpp" bodystart="96" bodyend="109"/>
+        <references refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" compoundref="_platform_factory_8h" startline="71">m_platformList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_platform_factory_1a1162e61bdb38e5acf4a2eb67d2ba280a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_platform" kindref="compound">Platform</ref> * &gt;</type>
+        <definition>std::vector&lt;Platform *&gt; PlatformFactory::getPlatformList</definition>
+        <argsstring>()</argsstring>
+        <name>getPlatformList</name>
+        <briefdescription>
+<para>returns the vector of pointers that hold all the platforms </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="66" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" bodystart="66" bodyend="66"/>
+        <references refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" compoundref="_platform_factory_8h" startline="71">m_platformList</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This manages coin creation and collisions of the coins. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="147">
+        <label>Platform</label>
+        <link refid="class_platform"/>
+        <childnode refid="145" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+      </node>
+      <node id="145">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="146" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="144">
+        <label>PlatformFactory</label>
+        <link refid="class_platform_factory"/>
+        <childnode refid="145" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>-m_platform</edgelabel>
+        </childnode>
+      </node>
+      <node id="146">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" line="16" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h" bodystart="15" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_platform_factory_1a08c510204db74f4d7c490d9ae687a4bd" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>addRot</name></member>
+      <member refid="class_platform_factory_1a3f20e6b434a5bfa7b2532fde223e7c89" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>createPlatform</name></member>
+      <member refid="class_platform_factory_1aaa0ba6838f914642fc71f1f06acfc0f9" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>deletePlatform</name></member>
+      <member refid="class_platform_factory_1a1162e61bdb38e5acf4a2eb67d2ba280a" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>getPlatformList</name></member>
+      <member refid="class_platform_factory_1a6349ee591dce85e8d107dcf41255cc17" prot="private" virt="non-virtual"><scope>PlatformFactory</scope><name>m_physics</name></member>
+      <member refid="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" prot="private" virt="non-virtual"><scope>PlatformFactory</scope><name>m_platform</name></member>
+      <member refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" prot="private" virt="non-virtual"><scope>PlatformFactory</scope><name>m_platformList</name></member>
+      <member refid="class_platform_factory_1a5cb7c239d6b133b79556e2276e4924e2" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>movePlatform</name></member>
+      <member refid="class_platform_factory_1a70521c77b81db54af5fb0664ecb4c644" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>PlatformFactory</name></member>
+      <member refid="class_platform_factory_1a4fa150bea70885fd2dc8e3edaca7b5c3" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>rotatePlatform</name></member>
+      <member refid="class_platform_factory_1abb3150d373f411d74d76de4d7ec0e99a" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>setRot</name></member>
+      <member refid="class_platform_factory_1ade80c7b9a39ad8141bcfc3481375b684" prot="public" virt="non-virtual"><scope>PlatformFactory</scope><name>~PlatformFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

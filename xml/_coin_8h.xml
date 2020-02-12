@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_coin_8h" kind="file">
+    <compoundname>Coin.h</compoundname>
+    <includes refid="_n_g_l_draw_8h" local="no">NGLDraw.h</includes>
+    <includes refid="_trigger_8h" local="yes">Trigger.h</includes>
+    <includes refid="_ltimer_8h" local="yes">Ltimer.h</includes>
+    <includedby refid="_coin_8cpp" local="yes">Coin.cpp</includedby>
+    <includedby refid="_coin_factory_8h" local="yes">CoinFactory.h</includedby>
+    <incdepgraph>
+      <node id="1739">
+        <label>list</label>
+      </node>
+      <node id="1726">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="1704" relation="include">
+        </childnode>
+      </node>
+      <node id="1731">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1700" relation="include">
+        </childnode>
+        <childnode refid="1715" relation="include">
+        </childnode>
+        <childnode refid="1732" relation="include">
+        </childnode>
+      </node>
+      <node id="1714">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1701" relation="include">
+        </childnode>
+        <childnode refid="1715" relation="include">
+        </childnode>
+        <childnode refid="1723" relation="include">
+        </childnode>
+        <childnode refid="1726" relation="include">
+        </childnode>
+      </node>
+      <node id="1733">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="1704">
+        <label>SDL.h</label>
+      </node>
+      <node id="1710">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="1725">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="1703">
+        <label>ngl/Light.h</label>
+      </node>
+      <node id="1711">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="1720">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="1721" relation="include">
+        </childnode>
+        <childnode refid="1722" relation="include">
+        </childnode>
+        <childnode refid="1717" relation="include">
+        </childnode>
+      </node>
+      <node id="1709">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="1705">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="1723">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="1716" relation="include">
+        </childnode>
+        <childnode refid="1724" relation="include">
+        </childnode>
+        <childnode refid="1706" relation="include">
+        </childnode>
+        <childnode refid="1725" relation="include">
+        </childnode>
+        <childnode refid="1712" relation="include">
+        </childnode>
+      </node>
+      <node id="1732">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="1717" relation="include">
+        </childnode>
+        <childnode refid="1715" relation="include">
+        </childnode>
+        <childnode refid="1733" relation="include">
+        </childnode>
+        <childnode refid="1705" relation="include">
+        </childnode>
+      </node>
+      <node id="1712">
+        <label>string</label>
+      </node>
+      <node id="1745">
+        <label>ngl/ShaderLib.h</label>
+      </node>
+      <node id="1713">
+        <label>map</label>
+      </node>
+      <node id="1735">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="1715" relation="include">
+        </childnode>
+        <childnode refid="1723" relation="include">
+        </childnode>
+        <childnode refid="1726" relation="include">
+        </childnode>
+      </node>
+      <node id="1734">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="1735" relation="include">
+        </childnode>
+        <childnode refid="1723" relation="include">
+        </childnode>
+      </node>
+      <node id="1736">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="1737" relation="include">
+        </childnode>
+        <childnode refid="1726" relation="include">
+        </childnode>
+        <childnode refid="1738" relation="include">
+        </childnode>
+      </node>
+      <node id="1727">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1701" relation="include">
+        </childnode>
+        <childnode refid="1715" relation="include">
+        </childnode>
+        <childnode refid="1723" relation="include">
+        </childnode>
+        <childnode refid="1708" relation="include">
+        </childnode>
+      </node>
+      <node id="1707">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="1743">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="1708">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="1709" relation="include">
+        </childnode>
+        <childnode refid="1710" relation="include">
+        </childnode>
+        <childnode refid="1711" relation="include">
+        </childnode>
+        <childnode refid="1712" relation="include">
+        </childnode>
+        <childnode refid="1713" relation="include">
+        </childnode>
+      </node>
+      <node id="1722">
+        <label>vector</label>
+      </node>
+      <node id="1701">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1702" relation="include">
+        </childnode>
+        <childnode refid="1703" relation="include">
+        </childnode>
+        <childnode refid="1704" relation="include">
+        </childnode>
+        <childnode refid="1705" relation="include">
+        </childnode>
+        <childnode refid="1706" relation="include">
+        </childnode>
+        <childnode refid="1707" relation="include">
+        </childnode>
+        <childnode refid="1708" relation="include">
+        </childnode>
+        <childnode refid="1714" relation="include">
+        </childnode>
+        <childnode refid="1727" relation="include">
+        </childnode>
+        <childnode refid="1728" relation="include">
+        </childnode>
+        <childnode refid="1730" relation="include">
+        </childnode>
+        <childnode refid="1731" relation="include">
+        </childnode>
+        <childnode refid="1734" relation="include">
+        </childnode>
+        <childnode refid="1736" relation="include">
+        </childnode>
+        <childnode refid="1732" relation="include">
+        </childnode>
+        <childnode refid="1739" relation="include">
+        </childnode>
+        <childnode refid="1740" relation="include">
+        </childnode>
+        <childnode refid="1744" relation="include">
+        </childnode>
+      </node>
+      <node id="1718">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="1730">
+        <label>Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="1715" relation="include">
+        </childnode>
+        <childnode refid="1702" relation="include">
+        </childnode>
+      </node>
+      <node id="1728">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="1701" relation="include">
+        </childnode>
+        <childnode refid="1729" relation="include">
+        </childnode>
+      </node>
+      <node id="1737">
+        <label>iostream</label>
+      </node>
+      <node id="1738">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="1724">
+        <label>unordered_map</label>
+      </node>
+      <node id="1729">
+        <label>ngl/NCCAPointBake.h</label>
+      </node>
+      <node id="1742">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="1744">
+        <label>ShaderFactory.h</label>
+        <link refid="_shader_factory_8h"/>
+        <childnode refid="1745" relation="include">
+        </childnode>
+      </node>
+      <node id="1716">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="1700">
+        <label>Coin.h</label>
+        <link refid="Coin.h"/>
+        <childnode refid="1701" relation="include">
+        </childnode>
+        <childnode refid="1732" relation="include">
+        </childnode>
+        <childnode refid="1726" relation="include">
+        </childnode>
+      </node>
+      <node id="1721">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="1719">
+        <label>set</label>
+      </node>
+      <node id="1740">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="1732" relation="include">
+        </childnode>
+        <childnode refid="1741" relation="include">
+        </childnode>
+        <childnode refid="1738" relation="include">
+        </childnode>
+        <childnode refid="1742" relation="include">
+        </childnode>
+        <childnode refid="1743" relation="include">
+        </childnode>
+      </node>
+      <node id="1717">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="1741">
+        <label>ngl/NGLStream.h</label>
+      </node>
+      <node id="1702">
+        <label>ngl/Camera.h</label>
+      </node>
+      <node id="1706">
+        <label>memory</label>
+      </node>
+      <node id="1715">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="1716" relation="include">
+        </childnode>
+        <childnode refid="1717" relation="include">
+        </childnode>
+        <childnode refid="1718" relation="include">
+        </childnode>
+        <childnode refid="1707" relation="include">
+        </childnode>
+        <childnode refid="1706" relation="include">
+        </childnode>
+        <childnode refid="1719" relation="include">
+        </childnode>
+        <childnode refid="1720" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1748">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1749" relation="include">
+        </childnode>
+        <childnode refid="1750" relation="include">
+        </childnode>
+      </node>
+      <node id="1755">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1756" relation="include">
+        </childnode>
+        <childnode refid="1750" relation="include">
+        </childnode>
+      </node>
+      <node id="1760">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="1747">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="1751">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1759">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1756" relation="include">
+        </childnode>
+        <childnode refid="1760" relation="include">
+        </childnode>
+        <childnode refid="1750" relation="include">
+        </childnode>
+      </node>
+      <node id="1757">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="1758" relation="include">
+        </childnode>
+        <childnode refid="1751" relation="include">
+        </childnode>
+      </node>
+      <node id="1749">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="1750">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1751" relation="include">
+        </childnode>
+        <childnode refid="1752" relation="include">
+        </childnode>
+        <childnode refid="1753" relation="include">
+        </childnode>
+        <childnode refid="1755" relation="include">
+        </childnode>
+        <childnode refid="1746" relation="include">
+        </childnode>
+        <childnode refid="1757" relation="include">
+        </childnode>
+        <childnode refid="1759" relation="include">
+        </childnode>
+      </node>
+      <node id="1752">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="1753">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="1754" relation="include">
+        </childnode>
+        <childnode refid="1751" relation="include">
+        </childnode>
+        <childnode refid="1752" relation="include">
+        </childnode>
+        <childnode refid="1750" relation="include">
+        </childnode>
+      </node>
+      <node id="1756">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="1754">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="1746">
+        <label>Coin.h</label>
+        <link refid="Coin.h"/>
+        <childnode refid="1747" relation="include">
+        </childnode>
+        <childnode refid="1748" relation="include">
+        </childnode>
+      </node>
+      <node id="1758">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_coin" prot="public">Coin</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Morgan Henty </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>COIN</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>COIN</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_n_g_l_draw_8h" kindref="compound">NGLDraw.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_trigger_8h" kindref="compound">Trigger.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_ltimer_8h" kindref="compound">Ltimer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight><highlight class="comment">//--------------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_coin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_coin" kindref="compound">Coin</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" kindref="member">Coin</ref>(ngl::Vec3<sp/>_pos,<sp/>std::string<sp/>_id,<sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<sp/>_physics);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1ad0371a6d98c194a0f6de615206829b16" kindref="member">~Coin</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>ngl::Vec3<sp/><ref refid="class_coin_1af37350c3b81923c3c577fc571136b4f1" kindref="member">getCoinPos</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><ref refid="class_trigger" kindref="compound">Trigger</ref><sp/>*<ref refid="class_coin_1af1e8ee1867e6598ac3f031343dacafc5" kindref="member">getTrigger</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a6ee947aab0802f2bef303d1375459f44" kindref="member">isCoinHit</ref>(std::string<sp/>_playerName);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a010ea12b65a5bec9f748dc664d225a12" kindref="member">setCoinState</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_state);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_coin_1ac30185e74f0824d6c462b581da2497f2" kindref="member">startTime</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="class_coin_1adb67c9f3c2affb5a8730c6fa69deac80" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_coin_1adb67c9f3c2affb5a8730c6fa69deac80" kindref="member">getCoinState</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" kindref="member">m_coinState</ref>;}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="class_coin_1a498f9320e169a11b7d809702404165f2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a498f9320e169a11b7d809702404165f2" kindref="member">getTime</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" kindref="member">m_coinTimer</ref>.<ref refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" kindref="member">getTicks</ref>()<sp/>/<sp/>1000.0f<sp/>);}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_trigger" kindref="compound">Trigger</ref><sp/>*<ref refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" kindref="member">m_coinTrigger</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_coin_1a70aae6475b7b8802569b15db5659d97f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<sp/><ref refid="class_coin_1a70aae6475b7b8802569b15db5659d97f" kindref="member">m_physics</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" refkind="member"><highlight class="normal"><sp/><sp/>ngl::Vec3<sp/><ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="class_coin_1a03eae9d4311b1548c5a94aa0f314e4b4" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="class_coin_1a03eae9d4311b1548c5a94aa0f314e4b4" kindref="member">m_coinID</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="class_coin_1a0cd3ca9ac75b7a2d4e228623f989c185" refkind="member"><highlight class="normal"><sp/><sp/>ngl::Vec3<sp/><ref refid="class_coin_1a0cd3ca9ac75b7a2d4e228623f989c185" kindref="member">m_bboxMin</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="class_coin_1a3628e045fc69caa87995bbc0bea33241" refkind="member"><highlight class="normal"><sp/><sp/>ngl::Vec3<sp/><ref refid="class_coin_1a3628e045fc69caa87995bbc0bea33241" kindref="member">m_bboxMax</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" kindref="member">m_coinState</ref>=1;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer" kindref="compound">LTimer</ref><sp/><ref refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" kindref="member">m_coinTimer</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COIN</highlight></codeline>
+<codeline lineno="100"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Coin.h"/>
+  </compounddef>
+</doxygen>

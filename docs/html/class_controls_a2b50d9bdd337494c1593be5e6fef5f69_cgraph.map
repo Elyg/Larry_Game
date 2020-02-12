@@ -1,0 +1,3 @@
+<map id="Controls::setMaxVelNegative" name="Controls::setMaxVelNegative">
+<area shape="rect" id="node2" href="$class_character.html#ae9aa7651b279192c65b7649e2d624fad" title="decrements the max velocity of the character " alt="" coords="249,5,450,32"/>
+</map>

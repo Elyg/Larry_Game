@@ -1,0 +1,5 @@
+<map id="Character::clampVel" name="Character::clampVel">
+<area shape="rect" id="node2" href="$class_physics_world.html#ab00e4b94b999ddf53a637e4a999959ee" title="returns the linear velocity of the specified shape " alt="" coords="366,5,559,32"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a73a5f631224e1486c7d6343f0a148ac0" title="sets the linear velocity of the specified shape " alt="" coords="366,68,559,95"/>
+<area shape="rect" id="node4" href="$class_character.html#a4840e45e2d4c6d89b8dc88281ea545a3" title="increases the character velocity " alt="" coords="195,31,317,57"/>
+</map>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_g_u_i_draw_8h" kind="file">
+    <compoundname>GUIDraw.h</compoundname>
+    <includes local="no">ngl/Obj.h</includes>
+    <includes refid="_text_8h" local="yes">Text.h</includes>
+    <includedby refid="_g_u_i_draw_8cpp" local="yes">GUIDraw.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <incdepgraph>
+      <node id="2028">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="2029">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="2027">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="2030">
+        <label>string</label>
+      </node>
+      <node id="2031">
+        <label>map</label>
+      </node>
+      <node id="2025">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2026">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="2027" relation="include">
+        </childnode>
+        <childnode refid="2028" relation="include">
+        </childnode>
+        <childnode refid="2029" relation="include">
+        </childnode>
+        <childnode refid="2030" relation="include">
+        </childnode>
+        <childnode refid="2031" relation="include">
+        </childnode>
+      </node>
+      <node id="2024">
+        <label>GUIDraw.h</label>
+        <link refid="GUIDraw.h"/>
+        <childnode refid="2025" relation="include">
+        </childnode>
+        <childnode refid="2026" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2033">
+        <label>GUIDraw.cpp</label>
+        <link refid="_g_u_i_draw_8cpp"/>
+      </node>
+      <node id="2034">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2032">
+        <label>GUIDraw.h</label>
+        <link refid="GUIDraw.h"/>
+        <childnode refid="2033" relation="include">
+        </childnode>
+        <childnode refid="2034" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_g_u_i_draw" prot="public">GUIDraw</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Tarquin Pereira </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GUIDRAW_H__</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GUIDRAW_H__</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ngl/Obj.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_text_8h" kindref="compound">Text.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"></highlight><highlight class="comment">//--------------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_g_u_i_draw" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_u_i_draw" kindref="compound">GUIDraw</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_draw_1aa15d0061a46297ab7763c7af6b3f013c" kindref="member">GUIDraw</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_draw_1a6e8378c339e6ebb13a3bb7dca8690614" kindref="member">~GUIDraw</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1af5643c91cd0715092e9b19845d4a5541" kindref="member">loadAllTextures</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a5a52309d626e0a5c7199e5bd6d4e8be1" kindref="member">drawOpeningCredits</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a9199f932d0e9e3beecc16742e8587788" kindref="member">drawOpeningCutscene</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1aedc733b9f483ec1601221904d018caae" kindref="member">cutsceneTime</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a3ff67aa72fc75944f855907d94494895" kindref="member">drawOpeningTitleSequence</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cutsceneTime);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1af50d253fbef63f8a4256641dfb5ef2da" kindref="member">drawTitleScreen</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a815df87e097bca965f788d58e6e92fcb" kindref="member">drawTitleScreenNoText</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a05cc9177428f5e544390f9ac4df2589d" kindref="member">drawMainMenu</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>button);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a9cda4a50453ae0ad7a4813137f56e1a4" kindref="member">drawControlsScreen</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a3d1840dd78e2a636d704bf5d90f7ea30" kindref="member">drawExitScreen</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>button);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a408f4a09c1755aecaf416f13c835cf1e" kindref="member">drawPauseScreen</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>resumeSelect,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mainMenuSelect);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kindref="member">drawTexture</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_t,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_l,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_d);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kindref="member">loadTexture</ref>(std::string<sp/>filePath,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ID);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a4a3e8808152b45cb323ae374bb60a4fb" kindref="member">drawQuadColour</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_t,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_l,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_r,<sp/>ngl::Vec3<sp/>colour,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>alpha);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a8643ededfc1c8d8521b788da3175d334" kindref="member">drawMenuOpenTop</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a88e8484615a06a6acfeb9c7a6e61600f" kindref="member">move</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_draw_1a890e1c5e968918d3268d6839f5ab448d" kindref="member">drawMenuOpenBottom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>move);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="91" refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr<sp/>&lt;Text&gt;<sp/><ref refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" kindref="member">m_textPause</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr<sp/>&lt;Text&gt;<sp/><ref refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kindref="member">m_textPauseOptions</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>GLuint<sp/><ref refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kindref="member">m_textureMenuID</ref>[401];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/GUIDraw.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="todo" kind="page">
+    <compoundname>todo</compoundname>
+    <title>Todo List</title>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term><anchor id="todo_1_todo000001"/>Class <ref refid="class_text" kindref="compound">Text</ref>  </term></varlistentry>
+<listitem><para>support unicode ASCII is so 1980&apos;s ;-0 This class will generate billboard textures and VertexArrayObjects for each of the font glyphs, this means we need a valid OpenGL context before using this class, therefore it should be constructed in initalizeGL or after. Note for efficiency once the font has been created we can only change the colour, if you need different sizes / emphasis you will need to create a new <ref refid="class_text" kindref="compound">Text</ref> object with the desired size / emphasis. This is accelerated as much as possible but text rendering will sometimes be slow as we bind a new texture for each char being drawn for more details look at the blog post here <ulink url="http://jonmacey.blogspot.com/2011/10/text-rendering-using-opengl-32.html">http://jonmacey.blogspot.com/2011/10/text-rendering-using-opengl-32.html</ulink> </para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

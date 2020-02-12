@@ -1,0 +1,7 @@
+<map id="Character::freezeCharacter" name="Character::freezeCharacter">
+<area shape="rect" id="node2" href="$class_physics_world.html#a6f01ee5e9135ac370a8a19767de1a838" title="stops all motion for the specified body " alt="" coords="235,5,413,32"/>
+<area shape="rect" id="node3" href="$class_l_timer.html#a57c4bdca0f7bdd75c65b6ab1499de1e7" title="LTimer::getTicks" alt="" coords="264,56,384,83"/>
+<area shape="rect" id="node4" href="$class_l_timer.html#a873ef5ef69a3ae62fea1214ea1a0103b" title="LTimer::reset" alt="" coords="275,107,373,133"/>
+<area shape="rect" id="node5" href="$class_l_timer.html#a7dc11f05cf5098a6d06ebd6ebec96ed6" title="LTimer::start" alt="" coords="276,157,372,184"/>
+<area shape="rect" id="node6" href="$class_l_timer.html#aeabbf5f935907fcfeaa7f4403741e4ae" title="LTimer::stop" alt="" coords="277,208,371,235"/>
+</map>

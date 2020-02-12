@@ -1,0 +1,8 @@
+<map id="Text::Text" name="Text::Text">
+<area shape="rect" id="node2" href="$main_8cpp.html#a822c103b79ef8d6a36c81a14cd038e07" title="exit" alt="" coords="185,5,228,32"/>
+<area shape="rect" id="node5" href="$_text_8cpp.html#aa1f6e37d2b388fc3b779638bc3fb714c" title="code taken from here http://jeffreystedfast.blogspot.com/2008/06/calculating&#45;nearest&#45;power&#45;of&#45;2.html " alt="" coords="136,56,277,83"/>
+<area shape="rect" id="node6" href="$class_text.html#ad898e1ff3c2221029c115ed5de7f1b72" title="set the colour of the font from an Colour " alt="" coords="151,107,263,133"/>
+<area shape="rect" id="node7" href="$class_text.html#a6ec9d77b284824829150b8ebb436c358" title="Text::setTransform" alt="" coords="140,157,273,184"/>
+<area shape="rect" id="node3" href="$class_g_u_i_draw.html#a3d1840dd78e2a636d704bf5d90f7ea30" title="draws the exit screen " alt="" coords="326,5,503,32"/>
+<area shape="rect" id="node4" href="$class_g_u_i_draw.html#a6ff5333a16605bf165d9295031e8c48c" title="draws a texture on a two triangle quad " alt="" coords="552,5,709,32"/>
+</map>

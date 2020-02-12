@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_e8c581f4553a410c14d70eaf3351bfea" kind="dir">
+    <compoundname>include</compoundname>
+    <innerfile refid="_animation_8h">Animation.h</innerfile>
+    <innerfile refid="_bullet_debug_draw_8h">BulletDebugDraw.h</innerfile>
+    <innerfile refid="_camera_8h">Camera.h</innerfile>
+    <innerfile refid="_character_8h">Character.h</innerfile>
+    <innerfile refid="_coin_8h">Coin.h</innerfile>
+    <innerfile refid="_coin_factory_8h">CoinFactory.h</innerfile>
+    <innerfile refid="_collision_shape_8h">CollisionShape.h</innerfile>
+    <innerfile refid="_controls_8h">Controls.h</innerfile>
+    <innerfile refid="_g_u_i_draw_8h">GUIDraw.h</innerfile>
+    <innerfile refid="_high_score_8h">HighScore.h</innerfile>
+    <innerfile refid="_level_8h">Level.h</innerfile>
+    <innerfile refid="_ltimer_8h">Ltimer.h</innerfile>
+    <innerfile refid="_n_g_l_draw_8h">NGLDraw.h</innerfile>
+    <innerfile refid="_physics_world_8h">PhysicsWorld.h</innerfile>
+    <innerfile refid="_platform_8h">Platform.h</innerfile>
+    <innerfile refid="_platform_factory_8h">PlatformFactory.h</innerfile>
+    <innerfile refid="_shader_factory_8h">ShaderFactory.h</innerfile>
+    <innerfile refid="_text_8h">Text.h</innerfile>
+    <innerfile refid="_trigger_8h">Trigger.h</innerfile>
+    <innerfile refid="_trigger_factory_8h">TriggerFactory.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/"/>
+  </compounddef>
+</doxygen>

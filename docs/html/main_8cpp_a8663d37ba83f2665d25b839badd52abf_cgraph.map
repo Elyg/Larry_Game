@@ -1,0 +1,9 @@
+<map id="titleScreen" name="titleScreen">
+<area shape="rect" id="node2" href="$class_g_u_i_draw.html#a3ff67aa72fc75944f855907d94494895" title="draws the opening title sequence " alt="" coords="139,5,325,46"/>
+<area shape="rect" id="node4" href="$class_g_u_i_draw.html#a4a3e8808152b45cb323ae374bb60a4fb" title="draws a colour on a two triangle quad " alt="" coords="141,71,323,97"/>
+<area shape="rect" id="node5" href="$class_g_u_i_draw.html#af50d253fbef63f8a4256641dfb5ef2da" title="draws the title screen with &#39;PRESS ENTER&#39; text " alt="" coords="143,121,321,148"/>
+<area shape="rect" id="node6" href="$class_g_u_i_draw.html#a815df87e097bca965f788d58e6e92fcb" title="draws the title screen without text " alt="" coords="143,173,321,214"/>
+<area shape="rect" id="node7" href="$class_l_timer.html#a57c4bdca0f7bdd75c65b6ab1499de1e7" title="LTimer::getTicks" alt="" coords="172,239,292,265"/>
+<area shape="rect" id="node8" href="$class_l_timer.html#a7dc11f05cf5098a6d06ebd6ebec96ed6" title="LTimer::start" alt="" coords="184,289,280,316"/>
+<area shape="rect" id="node3" href="$class_g_u_i_draw.html#a6ff5333a16605bf165d9295031e8c48c" title="draws a texture on a two triangle quad " alt="" coords="373,121,531,148"/>
+</map>

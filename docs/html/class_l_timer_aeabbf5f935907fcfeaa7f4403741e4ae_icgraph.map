@@ -1,0 +1,11 @@
+<map id="LTimer::stop" name="LTimer::stop">
+<area shape="rect" id="node2" href="$class_character.html#a595fba03a652891741ee6631a6079674" title="makes character move based on the direction vector " alt="" coords="164,5,337,32"/>
+<area shape="rect" id="node6" href="$class_character.html#a128fe63126613c48f495a0c467ebe337" title="stop the timer for the hop " alt="" coords="150,56,351,83"/>
+<area shape="rect" id="node9" href="$class_character.html#ae8b490e08f56e1570caf7f60c1b8f7a9" title="freezes the character at his current position " alt="" coords="161,107,341,133"/>
+<area shape="rect" id="node10" href="$main_8cpp.html#a4331e8b5bd0d755477da1a99ecf6bd3d" title="controlsScreen" alt="" coords="443,151,552,177"/>
+<area shape="rect" id="node3" href="$class_controls.html#a05b74314f8236b971e20d1868d437286" title="moves the character based on the direction vector " alt="" coords="400,5,595,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="661,31,715,57"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="781,81,832,108"/>
+<area shape="rect" id="node7" href="$class_controls.html#aae150be1e58ea618a6a9f7043727ebe5" title="stops the jump hop timer " alt="" coords="401,56,594,83"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#a7b84a91f70b351e6694c824f3085edd8" title="pauseMenu" alt="" coords="643,81,733,108"/>
+</map>

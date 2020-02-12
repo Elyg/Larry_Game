@@ -1,0 +1,6 @@
+<map id="Character::attractForce" name="Character::attractForce">
+<area shape="rect" id="node2" href="$class_character.html#a8c3293540d07bee2542a6ec32d4f3bc5" title="returns the normal of the collision object that the ray collides with " alt="" coords="211,5,408,32"/>
+<area shape="rect" id="node4" href="$class_physics_world.html#a692161a381b2015cba102b08c02f6c3f" title="returns the position of the specified shape " alt="" coords="221,56,397,83"/>
+<area shape="rect" id="node5" href="$class_physics_world.html#af0f1309e7a7e9c47763248e5772b5230" title="sets the gravity multiplier for a specific body (useful for making things weightless) ..." alt="" coords="224,107,395,149"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a68c31016abc95c051890c9a211ac4565" title="fires a ray from a to b and returns the normal of the object at the hit point " alt="" coords="456,5,653,32"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="Trigger::isHit" name="Trigger::isHit">
+<area shape="rect" id="node2" href="$class_coin.html#a6ee947aab0802f2bef303d1375459f44" title="returns bool value whether player is in contact with coin&#39;s trigger " alt="" coords="153,5,263,32"/>
+</map>

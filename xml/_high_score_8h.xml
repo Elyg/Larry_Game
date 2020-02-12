@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_high_score_8h" kind="file">
+    <compoundname>HighScore.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes refid="_ltimer_8h" local="yes">Ltimer.h</includes>
+    <includes local="no">QtCore/QString</includes>
+    <includedby refid="_high_score_8cpp" local="yes">HighScore.cpp</includedby>
+    <includedby refid="_n_g_l_draw_8h" local="yes">NGLDraw.h</includedby>
+    <incdepgraph>
+      <node id="2047">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="2048" relation="include">
+        </childnode>
+      </node>
+      <node id="2048">
+        <label>SDL.h</label>
+      </node>
+      <node id="2045">
+        <label>HighScore.h</label>
+        <link refid="HighScore.h"/>
+        <childnode refid="2046" relation="include">
+        </childnode>
+        <childnode refid="2047" relation="include">
+        </childnode>
+        <childnode refid="2049" relation="include">
+        </childnode>
+      </node>
+      <node id="2046">
+        <label>iostream</label>
+      </node>
+      <node id="2049">
+        <label>QtCore/QString</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2061">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="2062" relation="include">
+        </childnode>
+        <childnode refid="2052" relation="include">
+        </childnode>
+      </node>
+      <node id="2057">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="2058" relation="include">
+        </childnode>
+        <childnode refid="2052" relation="include">
+        </childnode>
+      </node>
+      <node id="2066">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="2060">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="2053">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2050">
+        <label>HighScore.h</label>
+        <link refid="HighScore.h"/>
+        <childnode refid="2051" relation="include">
+        </childnode>
+        <childnode refid="2052" relation="include">
+        </childnode>
+      </node>
+      <node id="2065">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="2058" relation="include">
+        </childnode>
+        <childnode refid="2066" relation="include">
+        </childnode>
+        <childnode refid="2052" relation="include">
+        </childnode>
+      </node>
+      <node id="2063">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="2064" relation="include">
+        </childnode>
+        <childnode refid="2053" relation="include">
+        </childnode>
+      </node>
+      <node id="2062">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="2052">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="2053" relation="include">
+        </childnode>
+        <childnode refid="2054" relation="include">
+        </childnode>
+        <childnode refid="2055" relation="include">
+        </childnode>
+        <childnode refid="2057" relation="include">
+        </childnode>
+        <childnode refid="2059" relation="include">
+        </childnode>
+        <childnode refid="2063" relation="include">
+        </childnode>
+        <childnode refid="2065" relation="include">
+        </childnode>
+      </node>
+      <node id="2054">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="2055">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="2056" relation="include">
+        </childnode>
+        <childnode refid="2053" relation="include">
+        </childnode>
+        <childnode refid="2054" relation="include">
+        </childnode>
+        <childnode refid="2052" relation="include">
+        </childnode>
+      </node>
+      <node id="2058">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="2056">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="2059">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="2060" relation="include">
+        </childnode>
+        <childnode refid="2061" relation="include">
+        </childnode>
+      </node>
+      <node id="2064">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+      <node id="2051">
+        <label>HighScore.cpp</label>
+        <link refid="_high_score_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_high_score" prot="public">HighScore</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Eligijus Titas </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>HIGHSCORE_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HIGHSCORE_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_ltimer_8h" kindref="compound">Ltimer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight><highlight class="comment">//--------------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_high_score" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_high_score" kindref="compound">HighScore</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" kindref="member">HighScore</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a8c7ca6978542a107d43955544d6d0c3c" kindref="member">highScoreStart</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1aabd3f50bf518fde51eb65fee1f7b3c56" kindref="member">highScorePause</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a51f8f4009cf565f7eba681fbf7792691" kindref="member">highScoreRead</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" kindref="member">setCurrentScore</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" kindref="member">highScoreWrite</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" kindref="member">setHighScore</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_high_score_1a5ba91f68fc06f354bff273a2dc5ae1be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a5ba91f68fc06f354bff273a2dc5ae1be" kindref="member">getHighScore</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kindref="member">m_highScore</ref>;}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_high_score_1ad3627c144cd39bac86327301bb3c858c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1ad3627c144cd39bac86327301bb3c858c" kindref="member">getCurrentScore</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" kindref="member">m_currentScore</ref>;}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="class_high_score_1a321f389400c1031bff7c2ecb7c728347" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a321f389400c1031bff7c2ecb7c728347" kindref="member">getScoreTime</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" kindref="member">m_scoreTimer</ref>.<ref refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" kindref="member">getTicks</ref>();}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" kindref="member">m_currentScore</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kindref="member">m_highScore</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" kindref="member">m_highScoreString</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_l_timer" kindref="compound">LTimer</ref><sp/><ref refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" kindref="member">m_scoreTimer</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HIGHSCORE_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h"/>
+  </compounddef>
+</doxygen>

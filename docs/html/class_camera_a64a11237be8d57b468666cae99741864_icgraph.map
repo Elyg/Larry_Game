@@ -1,0 +1,6 @@
+<map id="Camera::setDistance" name="Camera::setDistance">
+<area shape="rect" id="node2" href="$class_n_g_l_draw.html#aec8a377329da67db1e2ef007bd27f026" title="draw the scene " alt="" coords="221,31,337,57"/>
+<area shape="rect" id="node5" href="$class_n_g_l_draw.html#a8782a682c3a362baa3b18882f49c95ed" title="this method is called everytime the mouse wheel is moved " alt="" coords="201,81,357,108"/>
+<area shape="rect" id="node3" href="$class_n_g_l_draw.html#ae5151dc189fd5de5649b72c5e76bcf47" title="resize our screen and set the camera aspect ratio " alt="" coords="424,5,547,32"/>
+<area shape="rect" id="node4" href="$class_n_g_l_draw.html#a21c11b65d353b76a7cc984db69aad208" title="NGLDraw::updateDraw" alt="" coords="406,56,565,83"/>
+</map>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_ltimer_8cpp" kind="file">
+    <compoundname>Ltimer.cpp</compoundname>
+    <includes refid="_ltimer_8h" local="no">Ltimer.h</includes>
+    <incdepgraph>
+      <node id="2177">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="2178" relation="include">
+        </childnode>
+      </node>
+      <node id="2178">
+        <label>SDL.h</label>
+      </node>
+      <node id="2176">
+        <label>Ltimer.cpp</label>
+        <link refid="Ltimer.cpp"/>
+        <childnode refid="2177" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_ltimer_8h" kindref="compound">Ltimer.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" refkind="member"><highlight class="normal"><ref refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" kindref="member">LTimer::LTimer</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Initialize<sp/>the<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11" refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" kindref="member">LTimer::start</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Start<sp/>the<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Unpause<sp/>the<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Get<sp/>the<sp/>current<sp/>clock<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref><sp/>=<sp/>SDL_GetTicks();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21" refid="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" kindref="member">LTimer::reset</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26" refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" kindref="member">LTimer::stop</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Stop<sp/>the<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Unpause<sp/>the<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Clear<sp/>tick<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38" refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" kindref="member">LTimer::pause</ref>()</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//If<sp/>the<sp/>timer<sp/>is<sp/>running<sp/>and<sp/>isn&apos;t<sp/>already<sp/>paused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref><sp/>&amp;&amp;<sp/>!<ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Pause<sp/>the<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Calculate<sp/>the<sp/>paused<sp/>ticks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref><sp/>=<sp/>SDL_GetTicks()<sp/>-<sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50" refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" kindref="member">LTimer::unpause</ref>()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//If<sp/>the<sp/>timer<sp/>is<sp/>running<sp/>and<sp/>paused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref><sp/>&amp;&amp;<sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Unpause<sp/>the<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Reset<sp/>the<sp/>starting<sp/>ticks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref><sp/>=<sp/>SDL_GetTicks()<sp/>-<sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Reset<sp/>the<sp/>paused<sp/>ticks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65" refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" refkind="member"><highlight class="normal">Uint32<sp/><ref refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" kindref="member">LTimer::getTicks</ref>()</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//The<sp/>actual<sp/>timer<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>Uint32<sp/>time<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//If<sp/>the<sp/>timer<sp/>is<sp/>running</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref><sp/>)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//If<sp/>the<sp/>timer<sp/>is<sp/>paused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Return<sp/>the<sp/>number<sp/>of<sp/>ticks<sp/>when<sp/>the<sp/>timer<sp/>was<sp/>paused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time<sp/>=<sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Return<sp/>the<sp/>current<sp/>time<sp/>minus<sp/>the<sp/>start<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time<sp/>=<sp/>SDL_GetTicks()<sp/>-<sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>time;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87" refid="class_l_timer_1a102ca688eaa4109dd733b4b60a29d27c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a102ca688eaa4109dd733b4b60a29d27c" kindref="member">LTimer::isStarted</ref>()</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Timer<sp/>is<sp/>running<sp/>and<sp/>paused<sp/>or<sp/>unpaused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="class_l_timer_1ae1d9b504da6ed0f42e10f2338a9f88bb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1ae1d9b504da6ed0f42e10f2338a9f88bb" kindref="member">LTimer::isPaused</ref>()</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Timer<sp/>is<sp/>running<sp/>and<sp/>paused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref><sp/>&amp;&amp;<sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Ltimer.cpp"/>
+  </compounddef>
+</doxygen>

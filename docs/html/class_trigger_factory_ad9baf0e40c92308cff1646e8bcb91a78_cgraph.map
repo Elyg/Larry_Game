@@ -1,0 +1,5 @@
+<map id="TriggerFactory::readTriggerPosData" name="TriggerFactory::readTriggerPosData">
+<area shape="rect" id="node2" href="$main_8cpp.html#a822c103b79ef8d6a36c81a14cd038e07" title="exit" alt="" coords="232,12,275,39"/>
+<area shape="rect" id="node3" href="$class_g_u_i_draw.html#a3d1840dd78e2a636d704bf5d90f7ea30" title="draws the exit screen " alt="" coords="323,12,501,39"/>
+<area shape="rect" id="node4" href="$class_g_u_i_draw.html#a6ff5333a16605bf165d9295031e8c48c" title="draws a texture on a two triangle quad " alt="" coords="549,12,707,39"/>
+</map>

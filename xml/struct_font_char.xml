@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="struct_font_char" kind="struct" prot="public">
+    <compoundname>FontChar</compoundname>
+    <includes refid="_text_8h" local="no">Text.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_font_char_1ad9a465bf2576f17d4123d440d1b4a6cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FontChar::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="56" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" compoundref="_text_8cpp" startline="45" endline="213">Text::Text</referencedby>
+        <referencedby refid="class_text_1a3d0591d0b3a6bd73543cb8637fbe91e5" compoundref="_text_8cpp" startline="232" endline="288">Text::renderText</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_font_char_1ae1075095d8060c578b87d6437eccec2c" prot="public" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint FontChar::textureID</definition>
+        <argsstring></argsstring>
+        <name>textureID</name>
+        <briefdescription>
+<para>the width of the font </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="57" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" compoundref="_text_8cpp" startline="45" endline="213">Text::Text</referencedby>
+        <referencedby refid="class_text_1a3d0591d0b3a6bd73543cb8637fbe91e5" compoundref="_text_8cpp" startline="232" endline="288">Text::renderText</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_font_char_1a890a0845ed36a0d9aa80eff184f76230" prot="public" static="no" mutable="no">
+        <type>ngl::VertexArrayObject *</type>
+        <definition>ngl::VertexArrayObject* FontChar::vao</definition>
+        <argsstring></argsstring>
+        <name>vao</name>
+        <briefdescription>
+<para>the texture id of the font billboard </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="58" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" compoundref="_text_8cpp" startline="45" endline="213">Text::Text</referencedby>
+        <referencedby refid="class_text_1a3d0591d0b3a6bd73543cb8637fbe91e5" compoundref="_text_8cpp" startline="232" endline="288">Text::renderText</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a structure to hold the font char texture id and the vao. The vao for each font will be a different size need to investigate is a scale would be quicker / more efficient than storing multiple billboards (some will be the same size) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="119">
+        <label>FontChar</label>
+        <link refid="struct_font_char"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" line="55" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Text.h" bodystart="54" bodyend="59"/>
+    <listofallmembers>
+      <member refid="struct_font_char_1ae1075095d8060c578b87d6437eccec2c" prot="public" virt="non-virtual"><scope>FontChar</scope><name>textureID</name></member>
+      <member refid="struct_font_char_1a890a0845ed36a0d9aa80eff184f76230" prot="public" virt="non-virtual"><scope>FontChar</scope><name>vao</name></member>
+      <member refid="struct_font_char_1ad9a465bf2576f17d4123d440d1b4a6cb" prot="public" virt="non-virtual"><scope>FontChar</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

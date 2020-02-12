@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_platform_factory_8h" kind="file">
+    <compoundname>PlatformFactory.h</compoundname>
+    <includes refid="_platform_8h" local="yes">Platform.h</includes>
+    <includes refid="_collision_shape_8h" local="yes">CollisionShape.h</includes>
+    <includedby refid="_platform_factory_8cpp" local="yes">PlatformFactory.cpp</includedby>
+    <includedby refid="_n_g_l_draw_8h" local="yes">NGLDraw.h</includedby>
+    <incdepgraph>
+      <node id="2517">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="2518" relation="include">
+        </childnode>
+      </node>
+      <node id="2518">
+        <label>SDL.h</label>
+      </node>
+      <node id="2515">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="2510">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="2511" relation="include">
+        </childnode>
+        <childnode refid="2512" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+      </node>
+      <node id="2513">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="2504" relation="include">
+        </childnode>
+        <childnode refid="2514" relation="include">
+        </childnode>
+        <childnode refid="2508" relation="include">
+        </childnode>
+        <childnode refid="2515" relation="include">
+        </childnode>
+        <childnode refid="2516" relation="include">
+        </childnode>
+      </node>
+      <node id="2516">
+        <label>string</label>
+      </node>
+      <node id="2502">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="2503" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+        <childnode refid="2517" relation="include">
+        </childnode>
+      </node>
+      <node id="2501">
+        <label>PlatformFactory.h</label>
+        <link refid="PlatformFactory.h"/>
+        <childnode refid="2502" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+      </node>
+      <node id="2507">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2512">
+        <label>vector</label>
+      </node>
+      <node id="2506">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="2514">
+        <label>unordered_map</label>
+      </node>
+      <node id="2504">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2511">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="2509">
+        <label>set</label>
+      </node>
+      <node id="2505">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="2508">
+        <label>memory</label>
+      </node>
+      <node id="2503">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="2504" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+        <childnode refid="2507" relation="include">
+        </childnode>
+        <childnode refid="2508" relation="include">
+        </childnode>
+        <childnode refid="2509" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2530">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="2531" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+      </node>
+      <node id="2526">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="2527" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+      </node>
+      <node id="2535">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="2529">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="2522">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2519">
+        <label>PlatformFactory.h</label>
+        <link refid="PlatformFactory.h"/>
+        <childnode refid="2520" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+      </node>
+      <node id="2534">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="2527" relation="include">
+        </childnode>
+        <childnode refid="2535" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+      </node>
+      <node id="2532">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="2533" relation="include">
+        </childnode>
+        <childnode refid="2522" relation="include">
+        </childnode>
+      </node>
+      <node id="2531">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="2521">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="2522" relation="include">
+        </childnode>
+        <childnode refid="2523" relation="include">
+        </childnode>
+        <childnode refid="2524" relation="include">
+        </childnode>
+        <childnode refid="2526" relation="include">
+        </childnode>
+        <childnode refid="2528" relation="include">
+        </childnode>
+        <childnode refid="2532" relation="include">
+        </childnode>
+        <childnode refid="2534" relation="include">
+        </childnode>
+      </node>
+      <node id="2523">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="2524">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="2525" relation="include">
+        </childnode>
+        <childnode refid="2522" relation="include">
+        </childnode>
+        <childnode refid="2523" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+      </node>
+      <node id="2527">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="2525">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="2520">
+        <label>PlatformFactory.cpp</label>
+        <link refid="_platform_factory_8cpp"/>
+      </node>
+      <node id="2528">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="2529" relation="include">
+        </childnode>
+        <childnode refid="2530" relation="include">
+        </childnode>
+      </node>
+      <node id="2533">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_platform_factory" prot="public">PlatformFactory</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Eligijus Titas, Morgan Henty, Tom Rule </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PLATFORMFACTORY</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PLATFORMFACTORY</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_platform_8h" kindref="compound">Platform.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_collision_shape_8h" kindref="compound">CollisionShape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platform" kindref="compound">Platform</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"></highlight><highlight class="comment">//--------------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_platform_factory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platform_factory" kindref="compound">PlatformFactory</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><ref refid="class_platform_factory_1a70521c77b81db54af5fb0664ecb4c644" kindref="member">PlatformFactory</ref>(<ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*_physics);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="class_platform_factory_1ade80c7b9a39ad8141bcfc3481375b684" kindref="member">~PlatformFactory</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a3f20e6b434a5bfa7b2532fde223e7c89" kindref="member">createPlatform</ref>(ngl::Vec3<sp/>_pos,<sp/>std::string<sp/>_platName,<sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" kindref="member">PlatType</ref><sp/>_platType,<ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*_physics);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a5cb7c239d6b133b79556e2276e4924e2" kindref="member">movePlatform</ref>(std::string<sp/>_platformName,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_vel,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_range,<sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aa" kindref="member">Direction</ref><sp/>_d);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a4fa150bea70885fd2dc8e3edaca7b5c3" kindref="member">rotatePlatform</ref>(std::string<sp/>_platformName,<sp/>std::string<sp/>_axis);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a08c510204db74f4d7c490d9ae687a4bd" kindref="member">addRot</ref>(std::string<sp/>_platformName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_deg);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1abb3150d373f411d74d76de4d7ec0e99a" kindref="member">setRot</ref>(std::string<sp/>_platformName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_rot);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1aaa0ba6838f914642fc71f1f06acfc0f9" kindref="member">deletePlatform</ref>(<ref refid="class_platform" kindref="compound">Platform</ref><sp/>*_platform);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_platform_factory_1a1162e61bdb38e5acf4a2eb67d2ba280a" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;Platform<sp/>*&gt;<sp/><ref refid="class_platform_factory_1a1162e61bdb38e5acf4a2eb67d2ba280a" kindref="member">getPlatformList</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>;}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;Platform<sp/>*&gt;<sp/><ref refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kindref="member">m_platformList</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_platform" kindref="compound">Platform</ref><sp/>*<ref refid="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" kindref="member">m_platform</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="class_platform_factory_1a6349ee591dce85e8d107dcf41255cc17" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<ref refid="class_platform_factory_1a6349ee591dce85e8d107dcf41255cc17" kindref="member">m_physics</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PLATFORMFACTORY</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PlatformFactory.h"/>
+  </compounddef>
+</doxygen>

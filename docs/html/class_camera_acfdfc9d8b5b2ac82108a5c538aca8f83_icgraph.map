@@ -1,0 +1,4 @@
+<map id="Camera::getDistance" name="Camera::getDistance">
+<area shape="rect" id="node2" href="$class_n_g_l_draw.html#ad656ac3d12043d9fbb59985db83e5b52" title="ctor this will have a valid OpenGL context so we can create gl stuff " alt="" coords="205,5,352,32"/>
+<area shape="rect" id="node3" href="$class_n_g_l_draw.html#a8782a682c3a362baa3b18882f49c95ed" title="this method is called everytime the mouse wheel is moved " alt="" coords="201,56,357,83"/>
+</map>

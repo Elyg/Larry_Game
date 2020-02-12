@@ -1,0 +1,3 @@
+<map id="Controls::setMultiplierNegative" name="Controls::setMultiplierNegative">
+<area shape="rect" id="node2" href="$class_character.html#ac71793e33ec4e29a9289cd922e464b09" title="decrements the multiplier of the velocity of the character " alt="" coords="256,5,413,46"/>
+</map>

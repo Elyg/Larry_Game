@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_trigger_8cpp" kind="file">
+    <compoundname>Trigger.cpp</compoundname>
+    <includes refid="_trigger_8h" local="yes">Trigger.h</includes>
+    <incdepgraph>
+      <node id="2608">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="2605">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="2606" relation="include">
+        </childnode>
+        <childnode refid="2607" relation="include">
+        </childnode>
+        <childnode refid="2598" relation="include">
+        </childnode>
+      </node>
+      <node id="2609">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="2597">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="2598" relation="include">
+        </childnode>
+        <childnode refid="2599" relation="include">
+        </childnode>
+        <childnode refid="2608" relation="include">
+        </childnode>
+        <childnode refid="2609" relation="include">
+        </childnode>
+      </node>
+      <node id="2602">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2596">
+        <label>Trigger.cpp</label>
+        <link refid="Trigger.cpp"/>
+        <childnode refid="2597" relation="include">
+        </childnode>
+      </node>
+      <node id="2607">
+        <label>vector</label>
+      </node>
+      <node id="2601">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="2600">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2606">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="2604">
+        <label>set</label>
+      </node>
+      <node id="2598">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="2603">
+        <label>memory</label>
+      </node>
+      <node id="2599">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="2600" relation="include">
+        </childnode>
+        <childnode refid="2598" relation="include">
+        </childnode>
+        <childnode refid="2601" relation="include">
+        </childnode>
+        <childnode refid="2602" relation="include">
+        </childnode>
+        <childnode refid="2603" relation="include">
+        </childnode>
+        <childnode refid="2604" relation="include">
+        </childnode>
+        <childnode refid="2605" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_trigger_8h" kindref="compound">Trigger.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" refkind="member"><highlight class="normal"><ref refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" kindref="member">Trigger::Trigger</ref>(std::string<sp/>_id,<sp/>ngl::Vec3<sp/>_pos1,<sp/>ngl::Vec3<sp/>_pos2,<sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<sp/>_physics)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><ref refid="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" kindref="member">m_triggerID</ref><sp/>=<sp/>_id;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>make<sp/>sure<sp/>that<sp/>m_pos1<sp/>has<sp/>all<sp/>the<sp/>smallest<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_pos1.m_x<sp/>&lt;<sp/>_pos2.m_x)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_x<sp/>=<sp/>_pos1.m_x;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_x<sp/>=<sp/>_pos2.m_x;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_x<sp/>=<sp/>_pos2.m_x;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_x<sp/>=<sp/>_pos1.m_x;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_pos1.m_y<sp/>&lt;<sp/>_pos2.m_y)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_y<sp/>=<sp/>_pos1.m_y;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_y<sp/>=<sp/>_pos2.m_y;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_y=_pos2.m_y;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_y=_pos1.m_y;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_pos1.m_z<sp/>&lt;<sp/>_pos2.m_z)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_z<sp/>=<sp/>_pos1.m_z;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_z<sp/>=<sp/>_pos2.m_z;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_z<sp/>=<sp/>_pos2.m_z;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_z<sp/>=<sp/>_pos1.m_z;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>store<sp/>the<sp/>pointer<sp/>to<sp/>physics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" kindref="member">m_physics</ref><sp/>=<sp/>_physics;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47" refid="class_trigger_1a1a2d107dd06737f51c81c4897c75e59d" refkind="member"><highlight class="normal"><ref refid="class_trigger_1a1a2d107dd06737f51c81c4897c75e59d" kindref="member">Trigger::~Trigger</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//delete<sp/>m_physics;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51" refid="class_trigger_1aa93984db488edcfe733bd269755587bc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_trigger_1aa93984db488edcfe733bd269755587bc" kindref="member">Trigger::isHit</ref>(std::string<sp/>_name)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//get<sp/>the<sp/>position<sp/>for<sp/>the<sp/>specified<sp/>physics<sp/>body</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>ngl::Vec3<sp/>pos<sp/>=<sp/><ref refid="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" kindref="member">m_physics</ref>-&gt;<ref refid="class_physics_world_1a6d5cca57854b708690441dd0a75cb2fd" kindref="member">getCentreOfMass</ref>(_name);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//test<sp/>to<sp/>see<sp/>if<sp/>it<sp/>is<sp/>inside<sp/>the<sp/>box&apos;s<sp/>bounds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>largerThanPos1<sp/>=<sp/>pos.m_x<sp/>&gt;<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_x</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>pos.m_y<sp/>&gt;<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_y</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>pos.m_z<sp/>&gt;<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_z;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>smallerThanPos2<sp/>=<sp/>pos.m_x<sp/>&lt;<sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_x</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>pos.m_y<sp/>&lt;<sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_y</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>pos.m_z<sp/>&lt;<sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_z;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(largerThanPos1<sp/>&amp;&amp;<sp/>smallerThanPos2)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="class_trigger_1a5a3b38ef64daee02fc3c08d71a61b22f" refkind="member"><highlight class="normal">ngl::Transformation<sp/><ref refid="class_trigger_1a5a3b38ef64daee02fc3c08d71a61b22f" kindref="member">Trigger::getTransform</ref>()</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//calculate<sp/>centre<sp/>point</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>ngl::Vec3<sp/>centrePoint<sp/>=<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref><sp/>+<sp/>(<ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref><sp/>-<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>)/2;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x<sp/>=<sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_x<sp/>-<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_x;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y<sp/>=<sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_y<sp/>-<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_y;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z<sp/>=<sp/><ref refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kindref="member">m_pos2</ref>.m_z<sp/>-<sp/><ref refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kindref="member">m_pos1</ref>.m_z;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//set<sp/>scale<sp/>to<sp/>the<sp/>dimensions<sp/>of<sp/>the<sp/>box</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>ngl::Transformation<sp/>out;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>out.setPosition(centrePoint.m_x,<sp/>centrePoint.m_y,<sp/>centrePoint.m_z);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>out.setScale(x,<sp/>y,<sp/>z);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>out;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Trigger.cpp"/>
+  </compounddef>
+</doxygen>

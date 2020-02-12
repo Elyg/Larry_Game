@@ -1,0 +1,6 @@
+<map id="PhysicsWorld::applyForceCentral" name="PhysicsWorld::applyForceCentral">
+<area shape="rect" id="node2" href="$class_character.html#a595fba03a652891741ee6631a6079674" title="makes character move based on the direction vector " alt="" coords="229,12,403,39"/>
+<area shape="rect" id="node3" href="$class_controls.html#a05b74314f8236b971e20d1868d437286" title="moves the character based on the direction vector " alt="" coords="451,12,645,39"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="694,12,749,39"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="797,12,848,39"/>
+</map>

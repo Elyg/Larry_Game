@@ -1,0 +1,4 @@
+<map id="Controls::godMode" name="Controls::godMode">
+<area shape="rect" id="node2" href="$class_character.html#a6d677474346bf9589e9c940ae165537c" title="turn on cheats (disable gravity for character one in order to debug the levels) " alt="" coords="187,12,327,39"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#af0f1309e7a7e9c47763248e5772b5230" title="sets the gravity multiplier for a specific body (useful for making things weightless) ..." alt="" coords="376,5,547,46"/>
+</map>

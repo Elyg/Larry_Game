@@ -1,0 +1,6 @@
+<map id="NGLDraw::mouseMoveEvent" name="NGLDraw::mouseMoveEvent">
+<area shape="rect" id="node2" href="$class_camera.html#aeb2fffe048b65431de6b2beccdb34135" title="Returns the angle of the camera about the focus. " alt="" coords="251,5,378,32"/>
+<area shape="rect" id="node3" href="$class_camera.html#a6aa244c08427100da9e8ea5b2fa88cd8" title="returns the height of the camera " alt="" coords="249,56,381,83"/>
+<area shape="rect" id="node4" href="$class_camera.html#a60d0c53628aa3654b64eb1bc8beb1e28" title="Sets the angle of the camera about the focus. " alt="" coords="251,107,378,133"/>
+<area shape="rect" id="node5" href="$class_camera.html#a1ccc13246c520c77b09f680bd5bfaf86" title="sets the height of the camera " alt="" coords="249,157,381,184"/>
+</map>

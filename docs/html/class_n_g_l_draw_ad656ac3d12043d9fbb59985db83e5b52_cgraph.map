@@ -1,0 +1,14 @@
+<map id="NGLDraw::NGLDraw" name="NGLDraw::NGLDraw">
+<area shape="rect" id="node2" href="$class_collision_shape.html#add599b7da4202fb060a1060f020d4c9f" title="create instance of the collision shape " alt="" coords="229,5,390,32"/>
+<area shape="rect" id="node3" href="$class_collision_shape.html#a502ae0e27451fe9dfb65451dd424d645" title="create instance of the collision shape " alt="" coords="220,56,399,83"/>
+<area shape="rect" id="node4" href="$class_shader_factory.html#a380d9159ce70475f4337d97bf2120416" title="ShaderFactory::createDebug\lShader" alt="" coords="215,107,404,149"/>
+<area shape="rect" id="node5" href="$class_n_g_l_draw.html#a45a8557f4a2ef22ca853c08cd81c8f8a" title="create our fbo for shadows " alt="" coords="212,173,407,214"/>
+<area shape="rect" id="node6" href="$class_shader_factory.html#a6ea1c591503f6b4f0d044a1cf695f9a5" title="ShaderFactory::createGround\lShader" alt="" coords="213,238,406,279"/>
+<area shape="rect" id="node7" href="$class_shader_factory.html#a51fbd5c27d493d2c80415a6c46efaf28" title="ShaderFactory::createPhong\lShader" alt="" coords="215,303,403,345"/>
+<area shape="rect" id="node8" href="$class_shader_factory.html#a7c8dd505b5c3b2438784d99bc6dc0356" title="ShaderFactory::createTexture\lShader" alt="" coords="212,369,407,410"/>
+<area shape="rect" id="node9" href="$class_camera.html#aeb2fffe048b65431de6b2beccdb34135" title="Returns the angle of the camera about the focus. " alt="" coords="246,435,373,461"/>
+<area shape="rect" id="node10" href="$class_camera.html#acfdfc9d8b5b2ac82108a5c538aca8f83" title="Returns the distance between the camera and the focus. " alt="" coords="236,485,383,512"/>
+<area shape="rect" id="node11" href="$class_n_g_l_draw.html#a12e270822580926e2978f8b8fb147716" title="increment the lowThresholdKey for the disintegration effect " alt="" coords="200,536,419,563"/>
+<area shape="rect" id="node12" href="$class_collision_shape.html#a419073488476916f9dba2dd97ae2bf76" title="create instance of the collision shape " alt="" coords="226,587,393,613"/>
+<area shape="rect" id="node13" href="$class_n_g_l_draw.html#a506cd1c55e9fe3d32d72cf3be2374833" title="method to create a noise texture " alt="" coords="232,637,387,664"/>
+</map>

@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_controls_8h" kind="file">
+    <compoundname>Controls.h</compoundname>
+    <includes refid="_n_g_l_draw_8h" local="yes">NGLDraw.h</includes>
+    <includes refid="_physics_world_8h" local="yes">PhysicsWorld.h</includes>
+    <includedby refid="_controls_8cpp" local="yes">Controls.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <incdepgraph>
+      <node id="1997">
+        <label>list</label>
+      </node>
+      <node id="1983">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="1961" relation="include">
+        </childnode>
+      </node>
+      <node id="1988">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1989" relation="include">
+        </childnode>
+        <childnode refid="1972" relation="include">
+        </childnode>
+        <childnode refid="1990" relation="include">
+        </childnode>
+      </node>
+      <node id="1971">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1972" relation="include">
+        </childnode>
+        <childnode refid="1980" relation="include">
+        </childnode>
+        <childnode refid="1983" relation="include">
+        </childnode>
+      </node>
+      <node id="1991">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="1961">
+        <label>SDL.h</label>
+      </node>
+      <node id="1967">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="1982">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="1960">
+        <label>ngl/Light.h</label>
+      </node>
+      <node id="1968">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="1977">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="1978" relation="include">
+        </childnode>
+        <childnode refid="1979" relation="include">
+        </childnode>
+        <childnode refid="1974" relation="include">
+        </childnode>
+      </node>
+      <node id="1966">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="1962">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="1980">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="1973" relation="include">
+        </childnode>
+        <childnode refid="1981" relation="include">
+        </childnode>
+        <childnode refid="1963" relation="include">
+        </childnode>
+        <childnode refid="1982" relation="include">
+        </childnode>
+        <childnode refid="1969" relation="include">
+        </childnode>
+      </node>
+      <node id="1990">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="1974" relation="include">
+        </childnode>
+        <childnode refid="1972" relation="include">
+        </childnode>
+        <childnode refid="1991" relation="include">
+        </childnode>
+        <childnode refid="1962" relation="include">
+        </childnode>
+      </node>
+      <node id="1969">
+        <label>string</label>
+      </node>
+      <node id="2003">
+        <label>ngl/ShaderLib.h</label>
+      </node>
+      <node id="1970">
+        <label>map</label>
+      </node>
+      <node id="1993">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="1972" relation="include">
+        </childnode>
+        <childnode refid="1980" relation="include">
+        </childnode>
+        <childnode refid="1983" relation="include">
+        </childnode>
+      </node>
+      <node id="1992">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="1993" relation="include">
+        </childnode>
+        <childnode refid="1980" relation="include">
+        </childnode>
+      </node>
+      <node id="1994">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="1995" relation="include">
+        </childnode>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="1996" relation="include">
+        </childnode>
+      </node>
+      <node id="1984">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1972" relation="include">
+        </childnode>
+        <childnode refid="1980" relation="include">
+        </childnode>
+        <childnode refid="1965" relation="include">
+        </childnode>
+      </node>
+      <node id="1964">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="1957">
+        <label>Controls.h</label>
+        <link refid="Controls.h"/>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1972" relation="include">
+        </childnode>
+      </node>
+      <node id="2001">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="1965">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="1966" relation="include">
+        </childnode>
+        <childnode refid="1967" relation="include">
+        </childnode>
+        <childnode refid="1968" relation="include">
+        </childnode>
+        <childnode refid="1969" relation="include">
+        </childnode>
+        <childnode refid="1970" relation="include">
+        </childnode>
+      </node>
+      <node id="1979">
+        <label>vector</label>
+      </node>
+      <node id="1958">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1961" relation="include">
+        </childnode>
+        <childnode refid="1962" relation="include">
+        </childnode>
+        <childnode refid="1963" relation="include">
+        </childnode>
+        <childnode refid="1964" relation="include">
+        </childnode>
+        <childnode refid="1965" relation="include">
+        </childnode>
+        <childnode refid="1971" relation="include">
+        </childnode>
+        <childnode refid="1984" relation="include">
+        </childnode>
+        <childnode refid="1985" relation="include">
+        </childnode>
+        <childnode refid="1987" relation="include">
+        </childnode>
+        <childnode refid="1988" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+        <childnode refid="1994" relation="include">
+        </childnode>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1997" relation="include">
+        </childnode>
+        <childnode refid="1998" relation="include">
+        </childnode>
+        <childnode refid="2002" relation="include">
+        </childnode>
+      </node>
+      <node id="1975">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="1987">
+        <label>Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="1972" relation="include">
+        </childnode>
+        <childnode refid="1959" relation="include">
+        </childnode>
+      </node>
+      <node id="1985">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1986" relation="include">
+        </childnode>
+      </node>
+      <node id="1995">
+        <label>iostream</label>
+      </node>
+      <node id="1996">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="1981">
+        <label>unordered_map</label>
+      </node>
+      <node id="1986">
+        <label>ngl/NCCAPointBake.h</label>
+      </node>
+      <node id="2000">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="2002">
+        <label>ShaderFactory.h</label>
+        <link refid="_shader_factory_8h"/>
+        <childnode refid="2003" relation="include">
+        </childnode>
+      </node>
+      <node id="1973">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="1989">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1983" relation="include">
+        </childnode>
+      </node>
+      <node id="1978">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="1976">
+        <label>set</label>
+      </node>
+      <node id="1998">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1999" relation="include">
+        </childnode>
+        <childnode refid="1996" relation="include">
+        </childnode>
+        <childnode refid="2000" relation="include">
+        </childnode>
+        <childnode refid="2001" relation="include">
+        </childnode>
+      </node>
+      <node id="1974">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="1999">
+        <label>ngl/NGLStream.h</label>
+      </node>
+      <node id="1959">
+        <label>ngl/Camera.h</label>
+      </node>
+      <node id="1963">
+        <label>memory</label>
+      </node>
+      <node id="1972">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="1973" relation="include">
+        </childnode>
+        <childnode refid="1974" relation="include">
+        </childnode>
+        <childnode refid="1975" relation="include">
+        </childnode>
+        <childnode refid="1964" relation="include">
+        </childnode>
+        <childnode refid="1963" relation="include">
+        </childnode>
+        <childnode refid="1976" relation="include">
+        </childnode>
+        <childnode refid="1977" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2006">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2004">
+        <label>Controls.h</label>
+        <link refid="Controls.h"/>
+        <childnode refid="2005" relation="include">
+        </childnode>
+        <childnode refid="2006" relation="include">
+        </childnode>
+      </node>
+      <node id="2005">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_controls" prot="public">Controls</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Eligijus Titas, </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTROLS_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CONTROLS_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_n_g_l_draw_8h" kindref="compound">NGLDraw.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_physics_world_8h" kindref="compound">PhysicsWorld.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_controls" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_controls" kindref="compound">Controls</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//---------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_controls_1a3fec86d9b99b17d3fb3087207306e883" kindref="member">Controls</ref>(<ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*_physics,<ref refid="class_character" kindref="compound">Character</ref><sp/>*_character);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//---------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a739d7f836e424b3e52bbed5254d05bb2" kindref="member">setMassPositive</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a72d9f9954b5bd7f2d9c1eaf8d3e4c133" kindref="member">setMassNegative</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a7ffcbd7eb08abe5ad3384fab5023e6ee" kindref="member">setMaxVelPositive</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a2b50d9bdd337494c1593be5e6fef5f69" kindref="member">setMaxVelNegative</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a027e4320b6abb12c327a7469d2a4d42e" kindref="member">setMultiplierPositive</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a5d1e9f2f35434f638cf1cf101002ca8c" kindref="member">setMultiplierNegative</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a472ff85242095dbe9435de7e5ab51bf5" kindref="member">jumpImpulse</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1aae150be1e58ea618a6a9f7043727ebe5" kindref="member">stopJumpHopTimer</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a508630b1ee74d999f41e238c9c45c4c5" kindref="member">startJumpHopTimer</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a37be7d2dd9722a8c4c65e34728b521e5" kindref="member">godMode</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1accc352189480c1031ee1446c378cc071" kindref="member">shapeshift</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a05b74314f8236b971e20d1868d437286" kindref="member">characterMovement</ref>(ngl::Vec3<sp/>&amp;_move);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a7a9edd2f6c56973f63338d2a0c214ced" kindref="member">setJumpForcePositive</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1ae47be44b42b8bebeb0c53572da912db8" kindref="member">setJumpForceNegative</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a570899be599209ec6f9bf7f2666c8021" kindref="member">setJumpHopMaxTimePositive</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1aef45854f27613d3bc5178cbdee862f68" kindref="member">setJumpHopMaxTimeNegative</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a39668100d8fd76dad5f1cd7246fb1858" kindref="member">setFrictionPositive</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1ab39eb41cd98e9e53873b916a9d63cc41" kindref="member">setFrictionNegative</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a3fed9472c6e44b18935eee2100af7922" kindref="member">getMass</ref>();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1af6f57c51504181c793dc5a973e7d2ff7" kindref="member">getMaxVelocity</ref>();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1af04921210f113d639ff0f3564d5ac1e4" kindref="member">getMultiplier</ref>();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a0f163ad74f11e47455c023db515d44de" kindref="member">getFriction</ref>();</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1aeeb1c64a0043037a3e22220c0d0e57eb" kindref="member">getJumpForce</ref>();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a48fb94906d136cbc9abefe65a78e5477" kindref="member">getJumpHopTime</ref>();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_controls_1ad5d8ded931c665b857812049ca5f5186" kindref="member">getJumpHopMaxTime</ref>();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="class_controls_1a327aa6cddb871bf75037d9be2e22b6b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<ref refid="class_controls_1a327aa6cddb871bf75037d9be2e22b6b8" kindref="member">m_physics</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="class_controls_1a024d109da79e781107c763e1033707cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_character" kindref="compound">Character</ref><sp/>*<ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTROLS_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Controls.h"/>
+  </compounddef>
+</doxygen>

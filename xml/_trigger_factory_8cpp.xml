@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_trigger_factory_8cpp" kind="file">
+    <compoundname>TriggerFactory.cpp</compoundname>
+    <includes refid="_trigger_factory_8h" local="yes">TriggerFactory.h</includes>
+    <incdepgraph>
+      <node id="2656">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="2653">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="2654" relation="include">
+        </childnode>
+        <childnode refid="2655" relation="include">
+        </childnode>
+        <childnode refid="2646" relation="include">
+        </childnode>
+      </node>
+      <node id="2657">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="2645">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="2646" relation="include">
+        </childnode>
+        <childnode refid="2647" relation="include">
+        </childnode>
+        <childnode refid="2656" relation="include">
+        </childnode>
+        <childnode refid="2657" relation="include">
+        </childnode>
+      </node>
+      <node id="2643">
+        <label>TriggerFactory.cpp</label>
+        <link refid="TriggerFactory.cpp"/>
+        <childnode refid="2644" relation="include">
+        </childnode>
+      </node>
+      <node id="2650">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2661">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="2655">
+        <label>vector</label>
+      </node>
+      <node id="2649">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="2659">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="2660">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="2648">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2654">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="2652">
+        <label>set</label>
+      </node>
+      <node id="2644">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="2645" relation="include">
+        </childnode>
+        <childnode refid="2658" relation="include">
+        </childnode>
+        <childnode refid="2659" relation="include">
+        </childnode>
+        <childnode refid="2660" relation="include">
+        </childnode>
+        <childnode refid="2661" relation="include">
+        </childnode>
+      </node>
+      <node id="2646">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="2658">
+        <label>ngl/NGLStream.h</label>
+      </node>
+      <node id="2651">
+        <label>memory</label>
+      </node>
+      <node id="2647">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="2648" relation="include">
+        </childnode>
+        <childnode refid="2646" relation="include">
+        </childnode>
+        <childnode refid="2649" relation="include">
+        </childnode>
+        <childnode refid="2650" relation="include">
+        </childnode>
+        <childnode refid="2651" relation="include">
+        </childnode>
+        <childnode refid="2652" relation="include">
+        </childnode>
+        <childnode refid="2653" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_trigger_factory_8h" kindref="compound">TriggerFactory.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_trigger_factory_1a9526c5bef065af99d57932f2293157b3" refkind="member"><highlight class="normal"><ref refid="class_trigger_factory_1a9526c5bef065af99d57932f2293157b3" kindref="member">TriggerFactory::TriggerFactory</ref>(<ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*_physics)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//store<sp/>the<sp/>physics<sp/>world<sp/>pointer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><ref refid="class_trigger_factory_1a41c0c7fd77ab1e1bd38c6e3f7ac05181" kindref="member">m_physics</ref><sp/>=<sp/>_physics;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8" refid="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" kindref="member">TriggerFactory::createTrigger</ref>(std::string<sp/>_id,<sp/>ngl::Vec3<sp/>_pointOne,<sp/>ngl::Vec3<sp/>_pointTwo)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//create<sp/>a<sp/>shared<sp/>pointer<sp/>for<sp/>a<sp/>trigger</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;Trigger&gt;<sp/>trigger(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_trigger" kindref="compound">Trigger</ref>(_id,<sp/>_pointOne,<sp/>_pointTwo,<sp/><ref refid="class_trigger_factory_1a41c0c7fd77ab1e1bd38c6e3f7ac05181" kindref="member">m_physics</ref>));</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//push<sp/>the<sp/>shared<sp/>pointer<sp/>to<sp/>the<sp/>trigger<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><ref refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" kindref="member">m_triggerList</ref>.push_back(trigger);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15" refid="class_trigger_factory_1a31f1c9cd8eb3afe37717fdb3eab41310" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_trigger_factory_1a31f1c9cd8eb3afe37717fdb3eab41310" kindref="member">TriggerFactory::createTriggerFromFile</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//loop<sp/>through<sp/>the<sp/>unordered<sp/>list<sp/>of<sp/>strings<sp/>that<sp/>were<sp/>read<sp/>from<sp/>txt<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=0;<sp/>i&lt;<ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>.size();<sp/>i+=7)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//store<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>name=<sp/><ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>[i];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//convert<sp/>the<sp/>string<sp/>values<sp/>to<sp/>floats<sp/>and<sp/>then<sp/>create<sp/>a<sp/>two<sp/>points</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ngl::Vec3<sp/>pointOne(std::stof(<ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>[1+i]),<sp/>std::stof(<ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>[2+i]),<sp/>std::stof(<ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>[3+i]));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ngl::Vec3<sp/>pointTwo(std::stof(<ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>[4+i]),<sp/>std::stof(<ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>[5+i]),<sp/>std::stof(<ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>[6+i]));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//create<sp/>trigger<sp/>using<sp/>the<sp/>extracted<sp/>values<sp/>from<sp/>the<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" kindref="member">createTrigger</ref>(name,<sp/>pointOne,<sp/>pointTwo);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29" refid="class_trigger_factory_1aabf73828ff05cd2def0724af889874ac" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_trigger_factory_1aabf73828ff05cd2def0724af889874ac" kindref="member">TriggerFactory::deleteTrigger</ref>(std::string<sp/>_id)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//iterator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//initialize<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>found<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//loops<sp/>through<sp/>the<sp/>trigger<sp/>list<sp/>and<sp/>removes<sp/>the<sp/>trigger<sp/>from<sp/>the<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>trigger<sp/>:<sp/><ref refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" kindref="member">m_triggerList</ref><sp/>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_id<sp/>==<sp/>trigger-&gt;getTriggerID())</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_triggerList.erase(m_triggerList.begin()+i);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>found<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>no<sp/>trigger<sp/>found<sp/>print<sp/>the<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(found<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Did<sp/>not<sp/>find<sp/>trigger:<sp/>&quot;</highlight><highlight class="normal">+<sp/>_id&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_trigger_factory_1ad9baf0e40c92308cff1646e8bcb91a78" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_trigger_factory_1ad9baf0e40c92308cff1646e8bcb91a78" kindref="member">TriggerFactory::readTriggerPosData</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//open<sp/>the<sp/>file<sp/>at<sp/>the<sp/>destination</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>QFile<sp/>inFile(</highlight><highlight class="stringliteral">&quot;Preferences/triggerPos.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!inFile.open(QIODevice::ReadOnly<sp/>|<sp/>QIODevice::Text))</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr&lt;&lt;</highlight><highlight class="stringliteral">&quot;Error<sp/>Reading<sp/>file&quot;</highlight><highlight class="normal">&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8cpp_1a822c103b79ef8d6a36c81a14cd038e07" kindref="member">std::exit</ref>(1);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//read<sp/>all<sp/>variables<sp/>as<sp/>string<sp/>lines<sp/>and<sp/>store<sp/>them<sp/>to<sp/>the<sp/>string<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>QTextStream<sp/>in(&amp;inFile);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!in.atEnd())</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>coinPosString<sp/>=<sp/>in.readLine();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kindref="member">m_triggerListUnordered</ref>.push_back(coinPosString.toStdString());</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//close<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>inFile.close();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74" refid="class_trigger_factory_1aaa16c6afd3400b9b0a301d51c2873c6f" refkind="member"><highlight class="normal">ngl::Transformation<sp/><ref refid="class_trigger_factory_1aaa16c6afd3400b9b0a301d51c2873c6f" kindref="member">TriggerFactory::getTransform</ref>(std::string<sp/>_id)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//iterator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//initialize<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>found<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//loops<sp/>through<sp/>the<sp/>trigger<sp/>list<sp/>and<sp/>gets<sp/>the<sp/>trigger&apos;s<sp/>transformation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>trigger<sp/>:<sp/><ref refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" kindref="member">m_triggerList</ref>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_id<sp/>==<sp/>trigger-&gt;getTriggerID())</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>found<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>trigger-&gt;getTransform();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>no<sp/>trigger<sp/>found<sp/>in<sp/>the<sp/>list<sp/>return<sp/>empty<sp/>transformation<sp/>and<sp/>print<sp/>the<sp/>wrong<sp/>trigger<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(found<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Did<sp/>not<sp/>find<sp/>trigger<sp/>with<sp/>ID:<sp/>&quot;</highlight><highlight class="normal">+<sp/>_id&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ngl::Transformation();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97" refid="class_trigger_factory_1ae496e29c2f9a9b23760fe68e5d7de648" refkind="member"><highlight class="normal">ngl::Transformation<sp/><ref refid="class_trigger_factory_1aaa16c6afd3400b9b0a301d51c2873c6f" kindref="member">TriggerFactory::getTransform</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_index)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>index<sp/>is<sp/>less<sp/>than<sp/>the<sp/>size<sp/>of<sp/>the<sp/>trigger<sp/>list<sp/>get<sp/>the<sp/>transformation<sp/>using<sp/>the<sp/>_index</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_index<sp/>&lt;=<sp/><ref refid="class_trigger_factory_1a1288a741512e213883b80df4d98c7dfa" kindref="member">getTriggerListSize</ref>()<sp/>)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" kindref="member">m_triggerList</ref>[_index]-&gt;getTransform();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Index:<sp/>&quot;</highlight><highlight class="normal">+std::to_string(_index)+</highlight><highlight class="stringliteral">&quot;<sp/>is<sp/>out<sp/>of<sp/>scope<sp/>of<sp/>the<sp/>list<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109" refid="class_trigger_factory_1a9125324cc88775da4dce5b29fa015d50" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_trigger_factory_1a9125324cc88775da4dce5b29fa015d50" kindref="member">TriggerFactory::printTriggerList</ref>()</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//prints<sp/>the<sp/>trigger<sp/>volums</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i<sp/>:<sp/><ref refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" kindref="member">m_triggerList</ref>)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>trigger<sp/>=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>trigger<sp/>=<sp/>i-&gt;getTriggerID();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;trigger&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119" refid="class_trigger_factory_1afda600ddf4fcb5a6582cacc51c13a36d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_trigger_factory_1afda600ddf4fcb5a6582cacc51c13a36d" kindref="member">TriggerFactory::checkPairHit</ref>(std::string<sp/>_id,<sp/>std::string<sp/>_physicsObjName)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//iterator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//initialize<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>found<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//loops<sp/>through<sp/>the<sp/>trigger<sp/>list<sp/>and<sp/>check<sp/>the<sp/>physics<sp/>object<sp/>collides<sp/>with<sp/>the<sp/>trigger<sp/>volume</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>trigger<sp/>:<sp/><ref refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" kindref="member">m_triggerList</ref>)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_id<sp/>==<sp/>trigger-&gt;getTriggerID())</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>found<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>trigger-&gt;isHit(_physicsObjName);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//if<sp/>no<sp/>trigger<sp/>found<sp/>with<sp/>the<sp/>given<sp/>name<sp/>print<sp/>the<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(found<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Did<sp/>not<sp/>find<sp/>trigger<sp/>with<sp/>ID:<sp/>&quot;</highlight><highlight class="normal">+<sp/>_id&lt;&lt;std::endl;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp"/>
+  </compounddef>
+</doxygen>

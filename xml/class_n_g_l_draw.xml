@@ -1,0 +1,2259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_n_g_l_draw" kind="class" prot="public">
+    <compoundname>NGLDraw</compoundname>
+    <includes refid="_n_g_l_draw_8h" local="no">NGLDraw.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_n_g_l_draw_1a333a68dffb2f17de902059bdde7d1d55" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NGLDraw::m_spinXFace</definition>
+        <argsstring></argsstring>
+        <name>m_spinXFace</name>
+        <briefdescription>
+<para>used to store the x rotation mouse value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="169" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="169" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a18af23a99a457663dd95efeb7e7b3455" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NGLDraw::m_spinYFace</definition>
+        <argsstring></argsstring>
+        <name>m_spinYFace</name>
+        <briefdescription>
+<para>used to store the y rotation mouse value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="173" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="173" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ae6da031d343135a463a5aa4892447d78" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NGLDraw::m_rotate</definition>
+        <argsstring></argsstring>
+        <name>m_rotate</name>
+        <briefdescription>
+<para>flag to indicate if the mouse button is pressed when dragging </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="177" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="177" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" compoundref="_n_g_l_draw_8cpp" startline="1228" endline="1240">mouseMoveEvent</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a1b20896f4aac3cddd5ea2f977410a19f" compoundref="_n_g_l_draw_8cpp" startline="1244" endline="1254">mousePressEvent</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aa41eba2e6fd12011cdd62a7db8f7f84e" compoundref="_n_g_l_draw_8cpp" startline="1257" endline="1265">mouseReleaseEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ace86944ed1a9a70325f685e4d5e4a795" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_origX</definition>
+        <argsstring></argsstring>
+        <name>m_origX</name>
+        <briefdescription>
+<para>the previous x mouse value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="181" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="181" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" compoundref="_n_g_l_draw_8cpp" startline="1228" endline="1240">mouseMoveEvent</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a1b20896f4aac3cddd5ea2f977410a19f" compoundref="_n_g_l_draw_8cpp" startline="1244" endline="1254">mousePressEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a00a59d797594150f054bb7c5c83435bc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_origY</definition>
+        <argsstring></argsstring>
+        <name>m_origY</name>
+        <briefdescription>
+<para>the previous y mouse value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="185" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="185" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" compoundref="_n_g_l_draw_8cpp" startline="1228" endline="1240">mouseMoveEvent</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a1b20896f4aac3cddd5ea2f977410a19f" compoundref="_n_g_l_draw_8cpp" startline="1244" endline="1254">mousePressEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a2145fe76e0b468fd4ec2c3832018037f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NGLDraw::m_origXPos</definition>
+        <argsstring></argsstring>
+        <name>m_origXPos</name>
+        <briefdescription>
+<para>the previous x mouse value for Position changes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="189" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ace90d67bf9444364656f329b9a80c234" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NGLDraw::m_origYPos</definition>
+        <argsstring></argsstring>
+        <name>m_origYPos</name>
+        <briefdescription>
+<para>the previous y mouse value for Position changes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="193" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1add58d5447775b9c8eef3cbd6a45d2581" prot="private" static="no" mutable="no">
+        <type>ngl::Mat4</type>
+        <definition>ngl::Mat4 NGLDraw::m_mouseGlobalTX</definition>
+        <argsstring></argsstring>
+        <name>m_mouseGlobalTX</name>
+        <briefdescription>
+<para>used to store the global mouse transforms </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="197" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="197" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera" kindref="compound">Camera</ref> *</type>
+        <definition>Camera* NGLDraw::m_cam</definition>
+        <argsstring></argsstring>
+        <name>m_cam</name>
+        <briefdescription>
+<para>Our <ref refid="class_camera" kindref="compound">Camera</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="201" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="201" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</referencedby>
+        <referencedby refid="class_n_g_l_draw_1af711def4043fa15686998fca20f0697b" compoundref="_n_g_l_draw_8cpp" startline="530" endline="536">~NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" compoundref="_n_g_l_draw_8cpp" startline="538" endline="547">resize</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" compoundref="_n_g_l_draw_8cpp" startline="1228" endline="1240">mouseMoveEvent</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a8782a682c3a362baa3b18882f49c95ed" compoundref="_n_g_l_draw_8cpp" startline="1268" endline="1290">wheelEvent</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a8e81bbf82286d1c4235abd6f04f24de9" compoundref="_n_g_l_draw_8cpp" startline="1392" endline="1396">restartGame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a402443700f5c74bc715fc4959dc3d748" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 NGLDraw::m_modelPos</definition>
+        <argsstring></argsstring>
+        <name>m_modelPos</name>
+        <briefdescription>
+<para>the model position for mouse movement </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="205" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="205" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ac9b771b3fe87d387319e4a779f4cc4e6" prot="private" static="no" mutable="no">
+        <type>ngl::Light *</type>
+        <definition>ngl::Light* NGLDraw::m_light</definition>
+        <argsstring></argsstring>
+        <name>m_light</name>
+        <briefdescription>
+<para>a simple light use to illuminate the screen </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="209" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="209" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1af711def4043fa15686998fca20f0697b" compoundref="_n_g_l_draw_8cpp" startline="530" endline="536">~NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;PhysicsWorld&gt; NGLDraw::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> from bullet physics </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="212" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="212" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a16334df95f8d9a51532f3338917e5f15" compoundref="_n_g_l_draw_8cpp" startline="1297" endline="1304">updateDebugDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" compoundref="_n_g_l_draw_8cpp" startline="1305" endline="1334">updatePhysics</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a097605c7ddb2f1db44a775b7ce331cbf" compoundref="_n_g_l_draw_8cpp" startline="1336" endline="1348">debugPhysicsWorld</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aefaec57ef590fe45fe33b4682a3f57ae" compoundref="_n_g_l_draw_8cpp" startline="1355" endline="1372">addCube</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a88e7c60d00d0221df2eb523b94210d90" compoundref="_n_g_l_draw_8cpp" startline="1375" endline="1379">setGravityFactorPositive</referencedby>
+        <referencedby refid="class_n_g_l_draw_1af286740f4b8d4483a0f71b1c248dee18" compoundref="_n_g_l_draw_8cpp" startline="1381" endline="1385">setGravityFactorNegative</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a06c2f1b75f43f42de5a7922e16b3a4f3" compoundref="_n_g_l_draw_8cpp" startline="1397" endline="1422">restartGameValues</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad73f75d8409c2a4f057dda554c3a5a18" compoundref="_n_g_l_draw_8h" startline="123" endline="123">getPhysicsWorld</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ac3eea11b312b5b1dc082b884dd2fcca2" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_high_score" kindref="compound">HighScore</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;HighScore&gt; NGLDraw::m_highScore</definition>
+        <argsstring></argsstring>
+        <name>m_highScore</name>
+        <briefdescription>
+<para>class to manage the high score </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="215" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="215" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a06c2f1b75f43f42de5a7922e16b3a4f3" compoundref="_n_g_l_draw_8cpp" startline="1397" endline="1422">restartGameValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aee3dd61984630269553fcbeb90b29661" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_trigger_factory" kindref="compound">TriggerFactory</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;TriggerFactory&gt; NGLDraw::m_triggerFactory</definition>
+        <argsstring></argsstring>
+        <name>m_triggerFactory</name>
+        <briefdescription>
+<para>class to manage the trigger volumes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="218" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" compoundref="_n_g_l_draw_8cpp" startline="1305" endline="1334">updatePhysics</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_character" kindref="compound">Character</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Character&gt; NGLDraw::m_character</definition>
+        <argsstring></argsstring>
+        <name>m_character</name>
+        <briefdescription>
+<para>class to manage the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="221" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="221" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" compoundref="_n_g_l_draw_8cpp" startline="1305" endline="1334">updatePhysics</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aefaec57ef590fe45fe33b4682a3f57ae" compoundref="_n_g_l_draw_8cpp" startline="1355" endline="1372">addCube</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a8e81bbf82286d1c4235abd6f04f24de9" compoundref="_n_g_l_draw_8cpp" startline="1392" endline="1396">restartGame</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a9110f84ec3803a3b2f5cf1530e51b809" compoundref="_n_g_l_draw_8h" startline="126" endline="126">getCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a4bdb4e0a938d843e85e12548085c1a51" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_level" kindref="compound">Level</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Level&gt; NGLDraw::m_level</definition>
+        <argsstring></argsstring>
+        <name>m_level</name>
+        <briefdescription>
+<para>class to manage all the level meshes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="224" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="224" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a2c149d2350bf7a3755a47f6112f94787" compoundref="_n_g_l_draw_8h" startline="129" endline="129">getLevel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ab01337737d1ae553473be30c3ff74bdc" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_animation" kindref="compound">Animation</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Animation&gt; NGLDraw::m_animation</definition>
+        <argsstring></argsstring>
+        <name>m_animation</name>
+        <briefdescription>
+<para>class to handle all the animation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="227" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a2ad6a17a34d83e10c9021ae25d99af98" compoundref="_n_g_l_draw_8h" startline="132" endline="132">getAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a63883e107ea8c44073e1255c62b90b1e" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_coin_factory" kindref="compound">CoinFactory</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;CoinFactory&gt; NGLDraw::m_coinFactory</definition>
+        <argsstring></argsstring>
+        <name>m_coinFactory</name>
+        <briefdescription>
+<para>class to manage the coins </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="230" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="230" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a06c2f1b75f43f42de5a7922e16b3a4f3" compoundref="_n_g_l_draw_8cpp" startline="1397" endline="1422">restartGameValues</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a4aa09006ce49ee1863a2eeb8cc07edb7" compoundref="_n_g_l_draw_8h" startline="135" endline="135">getCoinFactory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a02f2d78ce539285777c35fcf0d53a4a6" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_platform_factory" kindref="compound">PlatformFactory</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;PlatformFactory&gt; NGLDraw::m_platformFactory</definition>
+        <argsstring></argsstring>
+        <name>m_platformFactory</name>
+        <briefdescription>
+<para>class to manage all the platforms </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="233" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="233" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a06c2f1b75f43f42de5a7922e16b3a4f3" compoundref="_n_g_l_draw_8cpp" startline="1397" endline="1422">restartGameValues</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a867b956b14b973722beedada830d6ad7" compoundref="_n_g_l_draw_8h" startline="138" endline="138">getPlatformFactory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a0643100ba8287840812843c182383918" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_text" kindref="compound">Text</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Text&gt; NGLDraw::m_text</definition>
+        <argsstring></argsstring>
+        <name>m_text</name>
+        <briefdescription>
+<para>text object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="236" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="236" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" compoundref="_n_g_l_draw_8cpp" startline="538" endline="547">resize</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a0955ece2a8f0047dcb8d54c58ddf63f8" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_text" kindref="compound">Text</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Text&gt; NGLDraw::m_textHighscore</definition>
+        <argsstring></argsstring>
+        <name>m_textHighscore</name>
+        <briefdescription>
+<para>text object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="239" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="239" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a24eb5a13796d850b994806d7dde79540" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_larryMesh</definition>
+        <argsstring></argsstring>
+        <name>m_larryMesh</name>
+        <briefdescription>
+<para>mesh for the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="242" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="242" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a1718f004c68d6369c30ce97f37568729" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level1Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level1Mesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="245" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="245" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a1d9c617a443d037e09b6c081fc1a004e" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level2_1Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level2_1Mesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="248" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="248" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a9a9db52fc3f4009fb2ed6d3d3bcc18ce" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level2_2Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level2_2Mesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="251" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="251" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a9e17d6d1fd9c2b56fb5c6eaf93f02b54" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level2_3aMesh</definition>
+        <argsstring></argsstring>
+        <name>m_level2_3aMesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="254" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="254" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ac244ab08b9f1de2fef2a4adc10915a33" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level2_3bMesh</definition>
+        <argsstring></argsstring>
+        <name>m_level2_3bMesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="257" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="257" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a615507ccce3f3811712306431129f23a" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level3Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level3Mesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="260" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="260" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a6e11331f5c471eb40c240fe48393001b" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level4_1Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level4_1Mesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="263" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="263" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a7a1c0603f362e7d970540e4c40f668a1" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level4_2Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level4_2Mesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="266" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="266" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ac68796c07ab55611f5f45573206b6582" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level5Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level5Mesh</name>
+        <briefdescription>
+<para>level mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="269" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="269" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aa883399a6be3eacc3bb79a2319b0fb0e" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_coinMesh</definition>
+        <argsstring></argsstring>
+        <name>m_coinMesh</name>
+        <briefdescription>
+<para>coin mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="272" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="272" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ae2ac8ef6e024b3d17722bc2a6834ec77" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_platformMesh_platform</definition>
+        <argsstring></argsstring>
+        <name>m_platformMesh_platform</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="275" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="275" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a2564668f371aedc1e5ee2c56bf2441da" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_platformMesh_bouncePad</definition>
+        <argsstring></argsstring>
+        <name>m_platformMesh_bouncePad</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="278" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="278" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a73ebf7484f9d663227ee2ffc8edc5edd" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_platformMesh_barrier01</definition>
+        <argsstring></argsstring>
+        <name>m_platformMesh_barrier01</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="281" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="281" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ae192025c30a1de1918d2c6a9233c70b2" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level2Platform</definition>
+        <argsstring></argsstring>
+        <name>m_level2Platform</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="284" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a0d2e0d67cacbfe1f84fe5855f67d072f" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level2Sliding1</definition>
+        <argsstring></argsstring>
+        <name>m_level2Sliding1</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="287" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a03463ec30310b744a274a280c934c2b7" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level2Sliding2</definition>
+        <argsstring></argsstring>
+        <name>m_level2Sliding2</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="290" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1af527b0abeed73c7e1d0fc2b26a6896b0" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level4Bridge1Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level4Bridge1Mesh</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="293" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="293" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aed9b51e9e0d47a4ed83d5a3c5d9248c7" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level4Bridge2Mesh</definition>
+        <argsstring></argsstring>
+        <name>m_level4Bridge2Mesh</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="296" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="296" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a84af750a20197acd58c50b3d6cad526a" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level4RotPlatformMesh</definition>
+        <argsstring></argsstring>
+        <name>m_level4RotPlatformMesh</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="299" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="299" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1acd941730c1006ab7ff4d50dd7f93a0ec" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level5MovingPlat</definition>
+        <argsstring></argsstring>
+        <name>m_level5MovingPlat</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="302" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a5842f05a58ad41b5754969b46ecb40a2" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level1_bouncePlatformMesh</definition>
+        <argsstring></argsstring>
+        <name>m_level1_bouncePlatformMesh</name>
+        <briefdescription>
+<para>platform mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="305" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1af9898b9333424acd82ec0010d7f51c4e" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_level5Stick</definition>
+        <argsstring></argsstring>
+        <name>m_level5Stick</name>
+        <briefdescription>
+<para>level 5 mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="308" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="308" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aa361867facb23c51e19c714ca019040b" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ngl::Obj &gt;</type>
+        <definition>std::unique_ptr&lt;ngl::Obj&gt; NGLDraw::m_finish</definition>
+        <argsstring></argsstring>
+        <name>m_finish</name>
+        <briefdescription>
+<para>finish mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="311" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="311" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a6c10720ed7392b885059ba5d06cc0fc8" prot="private" static="no" mutable="no">
+        <type>ngl::Mat4</type>
+        <definition>ngl::Mat4 NGLDraw::m_bodyTransform</definition>
+        <argsstring></argsstring>
+        <name>m_bodyTransform</name>
+        <briefdescription>
+<para>transformation matrices </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="314" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="314" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aa34619a181832d97ed82fd483b5b7193" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_trans_grid</definition>
+        <argsstring></argsstring>
+        <name>m_trans_grid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="315" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="315" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ac2647997902ce9c0d95da2f70bd6e3f4" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_trans_sphere</definition>
+        <argsstring></argsstring>
+        <name>m_trans_sphere</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="316" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="316" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aa2fca6240cc3e356bcb794b6004660ee" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_trans_cube</definition>
+        <argsstring></argsstring>
+        <name>m_trans_cube</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="317" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aa5a4b3333ddcdf2f5839136448d9a39e" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_trans_level</definition>
+        <argsstring></argsstring>
+        <name>m_trans_level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="318" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="318" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a390b9ed4103e068eed78fedcbf4edae9" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_trans_platform</definition>
+        <argsstring></argsstring>
+        <name>m_trans_platform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="319" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="319" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aa5b3c36d5b66d33dd52f96db79d8b3e8" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_position</definition>
+        <argsstring></argsstring>
+        <name>m_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="320" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="320" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a44340660ec3113265933e247440a3d67" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_transform</definition>
+        <argsstring></argsstring>
+        <name>m_transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="321" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="321" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a793a95d01d524833bc4a499821167dff" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_trans_coin</definition>
+        <argsstring></argsstring>
+        <name>m_trans_coin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="322" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="322" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a1dd6ea75ab42c455ad7a1bb2d02dd702" prot="private" static="no" mutable="no">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation NGLDraw::m_empty_trans</definition>
+        <argsstring></argsstring>
+        <name>m_empty_trans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="323" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="323" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1a16334df95f8d9a51532f3338917e5f15" compoundref="_n_g_l_draw_8cpp" startline="1297" endline="1304">updateDebugDraw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a9215aaee79f1bb371bb29a8b4d47f46e" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 NGLDraw::m_textPos</definition>
+        <argsstring></argsstring>
+        <name>m_textPos</name>
+        <briefdescription>
+<para>position for debug text drawing </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="326" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="326" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a00ece957ea5105cfee99f916c52600e0" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 NGLDraw::m_textVel</definition>
+        <argsstring></argsstring>
+        <name>m_textVel</name>
+        <briefdescription>
+<para>velocity for debug text drawing </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="329" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="329" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a5e3a79755300252f99c9c353fffd2407" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NGLDraw::m_w</definition>
+        <argsstring></argsstring>
+        <name>m_w</name>
+        <briefdescription>
+<para>width of the screen </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="332" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="332" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" compoundref="_n_g_l_draw_8cpp" startline="538" endline="547">resize</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ac5101cb66bb4c0a94c9a61f1600eea2e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NGLDraw::m_h</definition>
+        <argsstring></argsstring>
+        <name>m_h</name>
+        <briefdescription>
+<para>height of the screen </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="335" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="335" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" compoundref="_n_g_l_draw_8cpp" startline="538" endline="547">resize</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a535f8a8f46457bfc8fd3f8d160c1fbe7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_lastTime</definition>
+        <argsstring></argsstring>
+        <name>m_lastTime</name>
+        <briefdescription>
+<para>stores the last time the physics was updated </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="338" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="338" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" compoundref="_n_g_l_draw_8cpp" startline="1305" endline="1334">updatePhysics</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a12b8999652f44d992de74ed2fe10ef5b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_rot</definition>
+        <argsstring></argsstring>
+        <name>m_rot</name>
+        <briefdescription>
+<para>the rotation of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="341" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="341" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a362cdfd35285a298b7c0a4d1a52d4d8f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_prevRot</definition>
+        <argsstring></argsstring>
+        <name>m_prevRot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="343" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="343" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a776ada75080f8a0e3672b2d18d06d789" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NGLDraw::m_debug</definition>
+        <argsstring></argsstring>
+        <name>m_debug</name>
+        <briefdescription>
+<para>enable or disable debug </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="346" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="346" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a16334df95f8d9a51532f3338917e5f15" compoundref="_n_g_l_draw_8cpp" startline="1297" endline="1304">updateDebugDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a097605c7ddb2f1db44a775b7ce331cbf" compoundref="_n_g_l_draw_8cpp" startline="1336" endline="1348">debugPhysicsWorld</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a912b50c593789f4c008513bbfb501957" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NGLDraw::m_buttonCooldown</definition>
+        <argsstring></argsstring>
+        <name>m_buttonCooldown</name>
+        <briefdescription>
+<para>the number of ticks until the button is active again </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="349" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="349" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a4e8baf537f37fbc2623ba08b4028ace4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NGLDraw::m_bridgeDown</definition>
+        <argsstring></argsstring>
+        <name>m_bridgeDown</name>
+        <briefdescription>
+<para>true if the bridge in level 4 is down </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="352" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="352" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a06c2f1b75f43f42de5a7922e16b3a4f3" compoundref="_n_g_l_draw_8cpp" startline="1397" endline="1422">restartGameValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a229690ebde7628bf0d59adc3edac577e" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 NGLDraw::m_initialBallPos</definition>
+        <argsstring></argsstring>
+        <name>m_initialBallPos</name>
+        <briefdescription>
+<para>the starting position of the ball </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="355" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a04b5dce7e4a516e7cb4f380190f4cc8a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_mass</definition>
+        <argsstring></argsstring>
+        <name>m_mass</name>
+        <briefdescription>
+<para>the mass of the ball </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="358" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1abf33015a19854f798a37bf0fad71ba01" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NGLDraw::m_attractEnable</definition>
+        <argsstring></argsstring>
+        <name>m_attractEnable</name>
+        <briefdescription>
+<para>enable stickiness </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="361" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_gravityFactor</definition>
+        <argsstring></argsstring>
+        <name>m_gravityFactor</name>
+        <briefdescription>
+<para>the value that is multiplied with -9.8 to produce the gravity value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="364" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="364" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" compoundref="_n_g_l_draw_8cpp" startline="1305" endline="1334">updatePhysics</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a88e7c60d00d0221df2eb523b94210d90" compoundref="_n_g_l_draw_8cpp" startline="1375" endline="1379">setGravityFactorPositive</referencedby>
+        <referencedby refid="class_n_g_l_draw_1af286740f4b8d4483a0f71b1c248dee18" compoundref="_n_g_l_draw_8cpp" startline="1381" endline="1385">setGravityFactorNegative</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad800ac2dbe66fee44e408184442e5e45" compoundref="_n_g_l_draw_8cpp" startline="1387" endline="1390">getGravityFactor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a68785741170c1282d997b733507d8ee2" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string NGLDraw::m_formOne</definition>
+        <argsstring></argsstring>
+        <name>m_formOne</name>
+        <briefdescription>
+<para>the name of the ball </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="367" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="367" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" compoundref="_n_g_l_draw_8cpp" startline="1305" endline="1334">updatePhysics</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aefaec57ef590fe45fe33b4682a3f57ae" compoundref="_n_g_l_draw_8cpp" startline="1355" endline="1372">addCube</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a96976c4a72285b6c10df3782bb22d3a3" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string NGLDraw::m_formTwo</definition>
+        <argsstring></argsstring>
+        <name>m_formTwo</name>
+        <briefdescription>
+<para>the name of the legged character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="370" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="370" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" compoundref="_n_g_l_draw_8cpp" startline="1305" endline="1334">updatePhysics</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aefaec57ef590fe45fe33b4682a3f57ae" compoundref="_n_g_l_draw_8cpp" startline="1355" endline="1372">addCube</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1af2daf6d1bcb30bd6a44c349a68040d5f" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 NGLDraw::m_lightPosition</definition>
+        <argsstring></argsstring>
+        <name>m_lightPosition</name>
+        <briefdescription>
+<para>the position of the light camera used to create the shadow map </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="374" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="374" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1ae0d2ccebcc1114e321080e2045fa9800" prot="private" static="no" mutable="no">
+        <type>ngl::Camera</type>
+        <definition>ngl::Camera NGLDraw::m_lightCamera</definition>
+        <argsstring></argsstring>
+        <name>m_lightCamera</name>
+        <briefdescription>
+<para>camera from the lights point of view (used for shadows) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="378" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="378" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1adb5b6f9dfcb4b370b7c8503f0782a1bf" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint NGLDraw::m_TextureID[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>m_TextureID</name>
+        <briefdescription>
+<para>array to store multiple textures </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="382" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="382" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a506cd1c55e9fe3d32d72cf3be2374833" compoundref="_n_g_l_draw_8cpp" startline="320" endline="377">makeNoise</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a45a8557f4a2ef22ca853c08cd81c8f8a" compoundref="_n_g_l_draw_8cpp" startline="1192" endline="1226">createFramebufferObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1aadddc98fe44730a87410176ac53182b8" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint NGLDraw::m_subroutines[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>m_subroutines</name>
+        <briefdescription>
+<para>array to store links to multiple shader subroutines </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="386" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="386" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1adfd2f8c8485a8ec074f5f6e0275b8584" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint NGLDraw::m_fboID</definition>
+        <argsstring></argsstring>
+        <name>m_fboID</name>
+        <briefdescription>
+<para>our FBO id used by the FBO </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="390" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="390" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a45a8557f4a2ef22ca853c08cd81c8f8a" compoundref="_n_g_l_draw_8cpp" startline="1192" endline="1226">createFramebufferObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a00dfb0a354b5bac98353ca30d43241e3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NGLDraw::m_time</definition>
+        <argsstring></argsstring>
+        <name>m_time</name>
+        <briefdescription>
+<para>our incrementing time variable to send to the shader for animation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="394" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="394" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1a68a2ef17374b678bc6bae8ea72a06648" compoundref="_n_g_l_draw_8cpp" startline="1350" endline="1353">increaseShaderTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a543f742c2f32f586c366a87b9f6e1864" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_coinColour</definition>
+        <argsstring></argsstring>
+        <name>m_coinColour</name>
+        <briefdescription>
+<para>coin colour </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="398" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="398" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1a5fd365ceef761c0f00f9ee81814e7c59" compoundref="_n_g_l_draw_8cpp" startline="306" endline="309">increaseCoinColour</referencedby>
+        <referencedby refid="class_n_g_l_draw_1ae6223efa76b661563f20216adb4f474d" compoundref="_n_g_l_draw_8cpp" startline="315" endline="318">resetCoinColour</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_g_l_draw_1a05a473f304a608ae3d0fc264f7670a31" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NGLDraw::m_lowThresholdKey</definition>
+        <argsstring></argsstring>
+        <name>m_lowThresholdKey</name>
+        <briefdescription>
+<para>lower nois threshold </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="402" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="402" bodyend="-1"/>
+        <referencedby refid="class_n_g_l_draw_1a12e270822580926e2978f8b8fb147716" compoundref="_n_g_l_draw_8cpp" startline="301" endline="304">increaseLowThreshold</referencedby>
+        <referencedby refid="class_n_g_l_draw_1af307e10fea4e3d0500b0d97f406bf30b" compoundref="_n_g_l_draw_8cpp" startline="310" endline="313">resetLowThreshold</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NGLDraw::NGLDraw</definition>
+        <argsstring>()</argsstring>
+        <name>NGLDraw</name>
+        <briefdescription>
+<para>ctor this will have a valid OpenGL context so we can create gl stuff </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="47" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="21" bodyend="299"/>
+        <references refid="class_collision_shape_1add599b7da4202fb060a1060f020d4c9f" compoundref="_collision_shape_8cpp" startline="65" endline="69">CollisionShape::addBox</references>
+        <references refid="class_collision_shape_1a502ae0e27451fe9dfb65451dd424d645" compoundref="_collision_shape_8cpp" startline="59" endline="63">CollisionShape::addSphere</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a6bf4e51ca30dba9c0f27ae31e6e78e91">BARRIER01</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a089b531152ee4090896c6afa68e3fd31">BOUNCE_PAD</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3bdf1cb21c092d90f750f07e60af6410">BRIDGE_1</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3e6d430567f07a9658bf8b32003da464">BRIDGE_2</references>
+        <references refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e">CHAR_TYPE</references>
+        <references refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5add6c30845bb26cf9caf2e3968192947d">COIN_REST</references>
+        <references refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77">COIN_TYPE</references>
+        <references refid="class_shader_factory_1a380d9159ce70475f4337d97bf2120416" compoundref="_shader_factory_8cpp" startline="9" endline="33">ShaderFactory::createDebugShader</references>
+        <references refid="class_n_g_l_draw_1a45a8557f4a2ef22ca853c08cd81c8f8a" compoundref="_n_g_l_draw_8cpp" startline="1192" endline="1226">createFramebufferObject</references>
+        <references refid="class_shader_factory_1a6ea1c591503f6b4f0d044a1cf695f9a5" compoundref="_shader_factory_8cpp" startline="57" endline="83">ShaderFactory::createGroundShader</references>
+        <references refid="class_shader_factory_1a51fbd5c27d493d2c80415a6c46efaf28" compoundref="_shader_factory_8cpp" startline="85" endline="111">ShaderFactory::createPhongShader</references>
+        <references refid="class_shader_factory_1a7c8dd505b5c3b2438784d99bc6dc0356" compoundref="_shader_factory_8cpp" startline="35" endline="54">ShaderFactory::createTextureShader</references>
+        <references refid="class_camera_1aeb2fffe048b65431de6b2beccdb34135" compoundref="_camera_8cpp" startline="331" endline="334">Camera::getAngle</references>
+        <references refid="class_camera_1acfdfc9d8b5b2ac82108a5c538aca8f83" compoundref="_camera_8cpp" startline="321" endline="324">Camera::getDistance</references>
+        <references refid="class_n_g_l_draw_1a12e270822580926e2978f8b8fb147716" compoundref="_n_g_l_draw_8cpp" startline="301" endline="304">increaseLowThreshold</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_n_g_l_draw_1ab01337737d1ae553473be30c3ff74bdc" compoundref="_n_g_l_draw_8h" startline="227">m_animation</references>
+        <references refid="class_n_g_l_draw_1a4e8baf537f37fbc2623ba08b4028ace4" compoundref="_n_g_l_draw_8h" startline="352">m_bridgeDown</references>
+        <references refid="class_n_g_l_draw_1a912b50c593789f4c008513bbfb501957" compoundref="_n_g_l_draw_8h" startline="349">m_buttonCooldown</references>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" compoundref="_n_g_l_draw_8h" startline="221">m_character</references>
+        <references refid="class_n_g_l_draw_1a63883e107ea8c44073e1255c62b90b1e" compoundref="_n_g_l_draw_8h" startline="230">m_coinFactory</references>
+        <references refid="class_n_g_l_draw_1aa883399a6be3eacc3bb79a2319b0fb0e" compoundref="_n_g_l_draw_8h" startline="272">m_coinMesh</references>
+        <references refid="class_n_g_l_draw_1a776ada75080f8a0e3672b2d18d06d789" compoundref="_n_g_l_draw_8h" startline="346">m_debug</references>
+        <references refid="class_n_g_l_draw_1aa361867facb23c51e19c714ca019040b" compoundref="_n_g_l_draw_8h" startline="311">m_finish</references>
+        <references refid="class_n_g_l_draw_1a68785741170c1282d997b733507d8ee2" compoundref="_n_g_l_draw_8h" startline="367">m_formOne</references>
+        <references refid="class_n_g_l_draw_1a96976c4a72285b6c10df3782bb22d3a3" compoundref="_n_g_l_draw_8h" startline="370">m_formTwo</references>
+        <references refid="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" compoundref="_n_g_l_draw_8h" startline="364">m_gravityFactor</references>
+        <references refid="class_n_g_l_draw_1ac3eea11b312b5b1dc082b884dd2fcca2" compoundref="_n_g_l_draw_8h" startline="215">m_highScore</references>
+        <references refid="class_n_g_l_draw_1a24eb5a13796d850b994806d7dde79540" compoundref="_n_g_l_draw_8h" startline="242">m_larryMesh</references>
+        <references refid="class_n_g_l_draw_1a535f8a8f46457bfc8fd3f8d160c1fbe7" compoundref="_n_g_l_draw_8h" startline="338">m_lastTime</references>
+        <references refid="class_n_g_l_draw_1a4bdb4e0a938d843e85e12548085c1a51" compoundref="_n_g_l_draw_8h" startline="224">m_level</references>
+        <references refid="class_n_g_l_draw_1a1718f004c68d6369c30ce97f37568729" compoundref="_n_g_l_draw_8h" startline="245">m_level1Mesh</references>
+        <references refid="class_n_g_l_draw_1a1d9c617a443d037e09b6c081fc1a004e" compoundref="_n_g_l_draw_8h" startline="248">m_level2_1Mesh</references>
+        <references refid="class_n_g_l_draw_1a9a9db52fc3f4009fb2ed6d3d3bcc18ce" compoundref="_n_g_l_draw_8h" startline="251">m_level2_2Mesh</references>
+        <references refid="class_n_g_l_draw_1a9e17d6d1fd9c2b56fb5c6eaf93f02b54" compoundref="_n_g_l_draw_8h" startline="254">m_level2_3aMesh</references>
+        <references refid="class_n_g_l_draw_1ac244ab08b9f1de2fef2a4adc10915a33" compoundref="_n_g_l_draw_8h" startline="257">m_level2_3bMesh</references>
+        <references refid="class_n_g_l_draw_1a615507ccce3f3811712306431129f23a" compoundref="_n_g_l_draw_8h" startline="260">m_level3Mesh</references>
+        <references refid="class_n_g_l_draw_1a6e11331f5c471eb40c240fe48393001b" compoundref="_n_g_l_draw_8h" startline="263">m_level4_1Mesh</references>
+        <references refid="class_n_g_l_draw_1a7a1c0603f362e7d970540e4c40f668a1" compoundref="_n_g_l_draw_8h" startline="266">m_level4_2Mesh</references>
+        <references refid="class_n_g_l_draw_1af527b0abeed73c7e1d0fc2b26a6896b0" compoundref="_n_g_l_draw_8h" startline="293">m_level4Bridge1Mesh</references>
+        <references refid="class_n_g_l_draw_1aed9b51e9e0d47a4ed83d5a3c5d9248c7" compoundref="_n_g_l_draw_8h" startline="296">m_level4Bridge2Mesh</references>
+        <references refid="class_n_g_l_draw_1a84af750a20197acd58c50b3d6cad526a" compoundref="_n_g_l_draw_8h" startline="299">m_level4RotPlatformMesh</references>
+        <references refid="class_n_g_l_draw_1ac68796c07ab55611f5f45573206b6582" compoundref="_n_g_l_draw_8h" startline="269">m_level5Mesh</references>
+        <references refid="class_n_g_l_draw_1af9898b9333424acd82ec0010d7f51c4e" compoundref="_n_g_l_draw_8h" startline="308">m_level5Stick</references>
+        <references refid="class_n_g_l_draw_1ac9b771b3fe87d387319e4a779f4cc4e6" compoundref="_n_g_l_draw_8h" startline="209">m_light</references>
+        <references refid="class_n_g_l_draw_1ae0d2ccebcc1114e321080e2045fa9800" compoundref="_n_g_l_draw_8h" startline="378">m_lightCamera</references>
+        <references refid="class_n_g_l_draw_1af2daf6d1bcb30bd6a44c349a68040d5f" compoundref="_n_g_l_draw_8h" startline="374">m_lightPosition</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+        <references refid="class_n_g_l_draw_1a02f2d78ce539285777c35fcf0d53a4a6" compoundref="_n_g_l_draw_8h" startline="233">m_platformFactory</references>
+        <references refid="class_n_g_l_draw_1a73ebf7484f9d663227ee2ffc8edc5edd" compoundref="_n_g_l_draw_8h" startline="281">m_platformMesh_barrier01</references>
+        <references refid="class_n_g_l_draw_1a2564668f371aedc1e5ee2c56bf2441da" compoundref="_n_g_l_draw_8h" startline="278">m_platformMesh_bouncePad</references>
+        <references refid="class_n_g_l_draw_1ae2ac8ef6e024b3d17722bc2a6834ec77" compoundref="_n_g_l_draw_8h" startline="275">m_platformMesh_platform</references>
+        <references refid="class_n_g_l_draw_1a362cdfd35285a298b7c0a4d1a52d4d8f" compoundref="_n_g_l_draw_8h" startline="343">m_prevRot</references>
+        <references refid="class_n_g_l_draw_1ae6da031d343135a463a5aa4892447d78" compoundref="_n_g_l_draw_8h" startline="177">m_rotate</references>
+        <references refid="class_n_g_l_draw_1a333a68dffb2f17de902059bdde7d1d55" compoundref="_n_g_l_draw_8h" startline="169">m_spinXFace</references>
+        <references refid="class_n_g_l_draw_1a18af23a99a457663dd95efeb7e7b3455" compoundref="_n_g_l_draw_8h" startline="173">m_spinYFace</references>
+        <references refid="class_n_g_l_draw_1aadddc98fe44730a87410176ac53182b8" compoundref="_n_g_l_draw_8h" startline="386">m_subroutines</references>
+        <references refid="class_n_g_l_draw_1a0643100ba8287840812843c182383918" compoundref="_n_g_l_draw_8h" startline="236">m_text</references>
+        <references refid="class_n_g_l_draw_1a0955ece2a8f0047dcb8d54c58ddf63f8" compoundref="_n_g_l_draw_8h" startline="239">m_textHighscore</references>
+        <references refid="class_n_g_l_draw_1adb5b6f9dfcb4b370b7c8503f0782a1bf" compoundref="_n_g_l_draw_8h" startline="382">m_TextureID</references>
+        <references refid="class_n_g_l_draw_1aee3dd61984630269553fcbeb90b29661" compoundref="_n_g_l_draw_8h" startline="218">m_triggerFactory</references>
+        <references refid="class_n_g_l_draw_1a506cd1c55e9fe3d32d72cf3be2374833" compoundref="_n_g_l_draw_8cpp" startline="320" endline="377">makeNoise</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7addacb58043038c6070505710c73516c8">MOVE_PLATE</references>
+        <references refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a50780f47f6839d47d60bc4555ee00c3f">REST</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a8a2a27fa0925406ded2322c372b89d86">ROTATING_L</references>
+        <references refid="_n_g_l_draw_8cpp_1a0f58e79684a2994414a304aae4ea869e" compoundref="_n_g_l_draw_8cpp" startline="19">Sky_BLUE</references>
+        <references refid="_n_g_l_draw_8cpp_1af53c11fc7d7125611545a3c5a87ebd23" compoundref="_n_g_l_draw_8cpp" startline="18">Sky_GREEN</references>
+        <references refid="_n_g_l_draw_8cpp_1a6e87b77363231829c6f99c29a2904e7b" compoundref="_n_g_l_draw_8cpp" startline="17">Sky_RED</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1af711def4043fa15686998fca20f0697b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NGLDraw::~NGLDraw</definition>
+        <argsstring>()</argsstring>
+        <name>~NGLDraw</name>
+        <briefdescription>
+<para>dtor used to remove any NGL stuff created </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="51" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="530" bodyend="536"/>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_n_g_l_draw_1ac9b771b3fe87d387319e4a779f4cc4e6" compoundref="_n_g_l_draw_8h" startline="209">m_light</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::resize</definition>
+        <argsstring>(int _w, int _h)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>int</type>
+          <declname>_w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_h</declname>
+        </param>
+        <briefdescription>
+<para>resize our screen and set the camera aspect ratio </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new width </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new height </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="57" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="538" bodyend="547"/>
+        <references refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</references>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_n_g_l_draw_1ac5101cb66bb4c0a94c9a61f1600eea2e" compoundref="_n_g_l_draw_8h" startline="335">m_h</references>
+        <references refid="class_n_g_l_draw_1a0643100ba8287840812843c182383918" compoundref="_n_g_l_draw_8h" startline="236">m_text</references>
+        <references refid="class_n_g_l_draw_1a5e3a79755300252f99c9c353fffd2407" compoundref="_n_g_l_draw_8h" startline="332">m_w</references>
+        <references refid="class_camera_1ae8ed31422d897f6a8df266048beb14ea" compoundref="_camera_8cpp" startline="351" endline="354">Camera::setShape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <briefdescription>
+<para>draw the scene </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="61" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="645" bodyend="1190"/>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a6bf4e51ca30dba9c0f27ae31e6e78e91">BARRIER01</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a089b531152ee4090896c6afa68e3fd31">BOUNCE_PAD</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3bdf1cb21c092d90f750f07e60af6410">BRIDGE_1</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3e6d430567f07a9658bf8b32003da464">BRIDGE_2</references>
+        <references refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</references>
+        <references refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">Camera::forcePos</references>
+        <references refid="class_camera_1a3b565fb6a9ec8aab39fb5f57ee188a0d" compoundref="_camera_8cpp" startline="286" endline="289">Camera::getEye</references>
+        <references refid="class_camera_1ae19b3c8112edf783476dd2197baa4a36" compoundref="_camera_8cpp" startline="296" endline="299">Camera::getLook</references>
+        <references refid="class_n_g_l_draw_1a5fd365ceef761c0f00f9ee81814e7c59" compoundref="_n_g_l_draw_8cpp" startline="306" endline="309">increaseCoinColour</references>
+        <references refid="class_n_g_l_draw_1a6c10720ed7392b885059ba5d06cc0fc8" compoundref="_n_g_l_draw_8h" startline="314">m_bodyTransform</references>
+        <references refid="class_n_g_l_draw_1a4e8baf537f37fbc2623ba08b4028ace4" compoundref="_n_g_l_draw_8h" startline="352">m_bridgeDown</references>
+        <references refid="class_n_g_l_draw_1a912b50c593789f4c008513bbfb501957" compoundref="_n_g_l_draw_8h" startline="349">m_buttonCooldown</references>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" compoundref="_n_g_l_draw_8h" startline="221">m_character</references>
+        <references refid="class_n_g_l_draw_1a63883e107ea8c44073e1255c62b90b1e" compoundref="_n_g_l_draw_8h" startline="230">m_coinFactory</references>
+        <references refid="class_n_g_l_draw_1aa883399a6be3eacc3bb79a2319b0fb0e" compoundref="_n_g_l_draw_8h" startline="272">m_coinMesh</references>
+        <references refid="class_n_g_l_draw_1a776ada75080f8a0e3672b2d18d06d789" compoundref="_n_g_l_draw_8h" startline="346">m_debug</references>
+        <references refid="class_n_g_l_draw_1aa361867facb23c51e19c714ca019040b" compoundref="_n_g_l_draw_8h" startline="311">m_finish</references>
+        <references refid="class_n_g_l_draw_1a68785741170c1282d997b733507d8ee2" compoundref="_n_g_l_draw_8h" startline="367">m_formOne</references>
+        <references refid="class_n_g_l_draw_1a96976c4a72285b6c10df3782bb22d3a3" compoundref="_n_g_l_draw_8h" startline="370">m_formTwo</references>
+        <references refid="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" compoundref="_n_g_l_draw_8h" startline="364">m_gravityFactor</references>
+        <references refid="class_n_g_l_draw_1ac5101cb66bb4c0a94c9a61f1600eea2e" compoundref="_n_g_l_draw_8h" startline="335">m_h</references>
+        <references refid="class_n_g_l_draw_1ac3eea11b312b5b1dc082b884dd2fcca2" compoundref="_n_g_l_draw_8h" startline="215">m_highScore</references>
+        <references refid="class_n_g_l_draw_1a24eb5a13796d850b994806d7dde79540" compoundref="_n_g_l_draw_8h" startline="242">m_larryMesh</references>
+        <references refid="class_n_g_l_draw_1a4bdb4e0a938d843e85e12548085c1a51" compoundref="_n_g_l_draw_8h" startline="224">m_level</references>
+        <references refid="class_n_g_l_draw_1a1718f004c68d6369c30ce97f37568729" compoundref="_n_g_l_draw_8h" startline="245">m_level1Mesh</references>
+        <references refid="class_n_g_l_draw_1a1d9c617a443d037e09b6c081fc1a004e" compoundref="_n_g_l_draw_8h" startline="248">m_level2_1Mesh</references>
+        <references refid="class_n_g_l_draw_1a9a9db52fc3f4009fb2ed6d3d3bcc18ce" compoundref="_n_g_l_draw_8h" startline="251">m_level2_2Mesh</references>
+        <references refid="class_n_g_l_draw_1a9e17d6d1fd9c2b56fb5c6eaf93f02b54" compoundref="_n_g_l_draw_8h" startline="254">m_level2_3aMesh</references>
+        <references refid="class_n_g_l_draw_1ac244ab08b9f1de2fef2a4adc10915a33" compoundref="_n_g_l_draw_8h" startline="257">m_level2_3bMesh</references>
+        <references refid="class_n_g_l_draw_1a615507ccce3f3811712306431129f23a" compoundref="_n_g_l_draw_8h" startline="260">m_level3Mesh</references>
+        <references refid="class_n_g_l_draw_1a6e11331f5c471eb40c240fe48393001b" compoundref="_n_g_l_draw_8h" startline="263">m_level4_1Mesh</references>
+        <references refid="class_n_g_l_draw_1a7a1c0603f362e7d970540e4c40f668a1" compoundref="_n_g_l_draw_8h" startline="266">m_level4_2Mesh</references>
+        <references refid="class_n_g_l_draw_1af527b0abeed73c7e1d0fc2b26a6896b0" compoundref="_n_g_l_draw_8h" startline="293">m_level4Bridge1Mesh</references>
+        <references refid="class_n_g_l_draw_1aed9b51e9e0d47a4ed83d5a3c5d9248c7" compoundref="_n_g_l_draw_8h" startline="296">m_level4Bridge2Mesh</references>
+        <references refid="class_n_g_l_draw_1a84af750a20197acd58c50b3d6cad526a" compoundref="_n_g_l_draw_8h" startline="299">m_level4RotPlatformMesh</references>
+        <references refid="class_n_g_l_draw_1ac68796c07ab55611f5f45573206b6582" compoundref="_n_g_l_draw_8h" startline="269">m_level5Mesh</references>
+        <references refid="class_n_g_l_draw_1af9898b9333424acd82ec0010d7f51c4e" compoundref="_n_g_l_draw_8h" startline="308">m_level5Stick</references>
+        <references refid="class_n_g_l_draw_1ae0d2ccebcc1114e321080e2045fa9800" compoundref="_n_g_l_draw_8h" startline="378">m_lightCamera</references>
+        <references refid="class_n_g_l_draw_1af2daf6d1bcb30bd6a44c349a68040d5f" compoundref="_n_g_l_draw_8h" startline="374">m_lightPosition</references>
+        <references refid="class_n_g_l_draw_1a402443700f5c74bc715fc4959dc3d748" compoundref="_n_g_l_draw_8h" startline="205">m_modelPos</references>
+        <references refid="class_n_g_l_draw_1add58d5447775b9c8eef3cbd6a45d2581" compoundref="_n_g_l_draw_8h" startline="197">m_mouseGlobalTX</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+        <references refid="class_n_g_l_draw_1a02f2d78ce539285777c35fcf0d53a4a6" compoundref="_n_g_l_draw_8h" startline="233">m_platformFactory</references>
+        <references refid="class_n_g_l_draw_1a73ebf7484f9d663227ee2ffc8edc5edd" compoundref="_n_g_l_draw_8h" startline="281">m_platformMesh_barrier01</references>
+        <references refid="class_n_g_l_draw_1a2564668f371aedc1e5ee2c56bf2441da" compoundref="_n_g_l_draw_8h" startline="278">m_platformMesh_bouncePad</references>
+        <references refid="class_n_g_l_draw_1ae2ac8ef6e024b3d17722bc2a6834ec77" compoundref="_n_g_l_draw_8h" startline="275">m_platformMesh_platform</references>
+        <references refid="class_n_g_l_draw_1aa5b3c36d5b66d33dd52f96db79d8b3e8" compoundref="_n_g_l_draw_8h" startline="320">m_position</references>
+        <references refid="class_n_g_l_draw_1a12b8999652f44d992de74ed2fe10ef5b" compoundref="_n_g_l_draw_8h" startline="341">m_rot</references>
+        <references refid="class_n_g_l_draw_1a333a68dffb2f17de902059bdde7d1d55" compoundref="_n_g_l_draw_8h" startline="169">m_spinXFace</references>
+        <references refid="class_n_g_l_draw_1a18af23a99a457663dd95efeb7e7b3455" compoundref="_n_g_l_draw_8h" startline="173">m_spinYFace</references>
+        <references refid="class_n_g_l_draw_1a0643100ba8287840812843c182383918" compoundref="_n_g_l_draw_8h" startline="236">m_text</references>
+        <references refid="class_n_g_l_draw_1a0955ece2a8f0047dcb8d54c58ddf63f8" compoundref="_n_g_l_draw_8h" startline="239">m_textHighscore</references>
+        <references refid="class_n_g_l_draw_1a9215aaee79f1bb371bb29a8b4d47f46e" compoundref="_n_g_l_draw_8h" startline="326">m_textPos</references>
+        <references refid="class_n_g_l_draw_1adb5b6f9dfcb4b370b7c8503f0782a1bf" compoundref="_n_g_l_draw_8h" startline="382">m_TextureID</references>
+        <references refid="class_n_g_l_draw_1a00ece957ea5105cfee99f916c52600e0" compoundref="_n_g_l_draw_8h" startline="329">m_textVel</references>
+        <references refid="class_n_g_l_draw_1a793a95d01d524833bc4a499821167dff" compoundref="_n_g_l_draw_8h" startline="322">m_trans_coin</references>
+        <references refid="class_n_g_l_draw_1aa34619a181832d97ed82fd483b5b7193" compoundref="_n_g_l_draw_8h" startline="315">m_trans_grid</references>
+        <references refid="class_n_g_l_draw_1aa5a4b3333ddcdf2f5839136448d9a39e" compoundref="_n_g_l_draw_8h" startline="318">m_trans_level</references>
+        <references refid="class_n_g_l_draw_1a390b9ed4103e068eed78fedcbf4edae9" compoundref="_n_g_l_draw_8h" startline="319">m_trans_platform</references>
+        <references refid="class_n_g_l_draw_1ac2647997902ce9c0d95da2f70bd6e3f4" compoundref="_n_g_l_draw_8h" startline="316">m_trans_sphere</references>
+        <references refid="class_n_g_l_draw_1aee3dd61984630269553fcbeb90b29661" compoundref="_n_g_l_draw_8h" startline="218">m_triggerFactory</references>
+        <references refid="class_n_g_l_draw_1a5e3a79755300252f99c9c353fffd2407" compoundref="_n_g_l_draw_8h" startline="332">m_w</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7addacb58043038c6070505710c73516c8">MOVE_PLATE</references>
+        <references refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa7a40fd5b5569160d38c2328bf2fb5ed4" compoundref="_platform_8h" startline="14">MOVE_X</references>
+        <references refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa4854e59b8a894a00ca5f9dda42bb475c" compoundref="_platform_8h" startline="13">MOVE_Z</references>
+        <references refid="class_n_g_l_draw_1ae6223efa76b661563f20216adb4f474d" compoundref="_n_g_l_draw_8cpp" startline="315" endline="318">resetCoinColour</references>
+        <references refid="class_n_g_l_draw_1af307e10fea4e3d0500b0d97f406bf30b" compoundref="_n_g_l_draw_8cpp" startline="310" endline="313">resetLowThreshold</references>
+        <references refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a8a2a27fa0925406ded2322c372b89d86">ROTATING_L</references>
+        <references refid="class_camera_1a64a11237be8d57b468666cae99741864" compoundref="_camera_8cpp" startline="326" endline="329">Camera::setDistance</references>
+        <references refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</references>
+        <references refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">Camera::snapPos</references>
+        <references refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">Camera::updatePos</references>
+        <referencedby refid="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" compoundref="_n_g_l_draw_8cpp" startline="538" endline="547">resize</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a21c11b65d353b76a7cc984db69aad208" compoundref="_n_g_l_draw_8cpp" startline="1292" endline="1296">updateDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::drawDepth</definition>
+        <argsstring>()</argsstring>
+        <name>drawDepth</name>
+        <briefdescription>
+<para>draw the scene from the lights POV for the depth pass </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="65" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="549" bodyend="643"/>
+        <references refid="class_camera_1a3b565fb6a9ec8aab39fb5f57ee188a0d" compoundref="_camera_8cpp" startline="286" endline="289">Camera::getEye</references>
+        <references refid="class_camera_1ae19b3c8112edf783476dd2197baa4a36" compoundref="_camera_8cpp" startline="296" endline="299">Camera::getLook</references>
+        <references refid="class_n_g_l_draw_1a6c10720ed7392b885059ba5d06cc0fc8" compoundref="_n_g_l_draw_8h" startline="314">m_bodyTransform</references>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" compoundref="_n_g_l_draw_8h" startline="221">m_character</references>
+        <references refid="class_n_g_l_draw_1adfd2f8c8485a8ec074f5f6e0275b8584" compoundref="_n_g_l_draw_8h" startline="390">m_fboID</references>
+        <references refid="class_n_g_l_draw_1a68785741170c1282d997b733507d8ee2" compoundref="_n_g_l_draw_8h" startline="367">m_formOne</references>
+        <references refid="class_n_g_l_draw_1a96976c4a72285b6c10df3782bb22d3a3" compoundref="_n_g_l_draw_8h" startline="370">m_formTwo</references>
+        <references refid="class_n_g_l_draw_1a24eb5a13796d850b994806d7dde79540" compoundref="_n_g_l_draw_8h" startline="242">m_larryMesh</references>
+        <references refid="class_n_g_l_draw_1a402443700f5c74bc715fc4959dc3d748" compoundref="_n_g_l_draw_8h" startline="205">m_modelPos</references>
+        <references refid="class_n_g_l_draw_1add58d5447775b9c8eef3cbd6a45d2581" compoundref="_n_g_l_draw_8h" startline="197">m_mouseGlobalTX</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+        <references refid="class_n_g_l_draw_1aa5b3c36d5b66d33dd52f96db79d8b3e8" compoundref="_n_g_l_draw_8h" startline="320">m_position</references>
+        <references refid="class_n_g_l_draw_1a12b8999652f44d992de74ed2fe10ef5b" compoundref="_n_g_l_draw_8h" startline="341">m_rot</references>
+        <references refid="class_n_g_l_draw_1a333a68dffb2f17de902059bdde7d1d55" compoundref="_n_g_l_draw_8h" startline="169">m_spinXFace</references>
+        <references refid="class_n_g_l_draw_1a18af23a99a457663dd95efeb7e7b3455" compoundref="_n_g_l_draw_8h" startline="173">m_spinYFace</references>
+        <references refid="class_n_g_l_draw_1aa5a4b3333ddcdf2f5839136448d9a39e" compoundref="_n_g_l_draw_8h" startline="318">m_trans_level</references>
+        <references refid="class_n_g_l_draw_1ac2647997902ce9c0d95da2f70bd6e3f4" compoundref="_n_g_l_draw_8h" startline="316">m_trans_sphere</references>
+        <references refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</references>
+        <references refid="_n_g_l_draw_8cpp_1adc64a996fed3c125c1e9f6c055ce644f" compoundref="_n_g_l_draw_8cpp" startline="528">TEXTURE_HEIGHT</references>
+        <references refid="_n_g_l_draw_8cpp_1a795c922bb6141b030644592fcffa850b" compoundref="_n_g_l_draw_8cpp" startline="527">TEXTURE_WIDTH</references>
+        <references refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">Camera::updatePos</references>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::mouseMoveEvent</definition>
+        <argsstring>(const SDL_MouseMotionEvent &amp;_event)</argsstring>
+        <name>mouseMoveEvent</name>
+        <param>
+          <type>const SDL_MouseMotionEvent &amp;</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+<para>this method is called every time a mouse is moved </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the SDL mouse event structure containing all mouse info </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="70" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1228" bodyend="1240"/>
+        <references refid="class_camera_1aeb2fffe048b65431de6b2beccdb34135" compoundref="_camera_8cpp" startline="331" endline="334">Camera::getAngle</references>
+        <references refid="class_camera_1a6aa244c08427100da9e8ea5b2fa88cd8" compoundref="_camera_8h" startline="86" endline="86">Camera::getHeight</references>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_n_g_l_draw_1ace86944ed1a9a70325f685e4d5e4a795" compoundref="_n_g_l_draw_8h" startline="181">m_origX</references>
+        <references refid="class_n_g_l_draw_1a00a59d797594150f054bb7c5c83435bc" compoundref="_n_g_l_draw_8h" startline="185">m_origY</references>
+        <references refid="class_n_g_l_draw_1ae6da031d343135a463a5aa4892447d78" compoundref="_n_g_l_draw_8h" startline="177">m_rotate</references>
+        <references refid="class_camera_1a60d0c53628aa3654b64eb1bc8beb1e28" compoundref="_camera_8cpp" startline="336" endline="339">Camera::setAngle</references>
+        <references refid="class_camera_1a1ccc13246c520c77b09f680bd5bfaf86" compoundref="_camera_8h" startline="91" endline="91">Camera::setHeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a1b20896f4aac3cddd5ea2f977410a19f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::mousePressEvent</definition>
+        <argsstring>(const SDL_MouseButtonEvent &amp;_event)</argsstring>
+        <name>mousePressEvent</name>
+        <param>
+          <type>const SDL_MouseButtonEvent &amp;</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+<para>this method is called every time a mouse button is presses </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the SDL mouse event structure containing all mouse info </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="75" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1244" bodyend="1254"/>
+        <references refid="class_n_g_l_draw_1ace86944ed1a9a70325f685e4d5e4a795" compoundref="_n_g_l_draw_8h" startline="181">m_origX</references>
+        <references refid="class_n_g_l_draw_1a00a59d797594150f054bb7c5c83435bc" compoundref="_n_g_l_draw_8h" startline="185">m_origY</references>
+        <references refid="class_n_g_l_draw_1ae6da031d343135a463a5aa4892447d78" compoundref="_n_g_l_draw_8h" startline="177">m_rotate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1aa41eba2e6fd12011cdd62a7db8f7f84e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::mouseReleaseEvent</definition>
+        <argsstring>(const SDL_MouseButtonEvent &amp;_event)</argsstring>
+        <name>mouseReleaseEvent</name>
+        <param>
+          <type>const SDL_MouseButtonEvent &amp;</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+<para>this method is called everytime the mouse button is released </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the SDL mouse event structure containing all mouse info </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="80" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1257" bodyend="1265"/>
+        <references refid="class_n_g_l_draw_1ae6da031d343135a463a5aa4892447d78" compoundref="_n_g_l_draw_8h" startline="177">m_rotate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a8782a682c3a362baa3b18882f49c95ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::wheelEvent</definition>
+        <argsstring>(const SDL_MouseWheelEvent &amp;_event)</argsstring>
+        <name>wheelEvent</name>
+        <param>
+          <type>const SDL_MouseWheelEvent &amp;</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+<para>this method is called everytime the mouse wheel is moved </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the SDL mouse event structure containing all mouse info </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="85" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1268" bodyend="1290"/>
+        <references refid="class_camera_1acfdfc9d8b5b2ac82108a5c538aca8f83" compoundref="_camera_8cpp" startline="321" endline="324">Camera::getDistance</references>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_camera_1a64a11237be8d57b468666cae99741864" compoundref="_camera_8cpp" startline="326" endline="329">Camera::setDistance</references>
+        <references refid="_n_g_l_draw_8cpp_1ad53f4ea4bad2000e469a9b538c39878f" compoundref="_n_g_l_draw_8cpp" startline="16">ZOOM</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a1c61a967b12174eb0273dfbf8591f152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::updateRot</definition>
+        <argsstring>()</argsstring>
+        <name>updateRot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1aefaec57ef590fe45fe33b4682a3f57ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::addCube</definition>
+        <argsstring>()</argsstring>
+        <name>addCube</name>
+        <briefdescription>
+<para>adds a cube used to test bullet physics </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="90" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1355" bodyend="1372"/>
+        <references refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" compoundref="_n_g_l_draw_8h" startline="221">m_character</references>
+        <references refid="class_n_g_l_draw_1a68785741170c1282d997b733507d8ee2" compoundref="_n_g_l_draw_8h" startline="367">m_formOne</references>
+        <references refid="class_n_g_l_draw_1a96976c4a72285b6c10df3782bb22d3a3" compoundref="_n_g_l_draw_8h" startline="370">m_formTwo</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a21c11b65d353b76a7cc984db69aad208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::updateDraw</definition>
+        <argsstring>()</argsstring>
+        <name>updateDraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="91" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1292" bodyend="1296"/>
+        <references refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a16334df95f8d9a51532f3338917e5f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::updateDebugDraw</definition>
+        <argsstring>()</argsstring>
+        <name>updateDebugDraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="92" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1297" bodyend="1304"/>
+        <references refid="class_n_g_l_draw_1a776ada75080f8a0e3672b2d18d06d789" compoundref="_n_g_l_draw_8h" startline="346">m_debug</references>
+        <references refid="class_n_g_l_draw_1a1dd6ea75ab42c455ad7a1bb2d02dd702" compoundref="_n_g_l_draw_8h" startline="323">m_empty_trans</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+        <references refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::updatePhysics</definition>
+        <argsstring>(float time)</argsstring>
+        <name>updatePhysics</name>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="93" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1305" bodyend="1334"/>
+        <references refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" compoundref="_n_g_l_draw_8h" startline="221">m_character</references>
+        <references refid="class_n_g_l_draw_1a68785741170c1282d997b733507d8ee2" compoundref="_n_g_l_draw_8h" startline="367">m_formOne</references>
+        <references refid="class_n_g_l_draw_1a96976c4a72285b6c10df3782bb22d3a3" compoundref="_n_g_l_draw_8h" startline="370">m_formTwo</references>
+        <references refid="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" compoundref="_n_g_l_draw_8h" startline="364">m_gravityFactor</references>
+        <references refid="class_n_g_l_draw_1a535f8a8f46457bfc8fd3f8d160c1fbe7" compoundref="_n_g_l_draw_8h" startline="338">m_lastTime</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+        <references refid="class_n_g_l_draw_1aee3dd61984630269553fcbeb90b29661" compoundref="_n_g_l_draw_8h" startline="218">m_triggerFactory</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a097605c7ddb2f1db44a775b7ce331cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::debugPhysicsWorld</definition>
+        <argsstring>(bool _value)</argsstring>
+        <name>debugPhysicsWorld</name>
+        <param>
+          <type>bool</type>
+          <declname>_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="94" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1336" bodyend="1348"/>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_n_g_l_draw_1a776ada75080f8a0e3672b2d18d06d789" compoundref="_n_g_l_draw_8h" startline="346">m_debug</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+        <references refid="class_collision_shape_1a577a537932f6650525bd52937ed597ab" compoundref="_collision_shape_8cpp" startline="98" endline="106">CollisionShape::printShapeMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a534ad7434da73290fd5b319bf72ff549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::checkpoints</definition>
+        <argsstring>()</argsstring>
+        <name>checkpoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="95" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a506cd1c55e9fe3d32d72cf3be2374833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::makeNoise</definition>
+        <argsstring>(float m_freq, float m_scale)</argsstring>
+        <name>makeNoise</name>
+        <param>
+          <type>float</type>
+          <declname>m_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m_scale</declname>
+        </param>
+        <briefdescription>
+<para>method to create a noise texture </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">m_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the frequency of the noise pattern </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">m_scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the scale (amplitude) of the noise pattern </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="100" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="320" bodyend="377"/>
+        <references refid="class_n_g_l_draw_1adb5b6f9dfcb4b370b7c8503f0782a1bf" compoundref="_n_g_l_draw_8h" startline="382">m_TextureID</references>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::shaderType</definition>
+        <argsstring>(std::string _shaderName, ngl::Vec3 _shaderColour, bool stripe, float shine, ngl::Transformation &amp;_trans)</argsstring>
+        <name>shaderType</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shaderName</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_shaderColour</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stripe</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shine</declname>
+        </param>
+        <param>
+          <type>ngl::Transformation &amp;</type>
+          <declname>_trans</declname>
+        </param>
+        <briefdescription>
+<para>method to pick a shader type and load object matrices to the shader </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shaderName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the shader </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_shaderColour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the r,g,b colour values of the object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">stripe</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>switch for turning on or off stripe patterns </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">shine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the specular reflectivity of the object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_trans</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object transform matrix </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="108" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="378" bodyend="526"/>
+        <references refid="class_camera_1aef53a322f457d7524838961257a9209e" compoundref="_camera_8cpp" startline="306" endline="309">Camera::getViewMatrix</references>
+        <references refid="class_camera_1a376f5df8168b969cea49fea6b7881160" compoundref="_camera_8cpp" startline="311" endline="314">Camera::getVPMatrix</references>
+        <references refid="class_n_g_l_draw_1a12e270822580926e2978f8b8fb147716" compoundref="_n_g_l_draw_8cpp" startline="301" endline="304">increaseLowThreshold</references>
+        <references refid="class_n_g_l_draw_1a68a2ef17374b678bc6bae8ea72a06648" compoundref="_n_g_l_draw_8cpp" startline="1350" endline="1353">increaseShaderTime</references>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_n_g_l_draw_1ae0d2ccebcc1114e321080e2045fa9800" compoundref="_n_g_l_draw_8h" startline="378">m_lightCamera</references>
+        <references refid="class_n_g_l_draw_1add58d5447775b9c8eef3cbd6a45d2581" compoundref="_n_g_l_draw_8h" startline="197">m_mouseGlobalTX</references>
+        <references refid="class_n_g_l_draw_1aadddc98fe44730a87410176ac53182b8" compoundref="_n_g_l_draw_8h" startline="386">m_subroutines</references>
+        <references refid="class_n_g_l_draw_1a44340660ec3113265933e247440a3d67" compoundref="_n_g_l_draw_8h" startline="321">m_transform</references>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a16334df95f8d9a51532f3338917e5f15" compoundref="_n_g_l_draw_8cpp" startline="1297" endline="1304">updateDebugDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a88e7c60d00d0221df2eb523b94210d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::setGravityFactorPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setGravityFactorPositive</name>
+        <briefdescription>
+<para>increments the gravity factor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="111" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1375" bodyend="1379"/>
+        <references refid="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" compoundref="_n_g_l_draw_8h" startline="364">m_gravityFactor</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1af286740f4b8d4483a0f71b1c248dee18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::setGravityFactorNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setGravityFactorNegative</name>
+        <briefdescription>
+<para>decrements the gravity factor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="114" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1381" bodyend="1385"/>
+        <references refid="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" compoundref="_n_g_l_draw_8h" startline="364">m_gravityFactor</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1ad800ac2dbe66fee44e408184442e5e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float NGLDraw::getGravityFactor</definition>
+        <argsstring>()</argsstring>
+        <name>getGravityFactor</name>
+        <briefdescription>
+<para>get the value that multiplies with -9.8 to create the gravity </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="117" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1387" bodyend="1390"/>
+        <references refid="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" compoundref="_n_g_l_draw_8h" startline="364">m_gravityFactor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a8e81bbf82286d1c4235abd6f04f24de9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::restartGame</definition>
+        <argsstring>()</argsstring>
+        <name>restartGame</name>
+        <briefdescription>
+<para>resets the character and game values </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="120" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1392" bodyend="1396"/>
+        <references refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" compoundref="_n_g_l_draw_8h" startline="201">m_cam</references>
+        <references refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" compoundref="_n_g_l_draw_8h" startline="221">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1ad73f75d8409c2a4f057dda554c3a5a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* NGLDraw::getPhysicsWorld</definition>
+        <argsstring>()</argsstring>
+        <name>getPhysicsWorld</name>
+        <briefdescription>
+<para>returns a pointer to the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="123" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="123" bodyend="123"/>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a9110f84ec3803a3b2f5cf1530e51b809" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_character" kindref="compound">Character</ref> *</type>
+        <definition>Character* NGLDraw::getCharacter</definition>
+        <argsstring>()</argsstring>
+        <name>getCharacter</name>
+        <briefdescription>
+<para>returns a pointer to the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="126" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="126" bodyend="126"/>
+        <references refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" compoundref="_n_g_l_draw_8h" startline="221">m_character</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a2c149d2350bf7a3755a47f6112f94787" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_level" kindref="compound">Level</ref> *</type>
+        <definition>Level* NGLDraw::getLevel</definition>
+        <argsstring>()</argsstring>
+        <name>getLevel</name>
+        <briefdescription>
+<para>returns a pointer to the level manager </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="129" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="129" bodyend="129"/>
+        <references refid="class_n_g_l_draw_1a4bdb4e0a938d843e85e12548085c1a51" compoundref="_n_g_l_draw_8h" startline="224">m_level</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a2ad6a17a34d83e10c9021ae25d99af98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_animation" kindref="compound">Animation</ref> *</type>
+        <definition>Animation* NGLDraw::getAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>getAnimation</name>
+        <briefdescription>
+<para>returns a pointer to the animation manager </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="132" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="132" bodyend="132"/>
+        <references refid="class_n_g_l_draw_1ab01337737d1ae553473be30c3ff74bdc" compoundref="_n_g_l_draw_8h" startline="227">m_animation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a4aa09006ce49ee1863a2eeb8cc07edb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_coin_factory" kindref="compound">CoinFactory</ref> *</type>
+        <definition>CoinFactory* NGLDraw::getCoinFactory</definition>
+        <argsstring>()</argsstring>
+        <name>getCoinFactory</name>
+        <briefdescription>
+<para>returns a pointer to the coin factory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="135" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="135" bodyend="135"/>
+        <references refid="class_n_g_l_draw_1a63883e107ea8c44073e1255c62b90b1e" compoundref="_n_g_l_draw_8h" startline="230">m_coinFactory</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a867b956b14b973722beedada830d6ad7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_platform_factory" kindref="compound">PlatformFactory</ref> *</type>
+        <definition>PlatformFactory* NGLDraw::getPlatformFactory</definition>
+        <argsstring>()</argsstring>
+        <name>getPlatformFactory</name>
+        <briefdescription>
+<para>returns a pointer to the platform factory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="138" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="138" bodyend="138"/>
+        <references refid="class_n_g_l_draw_1a02f2d78ce539285777c35fcf0d53a4a6" compoundref="_n_g_l_draw_8h" startline="233">m_platformFactory</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a68a2ef17374b678bc6bae8ea72a06648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int NGLDraw::increaseShaderTime</definition>
+        <argsstring>()</argsstring>
+        <name>increaseShaderTime</name>
+        <briefdescription>
+<para>increments the variable m_time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="141" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1350" bodyend="1353"/>
+        <references refid="class_n_g_l_draw_1a00dfb0a354b5bac98353ca30d43241e3" compoundref="_n_g_l_draw_8h" startline="394">m_time</references>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a45a8557f4a2ef22ca853c08cd81c8f8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::createFramebufferObject</definition>
+        <argsstring>()</argsstring>
+        <name>createFramebufferObject</name>
+        <briefdescription>
+<para>create our fbo for shadows </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="144" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1192" bodyend="1226"/>
+        <references refid="class_n_g_l_draw_1adfd2f8c8485a8ec074f5f6e0275b8584" compoundref="_n_g_l_draw_8h" startline="390">m_fboID</references>
+        <references refid="class_n_g_l_draw_1adb5b6f9dfcb4b370b7c8503f0782a1bf" compoundref="_n_g_l_draw_8h" startline="382">m_TextureID</references>
+        <references refid="_n_g_l_draw_8cpp_1adc64a996fed3c125c1e9f6c055ce644f" compoundref="_n_g_l_draw_8cpp" startline="528">TEXTURE_HEIGHT</references>
+        <references refid="_n_g_l_draw_8cpp_1a795c922bb6141b030644592fcffa850b" compoundref="_n_g_l_draw_8cpp" startline="527">TEXTURE_WIDTH</references>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a12e270822580926e2978f8b8fb147716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float NGLDraw::increaseLowThreshold</definition>
+        <argsstring>()</argsstring>
+        <name>increaseLowThreshold</name>
+        <briefdescription>
+<para>increment the lowThresholdKey for the disintegration effect </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="147" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="301" bodyend="304"/>
+        <references refid="class_n_g_l_draw_1a05a473f304a608ae3d0fc264f7670a31" compoundref="_n_g_l_draw_8h" startline="402">m_lowThresholdKey</references>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">shaderType</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1af307e10fea4e3d0500b0d97f406bf30b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::resetLowThreshold</definition>
+        <argsstring>()</argsstring>
+        <name>resetLowThreshold</name>
+        <briefdescription>
+<para>reset the lowThresholdKey to zero </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="150" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="310" bodyend="313"/>
+        <references refid="class_n_g_l_draw_1a05a473f304a608ae3d0fc264f7670a31" compoundref="_n_g_l_draw_8h" startline="402">m_lowThresholdKey</references>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a06c2f1b75f43f42de5a7922e16b3a4f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::restartGameValues</definition>
+        <argsstring>()</argsstring>
+        <name>restartGameValues</name>
+        <briefdescription>
+<para>reset the game values </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="152" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="1397" bodyend="1422"/>
+        <references refid="class_n_g_l_draw_1a4e8baf537f37fbc2623ba08b4028ace4" compoundref="_n_g_l_draw_8h" startline="352">m_bridgeDown</references>
+        <references refid="class_n_g_l_draw_1a63883e107ea8c44073e1255c62b90b1e" compoundref="_n_g_l_draw_8h" startline="230">m_coinFactory</references>
+        <references refid="class_n_g_l_draw_1ac3eea11b312b5b1dc082b884dd2fcca2" compoundref="_n_g_l_draw_8h" startline="215">m_highScore</references>
+        <references refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" compoundref="_n_g_l_draw_8h" startline="212">m_physics</references>
+        <references refid="class_n_g_l_draw_1a02f2d78ce539285777c35fcf0d53a4a6" compoundref="_n_g_l_draw_8h" startline="233">m_platformFactory</references>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1a5fd365ceef761c0f00f9ee81814e7c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float NGLDraw::increaseCoinColour</definition>
+        <argsstring>()</argsstring>
+        <name>increaseCoinColour</name>
+        <briefdescription>
+<para>reset the game values </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="154" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="306" bodyend="309"/>
+        <references refid="class_n_g_l_draw_1a543f742c2f32f586c366a87b9f6e1864" compoundref="_n_g_l_draw_8h" startline="398">m_coinColour</references>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_n_g_l_draw_1ae6223efa76b661563f20216adb4f474d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::resetCoinColour</definition>
+        <argsstring>()</argsstring>
+        <name>resetCoinColour</name>
+        <briefdescription>
+<para>reset coin color to zero </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="156" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/NGLDraw.cpp" bodystart="315" bodyend="318"/>
+        <references refid="class_n_g_l_draw_1a543f742c2f32f586c366a87b9f6e1864" compoundref="_n_g_l_draw_8h" startline="398">m_coinColour</references>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">draw</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_g_l_draw_1a2b86ad6c7c83cb9a97e8254a7207ef5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NGLDraw::loadMatricesToShader</definition>
+        <argsstring>(ngl::Transformation &amp;_trans)</argsstring>
+        <name>loadMatricesToShader</name>
+        <param>
+          <type>ngl::Transformation &amp;</type>
+          <declname>_trans</declname>
+        </param>
+        <briefdescription>
+<para>method to load transform data to the shaders </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="165" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This manages coin creation and collisions of the coins. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="133">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="134" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+      </node>
+      <node id="134">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="135" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="132">
+        <label>NGLDraw</label>
+        <link refid="class_n_g_l_draw"/>
+        <childnode refid="133" relation="usage">
+          <edgelabel>-m_cam</edgelabel>
+        </childnode>
+      </node>
+      <node id="135">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" line="42" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/NGLDraw.h" bodystart="41" bodyend="404"/>
+    <listofallmembers>
+      <member refid="class_n_g_l_draw_1aefaec57ef590fe45fe33b4682a3f57ae" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>addCube</name></member>
+      <member refid="class_n_g_l_draw_1a534ad7434da73290fd5b319bf72ff549" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>checkpoints</name></member>
+      <member refid="class_n_g_l_draw_1a45a8557f4a2ef22ca853c08cd81c8f8a" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>createFramebufferObject</name></member>
+      <member refid="class_n_g_l_draw_1a097605c7ddb2f1db44a775b7ce331cbf" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>debugPhysicsWorld</name></member>
+      <member refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>draw</name></member>
+      <member refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>drawDepth</name></member>
+      <member refid="class_n_g_l_draw_1a2ad6a17a34d83e10c9021ae25d99af98" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>getAnimation</name></member>
+      <member refid="class_n_g_l_draw_1a9110f84ec3803a3b2f5cf1530e51b809" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>getCharacter</name></member>
+      <member refid="class_n_g_l_draw_1a4aa09006ce49ee1863a2eeb8cc07edb7" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>getCoinFactory</name></member>
+      <member refid="class_n_g_l_draw_1ad800ac2dbe66fee44e408184442e5e45" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>getGravityFactor</name></member>
+      <member refid="class_n_g_l_draw_1a2c149d2350bf7a3755a47f6112f94787" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>getLevel</name></member>
+      <member refid="class_n_g_l_draw_1ad73f75d8409c2a4f057dda554c3a5a18" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>getPhysicsWorld</name></member>
+      <member refid="class_n_g_l_draw_1a867b956b14b973722beedada830d6ad7" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>getPlatformFactory</name></member>
+      <member refid="class_n_g_l_draw_1a5fd365ceef761c0f00f9ee81814e7c59" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>increaseCoinColour</name></member>
+      <member refid="class_n_g_l_draw_1a12e270822580926e2978f8b8fb147716" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>increaseLowThreshold</name></member>
+      <member refid="class_n_g_l_draw_1a68a2ef17374b678bc6bae8ea72a06648" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>increaseShaderTime</name></member>
+      <member refid="class_n_g_l_draw_1a2b86ad6c7c83cb9a97e8254a7207ef5f" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>loadMatricesToShader</name></member>
+      <member refid="class_n_g_l_draw_1ab01337737d1ae553473be30c3ff74bdc" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_animation</name></member>
+      <member refid="class_n_g_l_draw_1abf33015a19854f798a37bf0fad71ba01" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_attractEnable</name></member>
+      <member refid="class_n_g_l_draw_1a6c10720ed7392b885059ba5d06cc0fc8" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_bodyTransform</name></member>
+      <member refid="class_n_g_l_draw_1a4e8baf537f37fbc2623ba08b4028ace4" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_bridgeDown</name></member>
+      <member refid="class_n_g_l_draw_1a912b50c593789f4c008513bbfb501957" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_buttonCooldown</name></member>
+      <member refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_cam</name></member>
+      <member refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_character</name></member>
+      <member refid="class_n_g_l_draw_1a543f742c2f32f586c366a87b9f6e1864" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_coinColour</name></member>
+      <member refid="class_n_g_l_draw_1a63883e107ea8c44073e1255c62b90b1e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_coinFactory</name></member>
+      <member refid="class_n_g_l_draw_1aa883399a6be3eacc3bb79a2319b0fb0e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_coinMesh</name></member>
+      <member refid="class_n_g_l_draw_1a776ada75080f8a0e3672b2d18d06d789" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_debug</name></member>
+      <member refid="class_n_g_l_draw_1a1dd6ea75ab42c455ad7a1bb2d02dd702" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_empty_trans</name></member>
+      <member refid="class_n_g_l_draw_1adfd2f8c8485a8ec074f5f6e0275b8584" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_fboID</name></member>
+      <member refid="class_n_g_l_draw_1aa361867facb23c51e19c714ca019040b" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_finish</name></member>
+      <member refid="class_n_g_l_draw_1a68785741170c1282d997b733507d8ee2" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_formOne</name></member>
+      <member refid="class_n_g_l_draw_1a96976c4a72285b6c10df3782bb22d3a3" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_formTwo</name></member>
+      <member refid="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_gravityFactor</name></member>
+      <member refid="class_n_g_l_draw_1ac5101cb66bb4c0a94c9a61f1600eea2e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_h</name></member>
+      <member refid="class_n_g_l_draw_1ac3eea11b312b5b1dc082b884dd2fcca2" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_highScore</name></member>
+      <member refid="class_n_g_l_draw_1a229690ebde7628bf0d59adc3edac577e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_initialBallPos</name></member>
+      <member refid="class_n_g_l_draw_1a24eb5a13796d850b994806d7dde79540" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_larryMesh</name></member>
+      <member refid="class_n_g_l_draw_1a535f8a8f46457bfc8fd3f8d160c1fbe7" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_lastTime</name></member>
+      <member refid="class_n_g_l_draw_1a4bdb4e0a938d843e85e12548085c1a51" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level</name></member>
+      <member refid="class_n_g_l_draw_1a5842f05a58ad41b5754969b46ecb40a2" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level1_bouncePlatformMesh</name></member>
+      <member refid="class_n_g_l_draw_1a1718f004c68d6369c30ce97f37568729" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level1Mesh</name></member>
+      <member refid="class_n_g_l_draw_1a1d9c617a443d037e09b6c081fc1a004e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level2_1Mesh</name></member>
+      <member refid="class_n_g_l_draw_1a9a9db52fc3f4009fb2ed6d3d3bcc18ce" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level2_2Mesh</name></member>
+      <member refid="class_n_g_l_draw_1a9e17d6d1fd9c2b56fb5c6eaf93f02b54" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level2_3aMesh</name></member>
+      <member refid="class_n_g_l_draw_1ac244ab08b9f1de2fef2a4adc10915a33" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level2_3bMesh</name></member>
+      <member refid="class_n_g_l_draw_1ae192025c30a1de1918d2c6a9233c70b2" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level2Platform</name></member>
+      <member refid="class_n_g_l_draw_1a0d2e0d67cacbfe1f84fe5855f67d072f" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level2Sliding1</name></member>
+      <member refid="class_n_g_l_draw_1a03463ec30310b744a274a280c934c2b7" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level2Sliding2</name></member>
+      <member refid="class_n_g_l_draw_1a615507ccce3f3811712306431129f23a" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level3Mesh</name></member>
+      <member refid="class_n_g_l_draw_1a6e11331f5c471eb40c240fe48393001b" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level4_1Mesh</name></member>
+      <member refid="class_n_g_l_draw_1a7a1c0603f362e7d970540e4c40f668a1" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level4_2Mesh</name></member>
+      <member refid="class_n_g_l_draw_1af527b0abeed73c7e1d0fc2b26a6896b0" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level4Bridge1Mesh</name></member>
+      <member refid="class_n_g_l_draw_1aed9b51e9e0d47a4ed83d5a3c5d9248c7" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level4Bridge2Mesh</name></member>
+      <member refid="class_n_g_l_draw_1a84af750a20197acd58c50b3d6cad526a" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level4RotPlatformMesh</name></member>
+      <member refid="class_n_g_l_draw_1ac68796c07ab55611f5f45573206b6582" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level5Mesh</name></member>
+      <member refid="class_n_g_l_draw_1acd941730c1006ab7ff4d50dd7f93a0ec" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level5MovingPlat</name></member>
+      <member refid="class_n_g_l_draw_1af9898b9333424acd82ec0010d7f51c4e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_level5Stick</name></member>
+      <member refid="class_n_g_l_draw_1ac9b771b3fe87d387319e4a779f4cc4e6" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_light</name></member>
+      <member refid="class_n_g_l_draw_1ae0d2ccebcc1114e321080e2045fa9800" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_lightCamera</name></member>
+      <member refid="class_n_g_l_draw_1af2daf6d1bcb30bd6a44c349a68040d5f" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_lightPosition</name></member>
+      <member refid="class_n_g_l_draw_1a05a473f304a608ae3d0fc264f7670a31" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_lowThresholdKey</name></member>
+      <member refid="class_n_g_l_draw_1a04b5dce7e4a516e7cb4f380190f4cc8a" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_mass</name></member>
+      <member refid="class_n_g_l_draw_1a402443700f5c74bc715fc4959dc3d748" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_modelPos</name></member>
+      <member refid="class_n_g_l_draw_1add58d5447775b9c8eef3cbd6a45d2581" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_mouseGlobalTX</name></member>
+      <member refid="class_n_g_l_draw_1ace86944ed1a9a70325f685e4d5e4a795" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_origX</name></member>
+      <member refid="class_n_g_l_draw_1a2145fe76e0b468fd4ec2c3832018037f" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_origXPos</name></member>
+      <member refid="class_n_g_l_draw_1a00a59d797594150f054bb7c5c83435bc" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_origY</name></member>
+      <member refid="class_n_g_l_draw_1ace90d67bf9444364656f329b9a80c234" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_origYPos</name></member>
+      <member refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_physics</name></member>
+      <member refid="class_n_g_l_draw_1a02f2d78ce539285777c35fcf0d53a4a6" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_platformFactory</name></member>
+      <member refid="class_n_g_l_draw_1a73ebf7484f9d663227ee2ffc8edc5edd" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_platformMesh_barrier01</name></member>
+      <member refid="class_n_g_l_draw_1a2564668f371aedc1e5ee2c56bf2441da" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_platformMesh_bouncePad</name></member>
+      <member refid="class_n_g_l_draw_1ae2ac8ef6e024b3d17722bc2a6834ec77" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_platformMesh_platform</name></member>
+      <member refid="class_n_g_l_draw_1aa5b3c36d5b66d33dd52f96db79d8b3e8" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_position</name></member>
+      <member refid="class_n_g_l_draw_1a362cdfd35285a298b7c0a4d1a52d4d8f" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_prevRot</name></member>
+      <member refid="class_n_g_l_draw_1a12b8999652f44d992de74ed2fe10ef5b" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_rot</name></member>
+      <member refid="class_n_g_l_draw_1ae6da031d343135a463a5aa4892447d78" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_rotate</name></member>
+      <member refid="class_n_g_l_draw_1a333a68dffb2f17de902059bdde7d1d55" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_spinXFace</name></member>
+      <member refid="class_n_g_l_draw_1a18af23a99a457663dd95efeb7e7b3455" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_spinYFace</name></member>
+      <member refid="class_n_g_l_draw_1aadddc98fe44730a87410176ac53182b8" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_subroutines</name></member>
+      <member refid="class_n_g_l_draw_1a0643100ba8287840812843c182383918" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_text</name></member>
+      <member refid="class_n_g_l_draw_1a0955ece2a8f0047dcb8d54c58ddf63f8" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_textHighscore</name></member>
+      <member refid="class_n_g_l_draw_1a9215aaee79f1bb371bb29a8b4d47f46e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_textPos</name></member>
+      <member refid="class_n_g_l_draw_1adb5b6f9dfcb4b370b7c8503f0782a1bf" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_TextureID</name></member>
+      <member refid="class_n_g_l_draw_1a00ece957ea5105cfee99f916c52600e0" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_textVel</name></member>
+      <member refid="class_n_g_l_draw_1a00dfb0a354b5bac98353ca30d43241e3" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_time</name></member>
+      <member refid="class_n_g_l_draw_1a793a95d01d524833bc4a499821167dff" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_trans_coin</name></member>
+      <member refid="class_n_g_l_draw_1aa2fca6240cc3e356bcb794b6004660ee" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_trans_cube</name></member>
+      <member refid="class_n_g_l_draw_1aa34619a181832d97ed82fd483b5b7193" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_trans_grid</name></member>
+      <member refid="class_n_g_l_draw_1aa5a4b3333ddcdf2f5839136448d9a39e" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_trans_level</name></member>
+      <member refid="class_n_g_l_draw_1a390b9ed4103e068eed78fedcbf4edae9" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_trans_platform</name></member>
+      <member refid="class_n_g_l_draw_1ac2647997902ce9c0d95da2f70bd6e3f4" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_trans_sphere</name></member>
+      <member refid="class_n_g_l_draw_1a44340660ec3113265933e247440a3d67" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_transform</name></member>
+      <member refid="class_n_g_l_draw_1aee3dd61984630269553fcbeb90b29661" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_triggerFactory</name></member>
+      <member refid="class_n_g_l_draw_1a5e3a79755300252f99c9c353fffd2407" prot="private" virt="non-virtual"><scope>NGLDraw</scope><name>m_w</name></member>
+      <member refid="class_n_g_l_draw_1a506cd1c55e9fe3d32d72cf3be2374833" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>makeNoise</name></member>
+      <member refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>mouseMoveEvent</name></member>
+      <member refid="class_n_g_l_draw_1a1b20896f4aac3cddd5ea2f977410a19f" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>mousePressEvent</name></member>
+      <member refid="class_n_g_l_draw_1aa41eba2e6fd12011cdd62a7db8f7f84e" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>mouseReleaseEvent</name></member>
+      <member refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>NGLDraw</name></member>
+      <member refid="class_n_g_l_draw_1ae6223efa76b661563f20216adb4f474d" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>resetCoinColour</name></member>
+      <member refid="class_n_g_l_draw_1af307e10fea4e3d0500b0d97f406bf30b" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>resetLowThreshold</name></member>
+      <member refid="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>resize</name></member>
+      <member refid="class_n_g_l_draw_1a8e81bbf82286d1c4235abd6f04f24de9" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>restartGame</name></member>
+      <member refid="class_n_g_l_draw_1a06c2f1b75f43f42de5a7922e16b3a4f3" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>restartGameValues</name></member>
+      <member refid="class_n_g_l_draw_1af286740f4b8d4483a0f71b1c248dee18" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>setGravityFactorNegative</name></member>
+      <member refid="class_n_g_l_draw_1a88e7c60d00d0221df2eb523b94210d90" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>setGravityFactorPositive</name></member>
+      <member refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>shaderType</name></member>
+      <member refid="class_n_g_l_draw_1a16334df95f8d9a51532f3338917e5f15" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>updateDebugDraw</name></member>
+      <member refid="class_n_g_l_draw_1a21c11b65d353b76a7cc984db69aad208" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>updateDraw</name></member>
+      <member refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>updatePhysics</name></member>
+      <member refid="class_n_g_l_draw_1a1c61a967b12174eb0273dfbf8591f152" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>updateRot</name></member>
+      <member refid="class_n_g_l_draw_1a8782a682c3a362baa3b18882f49c95ed" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>wheelEvent</name></member>
+      <member refid="class_n_g_l_draw_1af711def4043fa15686998fca20f0697b" prot="public" virt="non-virtual"><scope>NGLDraw</scope><name>~NGLDraw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_ltimer_8h" kind="file">
+    <compoundname>Ltimer.h</compoundname>
+    <includes local="no">SDL.h</includes>
+    <includedby refid="_character_8cpp" local="yes">Character.cpp</includedby>
+    <includedby refid="_ltimer_8cpp" local="no">Ltimer.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <includedby refid="_coin_8h" local="yes">Coin.h</includedby>
+    <includedby refid="_platform_8h" local="yes">Platform.h</includedby>
+    <includedby refid="_high_score_8h" local="yes">HighScore.h</includedby>
+    <includedby refid="_character_8h" local="yes">Character.h</includedby>
+    <incdepgraph>
+      <node id="2180">
+        <label>Ltimer.h</label>
+        <link refid="Ltimer.h"/>
+        <childnode refid="2181" relation="include">
+        </childnode>
+      </node>
+      <node id="2181">
+        <label>SDL.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2182">
+        <label>Ltimer.h</label>
+        <link refid="Ltimer.h"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2184" relation="include">
+        </childnode>
+        <childnode refid="2185" relation="include">
+        </childnode>
+        <childnode refid="2186" relation="include">
+        </childnode>
+        <childnode refid="2199" relation="include">
+        </childnode>
+        <childnode refid="2203" relation="include">
+        </childnode>
+        <childnode refid="2194" relation="include">
+        </childnode>
+      </node>
+      <node id="2188">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="2189" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+      </node>
+      <node id="2194">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+      </node>
+      <node id="2198">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="2184">
+        <label>Ltimer.cpp</label>
+        <link refid="_ltimer_8cpp"/>
+      </node>
+      <node id="2187">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="2200">
+        <label>Platform.cpp</label>
+        <link refid="_platform_8cpp"/>
+      </node>
+      <node id="2185">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2199">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="2200" relation="include">
+        </childnode>
+        <childnode refid="2201" relation="include">
+        </childnode>
+      </node>
+      <node id="2201">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="2202" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+      </node>
+      <node id="2203">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="2204" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+      </node>
+      <node id="2197">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2198" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+      </node>
+      <node id="2195">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="2196" relation="include">
+        </childnode>
+        <childnode refid="2185" relation="include">
+        </childnode>
+      </node>
+      <node id="2189">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="2190">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="2185" relation="include">
+        </childnode>
+        <childnode refid="2191" relation="include">
+        </childnode>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2194" relation="include">
+        </childnode>
+        <childnode refid="2186" relation="include">
+        </childnode>
+        <childnode refid="2195" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+      </node>
+      <node id="2191">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="2192">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2185" relation="include">
+        </childnode>
+        <childnode refid="2191" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+      </node>
+      <node id="2183">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="2193">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="2202">
+        <label>PlatformFactory.cpp</label>
+        <link refid="_platform_factory_8cpp"/>
+      </node>
+      <node id="2186">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="2187" relation="include">
+        </childnode>
+        <childnode refid="2188" relation="include">
+        </childnode>
+      </node>
+      <node id="2196">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+      <node id="2204">
+        <label>HighScore.cpp</label>
+        <link refid="_high_score_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_l_timer" prot="public">LTimer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>LTIMER_H__</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>LTIMER_H__</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SDL.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_l_timer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_l_timer" kindref="compound">LTimer</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Initializes<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" kindref="member">LTimer</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>various<sp/>clock<sp/>actions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" kindref="member">stop</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" kindref="member">pause</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" kindref="member">unpause</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>timer&apos;s<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>Uint32<sp/><ref refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" kindref="member">getTicks</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Checks<sp/>the<sp/>status<sp/>of<sp/>the<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a102ca688eaa4109dd733b4b60a29d27c" kindref="member">isStarted</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1ae1d9b504da6ed0f42e10f2338a9f88bb" kindref="member">isPaused</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>clock<sp/>time<sp/>when<sp/>the<sp/>timer<sp/>started</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Uint32<sp/><ref refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kindref="member">m_startTicks</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>ticks<sp/>stored<sp/>when<sp/>the<sp/>timer<sp/>was<sp/>paused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Uint32<sp/><ref refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kindref="member">m_pausedTicks</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>timer<sp/>status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kindref="member">m_paused</ref>;</highlight></codeline>
+<codeline lineno="36" refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kindref="member">m_started</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>LTIMER_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Ltimer.h"/>
+  </compounddef>
+</doxygen>

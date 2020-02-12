@@ -1,0 +1,5 @@
+<map id="GUIDraw::loadTexture" name="GUIDraw::loadTexture">
+<area shape="rect" id="node2" href="$class_g_u_i_draw.html#af5643c91cd0715092e9b19845d4a5541" title="loads the cutscene and menu images " alt="" coords="209,5,383,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#af2acd4332bf651b5c269ed25c5818038" title="openingCredits" alt="" coords="432,31,541,57"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="589,31,640,57"/>
+</map>

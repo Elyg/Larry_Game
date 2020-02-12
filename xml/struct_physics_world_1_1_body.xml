@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="struct_physics_world_1_1_body" kind="struct" prot="private">
+    <compoundname>PhysicsWorld::Body</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string PhysicsWorld::Body::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="228" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="228" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</referencedby>
+        <referencedby refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" compoundref="_physics_world_8cpp" startline="88" endline="125">PhysicsWorld::addLegSphere</referencedby>
+        <referencedby refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" compoundref="_physics_world_8cpp" startline="128" endline="153">PhysicsWorld::addLevelMesh</referencedby>
+        <referencedby refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" compoundref="_physics_world_8cpp" startline="154" endline="183">PhysicsWorld::addMesh</referencedby>
+        <referencedby refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" compoundref="_physics_world_8cpp" startline="185" endline="220">PhysicsWorld::addBox</referencedby>
+        <referencedby refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" compoundref="_physics_world_8cpp" startline="227" endline="262">PhysicsWorld::addPlatform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" prot="public" static="no" mutable="no">
+        <type>btRigidBody *</type>
+        <definition>btRigidBody* PhysicsWorld::Body::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="229" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="229" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</referencedby>
+        <referencedby refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" compoundref="_physics_world_8cpp" startline="88" endline="125">PhysicsWorld::addLegSphere</referencedby>
+        <referencedby refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" compoundref="_physics_world_8cpp" startline="128" endline="153">PhysicsWorld::addLevelMesh</referencedby>
+        <referencedby refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" compoundref="_physics_world_8cpp" startline="154" endline="183">PhysicsWorld::addMesh</referencedby>
+        <referencedby refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" compoundref="_physics_world_8cpp" startline="185" endline="220">PhysicsWorld::addBox</referencedby>
+        <referencedby refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" compoundref="_physics_world_8cpp" startline="227" endline="262">PhysicsWorld::addPlatform</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="83">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="227" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="226" bodyend="230"/>
+    <listofallmembers>
+      <member refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" prot="public" virt="non-virtual"><scope>PhysicsWorld::Body</scope><name>body</name></member>
+      <member refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" prot="public" virt="non-virtual"><scope>PhysicsWorld::Body</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

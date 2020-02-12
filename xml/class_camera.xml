@@ -1,0 +1,833 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_camera" kind="class" prot="public">
+    <compoundname>Camera</compoundname>
+    <includes refid="_camera_8h" local="no">Camera.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_1a452e787ab424125456f1c78f0b9508b6" prot="private" static="no" mutable="no">
+        <type>ngl::Camera *</type>
+        <definition>ngl::Camera* Camera::m_camera</definition>
+        <argsstring></argsstring>
+        <name>m_camera</name>
+        <briefdescription>
+<para>A pointer to an NGL::Camera. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="121" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" compoundref="_camera_8cpp" startline="5" endline="24">Camera</referencedby>
+        <referencedby refid="class_camera_1ad1897942d0ccf91052386388a497349f" compoundref="_camera_8cpp" startline="26" endline="29">~Camera</referencedby>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">forcePos</referencedby>
+        <referencedby refid="class_camera_1a3b565fb6a9ec8aab39fb5f57ee188a0d" compoundref="_camera_8cpp" startline="286" endline="289">getEye</referencedby>
+        <referencedby refid="class_camera_1a00fd996bda56a58447739f2543abc545" compoundref="_camera_8cpp" startline="291" endline="294">setEye</referencedby>
+        <referencedby refid="class_camera_1ae19b3c8112edf783476dd2197baa4a36" compoundref="_camera_8cpp" startline="296" endline="299">getLook</referencedby>
+        <referencedby refid="class_camera_1ab46fe10a05b101d6b4fa14fd09117748" compoundref="_camera_8cpp" startline="301" endline="304">setLook</referencedby>
+        <referencedby refid="class_camera_1aef53a322f457d7524838961257a9209e" compoundref="_camera_8cpp" startline="306" endline="309">getViewMatrix</referencedby>
+        <referencedby refid="class_camera_1a376f5df8168b969cea49fea6b7881160" compoundref="_camera_8cpp" startline="311" endline="314">getVPMatrix</referencedby>
+        <referencedby refid="class_camera_1ad6b6e1eeb63a2a9e1bfdb0a2ce99ea7e" compoundref="_camera_8cpp" startline="316" endline="319">getProjectionMatrix</referencedby>
+        <referencedby refid="class_camera_1ae8ed31422d897f6a8df266048beb14ea" compoundref="_camera_8cpp" startline="351" endline="354">setShape</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Camera::m_camIdealPos</definition>
+        <argsstring></argsstring>
+        <name>m_camIdealPos</name>
+        <briefdescription>
+<para>The position that the camera will always accelerate towards. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="124" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="124" bodyend="-1"/>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">forcePos</referencedby>
+        <referencedby refid="class_camera_1a8936b4a8ca0426b7fcd99fd3aafd3748" compoundref="_camera_8cpp" startline="341" endline="344">getIdealPos</referencedby>
+        <referencedby refid="class_camera_1a49e8ca8db6e215ada90c8c2db6fbb4fd" compoundref="_camera_8cpp" startline="346" endline="349">setIdealPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::m_camDistance</definition>
+        <argsstring></argsstring>
+        <name>m_camDistance</name>
+        <briefdescription>
+<para>The distance between the camera and the focus. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="127" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" compoundref="_camera_8cpp" startline="5" endline="24">Camera</referencedby>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">updatePos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">forcePos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::m_tempDistance</definition>
+        <argsstring></argsstring>
+        <name>m_tempDistance</name>
+        <briefdescription>
+<para>Temporary distance for avoiding obstacles. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="130" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="130" bodyend="-1"/>
+        <referencedby refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" compoundref="_camera_8cpp" startline="5" endline="24">Camera</referencedby>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">forcePos</referencedby>
+        <referencedby refid="class_camera_1acfdfc9d8b5b2ac82108a5c538aca8f83" compoundref="_camera_8cpp" startline="321" endline="324">getDistance</referencedby>
+        <referencedby refid="class_camera_1a64a11237be8d57b468666cae99741864" compoundref="_camera_8cpp" startline="326" endline="329">setDistance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a799ac266489a22baf8dbbc6243895407" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::m_camAngle</definition>
+        <argsstring></argsstring>
+        <name>m_camAngle</name>
+        <briefdescription>
+<para>The angle of the camera about the focus. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="133" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" compoundref="_camera_8cpp" startline="5" endline="24">Camera</referencedby>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">forcePos</referencedby>
+        <referencedby refid="class_camera_1aeb2fffe048b65431de6b2beccdb34135" compoundref="_camera_8cpp" startline="331" endline="334">getAngle</referencedby>
+        <referencedby refid="class_camera_1a60d0c53628aa3654b64eb1bc8beb1e28" compoundref="_camera_8cpp" startline="336" endline="339">setAngle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::m_camHeight</definition>
+        <argsstring></argsstring>
+        <name>m_camHeight</name>
+        <briefdescription>
+<para>The height of the camera relative to the focus. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="136" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="136" bodyend="-1"/>
+        <referencedby refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" compoundref="_camera_8cpp" startline="5" endline="24">Camera</referencedby>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">forcePos</referencedby>
+        <referencedby refid="class_camera_1a6aa244c08427100da9e8ea5b2fa88cd8" compoundref="_camera_8h" startline="86" endline="86">getHeight</referencedby>
+        <referencedby refid="class_camera_1a1ccc13246c520c77b09f680bd5bfaf86" compoundref="_camera_8h" startline="91" endline="91">setHeight</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a753dd77b11956734d5384a0b3a0f992f" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Camera::m_camVel</definition>
+        <argsstring></argsstring>
+        <name>m_camVel</name>
+        <briefdescription>
+<para>Velocity value used to amend with the physics simulation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="139" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="139" bodyend="-1"/>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">forcePos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a648178657732de1dfa9102997a79dc91" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* Camera::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>a pointer to the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> to use </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="142" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="142" bodyend="-1"/>
+        <referencedby refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" compoundref="_camera_8cpp" startline="5" endline="24">Camera</referencedby>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">forcePos</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_1af0c271467c41064642beb2f1d28ef5d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera::Camera</definition>
+        <argsstring>(PhysicsWorld *_physics)</argsstring>
+        <name>Camera</name>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>Constructor for the camera class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_physics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- pointer to the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="19" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="5" bodyend="24"/>
+        <references refid="class_camera_1a799ac266489a22baf8dbbc6243895407" compoundref="_camera_8h" startline="133">m_camAngle</references>
+        <references refid="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" compoundref="_camera_8h" startline="127">m_camDistance</references>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <references refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" compoundref="_camera_8h" startline="136">m_camHeight</references>
+        <references refid="class_camera_1a648178657732de1dfa9102997a79dc91" compoundref="_camera_8h" startline="142">m_physics</references>
+        <references refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" compoundref="_camera_8h" startline="130">m_tempDistance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1ad1897942d0ccf91052386388a497349f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera::~Camera</definition>
+        <argsstring>()</argsstring>
+        <name>~Camera</name>
+        <briefdescription>
+<para>destructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="23" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="26" bodyend="29"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1ab65565a0e02bd33806d264c972ed083d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::updatePos</definition>
+        <argsstring>(std::string _name)</argsstring>
+        <name>updatePos</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+<para>Called each frame to update the camera&apos;s position. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> body for the camera to focus on </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="28" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="31" bodyend="100"/>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_camera_1a799ac266489a22baf8dbbc6243895407" compoundref="_camera_8h" startline="133">m_camAngle</references>
+        <references refid="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" compoundref="_camera_8h" startline="127">m_camDistance</references>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <references refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" compoundref="_camera_8h" startline="136">m_camHeight</references>
+        <references refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" compoundref="_camera_8h" startline="124">m_camIdealPos</references>
+        <references refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" compoundref="_camera_8h" startline="139">m_camVel</references>
+        <references refid="class_camera_1a648178657732de1dfa9102997a79dc91" compoundref="_camera_8h" startline="142">m_physics</references>
+        <references refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" compoundref="_camera_8h" startline="130">m_tempDistance</references>
+        <references refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" compoundref="_physics_world_8cpp" startline="580" endline="600">PhysicsWorld::rayTest</references>
+        <references refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">PhysicsWorld::setLinVelocity</references>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">NGLDraw::drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">NGLDraw::draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::snapPos</definition>
+        <argsstring>(std::string _name)</argsstring>
+        <name>snapPos</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+<para>Can be called as an alternative to updatePos. Snaps the camera&apos;s position to the default position OR snaps the camera&apos;s position to the chosen angle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> body for the camera to focus on </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the angle to rotate the camera about the focus </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="34" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="102" bodyend="126"/>
+        <references refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</references>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_camera_1a799ac266489a22baf8dbbc6243895407" compoundref="_camera_8h" startline="133">m_camAngle</references>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <references refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" compoundref="_camera_8h" startline="136">m_camHeight</references>
+        <references refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" compoundref="_camera_8h" startline="124">m_camIdealPos</references>
+        <references refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" compoundref="_camera_8h" startline="139">m_camVel</references>
+        <references refid="class_camera_1a648178657732de1dfa9102997a79dc91" compoundref="_camera_8h" startline="142">m_physics</references>
+        <references refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" compoundref="_camera_8h" startline="130">m_tempDistance</references>
+        <references refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" compoundref="_physics_world_8cpp" startline="560" endline="572">PhysicsWorld::removeCollisionObj</references>
+        <references refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" compoundref="_physics_world_8cpp" startline="658" endline="670">PhysicsWorld::setGravityForBody</references>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">Character::resetCharacter</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">NGLDraw::draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1af3f5d3af4dcd53c997630c45c108729b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::snapPos</definition>
+        <argsstring>(std::string _name, float _angle)</argsstring>
+        <name>snapPos</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="35" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="128" bodyend="152"/>
+        <references refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</references>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_camera_1a799ac266489a22baf8dbbc6243895407" compoundref="_camera_8h" startline="133">m_camAngle</references>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <references refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" compoundref="_camera_8h" startline="136">m_camHeight</references>
+        <references refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" compoundref="_camera_8h" startline="124">m_camIdealPos</references>
+        <references refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" compoundref="_camera_8h" startline="139">m_camVel</references>
+        <references refid="class_camera_1a648178657732de1dfa9102997a79dc91" compoundref="_camera_8h" startline="142">m_physics</references>
+        <references refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" compoundref="_camera_8h" startline="130">m_tempDistance</references>
+        <references refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" compoundref="_physics_world_8cpp" startline="560" endline="572">PhysicsWorld::removeCollisionObj</references>
+        <references refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" compoundref="_physics_world_8cpp" startline="658" endline="670">PhysicsWorld::setGravityForBody</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a7c68c706aa05e265b14a140d97a04b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::forcePos</definition>
+        <argsstring>(std::string _name, float _angle)</argsstring>
+        <name>forcePos</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_angle</declname>
+        </param>
+        <briefdescription>
+<para>Can be called as an alternative to updatePos. Sets the camera&apos;s ideal position based on input values and lets the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> handle the motion. Less jarring than snapPos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the <ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> body for the camera to focus on </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the angle to rotate the camera about the focus </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_focus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- alternative focus for the camera if desired </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="42" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="154" bodyend="215"/>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_camera_1a799ac266489a22baf8dbbc6243895407" compoundref="_camera_8h" startline="133">m_camAngle</references>
+        <references refid="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" compoundref="_camera_8h" startline="127">m_camDistance</references>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <references refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" compoundref="_camera_8h" startline="136">m_camHeight</references>
+        <references refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" compoundref="_camera_8h" startline="124">m_camIdealPos</references>
+        <references refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" compoundref="_camera_8h" startline="139">m_camVel</references>
+        <references refid="class_camera_1a648178657732de1dfa9102997a79dc91" compoundref="_camera_8h" startline="142">m_physics</references>
+        <references refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" compoundref="_camera_8h" startline="130">m_tempDistance</references>
+        <references refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" compoundref="_physics_world_8cpp" startline="580" endline="600">PhysicsWorld::rayTest</references>
+        <references refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">PhysicsWorld::setLinVelocity</references>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">NGLDraw::draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a4cf1bea5786624b4c3b08e7da5a64cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::forcePos</definition>
+        <argsstring>(std::string _name, float _angle, ngl::Vec3 _focus)</argsstring>
+        <name>forcePos</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_angle</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_focus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="43" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="217" bodyend="284"/>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_camera_1a799ac266489a22baf8dbbc6243895407" compoundref="_camera_8h" startline="133">m_camAngle</references>
+        <references refid="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" compoundref="_camera_8h" startline="127">m_camDistance</references>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <references refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" compoundref="_camera_8h" startline="136">m_camHeight</references>
+        <references refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" compoundref="_camera_8h" startline="124">m_camIdealPos</references>
+        <references refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" compoundref="_camera_8h" startline="139">m_camVel</references>
+        <references refid="class_camera_1a648178657732de1dfa9102997a79dc91" compoundref="_camera_8h" startline="142">m_physics</references>
+        <references refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" compoundref="_camera_8h" startline="130">m_tempDistance</references>
+        <references refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" compoundref="_physics_world_8cpp" startline="580" endline="600">PhysicsWorld::rayTest</references>
+        <references refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">PhysicsWorld::setLinVelocity</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a3b565fb6a9ec8aab39fb5f57ee188a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec4</type>
+        <definition>ngl::Vec4 Camera::getEye</definition>
+        <argsstring>()</argsstring>
+        <name>getEye</name>
+        <briefdescription>
+<para>Returns the Eye vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="47" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="286" bodyend="289"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">NGLDraw::drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">NGLDraw::draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a00fd996bda56a58447739f2543abc545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setEye</definition>
+        <argsstring>(ngl::Vec4 _eye)</argsstring>
+        <name>setEye</name>
+        <param>
+          <type>ngl::Vec4</type>
+          <declname>_eye</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Eye vector. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_eye</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the vector to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="52" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="291" bodyend="294"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1ae19b3c8112edf783476dd2197baa4a36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec4</type>
+        <definition>ngl::Vec4 Camera::getLook</definition>
+        <argsstring>()</argsstring>
+        <name>getLook</name>
+        <briefdescription>
+<para>Returns the Look vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="56" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="296" bodyend="299"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <referencedby refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" compoundref="_n_g_l_draw_8cpp" startline="549" endline="643">NGLDraw::drawDepth</referencedby>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">NGLDraw::draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1ab46fe10a05b101d6b4fa14fd09117748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setLook</definition>
+        <argsstring>(ngl::Vec4 _look)</argsstring>
+        <name>setLook</name>
+        <param>
+          <type>ngl::Vec4</type>
+          <declname>_look</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Look vector. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_look</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the vector to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="61" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="301" bodyend="304"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1aef53a322f457d7524838961257a9209e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Mat4</type>
+        <definition>ngl::Mat4 Camera::getViewMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>getViewMatrix</name>
+        <briefdescription>
+<para>Returns the view matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="65" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="306" bodyend="309"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">NGLDraw::shaderType</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a376f5df8168b969cea49fea6b7881160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Mat4</type>
+        <definition>ngl::Mat4 Camera::getVPMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>getVPMatrix</name>
+        <briefdescription>
+<para>Returns the ViewProjection matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="69" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="311" bodyend="314"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <referencedby refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" compoundref="_n_g_l_draw_8cpp" startline="378" endline="526">NGLDraw::shaderType</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1ad6b6e1eeb63a2a9e1bfdb0a2ce99ea7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Mat4</type>
+        <definition>ngl::Mat4 Camera::getProjectionMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>getProjectionMatrix</name>
+        <briefdescription>
+<para>Returns the Projection matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="73" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="316" bodyend="319"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1acfdfc9d8b5b2ac82108a5c538aca8f83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Camera::getDistance</definition>
+        <argsstring>()</argsstring>
+        <name>getDistance</name>
+        <briefdescription>
+<para>Returns the distance between the camera and the focus. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="77" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="321" bodyend="324"/>
+        <references refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" compoundref="_camera_8h" startline="130">m_tempDistance</references>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a8782a682c3a362baa3b18882f49c95ed" compoundref="_n_g_l_draw_8cpp" startline="1268" endline="1290">NGLDraw::wheelEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a64a11237be8d57b468666cae99741864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setDistance</definition>
+        <argsstring>(float _distance)</argsstring>
+        <name>setDistance</name>
+        <param>
+          <type>float</type>
+          <declname>_distance</declname>
+        </param>
+        <briefdescription>
+<para>Sets the distance between the camera and the focus. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the distance to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="82" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="326" bodyend="329"/>
+        <references refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" compoundref="_camera_8h" startline="130">m_tempDistance</references>
+        <referencedby refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" compoundref="_n_g_l_draw_8cpp" startline="645" endline="1190">NGLDraw::draw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a8782a682c3a362baa3b18882f49c95ed" compoundref="_n_g_l_draw_8cpp" startline="1268" endline="1290">NGLDraw::wheelEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a6aa244c08427100da9e8ea5b2fa88cd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Camera::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+<para>returns the height of the camera </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="86" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="86" bodyend="86"/>
+        <references refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" compoundref="_camera_8h" startline="136">m_camHeight</references>
+        <referencedby refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" compoundref="_n_g_l_draw_8cpp" startline="1228" endline="1240">NGLDraw::mouseMoveEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a1ccc13246c520c77b09f680bd5bfaf86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setHeight</definition>
+        <argsstring>(float _height)</argsstring>
+        <name>setHeight</name>
+        <param>
+          <type>float</type>
+          <declname>_height</declname>
+        </param>
+        <briefdescription>
+<para>sets the height of the camera </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the new height to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="91" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="91" bodyend="91"/>
+        <references refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" compoundref="_camera_8h" startline="136">m_camHeight</references>
+        <referencedby refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" compoundref="_n_g_l_draw_8cpp" startline="1228" endline="1240">NGLDraw::mouseMoveEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1aeb2fffe048b65431de6b2beccdb34135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Camera::getAngle</definition>
+        <argsstring>()</argsstring>
+        <name>getAngle</name>
+        <briefdescription>
+<para>Returns the angle of the camera about the focus. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="95" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="331" bodyend="334"/>
+        <references refid="class_camera_1a799ac266489a22baf8dbbc6243895407" compoundref="_camera_8h" startline="133">m_camAngle</references>
+        <referencedby refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" compoundref="_n_g_l_draw_8cpp" startline="21" endline="299">NGLDraw::NGLDraw</referencedby>
+        <referencedby refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" compoundref="_n_g_l_draw_8cpp" startline="1228" endline="1240">NGLDraw::mouseMoveEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a60d0c53628aa3654b64eb1bc8beb1e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setAngle</definition>
+        <argsstring>(float _angle)</argsstring>
+        <name>setAngle</name>
+        <param>
+          <type>float</type>
+          <declname>_angle</declname>
+        </param>
+        <briefdescription>
+<para>Sets the angle of the camera about the focus. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the angle to set in radians </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="100" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="336" bodyend="339"/>
+        <references refid="class_camera_1a799ac266489a22baf8dbbc6243895407" compoundref="_camera_8h" startline="133">m_camAngle</references>
+        <referencedby refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" compoundref="_n_g_l_draw_8cpp" startline="1228" endline="1240">NGLDraw::mouseMoveEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a8936b4a8ca0426b7fcd99fd3aafd3748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Camera::getIdealPos</definition>
+        <argsstring>()</argsstring>
+        <name>getIdealPos</name>
+        <briefdescription>
+<para>Returns the ideal position of the camera. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="104" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="341" bodyend="344"/>
+        <references refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" compoundref="_camera_8h" startline="124">m_camIdealPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a49e8ca8db6e215ada90c8c2db6fbb4fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setIdealPos</definition>
+        <argsstring>(ngl::Vec3 _pos)</argsstring>
+        <name>setIdealPos</name>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pos</declname>
+        </param>
+        <briefdescription>
+<para>Sets the ideal position for the camera. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the vector to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="109" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="346" bodyend="349"/>
+        <references refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" compoundref="_camera_8h" startline="124">m_camIdealPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1ae8ed31422d897f6a8df266048beb14ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setShape</definition>
+        <argsstring>(int _angle, float _aspect, float _near, float _far)</argsstring>
+        <name>setShape</name>
+        <param>
+          <type>int</type>
+          <declname>_angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_aspect</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_near</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_far</declname>
+        </param>
+        <briefdescription>
+<para>Sets the camera&apos;s shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the View angle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_aspect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the aspect ratio </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_near</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- near clipping distance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_far</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- far clipping distance </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="117" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Camera.cpp" bodystart="351" bodyend="354"/>
+        <references refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" compoundref="_camera_8h" startline="121">m_camera</references>
+        <referencedby refid="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" compoundref="_n_g_l_draw_8cpp" startline="538" endline="547">NGLDraw::resize</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains the camera used for rendering and controls its movement. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="89">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="90" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+      </node>
+      <node id="90">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="91" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="91">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" line="13" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h" bodystart="12" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" prot="public" virt="non-virtual"><scope>Camera</scope><name>Camera</name></member>
+      <member refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" prot="public" virt="non-virtual"><scope>Camera</scope><name>forcePos</name></member>
+      <member refid="class_camera_1a4cf1bea5786624b4c3b08e7da5a64cdf" prot="public" virt="non-virtual"><scope>Camera</scope><name>forcePos</name></member>
+      <member refid="class_camera_1aeb2fffe048b65431de6b2beccdb34135" prot="public" virt="non-virtual"><scope>Camera</scope><name>getAngle</name></member>
+      <member refid="class_camera_1acfdfc9d8b5b2ac82108a5c538aca8f83" prot="public" virt="non-virtual"><scope>Camera</scope><name>getDistance</name></member>
+      <member refid="class_camera_1a3b565fb6a9ec8aab39fb5f57ee188a0d" prot="public" virt="non-virtual"><scope>Camera</scope><name>getEye</name></member>
+      <member refid="class_camera_1a6aa244c08427100da9e8ea5b2fa88cd8" prot="public" virt="non-virtual"><scope>Camera</scope><name>getHeight</name></member>
+      <member refid="class_camera_1a8936b4a8ca0426b7fcd99fd3aafd3748" prot="public" virt="non-virtual"><scope>Camera</scope><name>getIdealPos</name></member>
+      <member refid="class_camera_1ae19b3c8112edf783476dd2197baa4a36" prot="public" virt="non-virtual"><scope>Camera</scope><name>getLook</name></member>
+      <member refid="class_camera_1ad6b6e1eeb63a2a9e1bfdb0a2ce99ea7e" prot="public" virt="non-virtual"><scope>Camera</scope><name>getProjectionMatrix</name></member>
+      <member refid="class_camera_1aef53a322f457d7524838961257a9209e" prot="public" virt="non-virtual"><scope>Camera</scope><name>getViewMatrix</name></member>
+      <member refid="class_camera_1a376f5df8168b969cea49fea6b7881160" prot="public" virt="non-virtual"><scope>Camera</scope><name>getVPMatrix</name></member>
+      <member refid="class_camera_1a799ac266489a22baf8dbbc6243895407" prot="private" virt="non-virtual"><scope>Camera</scope><name>m_camAngle</name></member>
+      <member refid="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" prot="private" virt="non-virtual"><scope>Camera</scope><name>m_camDistance</name></member>
+      <member refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" prot="private" virt="non-virtual"><scope>Camera</scope><name>m_camera</name></member>
+      <member refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" prot="private" virt="non-virtual"><scope>Camera</scope><name>m_camHeight</name></member>
+      <member refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" prot="private" virt="non-virtual"><scope>Camera</scope><name>m_camIdealPos</name></member>
+      <member refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" prot="private" virt="non-virtual"><scope>Camera</scope><name>m_camVel</name></member>
+      <member refid="class_camera_1a648178657732de1dfa9102997a79dc91" prot="private" virt="non-virtual"><scope>Camera</scope><name>m_physics</name></member>
+      <member refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" prot="private" virt="non-virtual"><scope>Camera</scope><name>m_tempDistance</name></member>
+      <member refid="class_camera_1a60d0c53628aa3654b64eb1bc8beb1e28" prot="public" virt="non-virtual"><scope>Camera</scope><name>setAngle</name></member>
+      <member refid="class_camera_1a64a11237be8d57b468666cae99741864" prot="public" virt="non-virtual"><scope>Camera</scope><name>setDistance</name></member>
+      <member refid="class_camera_1a00fd996bda56a58447739f2543abc545" prot="public" virt="non-virtual"><scope>Camera</scope><name>setEye</name></member>
+      <member refid="class_camera_1a1ccc13246c520c77b09f680bd5bfaf86" prot="public" virt="non-virtual"><scope>Camera</scope><name>setHeight</name></member>
+      <member refid="class_camera_1a49e8ca8db6e215ada90c8c2db6fbb4fd" prot="public" virt="non-virtual"><scope>Camera</scope><name>setIdealPos</name></member>
+      <member refid="class_camera_1ab46fe10a05b101d6b4fa14fd09117748" prot="public" virt="non-virtual"><scope>Camera</scope><name>setLook</name></member>
+      <member refid="class_camera_1ae8ed31422d897f6a8df266048beb14ea" prot="public" virt="non-virtual"><scope>Camera</scope><name>setShape</name></member>
+      <member refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" prot="public" virt="non-virtual"><scope>Camera</scope><name>snapPos</name></member>
+      <member refid="class_camera_1af3f5d3af4dcd53c997630c45c108729b" prot="public" virt="non-virtual"><scope>Camera</scope><name>snapPos</name></member>
+      <member refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" prot="public" virt="non-virtual"><scope>Camera</scope><name>updatePos</name></member>
+      <member refid="class_camera_1ad1897942d0ccf91052386388a497349f" prot="public" virt="non-virtual"><scope>Camera</scope><name>~Camera</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

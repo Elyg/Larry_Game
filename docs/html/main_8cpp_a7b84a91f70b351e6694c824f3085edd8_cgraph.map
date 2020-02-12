@@ -1,0 +1,7 @@
+<map id="pauseMenu" name="pauseMenu">
+<area shape="rect" id="node2" href="$class_g_u_i_draw.html#a408f4a09c1755aecaf416f13c835cf1e" title="draws the pause screen " alt="" coords="146,5,337,32"/>
+<area shape="rect" id="node3" href="$class_g_u_i_draw.html#a4a3e8808152b45cb323ae374bb60a4fb" title="draws a colour on a two triangle quad " alt="" coords="150,56,333,83"/>
+<area shape="rect" id="node4" href="$class_controls.html#aae150be1e58ea618a6a9f7043727ebe5" title="stops the jump hop timer " alt="" coords="145,107,338,133"/>
+<area shape="rect" id="node5" href="$class_character.html#a128fe63126613c48f495a0c467ebe337" title="stop the timer for the hop " alt="" coords="387,107,589,133"/>
+<area shape="rect" id="node6" href="$class_l_timer.html#aeabbf5f935907fcfeaa7f4403741e4ae" title="LTimer::stop" alt="" coords="638,107,733,133"/>
+</map>

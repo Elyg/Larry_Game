@@ -1,0 +1,4 @@
+<map id="Controls::stopJumpHopTimer" name="Controls::stopJumpHopTimer">
+<area shape="rect" id="node2" href="$class_character.html#a128fe63126613c48f495a0c467ebe337" title="stop the timer for the hop " alt="" coords="249,5,450,32"/>
+<area shape="rect" id="node3" href="$class_l_timer.html#aeabbf5f935907fcfeaa7f4403741e4ae" title="LTimer::stop" alt="" coords="499,5,594,32"/>
+</map>

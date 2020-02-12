@@ -1,0 +1,725 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.5">
+  <compound refid="class_animation" kind="class"><name>Animation</name>
+    <member refid="class_animation_1ae4b243d757d8b117048df190b83b364f" kind="variable"><name>m_characterAnimData</name></member>
+    <member refid="class_animation_1a82a4a77bd00d6a3f812a6ccb6bc7c183" kind="variable"><name>m_coinAnimData</name></member>
+    <member refid="class_animation_1a944006eacaa923620b3a6047d211708b" kind="variable"><name>m_charCurrentAnimFrame</name></member>
+    <member refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kind="variable"><name>m_charAnimStartFrame</name></member>
+    <member refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kind="variable"><name>m_charAnimEndFrame</name></member>
+    <member refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kind="variable"><name>m_coinCurrentAnimFrame</name></member>
+    <member refid="class_animation_1a0837afaac12ad923bd3d253c816e9aa4" kind="variable"><name>m_coinAnimStartFrame</name></member>
+    <member refid="class_animation_1ae704c55c7784b443bd2e88419de1a4b1" kind="variable"><name>m_coinAnimEndFrame</name></member>
+    <member refid="class_animation_1ade2fa6e2a13073502afe3d8402546a63" kind="variable"><name>m_charAnimUpdate</name></member>
+    <member refid="class_animation_1a8cc2ee1bb0cd86b743e0aa52ad597a60" kind="variable"><name>m_coinAnimUpdate</name></member>
+    <member refid="class_animation_1a83f0a16cef7117f187ad596de38dd9d6" kind="function"><name>Animation</name></member>
+    <member refid="class_animation_1a401b68793d4fbf48d481c030ee4b2a16" kind="function"><name>~Animation</name></member>
+    <member refid="class_animation_1aac1afb06935594fb8c18a6e2f9aae3ff" kind="function"><name>setAnimationTo</name></member>
+    <member refid="class_animation_1a5bc23aec96e127173d415dab364b0d6e" kind="function"><name>loadAnimationData</name></member>
+    <member refid="class_animation_1aa5c387b4815b70ef5dbcd5df63077f61" kind="function"><name>setAnimationLoopOn</name></member>
+    <member refid="class_animation_1a5bc4557cd8655a7c0f27e86714ad76a9" kind="function"><name>attachAnimToMesh</name></member>
+    <member refid="class_animation_1a01db389fa87bb375521010f7d0a3ee36" kind="function"><name>initStartFrame</name></member>
+    <member refid="class_animation_1a9356b81e836167df2a3a2c5288d6148b" kind="function"><name>setAnimUpdate</name></member>
+    <member refid="class_animation_1aea90609393fddad53e84062f225dce1b" kind="function"><name>getAnimUpdate</name></member>
+    <member refid="class_animation_1aa4223bf81fb5cb06c3e60fc222fc63bd" kind="function"><name>incrCurrentFrame</name></member>
+  </compound>
+  <compound refid="struct_physics_world_1_1_body" kind="struct"><name>PhysicsWorld::Body</name>
+    <member refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" kind="variable"><name>name</name></member>
+    <member refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" kind="variable"><name>body</name></member>
+  </compound>
+  <compound refid="class_bullet_debug_draw" kind="class"><name>BulletDebugDraw</name>
+    <member refid="class_bullet_debug_draw_1aafe4d0c73892cd570b4ec9f0ea97d92b" kind="variable"><name>m_debugModes</name></member>
+    <member refid="class_bullet_debug_draw_1a97ec452974bcf40857bc415020cc95aa" kind="variable"><name>m_vertices</name></member>
+    <member refid="class_bullet_debug_draw_1add0b2e732e1b7c842fcb62ae537acb51" kind="function"><name>BulletDebugDraw</name></member>
+    <member refid="class_bullet_debug_draw_1a7f5af796edb107180193195c7e7e8860" kind="function"><name>~BulletDebugDraw</name></member>
+    <member refid="class_bullet_debug_draw_1ac174806513ad9ff3dc9e437f80d10b84" kind="function"><name>drawLine</name></member>
+    <member refid="class_bullet_debug_draw_1ab49da213af169e8833a099d08387d3b1" kind="function"><name>setDebugMode</name></member>
+    <member refid="class_bullet_debug_draw_1ab2c7c23095702e125478e77c695d251f" kind="function"><name>drawContactPoint</name></member>
+    <member refid="class_bullet_debug_draw_1ae771752c3ce6f4beaca08ba677909256" kind="function"><name>reportErrorWarning</name></member>
+    <member refid="class_bullet_debug_draw_1ad7b1601d3689c4d3098181377cd77aac" kind="function"><name>draw3dText</name></member>
+    <member refid="class_bullet_debug_draw_1ab96bf0cdcdedddc3115c41c9722d76a4" kind="function"><name>getDebugMode</name></member>
+    <member refid="class_bullet_debug_draw_1ab95af947ef1e3ab9e78ea0085c0a77ae" kind="function"><name>drawUpdate</name></member>
+  </compound>
+  <compound refid="class_camera" kind="class"><name>Camera</name>
+    <member refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" kind="variable"><name>m_camera</name></member>
+    <member refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" kind="variable"><name>m_camIdealPos</name></member>
+    <member refid="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" kind="variable"><name>m_camDistance</name></member>
+    <member refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" kind="variable"><name>m_tempDistance</name></member>
+    <member refid="class_camera_1a799ac266489a22baf8dbbc6243895407" kind="variable"><name>m_camAngle</name></member>
+    <member refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" kind="variable"><name>m_camHeight</name></member>
+    <member refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" kind="variable"><name>m_camVel</name></member>
+    <member refid="class_camera_1a648178657732de1dfa9102997a79dc91" kind="variable"><name>m_physics</name></member>
+    <member refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" kind="function"><name>Camera</name></member>
+    <member refid="class_camera_1ad1897942d0ccf91052386388a497349f" kind="function"><name>~Camera</name></member>
+    <member refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" kind="function"><name>updatePos</name></member>
+    <member refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" kind="function"><name>snapPos</name></member>
+    <member refid="class_camera_1af3f5d3af4dcd53c997630c45c108729b" kind="function"><name>snapPos</name></member>
+    <member refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" kind="function"><name>forcePos</name></member>
+    <member refid="class_camera_1a4cf1bea5786624b4c3b08e7da5a64cdf" kind="function"><name>forcePos</name></member>
+    <member refid="class_camera_1a3b565fb6a9ec8aab39fb5f57ee188a0d" kind="function"><name>getEye</name></member>
+    <member refid="class_camera_1a00fd996bda56a58447739f2543abc545" kind="function"><name>setEye</name></member>
+    <member refid="class_camera_1ae19b3c8112edf783476dd2197baa4a36" kind="function"><name>getLook</name></member>
+    <member refid="class_camera_1ab46fe10a05b101d6b4fa14fd09117748" kind="function"><name>setLook</name></member>
+    <member refid="class_camera_1aef53a322f457d7524838961257a9209e" kind="function"><name>getViewMatrix</name></member>
+    <member refid="class_camera_1a376f5df8168b969cea49fea6b7881160" kind="function"><name>getVPMatrix</name></member>
+    <member refid="class_camera_1ad6b6e1eeb63a2a9e1bfdb0a2ce99ea7e" kind="function"><name>getProjectionMatrix</name></member>
+    <member refid="class_camera_1acfdfc9d8b5b2ac82108a5c538aca8f83" kind="function"><name>getDistance</name></member>
+    <member refid="class_camera_1a64a11237be8d57b468666cae99741864" kind="function"><name>setDistance</name></member>
+    <member refid="class_camera_1a6aa244c08427100da9e8ea5b2fa88cd8" kind="function"><name>getHeight</name></member>
+    <member refid="class_camera_1a1ccc13246c520c77b09f680bd5bfaf86" kind="function"><name>setHeight</name></member>
+    <member refid="class_camera_1aeb2fffe048b65431de6b2beccdb34135" kind="function"><name>getAngle</name></member>
+    <member refid="class_camera_1a60d0c53628aa3654b64eb1bc8beb1e28" kind="function"><name>setAngle</name></member>
+    <member refid="class_camera_1a8936b4a8ca0426b7fcd99fd3aafd3748" kind="function"><name>getIdealPos</name></member>
+    <member refid="class_camera_1a49e8ca8db6e215ada90c8c2db6fbb4fd" kind="function"><name>setIdealPos</name></member>
+    <member refid="class_camera_1ae8ed31422d897f6a8df266048beb14ea" kind="function"><name>setShape</name></member>
+  </compound>
+  <compound refid="class_character" kind="class"><name>Character</name>
+    <member refid="class_character_1ac39315e1fcce2d75bd0e9225b6dadf9f" kind="variable"><name>m_shiftable</name></member>
+    <member refid="class_character_1a7eeb974118f798b5867285da69317c6f" kind="variable"><name>m_mulitplier</name></member>
+    <member refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" kind="variable"><name>m_mass</name></member>
+    <member refid="class_character_1af598009da48e6db8018244cf0c220b03" kind="variable"><name>m_maxVelocity</name></member>
+    <member refid="class_character_1a55df604c0038e97408b666b16c4d493f" kind="variable"><name>m_cameraDir</name></member>
+    <member refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" kind="variable"><name>m_physics</name></member>
+    <member refid="class_character_1ad258845c9da04191ee7da74ce8f0fc24" kind="variable"><name>m_collisionNormal</name></member>
+    <member refid="class_character_1a8ea86975355f8a2e0d023ac338c134c5" kind="variable"><name>m_charPos</name></member>
+    <member refid="class_character_1a8a94d25ee0d08457535de4cd25908f1b" kind="variable"><name>m_move</name></member>
+    <member refid="class_character_1a836c3d49233261bc0f47368f248cb8e2" kind="variable"><name>m_attractEnable</name></member>
+    <member refid="class_character_1a0e8cc490e41042e8e83e01d9e8df30d6" kind="variable"><name>m_freezeTimer</name></member>
+    <member refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" kind="variable"><name>m_formOne</name></member>
+    <member refid="class_character_1ab50213ee8f05c708a09972a7628c48dd" kind="variable"><name>m_formTwo</name></member>
+    <member refid="class_character_1ad8394447f46610e326d2d4ff402d7c0f" kind="variable"><name>jumpHopTimer</name></member>
+    <member refid="class_character_1ad8bf8171526411509af859833a15f929" kind="variable"><name>m_jumpForce</name></member>
+    <member refid="class_character_1af86394a65cd6858cfa637a498dcafacd" kind="variable"><name>m_jumpHopMaxTime</name></member>
+    <member refid="class_character_1a2dfa0c4b87a1dedd9244f7d736b3844f" kind="variable"><name>m_friction</name></member>
+    <member refid="class_character_1a078ac71adaa3064f31e63218b4c29dc1" kind="variable"><name>m_doubleJump</name></member>
+    <member refid="class_character_1a2b397643a3859b752d6639d30ce6b644" kind="variable"><name>m_jumpHopTime</name></member>
+    <member refid="class_character_1a2621f702b319095271fa19858631f1fd" kind="variable"><name>m_oldPlatformVelocity</name></member>
+    <member refid="class_character_1a223c0023ec80b95f70fa80637d72de72" kind="variable"><name>m_platformVelocity</name></member>
+    <member refid="class_character_1a858107df3765f056a9f086c66f853b70" kind="variable"><name>m_initialBallPos</name></member>
+    <member refid="class_character_1adf1aef863381adbbc129bfceacf87f55" kind="variable"><name>m_clamp</name></member>
+    <member refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" kind="variable"><name>m_shapeshift</name></member>
+    <member refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" kind="function"><name>Character</name></member>
+    <member refid="class_character_1a9e9be564d05ded80962b2045aa70b3fc" kind="function"><name>~Character</name></member>
+    <member refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" kind="function"><name>shapeshift</name></member>
+    <member refid="class_character_1ae302146e2d121694631a48618bda6aec" kind="function"><name>createCharacter</name></member>
+    <member refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" kind="function"><name>jumpImpulse</name></member>
+    <member refid="class_character_1a128fe63126613c48f495a0c467ebe337" kind="function"><name>stopJumpHopTimer</name></member>
+    <member refid="class_character_1ae58527d608910235f06445cd9d274a56" kind="function"><name>startJumpHopTimer</name></member>
+    <member refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" kind="function"><name>detectCollisionForJump</name></member>
+    <member refid="class_character_1a5e34c8029b899a4886cc44eb255ff632" kind="function"><name>setCameraInfo</name></member>
+    <member refid="class_character_1a595fba03a652891741ee6631a6079674" kind="function"><name>characterMove</name></member>
+    <member refid="class_character_1abf33e302dfc561564363d48a518f74a8" kind="function"><name>clampVel</name></member>
+    <member refid="class_character_1a4840e45e2d4c6d89b8dc88281ea545a3" kind="function"><name>speed</name></member>
+    <member refid="class_character_1a5262be8fbf6e4b9bde4101b80ee93efd" kind="function"><name>getMove</name></member>
+    <member refid="class_character_1aff483f397946442bdfc2e3ba62a825b2" kind="function"><name>getMass</name></member>
+    <member refid="class_character_1af638ed886b717330d0f53ec423433732" kind="function"><name>getMaxVelocity</name></member>
+    <member refid="class_character_1a4f20bbd3e971408207fcf28083051059" kind="function"><name>getMultiplier</name></member>
+    <member refid="class_character_1a807c34ca15c321cd479d5f35a3948a7f" kind="function"><name>getDoubleJump</name></member>
+    <member refid="class_character_1aa231ac523656d8db870efe76689980b1" kind="function"><name>getJumpHopTime</name></member>
+    <member refid="class_character_1aa7a8c328a450c3e4c8100094a9b91d76" kind="function"><name>getPhase</name></member>
+    <member refid="class_character_1a35e1bd3c1dcda5b3e12100a0a0a67ec2" kind="function"><name>getPlatformVelocity</name></member>
+    <member refid="class_character_1a0ce1f173db69e7147aedc15ccc4820d9" kind="function"><name>setShiftable</name></member>
+    <member refid="class_character_1a6d677474346bf9589e9c940ae165537c" kind="function"><name>godMode</name></member>
+    <member refid="class_character_1ad2a929e7c3f2403b92114d5d7bf50c3c" kind="function"><name>setMassPositive</name></member>
+    <member refid="class_character_1a2521deae9b9dd48eb87d7870a7f83f1f" kind="function"><name>setMassNegative</name></member>
+    <member refid="class_character_1ad00fc05ccd10c3819c7b5f0efba7e1a2" kind="function"><name>setMaxVelPositive</name></member>
+    <member refid="class_character_1ae9aa7651b279192c65b7649e2d624fad" kind="function"><name>setMaxVelNegative</name></member>
+    <member refid="class_character_1a37eefb510c8be344bc5afc46b4686746" kind="function"><name>setMultiplierPositive</name></member>
+    <member refid="class_character_1ac71793e33ec4e29a9289cd922e464b09" kind="function"><name>setMultiplierNegative</name></member>
+    <member refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" kind="function"><name>freezeCharacter</name></member>
+    <member refid="class_character_1a71e1594efa228ce0e3a853d4d50b57c4" kind="function"><name>getGravityDir</name></member>
+    <member refid="class_character_1a8c3293540d07bee2542a6ec32d4f3bc5" kind="function"><name>getCollisionNormal</name></member>
+    <member refid="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" kind="function"><name>attractForce</name></member>
+    <member refid="class_character_1a879566e3231e71d372df9505c5f99a50" kind="function"><name>setJumpForcePositive</name></member>
+    <member refid="class_character_1a90043197d4c927c2816d1b2892593fa8" kind="function"><name>setJumpForceNegative</name></member>
+    <member refid="class_character_1a8227f22bd71a7d880e7c28e41fc07602" kind="function"><name>setJumpHopMaxTimePositive</name></member>
+    <member refid="class_character_1a34971bffe0ea866a0c7665ecf8a43244" kind="function"><name>setJumpHopMaxTimeNegative</name></member>
+    <member refid="class_character_1af58c239cd248b99bb74a6e1534c0a51f" kind="function"><name>getJumpForce</name></member>
+    <member refid="class_character_1a150a1c3197b04d03212a65d3881a2c8f" kind="function"><name>getJumpHopMaxTime</name></member>
+    <member refid="class_character_1ab5efbe11f7ea8e0d45fd37388de25532" kind="function"><name>setFrictionPositive</name></member>
+    <member refid="class_character_1a6c2156c8ebaa2bf50dfb0a91233d0e10" kind="function"><name>setFrictionNegative</name></member>
+    <member refid="class_character_1a6b464972284d01160193a39b736f1b75" kind="function"><name>getFriction</name></member>
+    <member refid="class_character_1ae2da28d0ab94aa7b19781b864191d814" kind="function"><name>setGravityForCharacter</name></member>
+    <member refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" kind="function"><name>resetCharacter</name></member>
+    <member refid="class_character_1abf65a3e82060c02dfdf85c482f868cd1" kind="function"><name>setAttractFlag</name></member>
+    <member refid="class_character_1a4c751ccfa57c5e586e3b5d133c74fcb0" kind="function"><name>getClampFlag</name></member>
+    <member refid="class_character_1afcca5a72e720c5821073e046ad6c2eb9" kind="function"><name>setClampFlag</name></member>
+  </compound>
+  <compound refid="class_coin" kind="class"><name>Coin</name>
+    <member refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" kind="variable"><name>m_coinTrigger</name></member>
+    <member refid="class_coin_1a70aae6475b7b8802569b15db5659d97f" kind="variable"><name>m_physics</name></member>
+    <member refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kind="variable"><name>m_coinPos</name></member>
+    <member refid="class_coin_1a03eae9d4311b1548c5a94aa0f314e4b4" kind="variable"><name>m_coinID</name></member>
+    <member refid="class_coin_1a0cd3ca9ac75b7a2d4e228623f989c185" kind="variable"><name>m_bboxMin</name></member>
+    <member refid="class_coin_1a3628e045fc69caa87995bbc0bea33241" kind="variable"><name>m_bboxMax</name></member>
+    <member refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" kind="variable"><name>m_coinState</name></member>
+    <member refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" kind="variable"><name>m_coinTimer</name></member>
+    <member refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" kind="function"><name>Coin</name></member>
+    <member refid="class_coin_1ad0371a6d98c194a0f6de615206829b16" kind="function"><name>~Coin</name></member>
+    <member refid="class_coin_1af37350c3b81923c3c577fc571136b4f1" kind="function"><name>getCoinPos</name></member>
+    <member refid="class_coin_1af1e8ee1867e6598ac3f031343dacafc5" kind="function"><name>getTrigger</name></member>
+    <member refid="class_coin_1a6ee947aab0802f2bef303d1375459f44" kind="function"><name>isCoinHit</name></member>
+    <member refid="class_coin_1a010ea12b65a5bec9f748dc664d225a12" kind="function"><name>setCoinState</name></member>
+    <member refid="class_coin_1ac30185e74f0824d6c462b581da2497f2" kind="function"><name>startTime</name></member>
+    <member refid="class_coin_1adb67c9f3c2affb5a8730c6fa69deac80" kind="function"><name>getCoinState</name></member>
+    <member refid="class_coin_1a498f9320e169a11b7d809702404165f2" kind="function"><name>getTime</name></member>
+  </compound>
+  <compound refid="class_coin_factory" kind="class"><name>CoinFactory</name>
+    <member refid="class_coin_factory_1a5adfdbfc688574a74467dce1a87d9532" kind="variable"><name>m_coinCounter</name></member>
+    <member refid="class_coin_factory_1a6c56565e19a9cd01928d79f5e0e845e7" kind="variable"><name>m_coinList</name></member>
+    <member refid="class_coin_factory_1ab9f039bf03ac92993d081d0f4a627a2f" kind="variable"><name>m_coin</name></member>
+    <member refid="class_coin_factory_1a6094e562f9dde737962137b8e5292925" kind="variable"><name>m_physics</name></member>
+    <member refid="class_coin_factory_1a3c2a553c594cade85112350ec157243b" kind="variable"><name>m_coinTrigger</name></member>
+    <member refid="class_coin_factory_1a5fe579a9bdc16932dda6d0bddc8472af" kind="variable"><name>m_coinPosListUnordered</name></member>
+    <member refid="class_coin_factory_1a8adffa8b0101b938b24735c201bee6b2" kind="variable"><name>m_coinPosList</name></member>
+    <member refid="class_coin_factory_1a737e176c7f9f82e099ff1c664e6109eb" kind="function"><name>CoinFactory</name></member>
+    <member refid="class_coin_factory_1a114317e986201bc303df984fd3584149" kind="function"><name>~CoinFactory</name></member>
+    <member refid="class_coin_factory_1a33e82d3274d0cac868158050a7ecc45c" kind="function"><name>createCoin</name></member>
+    <member refid="class_coin_factory_1ad0329c17c081e4b912648b5a8123d2b1" kind="function"><name>deleteCoin</name></member>
+    <member refid="class_coin_factory_1a4f0b79d4ec0a8a6eb35a11ab646ca84f" kind="function"><name>getCoin</name></member>
+    <member refid="class_coin_factory_1a01111c06edf1c226c50e3b974db97660" kind="function"><name>readCoinPosData</name></member>
+    <member refid="class_coin_factory_1a3640e87eacd4265e74f472d59a9e827f" kind="function"><name>getCoinPosList</name></member>
+    <member refid="class_coin_factory_1ad144c1d069cef94ab8369b68d69d5a89" kind="function"><name>getCoinPos</name></member>
+    <member refid="class_coin_factory_1a1b71af55f204e51d68f66c0087cfbd52" kind="function"><name>getNumCoins</name></member>
+    <member refid="class_coin_factory_1a621b962c65f182efd7d9b92c1dcc0407" kind="function"><name>getCoins</name></member>
+    <member refid="class_coin_factory_1aae043cfa76991afb2d3ec53e2c974d1e" kind="function"><name>setCoinScore</name></member>
+    <member refid="class_coin_factory_1afb4f245060a0d37ba54c4246a482deda" kind="function"><name>addCoinScore</name></member>
+    <member refid="class_coin_factory_1a180706b285382c2c0e1cf390d6299c65" kind="function"><name>getCoinScore</name></member>
+  </compound>
+  <compound refid="class_collision_shape" kind="class"><name>CollisionShape</name>
+    <member refid="class_collision_shape_1a10d56edfe63d8c5b800be90f2dc8c37b" kind="variable"><name>m_shapes</name></member>
+    <member refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" kind="function"><name>instance</name></member>
+    <member refid="class_collision_shape_1a3da0cfb413abcabe3195479a61df6344" kind="function"><name>addMesh</name></member>
+    <member refid="class_collision_shape_1a502ae0e27451fe9dfb65451dd424d645" kind="function"><name>addSphere</name></member>
+    <member refid="class_collision_shape_1add599b7da4202fb060a1060f020d4c9f" kind="function"><name>addBox</name></member>
+    <member refid="class_collision_shape_1a995aa2c673cca8b4a11b220c3f1f1706" kind="function"><name>addCapsule</name></member>
+    <member refid="class_collision_shape_1aefc52093702cbb1c6f8c277758a10adf" kind="function"><name>addCylinder</name></member>
+    <member refid="class_collision_shape_1abc87d7f44b86015dc0e5cbacbf414c35" kind="function"><name>addCone</name></member>
+    <member refid="class_collision_shape_1a09565f981c32edb1cc1100e0d314ad3c" kind="function"><name>addLevelMesh</name></member>
+    <member refid="class_collision_shape_1a577a537932f6650525bd52937ed597ab" kind="function"><name>printShapeMap</name></member>
+    <member refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" kind="function"><name>getShape</name></member>
+    <member refid="class_collision_shape_1a960ed2630ac29e6b28d773c97fab1d18" kind="function"><name>CollisionShape</name></member>
+    <member refid="class_collision_shape_1a8760b9bc6c12c924dcca59bca9e061e1" kind="function"><name>CollisionShape</name></member>
+    <member refid="class_collision_shape_1a36168d925d32d942a9a636cb5caf0a15" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_controls" kind="class"><name>Controls</name>
+    <member refid="class_controls_1a327aa6cddb871bf75037d9be2e22b6b8" kind="variable"><name>m_physics</name></member>
+    <member refid="class_controls_1a024d109da79e781107c763e1033707cb" kind="variable"><name>m_character</name></member>
+    <member refid="class_controls_1a3fec86d9b99b17d3fb3087207306e883" kind="function"><name>Controls</name></member>
+    <member refid="class_controls_1a739d7f836e424b3e52bbed5254d05bb2" kind="function"><name>setMassPositive</name></member>
+    <member refid="class_controls_1a72d9f9954b5bd7f2d9c1eaf8d3e4c133" kind="function"><name>setMassNegative</name></member>
+    <member refid="class_controls_1a7ffcbd7eb08abe5ad3384fab5023e6ee" kind="function"><name>setMaxVelPositive</name></member>
+    <member refid="class_controls_1a2b50d9bdd337494c1593be5e6fef5f69" kind="function"><name>setMaxVelNegative</name></member>
+    <member refid="class_controls_1a027e4320b6abb12c327a7469d2a4d42e" kind="function"><name>setMultiplierPositive</name></member>
+    <member refid="class_controls_1a5d1e9f2f35434f638cf1cf101002ca8c" kind="function"><name>setMultiplierNegative</name></member>
+    <member refid="class_controls_1a472ff85242095dbe9435de7e5ab51bf5" kind="function"><name>jumpImpulse</name></member>
+    <member refid="class_controls_1aae150be1e58ea618a6a9f7043727ebe5" kind="function"><name>stopJumpHopTimer</name></member>
+    <member refid="class_controls_1a508630b1ee74d999f41e238c9c45c4c5" kind="function"><name>startJumpHopTimer</name></member>
+    <member refid="class_controls_1a37be7d2dd9722a8c4c65e34728b521e5" kind="function"><name>godMode</name></member>
+    <member refid="class_controls_1accc352189480c1031ee1446c378cc071" kind="function"><name>shapeshift</name></member>
+    <member refid="class_controls_1a05b74314f8236b971e20d1868d437286" kind="function"><name>characterMovement</name></member>
+    <member refid="class_controls_1a7a9edd2f6c56973f63338d2a0c214ced" kind="function"><name>setJumpForcePositive</name></member>
+    <member refid="class_controls_1ae47be44b42b8bebeb0c53572da912db8" kind="function"><name>setJumpForceNegative</name></member>
+    <member refid="class_controls_1a570899be599209ec6f9bf7f2666c8021" kind="function"><name>setJumpHopMaxTimePositive</name></member>
+    <member refid="class_controls_1aef45854f27613d3bc5178cbdee862f68" kind="function"><name>setJumpHopMaxTimeNegative</name></member>
+    <member refid="class_controls_1a39668100d8fd76dad5f1cd7246fb1858" kind="function"><name>setFrictionPositive</name></member>
+    <member refid="class_controls_1ab39eb41cd98e9e53873b916a9d63cc41" kind="function"><name>setFrictionNegative</name></member>
+    <member refid="class_controls_1a3fed9472c6e44b18935eee2100af7922" kind="function"><name>getMass</name></member>
+    <member refid="class_controls_1af6f57c51504181c793dc5a973e7d2ff7" kind="function"><name>getMaxVelocity</name></member>
+    <member refid="class_controls_1af04921210f113d639ff0f3564d5ac1e4" kind="function"><name>getMultiplier</name></member>
+    <member refid="class_controls_1a0f163ad74f11e47455c023db515d44de" kind="function"><name>getFriction</name></member>
+    <member refid="class_controls_1aeeb1c64a0043037a3e22220c0d0e57eb" kind="function"><name>getJumpForce</name></member>
+    <member refid="class_controls_1a48fb94906d136cbc9abefe65a78e5477" kind="function"><name>getJumpHopTime</name></member>
+    <member refid="class_controls_1ad5d8ded931c665b857812049ca5f5186" kind="function"><name>getJumpHopMaxTime</name></member>
+  </compound>
+  <compound refid="struct_font_char" kind="struct"><name>FontChar</name>
+    <member refid="struct_font_char_1ad9a465bf2576f17d4123d440d1b4a6cb" kind="variable"><name>width</name></member>
+    <member refid="struct_font_char_1ae1075095d8060c578b87d6437eccec2c" kind="variable"><name>textureID</name></member>
+    <member refid="struct_font_char_1a890a0845ed36a0d9aa80eff184f76230" kind="variable"><name>vao</name></member>
+  </compound>
+  <compound refid="class_g_u_i_draw" kind="class"><name>GUIDraw</name>
+    <member refid="class_g_u_i_draw_1a8108e2b32e783923df37241fc9213717" kind="variable"><name>m_textPause</name></member>
+    <member refid="class_g_u_i_draw_1ad3a71afbcdd5dbda3cde6e28014de596" kind="variable"><name>m_textPauseOptions</name></member>
+    <member refid="class_g_u_i_draw_1a315dcfdcfa769eab37faf98844c8dd53" kind="variable"><name>m_textureMenuID</name></member>
+    <member refid="class_g_u_i_draw_1aa15d0061a46297ab7763c7af6b3f013c" kind="function"><name>GUIDraw</name></member>
+    <member refid="class_g_u_i_draw_1a6e8378c339e6ebb13a3bb7dca8690614" kind="function"><name>~GUIDraw</name></member>
+    <member refid="class_g_u_i_draw_1af5643c91cd0715092e9b19845d4a5541" kind="function"><name>loadAllTextures</name></member>
+    <member refid="class_g_u_i_draw_1a5a52309d626e0a5c7199e5bd6d4e8be1" kind="function"><name>drawOpeningCredits</name></member>
+    <member refid="class_g_u_i_draw_1a9199f932d0e9e3beecc16742e8587788" kind="function"><name>drawOpeningCutscene</name></member>
+    <member refid="class_g_u_i_draw_1a3ff67aa72fc75944f855907d94494895" kind="function"><name>drawOpeningTitleSequence</name></member>
+    <member refid="class_g_u_i_draw_1af50d253fbef63f8a4256641dfb5ef2da" kind="function"><name>drawTitleScreen</name></member>
+    <member refid="class_g_u_i_draw_1a815df87e097bca965f788d58e6e92fcb" kind="function"><name>drawTitleScreenNoText</name></member>
+    <member refid="class_g_u_i_draw_1a05cc9177428f5e544390f9ac4df2589d" kind="function"><name>drawMainMenu</name></member>
+    <member refid="class_g_u_i_draw_1a9cda4a50453ae0ad7a4813137f56e1a4" kind="function"><name>drawControlsScreen</name></member>
+    <member refid="class_g_u_i_draw_1a3d1840dd78e2a636d704bf5d90f7ea30" kind="function"><name>drawExitScreen</name></member>
+    <member refid="class_g_u_i_draw_1a408f4a09c1755aecaf416f13c835cf1e" kind="function"><name>drawPauseScreen</name></member>
+    <member refid="class_g_u_i_draw_1a6ff5333a16605bf165d9295031e8c48c" kind="function"><name>drawTexture</name></member>
+    <member refid="class_g_u_i_draw_1a6ea42d6e61debf089bf29ed5a24d0f47" kind="function"><name>loadTexture</name></member>
+    <member refid="class_g_u_i_draw_1a4a3e8808152b45cb323ae374bb60a4fb" kind="function"><name>drawQuadColour</name></member>
+    <member refid="class_g_u_i_draw_1a8643ededfc1c8d8521b788da3175d334" kind="function"><name>drawMenuOpenTop</name></member>
+    <member refid="class_g_u_i_draw_1a890e1c5e968918d3268d6839f5ab448d" kind="function"><name>drawMenuOpenBottom</name></member>
+  </compound>
+  <compound refid="class_high_score" kind="class"><name>HighScore</name>
+    <member refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" kind="variable"><name>m_currentScore</name></member>
+    <member refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" kind="variable"><name>m_highScore</name></member>
+    <member refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" kind="variable"><name>m_highScoreString</name></member>
+    <member refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" kind="variable"><name>m_scoreTimer</name></member>
+    <member refid="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" kind="function"><name>HighScore</name></member>
+    <member refid="class_high_score_1a8c7ca6978542a107d43955544d6d0c3c" kind="function"><name>highScoreStart</name></member>
+    <member refid="class_high_score_1aabd3f50bf518fde51eb65fee1f7b3c56" kind="function"><name>highScorePause</name></member>
+    <member refid="class_high_score_1a51f8f4009cf565f7eba681fbf7792691" kind="function"><name>highScoreRead</name></member>
+    <member refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" kind="function"><name>setCurrentScore</name></member>
+    <member refid="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" kind="function"><name>highScoreWrite</name></member>
+    <member refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" kind="function"><name>setHighScore</name></member>
+    <member refid="class_high_score_1a5ba91f68fc06f354bff273a2dc5ae1be" kind="function"><name>getHighScore</name></member>
+    <member refid="class_high_score_1ad3627c144cd39bac86327301bb3c858c" kind="function"><name>getCurrentScore</name></member>
+    <member refid="class_high_score_1a321f389400c1031bff7c2ecb7c728347" kind="function"><name>getScoreTime</name></member>
+  </compound>
+  <compound refid="class_level" kind="class"><name>Level</name>
+    <member refid="class_level_1a519efc6fae939621b08ffaee348ac4aa" kind="variable"><name>m_physics</name></member>
+    <member refid="class_level_1acb4c0fa20bd30d4f27329c6fb8e196b4" kind="variable"><name>m_initialBallPos</name></member>
+    <member refid="class_level_1a78c1bf190e2601af5240282d3aedd7c3" kind="variable"><name>m_text</name></member>
+    <member refid="class_level_1aecdfa1da0c250961e3dda5ab5195423f" kind="variable"><name>m_charPos</name></member>
+    <member refid="class_level_1ada6b7907873234363dfea6bea39f0340" kind="variable"><name>m_formOne</name></member>
+    <member refid="class_level_1ac409de1af7b9ae686cceec58cdae6d1d" kind="variable"><name>m_formTwo</name></member>
+    <member refid="class_level_1ad052e896fc39fc6636293a0cefefd36c" kind="variable"><name>m_check1</name></member>
+    <member refid="class_level_1afa0fa3df45d99ebf54652103b6773049" kind="variable"><name>m_check2</name></member>
+    <member refid="class_level_1a2a416117f27ae5a5cb83d8da2a67f085" kind="variable"><name>m_check3</name></member>
+    <member refid="class_level_1ad1a3fcf754d35020890bba329c6b92c7" kind="variable"><name>m_check4</name></member>
+    <member refid="class_level_1a6ceb6845c44cdceaf49d266749a04931" kind="variable"><name>m_check5</name></member>
+    <member refid="class_level_1a49973d34eb54883629c86b73151c5515" kind="function"><name>Level</name></member>
+    <member refid="class_level_1af91b84fa1d96f6ee770c2d10f252c4b1" kind="function"><name>createLevel</name></member>
+    <member refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" kind="function"><name>checkpoints</name></member>
+    <member refid="class_level_1a0f8e9f66981e317ae853306c67a90a4d" kind="function"><name>getInitialPos</name></member>
+  </compound>
+  <compound refid="class_l_timer" kind="class"><name>LTimer</name>
+    <member refid="class_l_timer_1a159ebe1353e4ba6a2e3d0d784eaac254" kind="variable"><name>m_startTicks</name></member>
+    <member refid="class_l_timer_1a3669ac3987fc82c44656ff4069fb5036" kind="variable"><name>m_pausedTicks</name></member>
+    <member refid="class_l_timer_1a46867f66f6e8bdd08b7caeefb122a56a" kind="variable"><name>m_paused</name></member>
+    <member refid="class_l_timer_1afd1c7aca36881179ef0a2353c08b1ba8" kind="variable"><name>m_started</name></member>
+    <member refid="class_l_timer_1a95bb9588b09c253f331881fa5dd3ce62" kind="function"><name>LTimer</name></member>
+    <member refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" kind="function"><name>start</name></member>
+    <member refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" kind="function"><name>stop</name></member>
+    <member refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" kind="function"><name>pause</name></member>
+    <member refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" kind="function"><name>unpause</name></member>
+    <member refid="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" kind="function"><name>reset</name></member>
+    <member refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" kind="function"><name>getTicks</name></member>
+    <member refid="class_l_timer_1a102ca688eaa4109dd733b4b60a29d27c" kind="function"><name>isStarted</name></member>
+    <member refid="class_l_timer_1ae1d9b504da6ed0f42e10f2338a9f88bb" kind="function"><name>isPaused</name></member>
+  </compound>
+  <compound refid="class_n_g_l_draw" kind="class"><name>NGLDraw</name>
+    <member refid="class_n_g_l_draw_1a333a68dffb2f17de902059bdde7d1d55" kind="variable"><name>m_spinXFace</name></member>
+    <member refid="class_n_g_l_draw_1a18af23a99a457663dd95efeb7e7b3455" kind="variable"><name>m_spinYFace</name></member>
+    <member refid="class_n_g_l_draw_1ae6da031d343135a463a5aa4892447d78" kind="variable"><name>m_rotate</name></member>
+    <member refid="class_n_g_l_draw_1ace86944ed1a9a70325f685e4d5e4a795" kind="variable"><name>m_origX</name></member>
+    <member refid="class_n_g_l_draw_1a00a59d797594150f054bb7c5c83435bc" kind="variable"><name>m_origY</name></member>
+    <member refid="class_n_g_l_draw_1a2145fe76e0b468fd4ec2c3832018037f" kind="variable"><name>m_origXPos</name></member>
+    <member refid="class_n_g_l_draw_1ace90d67bf9444364656f329b9a80c234" kind="variable"><name>m_origYPos</name></member>
+    <member refid="class_n_g_l_draw_1add58d5447775b9c8eef3cbd6a45d2581" kind="variable"><name>m_mouseGlobalTX</name></member>
+    <member refid="class_n_g_l_draw_1a67dfa0faca76aaa9e863d8b077128122" kind="variable"><name>m_cam</name></member>
+    <member refid="class_n_g_l_draw_1a402443700f5c74bc715fc4959dc3d748" kind="variable"><name>m_modelPos</name></member>
+    <member refid="class_n_g_l_draw_1ac9b771b3fe87d387319e4a779f4cc4e6" kind="variable"><name>m_light</name></member>
+    <member refid="class_n_g_l_draw_1a766163f12ecc93fe1cdfe08a1e19585a" kind="variable"><name>m_physics</name></member>
+    <member refid="class_n_g_l_draw_1ac3eea11b312b5b1dc082b884dd2fcca2" kind="variable"><name>m_highScore</name></member>
+    <member refid="class_n_g_l_draw_1aee3dd61984630269553fcbeb90b29661" kind="variable"><name>m_triggerFactory</name></member>
+    <member refid="class_n_g_l_draw_1a216948771a743b6dda1327a7c0f01835" kind="variable"><name>m_character</name></member>
+    <member refid="class_n_g_l_draw_1a4bdb4e0a938d843e85e12548085c1a51" kind="variable"><name>m_level</name></member>
+    <member refid="class_n_g_l_draw_1ab01337737d1ae553473be30c3ff74bdc" kind="variable"><name>m_animation</name></member>
+    <member refid="class_n_g_l_draw_1a63883e107ea8c44073e1255c62b90b1e" kind="variable"><name>m_coinFactory</name></member>
+    <member refid="class_n_g_l_draw_1a02f2d78ce539285777c35fcf0d53a4a6" kind="variable"><name>m_platformFactory</name></member>
+    <member refid="class_n_g_l_draw_1a0643100ba8287840812843c182383918" kind="variable"><name>m_text</name></member>
+    <member refid="class_n_g_l_draw_1a0955ece2a8f0047dcb8d54c58ddf63f8" kind="variable"><name>m_textHighscore</name></member>
+    <member refid="class_n_g_l_draw_1a24eb5a13796d850b994806d7dde79540" kind="variable"><name>m_larryMesh</name></member>
+    <member refid="class_n_g_l_draw_1a1718f004c68d6369c30ce97f37568729" kind="variable"><name>m_level1Mesh</name></member>
+    <member refid="class_n_g_l_draw_1a1d9c617a443d037e09b6c081fc1a004e" kind="variable"><name>m_level2_1Mesh</name></member>
+    <member refid="class_n_g_l_draw_1a9a9db52fc3f4009fb2ed6d3d3bcc18ce" kind="variable"><name>m_level2_2Mesh</name></member>
+    <member refid="class_n_g_l_draw_1a9e17d6d1fd9c2b56fb5c6eaf93f02b54" kind="variable"><name>m_level2_3aMesh</name></member>
+    <member refid="class_n_g_l_draw_1ac244ab08b9f1de2fef2a4adc10915a33" kind="variable"><name>m_level2_3bMesh</name></member>
+    <member refid="class_n_g_l_draw_1a615507ccce3f3811712306431129f23a" kind="variable"><name>m_level3Mesh</name></member>
+    <member refid="class_n_g_l_draw_1a6e11331f5c471eb40c240fe48393001b" kind="variable"><name>m_level4_1Mesh</name></member>
+    <member refid="class_n_g_l_draw_1a7a1c0603f362e7d970540e4c40f668a1" kind="variable"><name>m_level4_2Mesh</name></member>
+    <member refid="class_n_g_l_draw_1ac68796c07ab55611f5f45573206b6582" kind="variable"><name>m_level5Mesh</name></member>
+    <member refid="class_n_g_l_draw_1aa883399a6be3eacc3bb79a2319b0fb0e" kind="variable"><name>m_coinMesh</name></member>
+    <member refid="class_n_g_l_draw_1ae2ac8ef6e024b3d17722bc2a6834ec77" kind="variable"><name>m_platformMesh_platform</name></member>
+    <member refid="class_n_g_l_draw_1a2564668f371aedc1e5ee2c56bf2441da" kind="variable"><name>m_platformMesh_bouncePad</name></member>
+    <member refid="class_n_g_l_draw_1a73ebf7484f9d663227ee2ffc8edc5edd" kind="variable"><name>m_platformMesh_barrier01</name></member>
+    <member refid="class_n_g_l_draw_1ae192025c30a1de1918d2c6a9233c70b2" kind="variable"><name>m_level2Platform</name></member>
+    <member refid="class_n_g_l_draw_1a0d2e0d67cacbfe1f84fe5855f67d072f" kind="variable"><name>m_level2Sliding1</name></member>
+    <member refid="class_n_g_l_draw_1a03463ec30310b744a274a280c934c2b7" kind="variable"><name>m_level2Sliding2</name></member>
+    <member refid="class_n_g_l_draw_1af527b0abeed73c7e1d0fc2b26a6896b0" kind="variable"><name>m_level4Bridge1Mesh</name></member>
+    <member refid="class_n_g_l_draw_1aed9b51e9e0d47a4ed83d5a3c5d9248c7" kind="variable"><name>m_level4Bridge2Mesh</name></member>
+    <member refid="class_n_g_l_draw_1a84af750a20197acd58c50b3d6cad526a" kind="variable"><name>m_level4RotPlatformMesh</name></member>
+    <member refid="class_n_g_l_draw_1acd941730c1006ab7ff4d50dd7f93a0ec" kind="variable"><name>m_level5MovingPlat</name></member>
+    <member refid="class_n_g_l_draw_1a5842f05a58ad41b5754969b46ecb40a2" kind="variable"><name>m_level1_bouncePlatformMesh</name></member>
+    <member refid="class_n_g_l_draw_1af9898b9333424acd82ec0010d7f51c4e" kind="variable"><name>m_level5Stick</name></member>
+    <member refid="class_n_g_l_draw_1aa361867facb23c51e19c714ca019040b" kind="variable"><name>m_finish</name></member>
+    <member refid="class_n_g_l_draw_1a6c10720ed7392b885059ba5d06cc0fc8" kind="variable"><name>m_bodyTransform</name></member>
+    <member refid="class_n_g_l_draw_1aa34619a181832d97ed82fd483b5b7193" kind="variable"><name>m_trans_grid</name></member>
+    <member refid="class_n_g_l_draw_1ac2647997902ce9c0d95da2f70bd6e3f4" kind="variable"><name>m_trans_sphere</name></member>
+    <member refid="class_n_g_l_draw_1aa2fca6240cc3e356bcb794b6004660ee" kind="variable"><name>m_trans_cube</name></member>
+    <member refid="class_n_g_l_draw_1aa5a4b3333ddcdf2f5839136448d9a39e" kind="variable"><name>m_trans_level</name></member>
+    <member refid="class_n_g_l_draw_1a390b9ed4103e068eed78fedcbf4edae9" kind="variable"><name>m_trans_platform</name></member>
+    <member refid="class_n_g_l_draw_1aa5b3c36d5b66d33dd52f96db79d8b3e8" kind="variable"><name>m_position</name></member>
+    <member refid="class_n_g_l_draw_1a44340660ec3113265933e247440a3d67" kind="variable"><name>m_transform</name></member>
+    <member refid="class_n_g_l_draw_1a793a95d01d524833bc4a499821167dff" kind="variable"><name>m_trans_coin</name></member>
+    <member refid="class_n_g_l_draw_1a1dd6ea75ab42c455ad7a1bb2d02dd702" kind="variable"><name>m_empty_trans</name></member>
+    <member refid="class_n_g_l_draw_1a9215aaee79f1bb371bb29a8b4d47f46e" kind="variable"><name>m_textPos</name></member>
+    <member refid="class_n_g_l_draw_1a00ece957ea5105cfee99f916c52600e0" kind="variable"><name>m_textVel</name></member>
+    <member refid="class_n_g_l_draw_1a5e3a79755300252f99c9c353fffd2407" kind="variable"><name>m_w</name></member>
+    <member refid="class_n_g_l_draw_1ac5101cb66bb4c0a94c9a61f1600eea2e" kind="variable"><name>m_h</name></member>
+    <member refid="class_n_g_l_draw_1a535f8a8f46457bfc8fd3f8d160c1fbe7" kind="variable"><name>m_lastTime</name></member>
+    <member refid="class_n_g_l_draw_1a12b8999652f44d992de74ed2fe10ef5b" kind="variable"><name>m_rot</name></member>
+    <member refid="class_n_g_l_draw_1a362cdfd35285a298b7c0a4d1a52d4d8f" kind="variable"><name>m_prevRot</name></member>
+    <member refid="class_n_g_l_draw_1a776ada75080f8a0e3672b2d18d06d789" kind="variable"><name>m_debug</name></member>
+    <member refid="class_n_g_l_draw_1a912b50c593789f4c008513bbfb501957" kind="variable"><name>m_buttonCooldown</name></member>
+    <member refid="class_n_g_l_draw_1a4e8baf537f37fbc2623ba08b4028ace4" kind="variable"><name>m_bridgeDown</name></member>
+    <member refid="class_n_g_l_draw_1a229690ebde7628bf0d59adc3edac577e" kind="variable"><name>m_initialBallPos</name></member>
+    <member refid="class_n_g_l_draw_1a04b5dce7e4a516e7cb4f380190f4cc8a" kind="variable"><name>m_mass</name></member>
+    <member refid="class_n_g_l_draw_1abf33015a19854f798a37bf0fad71ba01" kind="variable"><name>m_attractEnable</name></member>
+    <member refid="class_n_g_l_draw_1a402d4fe10bd277d17bd328e8fa5a7e3e" kind="variable"><name>m_gravityFactor</name></member>
+    <member refid="class_n_g_l_draw_1a68785741170c1282d997b733507d8ee2" kind="variable"><name>m_formOne</name></member>
+    <member refid="class_n_g_l_draw_1a96976c4a72285b6c10df3782bb22d3a3" kind="variable"><name>m_formTwo</name></member>
+    <member refid="class_n_g_l_draw_1af2daf6d1bcb30bd6a44c349a68040d5f" kind="variable"><name>m_lightPosition</name></member>
+    <member refid="class_n_g_l_draw_1ae0d2ccebcc1114e321080e2045fa9800" kind="variable"><name>m_lightCamera</name></member>
+    <member refid="class_n_g_l_draw_1adb5b6f9dfcb4b370b7c8503f0782a1bf" kind="variable"><name>m_TextureID</name></member>
+    <member refid="class_n_g_l_draw_1aadddc98fe44730a87410176ac53182b8" kind="variable"><name>m_subroutines</name></member>
+    <member refid="class_n_g_l_draw_1adfd2f8c8485a8ec074f5f6e0275b8584" kind="variable"><name>m_fboID</name></member>
+    <member refid="class_n_g_l_draw_1a00dfb0a354b5bac98353ca30d43241e3" kind="variable"><name>m_time</name></member>
+    <member refid="class_n_g_l_draw_1a543f742c2f32f586c366a87b9f6e1864" kind="variable"><name>m_coinColour</name></member>
+    <member refid="class_n_g_l_draw_1a05a473f304a608ae3d0fc264f7670a31" kind="variable"><name>m_lowThresholdKey</name></member>
+    <member refid="class_n_g_l_draw_1ad656ac3d12043d9fbb59985db83e5b52" kind="function"><name>NGLDraw</name></member>
+    <member refid="class_n_g_l_draw_1af711def4043fa15686998fca20f0697b" kind="function"><name>~NGLDraw</name></member>
+    <member refid="class_n_g_l_draw_1ae5151dc189fd5de5649b72c5e76bcf47" kind="function"><name>resize</name></member>
+    <member refid="class_n_g_l_draw_1aec8a377329da67db1e2ef007bd27f026" kind="function"><name>draw</name></member>
+    <member refid="class_n_g_l_draw_1ad3e4e95bd10a6590c083e3925a9570a0" kind="function"><name>drawDepth</name></member>
+    <member refid="class_n_g_l_draw_1a7950c9e9bfd16dc9b6075881396df876" kind="function"><name>mouseMoveEvent</name></member>
+    <member refid="class_n_g_l_draw_1a1b20896f4aac3cddd5ea2f977410a19f" kind="function"><name>mousePressEvent</name></member>
+    <member refid="class_n_g_l_draw_1aa41eba2e6fd12011cdd62a7db8f7f84e" kind="function"><name>mouseReleaseEvent</name></member>
+    <member refid="class_n_g_l_draw_1a8782a682c3a362baa3b18882f49c95ed" kind="function"><name>wheelEvent</name></member>
+    <member refid="class_n_g_l_draw_1a1c61a967b12174eb0273dfbf8591f152" kind="function"><name>updateRot</name></member>
+    <member refid="class_n_g_l_draw_1aefaec57ef590fe45fe33b4682a3f57ae" kind="function"><name>addCube</name></member>
+    <member refid="class_n_g_l_draw_1a21c11b65d353b76a7cc984db69aad208" kind="function"><name>updateDraw</name></member>
+    <member refid="class_n_g_l_draw_1a16334df95f8d9a51532f3338917e5f15" kind="function"><name>updateDebugDraw</name></member>
+    <member refid="class_n_g_l_draw_1aff9b0a8ebb90014106a76476ea9e66a5" kind="function"><name>updatePhysics</name></member>
+    <member refid="class_n_g_l_draw_1a097605c7ddb2f1db44a775b7ce331cbf" kind="function"><name>debugPhysicsWorld</name></member>
+    <member refid="class_n_g_l_draw_1a534ad7434da73290fd5b319bf72ff549" kind="function"><name>checkpoints</name></member>
+    <member refid="class_n_g_l_draw_1a506cd1c55e9fe3d32d72cf3be2374833" kind="function"><name>makeNoise</name></member>
+    <member refid="class_n_g_l_draw_1a2d79c02d374ba7dd3db79f3c7058106c" kind="function"><name>shaderType</name></member>
+    <member refid="class_n_g_l_draw_1a88e7c60d00d0221df2eb523b94210d90" kind="function"><name>setGravityFactorPositive</name></member>
+    <member refid="class_n_g_l_draw_1af286740f4b8d4483a0f71b1c248dee18" kind="function"><name>setGravityFactorNegative</name></member>
+    <member refid="class_n_g_l_draw_1ad800ac2dbe66fee44e408184442e5e45" kind="function"><name>getGravityFactor</name></member>
+    <member refid="class_n_g_l_draw_1a8e81bbf82286d1c4235abd6f04f24de9" kind="function"><name>restartGame</name></member>
+    <member refid="class_n_g_l_draw_1ad73f75d8409c2a4f057dda554c3a5a18" kind="function"><name>getPhysicsWorld</name></member>
+    <member refid="class_n_g_l_draw_1a9110f84ec3803a3b2f5cf1530e51b809" kind="function"><name>getCharacter</name></member>
+    <member refid="class_n_g_l_draw_1a2c149d2350bf7a3755a47f6112f94787" kind="function"><name>getLevel</name></member>
+    <member refid="class_n_g_l_draw_1a2ad6a17a34d83e10c9021ae25d99af98" kind="function"><name>getAnimation</name></member>
+    <member refid="class_n_g_l_draw_1a4aa09006ce49ee1863a2eeb8cc07edb7" kind="function"><name>getCoinFactory</name></member>
+    <member refid="class_n_g_l_draw_1a867b956b14b973722beedada830d6ad7" kind="function"><name>getPlatformFactory</name></member>
+    <member refid="class_n_g_l_draw_1a68a2ef17374b678bc6bae8ea72a06648" kind="function"><name>increaseShaderTime</name></member>
+    <member refid="class_n_g_l_draw_1a45a8557f4a2ef22ca853c08cd81c8f8a" kind="function"><name>createFramebufferObject</name></member>
+    <member refid="class_n_g_l_draw_1a12e270822580926e2978f8b8fb147716" kind="function"><name>increaseLowThreshold</name></member>
+    <member refid="class_n_g_l_draw_1af307e10fea4e3d0500b0d97f406bf30b" kind="function"><name>resetLowThreshold</name></member>
+    <member refid="class_n_g_l_draw_1a06c2f1b75f43f42de5a7922e16b3a4f3" kind="function"><name>restartGameValues</name></member>
+    <member refid="class_n_g_l_draw_1a5fd365ceef761c0f00f9ee81814e7c59" kind="function"><name>increaseCoinColour</name></member>
+    <member refid="class_n_g_l_draw_1ae6223efa76b661563f20216adb4f474d" kind="function"><name>resetCoinColour</name></member>
+    <member refid="class_n_g_l_draw_1a2b86ad6c7c83cb9a97e8254a7207ef5f" kind="function"><name>loadMatricesToShader</name></member>
+  </compound>
+  <compound refid="class_physics_world" kind="class"><name>PhysicsWorld</name>
+    <member refid="class_physics_world_1a39c3dd8e153fb75904cef2bb43382ec6" kind="typedef"><name>collisionPair</name></member>
+    <member refid="class_physics_world_1a91f5efbab95526e5882a43726f977ea3" kind="typedef"><name>collisionPairs</name></member>
+    <member refid="class_physics_world_1aafe85a6dd0cbccf4c6fe2fe74e467caf" kind="variable"><name>debugDrawer</name></member>
+    <member refid="class_physics_world_1a0e94c5e2ddfb045e096149274bcca439" kind="variable"><name>m_collisionConfiguration</name></member>
+    <member refid="class_physics_world_1a16151e671d784d31a9b0fde1679804b7" kind="variable"><name>m_dispatcher</name></member>
+    <member refid="class_physics_world_1a6668df1ffb922daa039b5f7ffe4bba8b" kind="variable"><name>m_overlappingPairCache</name></member>
+    <member refid="class_physics_world_1af8d39a3b5ecea4037dd08446a8fcfd42" kind="variable"><name>m_solver</name></member>
+    <member refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" kind="variable"><name>m_dynamicsWorld</name></member>
+    <member refid="class_physics_world_1a8ca5d5cfae3ab66acc40bb705d1a955b" kind="variable"><name>m_groundShape</name></member>
+    <member refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" kind="variable"><name>m_bodies</name></member>
+    <member refid="class_physics_world_1acc61607e3995af6acdd2d6b9bef041f6" kind="variable"><name>collisionPairA</name></member>
+    <member refid="class_physics_world_1a681fa4ec76a590735c2f6e6ad99f9324" kind="variable"><name>collisionPairB</name></member>
+    <member refid="class_physics_world_1a0ba57170f80894014e04f33ff4a425ed" kind="variable"><name>m_collisionBodies</name></member>
+    <member refid="class_physics_world_1a1cf0d1b71518b8fb8fcbbdf9f760ad6c" kind="variable"><name>m_collisionBodiesPair</name></member>
+    <member refid="class_physics_world_1a258c6d6f5ba325725af45f66ebb2dc20" kind="variable"><name>m_findGameBodies</name></member>
+    <member refid="class_physics_world_1a19acd3323c2662f4cc8af20b7d5101a2" kind="variable"><name>m_pairsLastUpdate</name></member>
+    <member refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" kind="function"><name>PhysicsWorld</name></member>
+    <member refid="class_physics_world_1abf1573b008b52b60a83a8f36cbdd51bc" kind="function"><name>~PhysicsWorld</name></member>
+    <member refid="class_physics_world_1a0d04a6ac71656dbaa41394b3bfe9e4be" kind="function"><name>setGravity</name></member>
+    <member refid="class_physics_world_1a2cdbd862a8cd35eed77772fa870a3d83" kind="function"><name>setGravity</name></member>
+    <member refid="class_physics_world_1a23a2c8693eb25ad28e13b66e95a7c573" kind="function"><name>getNumCollisionObjects</name></member>
+    <member refid="class_physics_world_1a68a706855bc60f6d404cfbab4ca0d8fa" kind="function"><name>getBodyNameAtIndex</name></member>
+    <member refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" kind="function"><name>addSphere</name></member>
+    <member refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" kind="function"><name>addLegSphere</name></member>
+    <member refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" kind="function"><name>addMesh</name></member>
+    <member refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" kind="function"><name>addLevelMesh</name></member>
+    <member refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" kind="function"><name>addBox</name></member>
+    <member refid="class_physics_world_1a0a5ebdf9925b48d0a8725545010267f2" kind="function"><name>step</name></member>
+    <member refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" kind="function"><name>addPlatform</name></member>
+    <member refid="class_physics_world_1a4cb52e883aaf26f356dc6906757af84d" kind="function"><name>addImpulse</name></member>
+    <member refid="class_physics_world_1ac14ab775fcccc66e75fb4f70da54ac72" kind="function"><name>applyForceCentral</name></member>
+    <member refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" kind="function"><name>getLinVelocity</name></member>
+    <member refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" kind="function"><name>setLinVelocity</name></member>
+    <member refid="class_physics_world_1a63bc2c028b9a49498411038100181ed1" kind="function"><name>getAngVelocity</name></member>
+    <member refid="class_physics_world_1a9898273f563625b150091d5657de02f3" kind="function"><name>setAngVelocity</name></member>
+    <member refid="class_physics_world_1a2abd0187fc57fdef29022bc2f69980ea" kind="function"><name>reset</name></member>
+    <member refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" kind="function"><name>getPosition</name></member>
+    <member refid="class_physics_world_1acef2efa13c576073a2a907709114422d" kind="function"><name>getTransformMatrix</name></member>
+    <member refid="class_physics_world_1a428dd5813f8bd296083e9a4ca1984211" kind="function"><name>getTransformMatrix</name></member>
+    <member refid="class_physics_world_1a59241bfca0313e9d049f55f546e6b184" kind="function"><name>setTransformMatrix</name></member>
+    <member refid="class_physics_world_1ae993e38768816889858cc953e36271ed" kind="function"><name>printBodies</name></member>
+    <member refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" kind="function"><name>removeCollisionObj</name></member>
+    <member refid="class_physics_world_1a6d5cca57854b708690441dd0a75cb2fd" kind="function"><name>getCentreOfMass</name></member>
+    <member refid="class_physics_world_1a9912925d440ee83d22fc00f692574ca1" kind="function"><name>debugWorldDraw</name></member>
+    <member refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" kind="function"><name>rayTest</name></member>
+    <member refid="class_physics_world_1a9b736fecd9f428bf52abf04c150a4bcc" kind="function"><name>rayTest</name></member>
+    <member refid="class_physics_world_1a2eb74a13ee526a3fcf449f28fa95c516" kind="function"><name>getVelocityOfPlatform</name></member>
+    <member refid="class_physics_world_1a68c31016abc95c051890c9a211ac4565" kind="function"><name>rayNormalTest</name></member>
+    <member refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" kind="function"><name>setGravityForBody</name></member>
+    <member refid="class_physics_world_1a6f01ee5e9135ac370a8a19767de1a838" kind="function"><name>freezeBody</name></member>
+    <member refid="class_physics_world_1a98831beb054a4668161a113aa770c3dc" kind="function"><name>FindGameObject</name></member>
+  </compound>
+  <compound refid="class_platform" kind="class"><name>Platform</name>
+    <member refid="class_platform_1a07e29ba185c9fb787212a7d11af3832b" kind="variable"><name>m_physics</name></member>
+    <member refid="class_platform_1a7b0fcc983d9516ef1883981d63c0d842" kind="variable"><name>m_platformDirection</name></member>
+    <member refid="class_platform_1a7af270e5bfd69bafe5ec3bee95799995" kind="variable"><name>m_pos</name></member>
+    <member refid="class_platform_1ac7aa1bf8aaea0e87cdbe6f27e2375587" kind="variable"><name>m_platName</name></member>
+    <member refid="class_platform_1a2cbeeb0dc477da86983368fd2cb8baf2" kind="variable"><name>m_platType</name></member>
+    <member refid="class_platform_1a72aaca03b730ed78135f360b519c3ac5" kind="variable"><name>m_deg</name></member>
+    <member refid="class_platform_1ac3b79afd448ae2587b2fc24f68e24c70" kind="variable"><name>m_rot</name></member>
+    <member refid="class_platform_1ab56212b4a4cdc789e1b276c99b7effef" kind="function"><name>Platform</name></member>
+    <member refid="class_platform_1a929d8b9fcdbc32332673d8d48540b909" kind="function"><name>createPlatform</name></member>
+    <member refid="class_platform_1a4267f5b2b2e9505c7375dcda9af1749e" kind="function"><name>movePlatform</name></member>
+    <member refid="class_platform_1a3023de66e2e7b4b4e792f9f7e1e01a4d" kind="function"><name>addRot</name></member>
+    <member refid="class_platform_1ab31ff211a1657000b081af0bc14e3a87" kind="function"><name>setRot</name></member>
+    <member refid="class_platform_1a126ca5dbffe1f3f908a00fcbd5eaa72c" kind="function"><name>rotatePlatform</name></member>
+    <member refid="class_platform_1ab6f1873ee4d7bb018c9b0706f813c270" kind="function"><name>getPlatformPos</name></member>
+    <member refid="class_platform_1a8e6cb1d96d29cf91025a2e158c020884" kind="function"><name>getPlatformName</name></member>
+    <member refid="class_platform_1a84f1f7d90e6e016ff71984a1b1147258" kind="function"><name>getPlatType</name></member>
+  </compound>
+  <compound refid="class_platform_factory" kind="class"><name>PlatformFactory</name>
+    <member refid="class_platform_factory_1a9129b359642360d557e1cf012cac4718" kind="variable"><name>m_platformList</name></member>
+    <member refid="class_platform_factory_1a70967289717de3ae32bebc07e74ef67a" kind="variable"><name>m_platform</name></member>
+    <member refid="class_platform_factory_1a6349ee591dce85e8d107dcf41255cc17" kind="variable"><name>m_physics</name></member>
+    <member refid="class_platform_factory_1a70521c77b81db54af5fb0664ecb4c644" kind="function"><name>PlatformFactory</name></member>
+    <member refid="class_platform_factory_1ade80c7b9a39ad8141bcfc3481375b684" kind="function"><name>~PlatformFactory</name></member>
+    <member refid="class_platform_factory_1a3f20e6b434a5bfa7b2532fde223e7c89" kind="function"><name>createPlatform</name></member>
+    <member refid="class_platform_factory_1a5cb7c239d6b133b79556e2276e4924e2" kind="function"><name>movePlatform</name></member>
+    <member refid="class_platform_factory_1a4fa150bea70885fd2dc8e3edaca7b5c3" kind="function"><name>rotatePlatform</name></member>
+    <member refid="class_platform_factory_1a08c510204db74f4d7c490d9ae687a4bd" kind="function"><name>addRot</name></member>
+    <member refid="class_platform_factory_1abb3150d373f411d74d76de4d7ec0e99a" kind="function"><name>setRot</name></member>
+    <member refid="class_platform_factory_1aaa0ba6838f914642fc71f1f06acfc0f9" kind="function"><name>deletePlatform</name></member>
+    <member refid="class_platform_factory_1a1162e61bdb38e5acf4a2eb67d2ba280a" kind="function"><name>getPlatformList</name></member>
+  </compound>
+  <compound refid="class_shader_factory" kind="class"><name>ShaderFactory</name>
+    <member refid="class_shader_factory_1afb7dddffa132654b2a6c7b4b1dfd7fb5" kind="function"><name>ShaderFactory</name></member>
+    <member refid="class_shader_factory_1a24e606eeaf1f429b2cc8d4ddf23f92e2" kind="function"><name>~ShaderFactory</name></member>
+    <member refid="class_shader_factory_1a380d9159ce70475f4337d97bf2120416" kind="function"><name>createDebugShader</name></member>
+    <member refid="class_shader_factory_1a7c8dd505b5c3b2438784d99bc6dc0356" kind="function"><name>createTextureShader</name></member>
+    <member refid="class_shader_factory_1a6ea1c591503f6b4f0d044a1cf695f9a5" kind="function"><name>createGroundShader</name></member>
+    <member refid="class_shader_factory_1a51fbd5c27d493d2c80415a6c46efaf28" kind="function"><name>createPhongShader</name></member>
+  </compound>
+  <compound refid="class_text" kind="class"><name>Text</name>
+    <member refid="class_text_1a3fa2d5b1a68627c8415c500bd95ec353" kind="variable"><name>m_characters</name></member>
+    <member refid="class_text_1a5454ef14fc670f5ef68bdbe2fe2fad3b" kind="function"><name>Text</name></member>
+    <member refid="class_text_1a2d49e5c280e205125b149f7777ae30c7" kind="function"><name>~Text</name></member>
+    <member refid="class_text_1a3d0591d0b3a6bd73543cb8637fbe91e5" kind="function"><name>renderText</name></member>
+    <member refid="class_text_1adf20a23bc781824e83dc50c121f56aea" kind="function"><name>setScreenSize</name></member>
+    <member refid="class_text_1ad898e1ff3c2221029c115ed5de7f1b72" kind="function"><name>setColour</name></member>
+    <member refid="class_text_1ae2ce0fc28fdfccc2842487d5be64e12a" kind="function"><name>setColour</name></member>
+    <member refid="class_text_1a6ec9d77b284824829150b8ebb436c358" kind="function"><name>setTransform</name></member>
+  </compound>
+  <compound refid="class_trigger" kind="class"><name>Trigger</name>
+    <member refid="class_trigger_1a986effa5f8d86db366eb572e2b6c9596" kind="variable"><name>m_physics</name></member>
+    <member refid="class_trigger_1addda39bfa099240c9c4dc9808d64bd4a" kind="variable"><name>m_pos1</name></member>
+    <member refid="class_trigger_1a28171e573c80a28b5942e0d279e72ff0" kind="variable"><name>m_pos2</name></member>
+    <member refid="class_trigger_1ac1b71bfddbc7c87217af7fda8ba42c62" kind="variable"><name>m_triggerID</name></member>
+    <member refid="class_trigger_1aa6f975eba8c879be5151530ec9cfa80a" kind="function"><name>Trigger</name></member>
+    <member refid="class_trigger_1a1a2d107dd06737f51c81c4897c75e59d" kind="function"><name>~Trigger</name></member>
+    <member refid="class_trigger_1aa93984db488edcfe733bd269755587bc" kind="function"><name>isHit</name></member>
+    <member refid="class_trigger_1a5a3b38ef64daee02fc3c08d71a61b22f" kind="function"><name>getTransform</name></member>
+    <member refid="class_trigger_1acbac4d9e2effcdb2c5a8c5a8289cab51" kind="function"><name>getTriggerID</name></member>
+  </compound>
+  <compound refid="class_trigger_factory" kind="class"><name>TriggerFactory</name>
+    <member refid="class_trigger_factory_1a41c0c7fd77ab1e1bd38c6e3f7ac05181" kind="variable"><name>m_physics</name></member>
+    <member refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" kind="variable"><name>m_triggerList</name></member>
+    <member refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" kind="variable"><name>m_triggerListUnordered</name></member>
+    <member refid="class_trigger_factory_1a9526c5bef065af99d57932f2293157b3" kind="function"><name>TriggerFactory</name></member>
+    <member refid="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" kind="function"><name>createTrigger</name></member>
+    <member refid="class_trigger_factory_1aabf73828ff05cd2def0724af889874ac" kind="function"><name>deleteTrigger</name></member>
+    <member refid="class_trigger_factory_1ad9baf0e40c92308cff1646e8bcb91a78" kind="function"><name>readTriggerPosData</name></member>
+    <member refid="class_trigger_factory_1a31f1c9cd8eb3afe37717fdb3eab41310" kind="function"><name>createTriggerFromFile</name></member>
+    <member refid="class_trigger_factory_1a9125324cc88775da4dce5b29fa015d50" kind="function"><name>printTriggerList</name></member>
+    <member refid="class_trigger_factory_1afda600ddf4fcb5a6582cacc51c13a36d" kind="function"><name>checkPairHit</name></member>
+    <member refid="class_trigger_factory_1aaa16c6afd3400b9b0a301d51c2873c6f" kind="function"><name>getTransform</name></member>
+    <member refid="class_trigger_factory_1ae496e29c2f9a9b23760fe68e5d7de648" kind="function"><name>getTransform</name></member>
+    <member refid="class_trigger_factory_1a1288a741512e213883b80df4d98c7dfa" kind="function"><name>getTriggerListSize</name></member>
+  </compound>
+  <compound refid="_animation_8cpp" kind="file"><name>Animation.cpp</name>
+  </compound>
+  <compound refid="_animation_8h" kind="file"><name>Animation.h</name>
+    <member refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5" kind="enum"><name>animCycle</name></member>
+    <member refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5abb2dfc184fa2e91373d3ff304cb01b8a" kind="enumvalue"><name>WALK</name></member>
+    <member refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a40222410c7347ec4b6bcaba3bcb21f3b" kind="enumvalue"><name>JUMP</name></member>
+    <member refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a50780f47f6839d47d60bc4555ee00c3f" kind="enumvalue"><name>REST</name></member>
+    <member refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5adebfae3b16a947c76151de63710d3cc7" kind="enumvalue"><name>REST2</name></member>
+    <member refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5add6c30845bb26cf9caf2e3968192947d" kind="enumvalue"><name>COIN_REST</name></member>
+    <member refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kind="enum"><name>animType</name></member>
+    <member refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" kind="enumvalue"><name>CHAR_TYPE</name></member>
+    <member refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" kind="enumvalue"><name>COIN_TYPE</name></member>
+  </compound>
+  <compound refid="_bullet_debug_draw_8cpp" kind="file"><name>BulletDebugDraw.cpp</name>
+  </compound>
+  <compound refid="_bullet_debug_draw_8h" kind="file"><name>BulletDebugDraw.h</name>
+  </compound>
+  <compound refid="_camera_8cpp" kind="file"><name>Camera.cpp</name>
+  </compound>
+  <compound refid="_camera_8h" kind="file"><name>Camera.h</name>
+  </compound>
+  <compound refid="_character_8cpp" kind="file"><name>Character.cpp</name>
+  </compound>
+  <compound refid="_character_8h" kind="file"><name>Character.h</name>
+  </compound>
+  <compound refid="_coin_8cpp" kind="file"><name>Coin.cpp</name>
+  </compound>
+  <compound refid="_coin_8h" kind="file"><name>Coin.h</name>
+  </compound>
+  <compound refid="_coinfactory_8cpp" kind="file"><name>Coinfactory.cpp</name>
+  </compound>
+  <compound refid="_coin_factory_8h" kind="file"><name>CoinFactory.h</name>
+  </compound>
+  <compound refid="_collision_shape_8cpp" kind="file"><name>CollisionShape.cpp</name>
+  </compound>
+  <compound refid="_collision_shape_8h" kind="file"><name>CollisionShape.h</name>
+  </compound>
+  <compound refid="_controls_8cpp" kind="file"><name>Controls.cpp</name>
+  </compound>
+  <compound refid="_controls_8h" kind="file"><name>Controls.h</name>
+  </compound>
+  <compound refid="_g_u_i_draw_8cpp" kind="file"><name>GUIDraw.cpp</name>
+  </compound>
+  <compound refid="_g_u_i_draw_8h" kind="file"><name>GUIDraw.h</name>
+  </compound>
+  <compound refid="_high_score_8cpp" kind="file"><name>HighScore.cpp</name>
+  </compound>
+  <compound refid="_high_score_8h" kind="file"><name>HighScore.h</name>
+  </compound>
+  <compound refid="_level_8cpp" kind="file"><name>Level.cpp</name>
+  </compound>
+  <compound refid="_level_8h" kind="file"><name>Level.h</name>
+  </compound>
+  <compound refid="_ltimer_8cpp" kind="file"><name>Ltimer.cpp</name>
+  </compound>
+  <compound refid="_ltimer_8h" kind="file"><name>Ltimer.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a5b57b37ce511d076b678c6977717d34a" kind="variable"><name>nglScene</name></member>
+    <member refid="main_8cpp_1aaa8e409e04dcf575ef63fd5fb3db06f9" kind="variable"><name>window</name></member>
+    <member refid="main_8cpp_1a713802bf6a558542c64c7aa127ef8456" kind="variable"><name>fpsTimer</name></member>
+    <member refid="main_8cpp_1a956163f08729a27eb0a0f33777dfe41a" kind="variable"><name>countedFrames</name></member>
+    <member refid="main_8cpp_1ab7d8fe6f5bfcbfed62f279157a7dbdcf" kind="variable"><name>capTimer</name></member>
+    <member refid="main_8cpp_1ac8e107694a6f529080642427448f4474" kind="variable"><name>animTimer</name></member>
+    <member refid="main_8cpp_1afe13cc76cfc633caf07a0c15b8d17670" kind="variable"><name>idleTimer</name></member>
+    <member refid="main_8cpp_1ab6423a90a445e335d9066bb830c73666" kind="variable"><name>spaceBarPressed</name></member>
+    <member refid="main_8cpp_1a88e8484615a06a6acfeb9c7a6e61600f" kind="variable"><name>move</name></member>
+    <member refid="main_8cpp_1a1c4f2db84aff648dcb5f253bbb85ee17" kind="variable"><name>debugValue</name></member>
+    <member refid="main_8cpp_1a0502aaaebf3b22e00600ba4e78e98968" kind="variable"><name>m_time</name></member>
+    <member refid="main_8cpp_1aedc733b9f483ec1601221904d018caae" kind="variable"><name>cutsceneTime</name></member>
+    <member refid="main_8cpp_1a19aed90c3b47bdc3c389715fa47d0714" kind="variable"><name>titleScreenTimer</name></member>
+    <member refid="main_8cpp_1a1f86a6c8f3788d9c84ca8519b048a99b" kind="variable"><name>fadeTimer</name></member>
+    <member refid="main_8cpp_1a6fe8c1b75e09c14fdf14dc310f239182" kind="variable"><name>cutsceneTimer</name></member>
+    <member refid="main_8cpp_1ae553a73b20d33d90ae63f8e7ac2f9d58" kind="variable"><name>showTitleScreenText</name></member>
+    <member refid="main_8cpp_1aff6395859aa708856938d6944faa5097" kind="variable"><name>gamePaused</name></member>
+    <member refid="main_8cpp_1aa01105cccf02c84f13d9013b962cc547" kind="variable"><name>gameState</name></member>
+    <member refid="main_8cpp_1ac746fa6ad48d19984a159f14bec028a3" kind="variable"><name>quit</name></member>
+    <member refid="main_8cpp_1a6b57f01d3c576db5368dd0efc2f435a4" kind="variable"><name>event</name></member>
+    <member refid="main_8cpp_1a6f4cb520da4401a0de0cdc54827028d4" kind="variable"><name>formOne</name></member>
+    <member refid="main_8cpp_1a8b7e1eb3914ff6b43d9fae02f5e6585f" kind="variable"><name>formTwo</name></member>
+    <member refid="main_8cpp_1a03a4a0b05459c876e872248934f90b2b" kind="variable"><name>characterStopped</name></member>
+    <member refid="main_8cpp_1a2913e48f3b2449d53db8292db54accb4" kind="function"><name>SDLErrorExit</name></member>
+    <member refid="main_8cpp_1a2dd6bc6e7e37743a91b7cf82e95be116" kind="function"><name>createOpenGLContext</name></member>
+    <member refid="main_8cpp_1af2acd4332bf651b5c269ed25c5818038" kind="function"><name>openingCredits</name></member>
+    <member refid="main_8cpp_1aae981e50c2ccaf1c08bf101491082a26" kind="function"><name>openingCutscene</name></member>
+    <member refid="main_8cpp_1a8663d37ba83f2665d25b839badd52abf" kind="function"><name>titleScreen</name></member>
+    <member refid="main_8cpp_1a1ba5ec51f6af87a88e2857b04eff1fb2" kind="function"><name>mainMenu</name></member>
+    <member refid="main_8cpp_1a4331e8b5bd0d755477da1a99ecf6bd3d" kind="function"><name>controlsScreen</name></member>
+    <member refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" kind="function"><name>game</name></member>
+    <member refid="main_8cpp_1a7b84a91f70b351e6694c824f3085edd8" kind="function"><name>pauseMenu</name></member>
+    <member refid="main_8cpp_1a822c103b79ef8d6a36c81a14cd038e07" kind="function"><name>exit</name></member>
+    <member refid="main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_n_g_l_draw_8cpp" kind="file"><name>NGLDraw.cpp</name>
+    <member refid="_n_g_l_draw_8cpp_1a1e7bfa770ab6ff97ddeda9d97a5bd527" kind="variable"><name>INCREMENT</name></member>
+    <member refid="_n_g_l_draw_8cpp_1ad53f4ea4bad2000e469a9b538c39878f" kind="variable"><name>ZOOM</name></member>
+    <member refid="_n_g_l_draw_8cpp_1a6e87b77363231829c6f99c29a2904e7b" kind="variable"><name>Sky_RED</name></member>
+    <member refid="_n_g_l_draw_8cpp_1af53c11fc7d7125611545a3c5a87ebd23" kind="variable"><name>Sky_GREEN</name></member>
+    <member refid="_n_g_l_draw_8cpp_1a0f58e79684a2994414a304aae4ea869e" kind="variable"><name>Sky_BLUE</name></member>
+    <member refid="_n_g_l_draw_8cpp_1a795c922bb6141b030644592fcffa850b" kind="variable"><name>TEXTURE_WIDTH</name></member>
+    <member refid="_n_g_l_draw_8cpp_1adc64a996fed3c125c1e9f6c055ce644f" kind="variable"><name>TEXTURE_HEIGHT</name></member>
+  </compound>
+  <compound refid="_n_g_l_draw_8h" kind="file"><name>NGLDraw.h</name>
+  </compound>
+  <compound refid="_physics_world_8cpp" kind="file"><name>PhysicsWorld.cpp</name>
+    <member refid="_physics_world_8cpp_1ad27cc17b25bb93134368d5eb21126eae" kind="define"><name>BIT</name></member>
+    <member refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77" kind="enum"><name>collisiontypes</name></member>
+    <member refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a34a1e21e54220ed201aa50a10e39d4cd" kind="enumvalue"><name>COL_NOTHING</name></member>
+    <member refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77af087de47c8d9a5b010e7e89f4787cc0f" kind="enumvalue"><name>COL_BALL</name></member>
+    <member refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a35b75a8b1b7af85428f0e996a8ab18ae" kind="enumvalue"><name>COL_MESH</name></member>
+    <member refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a21be7ed7a7decb355e8293284300e43b" kind="enumvalue"><name>COL_ENVI</name></member>
+  </compound>
+  <compound refid="_physics_world_8h" kind="file"><name>PhysicsWorld.h</name>
+  </compound>
+  <compound refid="_platform_8cpp" kind="file"><name>Platform.cpp</name>
+  </compound>
+  <compound refid="_platform_8h" kind="file"><name>Platform.h</name>
+    <member refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aa" kind="enum"><name>Direction</name></member>
+    <member refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa2759e3c2bb672243131899864a890d33" kind="enumvalue"><name>MOVE_Y</name></member>
+    <member refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa4854e59b8a894a00ca5f9dda42bb475c" kind="enumvalue"><name>MOVE_Z</name></member>
+    <member refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa7a40fd5b5569160d38c2328bf2fb5ed4" kind="enumvalue"><name>MOVE_X</name></member>
+    <member refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa72aa64aabb3d06eb2fccdf86fb644b8d" kind="enumvalue"><name>CIRCLEXY</name></member>
+    <member refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaaa403f58e62241339452f78972e2ca8a5" kind="enumvalue"><name>CIRCLEZY</name></member>
+    <member refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaab2f0cd22b1963becef8b91d29d567fe8" kind="enumvalue"><name>TEST</name></member>
+    <member refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" kind="enum"><name>PlatType</name></member>
+    <member refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7addacb58043038c6070505710c73516c8" kind="enumvalue"><name>MOVE_PLATE</name></member>
+    <member refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a089b531152ee4090896c6afa68e3fd31" kind="enumvalue"><name>BOUNCE_PAD</name></member>
+    <member refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a6bf4e51ca30dba9c0f27ae31e6e78e91" kind="enumvalue"><name>BARRIER01</name></member>
+    <member refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7abb9b1fc2ea7b2a38f0fbf3971a456fa4" kind="enumvalue"><name>BARRIER_LARGE</name></member>
+    <member refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a8a2a27fa0925406ded2322c372b89d86" kind="enumvalue"><name>ROTATING_L</name></member>
+    <member refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3bdf1cb21c092d90f750f07e60af6410" kind="enumvalue"><name>BRIDGE_1</name></member>
+    <member refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3e6d430567f07a9658bf8b32003da464" kind="enumvalue"><name>BRIDGE_2</name></member>
+  </compound>
+  <compound refid="_platform_factory_8cpp" kind="file"><name>PlatformFactory.cpp</name>
+  </compound>
+  <compound refid="_platform_factory_8h" kind="file"><name>PlatformFactory.h</name>
+  </compound>
+  <compound refid="_shader_factory_8cpp" kind="file"><name>ShaderFactory.cpp</name>
+  </compound>
+  <compound refid="_shader_factory_8h" kind="file"><name>ShaderFactory.h</name>
+  </compound>
+  <compound refid="_text_8cpp" kind="file"><name>Text.cpp</name>
+    <member refid="_text_8cpp_1aa1f6e37d2b388fc3b779638bc3fb714c" kind="function"><name>nearestPowerOfTwo</name></member>
+  </compound>
+  <compound refid="_text_8h" kind="file"><name>Text.h</name>
+  </compound>
+  <compound refid="_trigger_8cpp" kind="file"><name>Trigger.cpp</name>
+  </compound>
+  <compound refid="_trigger_8h" kind="file"><name>Trigger.h</name>
+  </compound>
+  <compound refid="_trigger_factory_8cpp" kind="file"><name>TriggerFactory.cpp</name>
+  </compound>
+  <compound refid="_trigger_factory_8h" kind="file"><name>TriggerFactory.h</name>
+  </compound>
+  <compound refid="todo" kind="page"><name>todo</name>
+  </compound>
+  <compound refid="dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2" kind="dir"><name>home</name>
+  </compound>
+  <compound refid="dir_9a6a6f1d5b75f4471f263e6ae2550e1b" kind="dir"><name>i7257092</name>
+  </compound>
+  <compound refid="dir_e8c581f4553a410c14d70eaf3351bfea" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_90d84e1c92b2f42d764579481f230c68" kind="dir"><name>LevelHeadsCVA3</name>
+  </compound>
+  <compound refid="dir_98ff7f5a0521c5adadcbd789dc4d22cd" kind="dir"><name>may_01</name>
+  </compound>
+  <compound refid="dir_cfb272042cad910cb11ea8a241ec13ff" kind="dir"><name>night_master</name>
+  </compound>
+  <compound refid="dir_517004237fc4e11094d7f8edc4c20806" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

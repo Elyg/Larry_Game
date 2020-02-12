@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_high_score" kind="class" prot="public">
+    <compoundname>HighScore</compoundname>
+    <includes refid="_high_score_8h" local="no">HighScore.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HighScore::m_currentScore</definition>
+        <argsstring></argsstring>
+        <name>m_currentScore</name>
+        <briefdescription>
+<para>current score value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="60" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" compoundref="_high_score_8cpp" startline="7" endline="13">HighScore</referencedby>
+        <referencedby refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" compoundref="_high_score_8cpp" startline="24" endline="28">setCurrentScore</referencedby>
+        <referencedby refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" compoundref="_high_score_8cpp" startline="29" endline="39">setHighScore</referencedby>
+        <referencedby refid="class_high_score_1ad3627c144cd39bac86327301bb3c858c" compoundref="_high_score_8h" startline="51" endline="51">getCurrentScore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HighScore::m_highScore</definition>
+        <argsstring></argsstring>
+        <name>m_highScore</name>
+        <briefdescription>
+<para>highscore value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="64" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" bodystart="64" bodyend="-1"/>
+        <referencedby refid="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" compoundref="_high_score_8cpp" startline="7" endline="13">HighScore</referencedby>
+        <referencedby refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" compoundref="_high_score_8cpp" startline="29" endline="39">setHighScore</referencedby>
+        <referencedby refid="class_high_score_1a51f8f4009cf565f7eba681fbf7792691" compoundref="_high_score_8cpp" startline="40" endline="55">highScoreRead</referencedby>
+        <referencedby refid="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" compoundref="_high_score_8cpp" startline="56" endline="73">highScoreWrite</referencedby>
+        <referencedby refid="class_high_score_1a5ba91f68fc06f354bff273a2dc5ae1be" compoundref="_high_score_8h" startline="47" endline="47">getHighScore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_high_score_1aa4258b8594bf283f598d604df81ed715" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString HighScore::m_highScoreString</definition>
+        <argsstring></argsstring>
+        <name>m_highScoreString</name>
+        <briefdescription>
+<para>string value for the read file </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="68" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" compoundref="_high_score_8cpp" startline="7" endline="13">HighScore</referencedby>
+        <referencedby refid="class_high_score_1a51f8f4009cf565f7eba681fbf7792691" compoundref="_high_score_8cpp" startline="40" endline="55">highScoreRead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_high_score_1a55bfdf050aa316cf647085362426c6d3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_l_timer" kindref="compound">LTimer</ref></type>
+        <definition>LTimer HighScore::m_scoreTimer</definition>
+        <argsstring></argsstring>
+        <name>m_scoreTimer</name>
+        <briefdescription>
+<para>timer for the score </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="72" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_high_score_1a8c7ca6978542a107d43955544d6d0c3c" compoundref="_high_score_8cpp" startline="14" endline="18">highScoreStart</referencedby>
+        <referencedby refid="class_high_score_1aabd3f50bf518fde51eb65fee1f7b3c56" compoundref="_high_score_8cpp" startline="19" endline="23">highScorePause</referencedby>
+        <referencedby refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" compoundref="_high_score_8cpp" startline="24" endline="28">setCurrentScore</referencedby>
+        <referencedby refid="class_high_score_1a321f389400c1031bff7c2ecb7c728347" compoundref="_high_score_8h" startline="55" endline="55">getScoreTime</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HighScore::HighScore</definition>
+        <argsstring>()</argsstring>
+        <name>HighScore</name>
+        <briefdescription>
+<para>ctor for <ref refid="class_high_score" kindref="compound">HighScore</ref> class </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="19" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/HighScore.cpp" bodystart="7" bodyend="13"/>
+        <references refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" compoundref="_high_score_8h" startline="60">m_currentScore</references>
+        <references refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" compoundref="_high_score_8h" startline="64">m_highScore</references>
+        <references refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" compoundref="_high_score_8h" startline="68">m_highScoreString</references>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1a8c7ca6978542a107d43955544d6d0c3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighScore::highScoreStart</definition>
+        <argsstring>()</argsstring>
+        <name>highScoreStart</name>
+        <briefdescription>
+<para>starts the highscore timer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="23" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/HighScore.cpp" bodystart="14" bodyend="18"/>
+        <references refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" compoundref="_high_score_8h" startline="72">m_scoreTimer</references>
+        <references refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">LTimer::start</references>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1aabd3f50bf518fde51eb65fee1f7b3c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighScore::highScorePause</definition>
+        <argsstring>()</argsstring>
+        <name>highScorePause</name>
+        <briefdescription>
+<para>method pauses the highscore </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="27" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/HighScore.cpp" bodystart="19" bodyend="23"/>
+        <references refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" compoundref="_high_score_8h" startline="72">m_scoreTimer</references>
+        <references refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" compoundref="_ltimer_8cpp" startline="38" endline="49">LTimer::pause</references>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1a51f8f4009cf565f7eba681fbf7792691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighScore::highScoreRead</definition>
+        <argsstring>()</argsstring>
+        <name>highScoreRead</name>
+        <briefdescription>
+<para>reads the value from a txt file </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="31" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/HighScore.cpp" bodystart="40" bodyend="55"/>
+        <references refid="main_8cpp_1a822c103b79ef8d6a36c81a14cd038e07" compoundref="main_8cpp" startline="757" endline="810">exit</references>
+        <references refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" compoundref="_high_score_8h" startline="64">m_highScore</references>
+        <references refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" compoundref="_high_score_8h" startline="68">m_highScoreString</references>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighScore::setCurrentScore</definition>
+        <argsstring>()</argsstring>
+        <name>setCurrentScore</name>
+        <briefdescription>
+<para>sets the current score </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="35" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/HighScore.cpp" bodystart="24" bodyend="28"/>
+        <references refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">LTimer::getTicks</references>
+        <references refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" compoundref="_high_score_8h" startline="60">m_currentScore</references>
+        <references refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" compoundref="_high_score_8h" startline="72">m_scoreTimer</references>
+        <referencedby refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" compoundref="_high_score_8cpp" startline="29" endline="39">setHighScore</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighScore::highScoreWrite</definition>
+        <argsstring>()</argsstring>
+        <name>highScoreWrite</name>
+        <briefdescription>
+<para>writes the highscore to a txt file </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="39" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/HighScore.cpp" bodystart="56" bodyend="73"/>
+        <references refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" compoundref="_high_score_8h" startline="64">m_highScore</references>
+        <referencedby refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" compoundref="_high_score_8cpp" startline="29" endline="39">setHighScore</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighScore::setHighScore</definition>
+        <argsstring>()</argsstring>
+        <name>setHighScore</name>
+        <briefdescription>
+<para>sets the highscore </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="43" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/HighScore.cpp" bodystart="29" bodyend="39"/>
+        <references refid="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" compoundref="_high_score_8cpp" startline="56" endline="73">highScoreWrite</references>
+        <references refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" compoundref="_high_score_8h" startline="60">m_currentScore</references>
+        <references refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" compoundref="_high_score_8h" startline="64">m_highScore</references>
+        <references refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" compoundref="_high_score_8cpp" startline="24" endline="28">setCurrentScore</references>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1a5ba91f68fc06f354bff273a2dc5ae1be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HighScore::getHighScore</definition>
+        <argsstring>()</argsstring>
+        <name>getHighScore</name>
+        <briefdescription>
+<para>returns the highscore </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="47" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" bodystart="47" bodyend="47"/>
+        <references refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" compoundref="_high_score_8h" startline="64">m_highScore</references>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1ad3627c144cd39bac86327301bb3c858c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HighScore::getCurrentScore</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentScore</name>
+        <briefdescription>
+<para>returns the current score </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="51" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" bodystart="51" bodyend="51"/>
+        <references refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" compoundref="_high_score_8h" startline="60">m_currentScore</references>
+      </memberdef>
+      <memberdef kind="function" id="class_high_score_1a321f389400c1031bff7c2ecb7c728347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int HighScore::getScoreTime</definition>
+        <argsstring>()</argsstring>
+        <name>getScoreTime</name>
+        <briefdescription>
+<para>returns the current score timer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="55" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" bodystart="55" bodyend="55"/>
+        <references refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">LTimer::getTicks</references>
+        <references refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" compoundref="_high_score_8h" startline="72">m_scoreTimer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class writes out and reads the highscore for the game. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="124">
+        <label>LTimer</label>
+        <link refid="class_l_timer"/>
+      </node>
+      <node id="123">
+        <label>HighScore</label>
+        <link refid="class_high_score"/>
+        <childnode refid="124" relation="usage">
+          <edgelabel>-m_scoreTimer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" line="14" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/HighScore.h" bodystart="13" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_high_score_1ad3627c144cd39bac86327301bb3c858c" prot="public" virt="non-virtual"><scope>HighScore</scope><name>getCurrentScore</name></member>
+      <member refid="class_high_score_1a5ba91f68fc06f354bff273a2dc5ae1be" prot="public" virt="non-virtual"><scope>HighScore</scope><name>getHighScore</name></member>
+      <member refid="class_high_score_1a321f389400c1031bff7c2ecb7c728347" prot="public" virt="non-virtual"><scope>HighScore</scope><name>getScoreTime</name></member>
+      <member refid="class_high_score_1a6cfc43d60f28ed3d18946a2b4034d4de" prot="public" virt="non-virtual"><scope>HighScore</scope><name>HighScore</name></member>
+      <member refid="class_high_score_1aabd3f50bf518fde51eb65fee1f7b3c56" prot="public" virt="non-virtual"><scope>HighScore</scope><name>highScorePause</name></member>
+      <member refid="class_high_score_1a51f8f4009cf565f7eba681fbf7792691" prot="public" virt="non-virtual"><scope>HighScore</scope><name>highScoreRead</name></member>
+      <member refid="class_high_score_1a8c7ca6978542a107d43955544d6d0c3c" prot="public" virt="non-virtual"><scope>HighScore</scope><name>highScoreStart</name></member>
+      <member refid="class_high_score_1a4ca2c8db5ae58bc4919650c657d36419" prot="public" virt="non-virtual"><scope>HighScore</scope><name>highScoreWrite</name></member>
+      <member refid="class_high_score_1a955dac293802e2a8baf9f44000c0a4a5" prot="private" virt="non-virtual"><scope>HighScore</scope><name>m_currentScore</name></member>
+      <member refid="class_high_score_1af170fb1319c56c4991ba9203208b6ccb" prot="private" virt="non-virtual"><scope>HighScore</scope><name>m_highScore</name></member>
+      <member refid="class_high_score_1aa4258b8594bf283f598d604df81ed715" prot="private" virt="non-virtual"><scope>HighScore</scope><name>m_highScoreString</name></member>
+      <member refid="class_high_score_1a55bfdf050aa316cf647085362426c6d3" prot="private" virt="non-virtual"><scope>HighScore</scope><name>m_scoreTimer</name></member>
+      <member refid="class_high_score_1a8bca1125eac9561fb1ded68299b1b246" prot="public" virt="non-virtual"><scope>HighScore</scope><name>setCurrentScore</name></member>
+      <member refid="class_high_score_1a716fbcb7bd1f89e1d84d4476102b621e" prot="public" virt="non-virtual"><scope>HighScore</scope><name>setHighScore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

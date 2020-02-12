@@ -1,0 +1,1519 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_character" kind="class" prot="public">
+    <compoundname>Character</compoundname>
+    <includes refid="_character_8h" local="no">Character.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_character_1ac39315e1fcce2d75bd0e9225b6dadf9f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Character::m_shiftable</definition>
+        <argsstring></argsstring>
+        <name>m_shiftable</name>
+        <briefdescription>
+<para>controls if character can shapeshift or not </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="227" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="227" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">shapeshift</referencedby>
+        <referencedby refid="class_character_1a0ce1f173db69e7147aedc15ccc4820d9" compoundref="_character_8h" startline="110" endline="110">setShiftable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a7eeb974118f798b5867285da69317c6f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Character::m_mulitplier</definition>
+        <argsstring></argsstring>
+        <name>m_mulitplier</name>
+        <briefdescription>
+<para>the velocity multiplier </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="231" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="231" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1a37eefb510c8be344bc5afc46b4686746" compoundref="_character_8cpp" startline="400" endline="403">setMultiplierPositive</referencedby>
+        <referencedby refid="class_character_1ac71793e33ec4e29a9289cd922e464b09" compoundref="_character_8cpp" startline="405" endline="408">setMultiplierNegative</referencedby>
+        <referencedby refid="class_character_1a4f20bbd3e971408207fcf28083051059" compoundref="_character_8h" startline="90" endline="90">getMultiplier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Character::m_mass</definition>
+        <argsstring></argsstring>
+        <name>m_mass</name>
+        <briefdescription>
+<para>the mass of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="235" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="235" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1ae302146e2d121694631a48618bda6aec" compoundref="_character_8cpp" startline="40" endline="46">createCharacter</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">shapeshift</referencedby>
+        <referencedby refid="class_character_1ad2a929e7c3f2403b92114d5d7bf50c3c" compoundref="_character_8cpp" startline="380" endline="383">setMassPositive</referencedby>
+        <referencedby refid="class_character_1a2521deae9b9dd48eb87d7870a7f83f1f" compoundref="_character_8cpp" startline="385" endline="388">setMassNegative</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">resetCharacter</referencedby>
+        <referencedby refid="class_character_1aff483f397946442bdfc2e3ba62a825b2" compoundref="_character_8h" startline="82" endline="82">getMass</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1af598009da48e6db8018244cf0c220b03" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Character::m_maxVelocity</definition>
+        <argsstring></argsstring>
+        <name>m_maxVelocity</name>
+        <briefdescription>
+<para>the maximum velocity variable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="239" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="239" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1abf33e302dfc561564363d48a518f74a8" compoundref="_character_8cpp" startline="257" endline="275">clampVel</referencedby>
+        <referencedby refid="class_character_1ad00fc05ccd10c3819c7b5f0efba7e1a2" compoundref="_character_8cpp" startline="390" endline="393">setMaxVelPositive</referencedby>
+        <referencedby refid="class_character_1ae9aa7651b279192c65b7649e2d624fad" compoundref="_character_8cpp" startline="395" endline="398">setMaxVelNegative</referencedby>
+        <referencedby refid="class_character_1af638ed886b717330d0f53ec423433732" compoundref="_character_8h" startline="86" endline="86">getMaxVelocity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a55df604c0038e97408b666b16c4d493f" prot="private" static="no" mutable="no">
+        <type>ngl::Vec4</type>
+        <definition>ngl::Vec4 Character::m_cameraDir</definition>
+        <argsstring></argsstring>
+        <name>m_cameraDir</name>
+        <briefdescription>
+<para>camera direction vector </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="243" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="243" bodyend="-1"/>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1a5e34c8029b899a4886cc44eb255ff632" compoundref="_character_8cpp" startline="368" endline="372">setCameraInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* Character::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>holds the pointer to the physics world </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="247" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="247" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1ae302146e2d121694631a48618bda6aec" compoundref="_character_8cpp" startline="40" endline="46">createCharacter</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">shapeshift</referencedby>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">jumpImpulse</referencedby>
+        <referencedby refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">detectCollisionForJump</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1abf33e302dfc561564363d48a518f74a8" compoundref="_character_8cpp" startline="257" endline="275">clampVel</referencedby>
+        <referencedby refid="class_character_1a4840e45e2d4c6d89b8dc88281ea545a3" compoundref="_character_8cpp" startline="277" endline="283">speed</referencedby>
+        <referencedby refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" compoundref="_character_8cpp" startline="286" endline="301">freezeCharacter</referencedby>
+        <referencedby refid="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" compoundref="_character_8cpp" startline="303" endline="345">attractForce</referencedby>
+        <referencedby refid="class_character_1a8c3293540d07bee2542a6ec32d4f3bc5" compoundref="_character_8cpp" startline="362" endline="366">getCollisionNormal</referencedby>
+        <referencedby refid="class_character_1a6d677474346bf9589e9c940ae165537c" compoundref="_character_8cpp" startline="374" endline="378">godMode</referencedby>
+        <referencedby refid="class_character_1ae2da28d0ab94aa7b19781b864191d814" compoundref="_character_8cpp" startline="439" endline="442">setGravityForCharacter</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">resetCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1ad258845c9da04191ee7da74ce8f0fc24" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::m_collisionNormal</definition>
+        <argsstring></argsstring>
+        <name>m_collisionNormal</name>
+        <briefdescription>
+<para>the normal of the collision check </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="251" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="251" bodyend="-1"/>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" compoundref="_character_8cpp" startline="303" endline="345">attractForce</referencedby>
+        <referencedby refid="class_character_1a71e1594efa228ce0e3a853d4d50b57c4" compoundref="_character_8cpp" startline="347" endline="360">getGravityDir</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a8ea86975355f8a2e0d023ac338c134c5" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::m_charPos</definition>
+        <argsstring></argsstring>
+        <name>m_charPos</name>
+        <briefdescription>
+<para>character position </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="255" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a8a94d25ee0d08457535de4cd25908f1b" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::m_move</definition>
+        <argsstring></argsstring>
+        <name>m_move</name>
+        <briefdescription>
+<para>the movement direction vector of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="259" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="259" bodyend="-1"/>
+        <referencedby refid="class_character_1a5262be8fbf6e4b9bde4101b80ee93efd" compoundref="_character_8h" startline="78" endline="78">getMove</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a836c3d49233261bc0f47368f248cb8e2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Character::m_attractEnable</definition>
+        <argsstring></argsstring>
+        <name>m_attractEnable</name>
+        <briefdescription>
+<para>enables or disables the stickiness (attraction force) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="263" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="263" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" compoundref="_character_8cpp" startline="303" endline="345">attractForce</referencedby>
+        <referencedby refid="class_character_1abf65a3e82060c02dfdf85c482f868cd1" compoundref="_character_8cpp" startline="464" endline="467">setAttractFlag</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a0e8cc490e41042e8e83e01d9e8df30d6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_l_timer" kindref="compound">LTimer</ref></type>
+        <definition>LTimer Character::m_freezeTimer</definition>
+        <argsstring></argsstring>
+        <name>m_freezeTimer</name>
+        <briefdescription>
+<para>the length of the freeze for the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="267" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="267" bodyend="-1"/>
+        <referencedby refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" compoundref="_character_8cpp" startline="286" endline="301">freezeCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Character::m_formOne</definition>
+        <argsstring></argsstring>
+        <name>m_formOne</name>
+        <briefdescription>
+<para>character in form one name </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="271" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="271" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1ae302146e2d121694631a48618bda6aec" compoundref="_character_8cpp" startline="40" endline="46">createCharacter</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">shapeshift</referencedby>
+        <referencedby refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">detectCollisionForJump</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" compoundref="_character_8cpp" startline="286" endline="301">freezeCharacter</referencedby>
+        <referencedby refid="class_character_1a6d677474346bf9589e9c940ae165537c" compoundref="_character_8cpp" startline="374" endline="378">godMode</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">resetCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1ab50213ee8f05c708a09972a7628c48dd" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Character::m_formTwo</definition>
+        <argsstring></argsstring>
+        <name>m_formTwo</name>
+        <briefdescription>
+<para>character in form two name </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="275" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="275" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">shapeshift</referencedby>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">jumpImpulse</referencedby>
+        <referencedby refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">detectCollisionForJump</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">resetCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1ad8394447f46610e326d2d4ff402d7c0f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_l_timer" kindref="compound">LTimer</ref></type>
+        <definition>LTimer Character::jumpHopTimer</definition>
+        <argsstring></argsstring>
+        <name>jumpHopTimer</name>
+        <briefdescription>
+<para>timer for the amount of time that the space bar is pressed during the characters jump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="279" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="279" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">jumpImpulse</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1ae58527d608910235f06445cd9d274a56" compoundref="_character_8cpp" startline="238" endline="249">startJumpHopTimer</referencedby>
+        <referencedby refid="class_character_1a128fe63126613c48f495a0c467ebe337" compoundref="_character_8cpp" startline="251" endline="255">stopJumpHopTimer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1ad8bf8171526411509af859833a15f929" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Character::m_jumpForce</definition>
+        <argsstring></argsstring>
+        <name>m_jumpForce</name>
+        <briefdescription>
+<para>the jumping impulse force </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="283" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="283" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">jumpImpulse</referencedby>
+        <referencedby refid="class_character_1a879566e3231e71d372df9505c5f99a50" compoundref="_character_8cpp" startline="410" endline="413">setJumpForcePositive</referencedby>
+        <referencedby refid="class_character_1a90043197d4c927c2816d1b2892593fa8" compoundref="_character_8cpp" startline="415" endline="418">setJumpForceNegative</referencedby>
+        <referencedby refid="class_character_1af58c239cd248b99bb74a6e1534c0a51f" compoundref="_character_8h" startline="179" endline="179">getJumpForce</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1af86394a65cd6858cfa637a498dcafacd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Character::m_jumpHopMaxTime</definition>
+        <argsstring></argsstring>
+        <name>m_jumpHopMaxTime</name>
+        <briefdescription>
+<para>the maximum time that the jump force can be applied during a single jump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="287" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="287" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1a8227f22bd71a7d880e7c28e41fc07602" compoundref="_character_8cpp" startline="419" endline="422">setJumpHopMaxTimePositive</referencedby>
+        <referencedby refid="class_character_1a34971bffe0ea866a0c7665ecf8a43244" compoundref="_character_8cpp" startline="424" endline="427">setJumpHopMaxTimeNegative</referencedby>
+        <referencedby refid="class_character_1a150a1c3197b04d03212a65d3881a2c8f" compoundref="_character_8h" startline="183" endline="183">getJumpHopMaxTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a2dfa0c4b87a1dedd9244f7d736b3844f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Character::m_friction</definition>
+        <argsstring></argsstring>
+        <name>m_friction</name>
+        <briefdescription>
+<para>the friction of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="291" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="291" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1ab5efbe11f7ea8e0d45fd37388de25532" compoundref="_character_8cpp" startline="429" endline="432">setFrictionPositive</referencedby>
+        <referencedby refid="class_character_1a6c2156c8ebaa2bf50dfb0a91233d0e10" compoundref="_character_8cpp" startline="434" endline="437">setFrictionNegative</referencedby>
+        <referencedby refid="class_character_1a6b464972284d01160193a39b736f1b75" compoundref="_character_8h" startline="195" endline="195">getFriction</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a078ac71adaa3064f31e63218b4c29dc1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Character::m_doubleJump</definition>
+        <argsstring></argsstring>
+        <name>m_doubleJump</name>
+        <briefdescription>
+<para>the state of the character&apos;s double jump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="295" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="295" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1ae58527d608910235f06445cd9d274a56" compoundref="_character_8cpp" startline="238" endline="249">startJumpHopTimer</referencedby>
+        <referencedby refid="class_character_1a807c34ca15c321cd479d5f35a3948a7f" compoundref="_character_8h" startline="94" endline="94">getDoubleJump</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a2b397643a3859b752d6639d30ce6b644" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Character::m_jumpHopTime</definition>
+        <argsstring></argsstring>
+        <name>m_jumpHopTime</name>
+        <briefdescription>
+<para>the time that the character is jumping for </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="299" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="299" bodyend="-1"/>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1aa231ac523656d8db870efe76689980b1" compoundref="_character_8h" startline="98" endline="98">getJumpHopTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a2621f702b319095271fa19858631f1fd" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::m_oldPlatformVelocity</definition>
+        <argsstring></argsstring>
+        <name>m_oldPlatformVelocity</name>
+        <briefdescription>
+<para>the velocity of the platform from the previous frame </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="303" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="303" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a223c0023ec80b95f70fa80637d72de72" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::m_platformVelocity</definition>
+        <argsstring></argsstring>
+        <name>m_platformVelocity</name>
+        <briefdescription>
+<para>the velocity of the current frame of the platform </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="307" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="307" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1a35e1bd3c1dcda5b3e12100a0a0a67ec2" compoundref="_character_8h" startline="106" endline="106">getPlatformVelocity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a858107df3765f056a9f086c66f853b70" prot="private" static="no" mutable="no">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::m_initialBallPos</definition>
+        <argsstring></argsstring>
+        <name>m_initialBallPos</name>
+        <briefdescription>
+<para>initial position of the ball character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="311" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="311" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1ae302146e2d121694631a48618bda6aec" compoundref="_character_8cpp" startline="40" endline="46">createCharacter</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">resetCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1adf1aef863381adbbc129bfceacf87f55" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Character::m_clamp</definition>
+        <argsstring></argsstring>
+        <name>m_clamp</name>
+        <briefdescription>
+<para>disable or enable the velocity clamp </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="315" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="315" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">resetCharacter</referencedby>
+        <referencedby refid="class_character_1afcca5a72e720c5821073e046ad6c2eb9" compoundref="_character_8cpp" startline="469" endline="472">setClampFlag</referencedby>
+        <referencedby refid="class_character_1a4c751ccfa57c5e586e3b5d133c74fcb0" compoundref="_character_8h" startline="216" endline="216">getClampFlag</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Character::m_shapeshift</definition>
+        <argsstring></argsstring>
+        <name>m_shapeshift</name>
+        <briefdescription>
+<para>character phase (form) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="319" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="319" bodyend="-1"/>
+        <referencedby refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" compoundref="_character_8cpp" startline="7" endline="36">Character</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">shapeshift</referencedby>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">jumpImpulse</referencedby>
+        <referencedby refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">detectCollisionForJump</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">resetCharacter</referencedby>
+        <referencedby refid="class_character_1aa7a8c328a450c3e4c8100094a9b91d76" compoundref="_character_8h" startline="102" endline="102">getPhase</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Character::Character</definition>
+        <argsstring>(PhysicsWorld *_physics)</argsstring>
+        <name>Character</name>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>ctor for <ref refid="class_high_score" kindref="compound">HighScore</ref> class </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="25" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="7" bodyend="36"/>
+        <references refid="class_collision_shape_1a995aa2c673cca8b4a11b220c3f1f1706" compoundref="_collision_shape_8cpp" startline="71" endline="75">CollisionShape::addCapsule</references>
+        <references refid="class_collision_shape_1a502ae0e27451fe9dfb65451dd424d645" compoundref="_collision_shape_8cpp" startline="59" endline="63">CollisionShape::addSphere</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_character_1ad8394447f46610e326d2d4ff402d7c0f" compoundref="_character_8h" startline="279">jumpHopTimer</references>
+        <references refid="class_character_1a836c3d49233261bc0f47368f248cb8e2" compoundref="_character_8h" startline="263">m_attractEnable</references>
+        <references refid="class_character_1adf1aef863381adbbc129bfceacf87f55" compoundref="_character_8h" startline="315">m_clamp</references>
+        <references refid="class_character_1a078ac71adaa3064f31e63218b4c29dc1" compoundref="_character_8h" startline="295">m_doubleJump</references>
+        <references refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" compoundref="_character_8h" startline="271">m_formOne</references>
+        <references refid="class_character_1ab50213ee8f05c708a09972a7628c48dd" compoundref="_character_8h" startline="275">m_formTwo</references>
+        <references refid="class_character_1a2dfa0c4b87a1dedd9244f7d736b3844f" compoundref="_character_8h" startline="291">m_friction</references>
+        <references refid="class_character_1a858107df3765f056a9f086c66f853b70" compoundref="_character_8h" startline="311">m_initialBallPos</references>
+        <references refid="class_character_1ad8bf8171526411509af859833a15f929" compoundref="_character_8h" startline="283">m_jumpForce</references>
+        <references refid="class_character_1af86394a65cd6858cfa637a498dcafacd" compoundref="_character_8h" startline="287">m_jumpHopMaxTime</references>
+        <references refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" compoundref="_character_8h" startline="235">m_mass</references>
+        <references refid="class_character_1af598009da48e6db8018244cf0c220b03" compoundref="_character_8h" startline="239">m_maxVelocity</references>
+        <references refid="class_character_1a7eeb974118f798b5867285da69317c6f" compoundref="_character_8h" startline="231">m_mulitplier</references>
+        <references refid="class_character_1a2621f702b319095271fa19858631f1fd" compoundref="_character_8h" startline="303">m_oldPlatformVelocity</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_character_1a223c0023ec80b95f70fa80637d72de72" compoundref="_character_8h" startline="307">m_platformVelocity</references>
+        <references refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" compoundref="_character_8h" startline="319">m_shapeshift</references>
+        <references refid="class_character_1ac39315e1fcce2d75bd0e9225b6dadf9f" compoundref="_character_8h" startline="227">m_shiftable</references>
+        <references refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">LTimer::start</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a9e9be564d05ded80962b2045aa70b3fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Character::~Character</definition>
+        <argsstring>()</argsstring>
+        <name>~Character</name>
+        <briefdescription>
+<para>destructor for <ref refid="class_high_score" kindref="compound">HighScore</ref> class </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="29" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a55574c8044ccf90ef684ba1f2f607ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::shapeshift</definition>
+        <argsstring>()</argsstring>
+        <name>shapeshift</name>
+        <briefdescription>
+<para>method to change the character from ball to leged and back </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="33" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="48" bodyend="81"/>
+        <references refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" compoundref="_physics_world_8cpp" startline="88" endline="125">PhysicsWorld::addLegSphere</references>
+        <references refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</references>
+        <references refid="class_physics_world_1a63bc2c028b9a49498411038100181ed1" compoundref="_physics_world_8cpp" startline="436" endline="464">PhysicsWorld::getAngVelocity</references>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" compoundref="_character_8h" startline="271">m_formOne</references>
+        <references refid="class_character_1ab50213ee8f05c708a09972a7628c48dd" compoundref="_character_8h" startline="275">m_formTwo</references>
+        <references refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" compoundref="_character_8h" startline="235">m_mass</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" compoundref="_character_8h" startline="319">m_shapeshift</references>
+        <references refid="class_character_1ac39315e1fcce2d75bd0e9225b6dadf9f" compoundref="_character_8h" startline="227">m_shiftable</references>
+        <references refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" compoundref="_physics_world_8cpp" startline="560" endline="572">PhysicsWorld::removeCollisionObj</references>
+        <references refid="class_physics_world_1a9898273f563625b150091d5657de02f3" compoundref="_physics_world_8cpp" startline="411" endline="434">PhysicsWorld::setAngVelocity</references>
+        <references refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">PhysicsWorld::setLinVelocity</references>
+        <referencedby refid="class_controls_1accc352189480c1031ee1446c378cc071" compoundref="_controls_8cpp" startline="81" endline="84">Controls::shapeshift</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ae302146e2d121694631a48618bda6aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::createCharacter</definition>
+        <argsstring>(ngl::Vec3 _pos)</argsstring>
+        <name>createCharacter</name>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pos</declname>
+        </param>
+        <briefdescription>
+<para>creates the character at the given position </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the starting position for the character </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="38" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="40" bodyend="46"/>
+        <references refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</references>
+        <references refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" compoundref="_character_8h" startline="271">m_formOne</references>
+        <references refid="class_character_1a858107df3765f056a9f086c66f853b70" compoundref="_character_8h" startline="311">m_initialBallPos</references>
+        <references refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" compoundref="_character_8h" startline="235">m_mass</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::jumpImpulse</definition>
+        <argsstring>()</argsstring>
+        <name>jumpImpulse</name>
+        <briefdescription>
+<para>creates a jump impulse </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="42" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="83" bodyend="97"/>
+        <references refid="class_physics_world_1a4cb52e883aaf26f356dc6906757af84d" compoundref="_physics_world_8cpp" startline="510" endline="523">PhysicsWorld::addImpulse</references>
+        <references refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">detectCollisionForJump</references>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">LTimer::getTicks</references>
+        <references refid="class_character_1ad8394447f46610e326d2d4ff402d7c0f" compoundref="_character_8h" startline="279">jumpHopTimer</references>
+        <references refid="class_character_1ab50213ee8f05c708a09972a7628c48dd" compoundref="_character_8h" startline="275">m_formTwo</references>
+        <references refid="class_character_1ad8bf8171526411509af859833a15f929" compoundref="_character_8h" startline="283">m_jumpForce</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" compoundref="_character_8h" startline="319">m_shapeshift</references>
+        <references refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">PhysicsWorld::setLinVelocity</references>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_controls_1a472ff85242095dbe9435de7e5ab51bf5" compoundref="_controls_8cpp" startline="11" endline="14">Controls::jumpImpulse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a128fe63126613c48f495a0c467ebe337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::stopJumpHopTimer</definition>
+        <argsstring>()</argsstring>
+        <name>stopJumpHopTimer</name>
+        <briefdescription>
+<para>stop the timer for the hop </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="46" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="251" bodyend="255"/>
+        <references refid="class_character_1ad8394447f46610e326d2d4ff402d7c0f" compoundref="_character_8h" startline="279">jumpHopTimer</references>
+        <references refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" compoundref="_ltimer_8cpp" startline="26" endline="37">LTimer::stop</references>
+        <referencedby refid="class_controls_1aae150be1e58ea618a6a9f7043727ebe5" compoundref="_controls_8cpp" startline="16" endline="19">Controls::stopJumpHopTimer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ae58527d608910235f06445cd9d274a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::startJumpHopTimer</definition>
+        <argsstring>()</argsstring>
+        <name>startJumpHopTimer</name>
+        <briefdescription>
+<para>starts the timer for the hop </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="50" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="238" bodyend="249"/>
+        <references refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">detectCollisionForJump</references>
+        <references refid="class_character_1ad8394447f46610e326d2d4ff402d7c0f" compoundref="_character_8h" startline="279">jumpHopTimer</references>
+        <references refid="class_character_1a078ac71adaa3064f31e63218b4c29dc1" compoundref="_character_8h" startline="295">m_doubleJump</references>
+        <references refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">LTimer::start</references>
+        <referencedby refid="class_controls_1a508630b1ee74d999f41e238c9c45c4c5" compoundref="_controls_8cpp" startline="21" endline="24">Controls::startJumpHopTimer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1aaced86bac9a90ddadf34c946c56f04a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Character::detectCollisionForJump</definition>
+        <argsstring>()</argsstring>
+        <name>detectCollisionForJump</name>
+        <briefdescription>
+<para>detects if character is standing on a mesh </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="54" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="99" bodyend="117"/>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" compoundref="_character_8h" startline="271">m_formOne</references>
+        <references refid="class_character_1ab50213ee8f05c708a09972a7628c48dd" compoundref="_character_8h" startline="275">m_formTwo</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" compoundref="_character_8h" startline="319">m_shapeshift</references>
+        <references refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" compoundref="_physics_world_8cpp" startline="580" endline="600">PhysicsWorld::rayTest</references>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">jumpImpulse</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+        <referencedby refid="class_character_1ae58527d608910235f06445cd9d274a56" compoundref="_character_8cpp" startline="238" endline="249">startJumpHopTimer</referencedby>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a5e34c8029b899a4886cc44eb255ff632" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setCameraInfo</definition>
+        <argsstring>(ngl::Vec4 &amp;_camVector)</argsstring>
+        <name>setCameraInfo</name>
+        <param>
+          <type>ngl::Vec4 &amp;</type>
+          <declname>_camVector</declname>
+        </param>
+        <briefdescription>
+<para>sets camera viewing direction vector </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_camVector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set the camera direction vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="59" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="368" bodyend="372"/>
+        <references refid="class_character_1a55df604c0038e97408b666b16c4d493f" compoundref="_character_8h" startline="243">m_cameraDir</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a595fba03a652891741ee6631a6079674" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::characterMove</definition>
+        <argsstring>(ngl::Vec3 _move)</argsstring>
+        <name>characterMove</name>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_move</declname>
+        </param>
+        <briefdescription>
+<para>makes character move based on the direction vector </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_move</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>character move direction vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="64" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="119" bodyend="236"/>
+        <references refid="class_physics_world_1ac14ab775fcccc66e75fb4f70da54ac72" compoundref="_physics_world_8cpp" startline="527" endline="540">PhysicsWorld::applyForceCentral</references>
+        <references refid="class_character_1abf33e302dfc561564363d48a518f74a8" compoundref="_character_8cpp" startline="257" endline="275">clampVel</references>
+        <references refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">detectCollisionForJump</references>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">LTimer::getTicks</references>
+        <references refid="class_physics_world_1a2eb74a13ee526a3fcf449f28fa95c516" compoundref="_physics_world_8cpp" startline="602" endline="633">PhysicsWorld::getVelocityOfPlatform</references>
+        <references refid="class_character_1ad8394447f46610e326d2d4ff402d7c0f" compoundref="_character_8h" startline="279">jumpHopTimer</references>
+        <references refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">jumpImpulse</references>
+        <references refid="class_character_1a55df604c0038e97408b666b16c4d493f" compoundref="_character_8h" startline="243">m_cameraDir</references>
+        <references refid="class_character_1adf1aef863381adbbc129bfceacf87f55" compoundref="_character_8h" startline="315">m_clamp</references>
+        <references refid="class_character_1ad258845c9da04191ee7da74ce8f0fc24" compoundref="_character_8h" startline="251">m_collisionNormal</references>
+        <references refid="class_character_1a078ac71adaa3064f31e63218b4c29dc1" compoundref="_character_8h" startline="295">m_doubleJump</references>
+        <references refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" compoundref="_character_8h" startline="271">m_formOne</references>
+        <references refid="class_character_1ab50213ee8f05c708a09972a7628c48dd" compoundref="_character_8h" startline="275">m_formTwo</references>
+        <references refid="class_character_1a2dfa0c4b87a1dedd9244f7d736b3844f" compoundref="_character_8h" startline="291">m_friction</references>
+        <references refid="class_character_1af86394a65cd6858cfa637a498dcafacd" compoundref="_character_8h" startline="287">m_jumpHopMaxTime</references>
+        <references refid="class_character_1a2b397643a3859b752d6639d30ce6b644" compoundref="_character_8h" startline="299">m_jumpHopTime</references>
+        <references refid="class_character_1af598009da48e6db8018244cf0c220b03" compoundref="_character_8h" startline="239">m_maxVelocity</references>
+        <references refid="class_character_1a7eeb974118f798b5867285da69317c6f" compoundref="_character_8h" startline="231">m_mulitplier</references>
+        <references refid="class_character_1a2621f702b319095271fa19858631f1fd" compoundref="_character_8h" startline="303">m_oldPlatformVelocity</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_character_1a223c0023ec80b95f70fa80637d72de72" compoundref="_character_8h" startline="307">m_platformVelocity</references>
+        <references refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" compoundref="_character_8h" startline="319">m_shapeshift</references>
+        <references refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">PhysicsWorld::setLinVelocity</references>
+        <references refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" compoundref="_ltimer_8cpp" startline="26" endline="37">LTimer::stop</references>
+        <referencedby refid="class_controls_1a05b74314f8236b971e20d1868d437286" compoundref="_controls_8cpp" startline="61" endline="64">Controls::characterMovement</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1abf33e302dfc561564363d48a518f74a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::clampVel</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>clampVel</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>clamps velocity based on name </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the object to clamp velocity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="69" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="257" bodyend="275"/>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_character_1af598009da48e6db8018244cf0c220b03" compoundref="_character_8h" startline="239">m_maxVelocity</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">PhysicsWorld::setLinVelocity</references>
+        <references refid="class_character_1a4840e45e2d4c6d89b8dc88281ea545a3" compoundref="_character_8cpp" startline="277" endline="283">speed</references>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">characterMove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a4840e45e2d4c6d89b8dc88281ea545a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::speed</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>speed</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>increases the character velocity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the character to affect the velocity increase </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="74" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="277" bodyend="283"/>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">PhysicsWorld::getLinVelocity</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">PhysicsWorld::setLinVelocity</references>
+        <referencedby refid="class_character_1abf33e302dfc561564363d48a518f74a8" compoundref="_character_8cpp" startline="257" endline="275">clampVel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a5262be8fbf6e4b9bde4101b80ee93efd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::getMove</definition>
+        <argsstring>()</argsstring>
+        <name>getMove</name>
+        <briefdescription>
+<para>returns the direction vector of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="78" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="78" bodyend="78"/>
+        <references refid="class_character_1a8a94d25ee0d08457535de4cd25908f1b" compoundref="_character_8h" startline="259">m_move</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1aff483f397946442bdfc2e3ba62a825b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Character::getMass</definition>
+        <argsstring>()</argsstring>
+        <name>getMass</name>
+        <briefdescription>
+<para>returns the current mass of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="82" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="82" bodyend="82"/>
+        <references refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" compoundref="_character_8h" startline="235">m_mass</references>
+        <referencedby refid="class_controls_1a3fed9472c6e44b18935eee2100af7922" compoundref="_controls_8cpp" startline="66" endline="69">Controls::getMass</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1af638ed886b717330d0f53ec423433732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Character::getMaxVelocity</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxVelocity</name>
+        <briefdescription>
+<para>returns the max velocity </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="86" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="86" bodyend="86"/>
+        <references refid="class_character_1af598009da48e6db8018244cf0c220b03" compoundref="_character_8h" startline="239">m_maxVelocity</references>
+        <referencedby refid="class_controls_1af6f57c51504181c793dc5a973e7d2ff7" compoundref="_controls_8cpp" startline="71" endline="74">Controls::getMaxVelocity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a4f20bbd3e971408207fcf28083051059" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Character::getMultiplier</definition>
+        <argsstring>()</argsstring>
+        <name>getMultiplier</name>
+        <briefdescription>
+<para>returns the velocity multiplier of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="90" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="90" bodyend="90"/>
+        <references refid="class_character_1a7eeb974118f798b5867285da69317c6f" compoundref="_character_8h" startline="231">m_mulitplier</references>
+        <referencedby refid="class_controls_1af04921210f113d639ff0f3564d5ac1e4" compoundref="_controls_8cpp" startline="76" endline="79">Controls::getMultiplier</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a807c34ca15c321cd479d5f35a3948a7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Character::getDoubleJump</definition>
+        <argsstring>()</argsstring>
+        <name>getDoubleJump</name>
+        <briefdescription>
+<para>returns if the character is doing the double jump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="94" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="94" bodyend="94"/>
+        <references refid="class_character_1a078ac71adaa3064f31e63218b4c29dc1" compoundref="_character_8h" startline="295">m_doubleJump</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1aa231ac523656d8db870efe76689980b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Character::getJumpHopTime</definition>
+        <argsstring>()</argsstring>
+        <name>getJumpHopTime</name>
+        <briefdescription>
+<para>returns the jump hop time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="98" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="98" bodyend="98"/>
+        <references refid="class_character_1a2b397643a3859b752d6639d30ce6b644" compoundref="_character_8h" startline="299">m_jumpHopTime</references>
+        <referencedby refid="class_controls_1a48fb94906d136cbc9abefe65a78e5477" compoundref="_controls_8cpp" startline="131" endline="134">Controls::getJumpHopTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1aa7a8c328a450c3e4c8100094a9b91d76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Character::getPhase</definition>
+        <argsstring>()</argsstring>
+        <name>getPhase</name>
+        <briefdescription>
+<para>returns the current phase of the object (ball or legged form) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="102" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="102" bodyend="102"/>
+        <references refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" compoundref="_character_8h" startline="319">m_shapeshift</references>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a35e1bd3c1dcda5b3e12100a0a0a67ec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::getPlatformVelocity</definition>
+        <argsstring>()</argsstring>
+        <name>getPlatformVelocity</name>
+        <briefdescription>
+<para>gets the velocity of the platform </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="106" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="106" bodyend="106"/>
+        <references refid="class_character_1a223c0023ec80b95f70fa80637d72de72" compoundref="_character_8h" startline="307">m_platformVelocity</references>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a0ce1f173db69e7147aedc15ccc4820d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setShiftable</definition>
+        <argsstring>(bool _canShift)</argsstring>
+        <name>setShiftable</name>
+        <param>
+          <type>bool</type>
+          <declname>_canShift</declname>
+        </param>
+        <briefdescription>
+<para>enable/disable the characters ability to shapeshift </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="110" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="110" bodyend="110"/>
+        <references refid="class_character_1ac39315e1fcce2d75bd0e9225b6dadf9f" compoundref="_character_8h" startline="227">m_shiftable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a6d677474346bf9589e9c940ae165537c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::godMode</definition>
+        <argsstring>()</argsstring>
+        <name>godMode</name>
+        <briefdescription>
+<para>turn on cheats (disable gravity for character one in order to debug the levels) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="114" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="374" bodyend="378"/>
+        <references refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" compoundref="_character_8h" startline="271">m_formOne</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" compoundref="_physics_world_8cpp" startline="658" endline="670">PhysicsWorld::setGravityForBody</references>
+        <referencedby refid="class_controls_1a37be7d2dd9722a8c4c65e34728b521e5" compoundref="_controls_8cpp" startline="26" endline="29">Controls::godMode</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ad2a929e7c3f2403b92114d5d7bf50c3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setMassPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setMassPositive</name>
+        <briefdescription>
+<para>increment the mass of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="118" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="380" bodyend="383"/>
+        <references refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" compoundref="_character_8h" startline="235">m_mass</references>
+        <referencedby refid="class_controls_1a739d7f836e424b3e52bbed5254d05bb2" compoundref="_controls_8cpp" startline="31" endline="34">Controls::setMassPositive</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a2521deae9b9dd48eb87d7870a7f83f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setMassNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setMassNegative</name>
+        <briefdescription>
+<para>decrements the mass of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="122" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="385" bodyend="388"/>
+        <references refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" compoundref="_character_8h" startline="235">m_mass</references>
+        <referencedby refid="class_controls_1a72d9f9954b5bd7f2d9c1eaf8d3e4c133" compoundref="_controls_8cpp" startline="36" endline="39">Controls::setMassNegative</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ad00fc05ccd10c3819c7b5f0efba7e1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setMaxVelPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setMaxVelPositive</name>
+        <briefdescription>
+<para>increments the max velocity of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="126" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="390" bodyend="393"/>
+        <references refid="class_character_1af598009da48e6db8018244cf0c220b03" compoundref="_character_8h" startline="239">m_maxVelocity</references>
+        <referencedby refid="class_controls_1a7ffcbd7eb08abe5ad3384fab5023e6ee" compoundref="_controls_8cpp" startline="41" endline="44">Controls::setMaxVelPositive</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ae9aa7651b279192c65b7649e2d624fad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setMaxVelNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setMaxVelNegative</name>
+        <briefdescription>
+<para>decrements the max velocity of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="130" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="395" bodyend="398"/>
+        <references refid="class_character_1af598009da48e6db8018244cf0c220b03" compoundref="_character_8h" startline="239">m_maxVelocity</references>
+        <referencedby refid="class_controls_1a2b50d9bdd337494c1593be5e6fef5f69" compoundref="_controls_8cpp" startline="46" endline="49">Controls::setMaxVelNegative</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a37eefb510c8be344bc5afc46b4686746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setMultiplierPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setMultiplierPositive</name>
+        <briefdescription>
+<para>increments the multiplier of the velocity of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="134" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="400" bodyend="403"/>
+        <references refid="class_character_1a7eeb974118f798b5867285da69317c6f" compoundref="_character_8h" startline="231">m_mulitplier</references>
+        <referencedby refid="class_controls_1a027e4320b6abb12c327a7469d2a4d42e" compoundref="_controls_8cpp" startline="51" endline="54">Controls::setMultiplierPositive</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ac71793e33ec4e29a9289cd922e464b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setMultiplierNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setMultiplierNegative</name>
+        <briefdescription>
+<para>decrements the multiplier of the velocity of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="138" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="405" bodyend="408"/>
+        <references refid="class_character_1a7eeb974118f798b5867285da69317c6f" compoundref="_character_8h" startline="231">m_mulitplier</references>
+        <referencedby refid="class_controls_1a5d1e9f2f35434f638cf1cf101002ca8c" compoundref="_controls_8cpp" startline="56" endline="59">Controls::setMultiplierNegative</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::freezeCharacter</definition>
+        <argsstring>()</argsstring>
+        <name>freezeCharacter</name>
+        <briefdescription>
+<para>freezes the character at his current position </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="142" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="286" bodyend="301"/>
+        <references refid="class_physics_world_1a6f01ee5e9135ac370a8a19767de1a838" compoundref="_physics_world_8cpp" startline="673" endline="690">PhysicsWorld::freezeBody</references>
+        <references refid="class_l_timer_1a57c4bdca0f7bdd75c65b6ab1499de1e7" compoundref="_ltimer_8cpp" startline="65" endline="86">LTimer::getTicks</references>
+        <references refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" compoundref="_character_8h" startline="271">m_formOne</references>
+        <references refid="class_character_1a0e8cc490e41042e8e83e01d9e8df30d6" compoundref="_character_8h" startline="267">m_freezeTimer</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_l_timer_1a873ef5ef69a3ae62fea1214ea1a0103b" compoundref="_ltimer_8cpp" startline="21" endline="25">LTimer::reset</references>
+        <references refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" compoundref="_ltimer_8cpp" startline="11" endline="20">LTimer::start</references>
+        <references refid="class_l_timer_1aeabbf5f935907fcfeaa7f4403741e4ae" compoundref="_ltimer_8cpp" startline="26" endline="37">LTimer::stop</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a71e1594efa228ce0e3a853d4d50b57c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::getGravityDir</definition>
+        <argsstring>()</argsstring>
+        <name>getGravityDir</name>
+        <briefdescription>
+<para>returns the direction of the gravity of an object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="146" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="347" bodyend="360"/>
+        <references refid="class_character_1ad258845c9da04191ee7da74ce8f0fc24" compoundref="_character_8h" startline="251">m_collisionNormal</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a8c3293540d07bee2542a6ec32d4f3bc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 Character::getCollisionNormal</definition>
+        <argsstring>(ngl::Vec3 a, ngl::Vec3 b)</argsstring>
+        <name>getCollisionNormal</name>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns the normal of the collision object that the ray collides with </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the first point of the ray </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the second point of the ray </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="152" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="362" bodyend="366"/>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_physics_world_1a68c31016abc95c051890c9a211ac4565" compoundref="_physics_world_8cpp" startline="710" endline="729">PhysicsWorld::rayNormalTest</references>
+        <referencedby refid="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" compoundref="_character_8cpp" startline="303" endline="345">attractForce</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::attractForce</definition>
+        <argsstring>(float _gravityFactor, float _attractForceStr, std::string _name)</argsstring>
+        <name>attractForce</name>
+        <param>
+          <type>float</type>
+          <declname>_gravityFactor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_attractForceStr</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+<para>returns the normal of the collision object that the ray collides with </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_gravityFactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the multiplier of the gravity </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_attractForceStr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the strength of the force that pulls towards the object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the shape of the character to make sticky </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="159" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="303" bodyend="345"/>
+        <references refid="class_character_1a8c3293540d07bee2542a6ec32d4f3bc5" compoundref="_character_8cpp" startline="362" endline="366">getCollisionNormal</references>
+        <references refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">PhysicsWorld::getPosition</references>
+        <references refid="class_character_1a836c3d49233261bc0f47368f248cb8e2" compoundref="_character_8h" startline="263">m_attractEnable</references>
+        <references refid="class_character_1ad258845c9da04191ee7da74ce8f0fc24" compoundref="_character_8h" startline="251">m_collisionNormal</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" compoundref="_physics_world_8cpp" startline="658" endline="670">PhysicsWorld::setGravityForBody</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a879566e3231e71d372df9505c5f99a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setJumpForcePositive</definition>
+        <argsstring>()</argsstring>
+        <name>setJumpForcePositive</name>
+        <briefdescription>
+<para>increments the jump force </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="163" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="410" bodyend="413"/>
+        <references refid="class_character_1ad8bf8171526411509af859833a15f929" compoundref="_character_8h" startline="283">m_jumpForce</references>
+        <referencedby refid="class_controls_1a7a9edd2f6c56973f63338d2a0c214ced" compoundref="_controls_8cpp" startline="86" endline="89">Controls::setJumpForcePositive</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a90043197d4c927c2816d1b2892593fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setJumpForceNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setJumpForceNegative</name>
+        <briefdescription>
+<para>decrements the jump force </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="167" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="415" bodyend="418"/>
+        <references refid="class_character_1ad8bf8171526411509af859833a15f929" compoundref="_character_8h" startline="283">m_jumpForce</references>
+        <referencedby refid="class_controls_1ae47be44b42b8bebeb0c53572da912db8" compoundref="_controls_8cpp" startline="91" endline="94">Controls::setJumpForceNegative</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a8227f22bd71a7d880e7c28e41fc07602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setJumpHopMaxTimePositive</definition>
+        <argsstring>()</argsstring>
+        <name>setJumpHopMaxTimePositive</name>
+        <briefdescription>
+<para>increments the time that the jump force is applied to the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="171" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="419" bodyend="422"/>
+        <references refid="class_character_1af86394a65cd6858cfa637a498dcafacd" compoundref="_character_8h" startline="287">m_jumpHopMaxTime</references>
+        <referencedby refid="class_controls_1a570899be599209ec6f9bf7f2666c8021" compoundref="_controls_8cpp" startline="96" endline="99">Controls::setJumpHopMaxTimePositive</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a34971bffe0ea866a0c7665ecf8a43244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setJumpHopMaxTimeNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setJumpHopMaxTimeNegative</name>
+        <briefdescription>
+<para>decrements the time that the jump force is applied to the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="175" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="424" bodyend="427"/>
+        <references refid="class_character_1af86394a65cd6858cfa637a498dcafacd" compoundref="_character_8h" startline="287">m_jumpHopMaxTime</references>
+        <referencedby refid="class_controls_1aef45854f27613d3bc5178cbdee862f68" compoundref="_controls_8cpp" startline="101" endline="104">Controls::setJumpHopMaxTimeNegative</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1af58c239cd248b99bb74a6e1534c0a51f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Character::getJumpForce</definition>
+        <argsstring>()</argsstring>
+        <name>getJumpForce</name>
+        <briefdescription>
+<para>returns the jump force value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="179" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="179" bodyend="179"/>
+        <references refid="class_character_1ad8bf8171526411509af859833a15f929" compoundref="_character_8h" startline="283">m_jumpForce</references>
+        <referencedby refid="class_controls_1aeeb1c64a0043037a3e22220c0d0e57eb" compoundref="_controls_8cpp" startline="106" endline="109">Controls::getJumpForce</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a150a1c3197b04d03212a65d3881a2c8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Character::getJumpHopMaxTime</definition>
+        <argsstring>()</argsstring>
+        <name>getJumpHopMaxTime</name>
+        <briefdescription>
+<para>returns the jump hop time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="183" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="183" bodyend="183"/>
+        <references refid="class_character_1af86394a65cd6858cfa637a498dcafacd" compoundref="_character_8h" startline="287">m_jumpHopMaxTime</references>
+        <referencedby refid="class_controls_1ad5d8ded931c665b857812049ca5f5186" compoundref="_controls_8cpp" startline="111" endline="114">Controls::getJumpHopMaxTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ab5efbe11f7ea8e0d45fd37388de25532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setFrictionPositive</definition>
+        <argsstring>()</argsstring>
+        <name>setFrictionPositive</name>
+        <briefdescription>
+<para>increment the friction character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="187" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="429" bodyend="432"/>
+        <references refid="class_character_1a2dfa0c4b87a1dedd9244f7d736b3844f" compoundref="_character_8h" startline="291">m_friction</references>
+        <referencedby refid="class_controls_1a39668100d8fd76dad5f1cd7246fb1858" compoundref="_controls_8cpp" startline="116" endline="119">Controls::setFrictionPositive</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a6c2156c8ebaa2bf50dfb0a91233d0e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setFrictionNegative</definition>
+        <argsstring>()</argsstring>
+        <name>setFrictionNegative</name>
+        <briefdescription>
+<para>decrement the friction of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="191" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="434" bodyend="437"/>
+        <references refid="class_character_1a2dfa0c4b87a1dedd9244f7d736b3844f" compoundref="_character_8h" startline="291">m_friction</references>
+        <referencedby refid="class_controls_1ab39eb41cd98e9e53873b916a9d63cc41" compoundref="_controls_8cpp" startline="121" endline="124">Controls::setFrictionNegative</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a6b464972284d01160193a39b736f1b75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Character::getFriction</definition>
+        <argsstring>()</argsstring>
+        <name>getFriction</name>
+        <briefdescription>
+<para>returns the friction value of the character </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="195" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="195" bodyend="195"/>
+        <references refid="class_character_1a2dfa0c4b87a1dedd9244f7d736b3844f" compoundref="_character_8h" startline="291">m_friction</references>
+        <referencedby refid="class_controls_1a0f163ad74f11e47455c023db515d44de" compoundref="_controls_8cpp" startline="126" endline="129">Controls::getFriction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ae2da28d0ab94aa7b19781b864191d814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setGravityForCharacter</definition>
+        <argsstring>(std::string _shape, ngl::Vec3 _vec)</argsstring>
+        <name>setGravityForCharacter</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_vec</declname>
+        </param>
+        <briefdescription>
+<para>sets the gravity for the character </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object to set the gravity to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_vec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the direction of the gravity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="201" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="439" bodyend="442"/>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" compoundref="_physics_world_8cpp" startline="658" endline="670">PhysicsWorld::setGravityForBody</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::resetCharacter</definition>
+        <argsstring>(Camera *_cam, ngl::Vec3 _charPos)</argsstring>
+        <name>resetCharacter</name>
+        <param>
+          <type><ref refid="class_camera" kindref="compound">Camera</ref> *</type>
+          <declname>_cam</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_charPos</declname>
+        </param>
+        <briefdescription>
+<para>sets the gravity for the character </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_cam</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object to set the gravity to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_charPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position of the character </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="207" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="444" bodyend="462"/>
+        <references refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">PhysicsWorld::addSphere</references>
+        <references refid="class_character_1adf1aef863381adbbc129bfceacf87f55" compoundref="_character_8h" startline="315">m_clamp</references>
+        <references refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" compoundref="_character_8h" startline="271">m_formOne</references>
+        <references refid="class_character_1ab50213ee8f05c708a09972a7628c48dd" compoundref="_character_8h" startline="275">m_formTwo</references>
+        <references refid="class_character_1a858107df3765f056a9f086c66f853b70" compoundref="_character_8h" startline="311">m_initialBallPos</references>
+        <references refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" compoundref="_character_8h" startline="235">m_mass</references>
+        <references refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" compoundref="_character_8h" startline="247">m_physics</references>
+        <references refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" compoundref="_character_8h" startline="319">m_shapeshift</references>
+        <references refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" compoundref="_physics_world_8cpp" startline="560" endline="572">PhysicsWorld::removeCollisionObj</references>
+        <references refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">Camera::snapPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1abf65a3e82060c02dfdf85c482f868cd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setAttractFlag</definition>
+        <argsstring>(bool _value)</argsstring>
+        <name>setAttractFlag</name>
+        <param>
+          <type>bool</type>
+          <declname>_value</declname>
+        </param>
+        <briefdescription>
+<para>turn on or off the stickiness (attraction force) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enable or disable attarction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="212" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="464" bodyend="467"/>
+        <references refid="class_character_1a836c3d49233261bc0f47368f248cb8e2" compoundref="_character_8h" startline="263">m_attractEnable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1a4c751ccfa57c5e586e3b5d133c74fcb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Character::getClampFlag</definition>
+        <argsstring>()</argsstring>
+        <name>getClampFlag</name>
+        <briefdescription>
+<para>return the current clamp mode </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="216" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="216" bodyend="216"/>
+        <references refid="class_character_1adf1aef863381adbbc129bfceacf87f55" compoundref="_character_8h" startline="315">m_clamp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1afcca5a72e720c5821073e046ad6c2eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Character::setClampFlag</definition>
+        <argsstring>(bool _value)</argsstring>
+        <name>setClampFlag</name>
+        <param>
+          <type>bool</type>
+          <declname>_value</declname>
+        </param>
+        <briefdescription>
+<para>sets the clamping on or off </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set the clamping value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="221" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Character.cpp" bodystart="469" bodyend="472"/>
+        <references refid="class_character_1adf1aef863381adbbc129bfceacf87f55" compoundref="_character_8h" startline="315">m_clamp</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class manages/creates is for all the character abilities and attributes. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="94">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="95" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="96">
+        <label>LTimer</label>
+        <link refid="class_l_timer"/>
+      </node>
+      <node id="93">
+        <label>Character</label>
+        <link refid="class_character"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>-m_freezeTimer</edgelabel>
+          <edgelabel>-jumpHopTimer</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" line="20" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Character.h" bodystart="19" bodyend="320"/>
+    <listofallmembers>
+      <member refid="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" prot="public" virt="non-virtual"><scope>Character</scope><name>attractForce</name></member>
+      <member refid="class_character_1ac37cb3bc58d129ef0d8b45fd2c685984" prot="public" virt="non-virtual"><scope>Character</scope><name>Character</name></member>
+      <member refid="class_character_1a595fba03a652891741ee6631a6079674" prot="public" virt="non-virtual"><scope>Character</scope><name>characterMove</name></member>
+      <member refid="class_character_1abf33e302dfc561564363d48a518f74a8" prot="public" virt="non-virtual"><scope>Character</scope><name>clampVel</name></member>
+      <member refid="class_character_1ae302146e2d121694631a48618bda6aec" prot="public" virt="non-virtual"><scope>Character</scope><name>createCharacter</name></member>
+      <member refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" prot="public" virt="non-virtual"><scope>Character</scope><name>detectCollisionForJump</name></member>
+      <member refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" prot="public" virt="non-virtual"><scope>Character</scope><name>freezeCharacter</name></member>
+      <member refid="class_character_1a4c751ccfa57c5e586e3b5d133c74fcb0" prot="public" virt="non-virtual"><scope>Character</scope><name>getClampFlag</name></member>
+      <member refid="class_character_1a8c3293540d07bee2542a6ec32d4f3bc5" prot="public" virt="non-virtual"><scope>Character</scope><name>getCollisionNormal</name></member>
+      <member refid="class_character_1a807c34ca15c321cd479d5f35a3948a7f" prot="public" virt="non-virtual"><scope>Character</scope><name>getDoubleJump</name></member>
+      <member refid="class_character_1a6b464972284d01160193a39b736f1b75" prot="public" virt="non-virtual"><scope>Character</scope><name>getFriction</name></member>
+      <member refid="class_character_1a71e1594efa228ce0e3a853d4d50b57c4" prot="public" virt="non-virtual"><scope>Character</scope><name>getGravityDir</name></member>
+      <member refid="class_character_1af58c239cd248b99bb74a6e1534c0a51f" prot="public" virt="non-virtual"><scope>Character</scope><name>getJumpForce</name></member>
+      <member refid="class_character_1a150a1c3197b04d03212a65d3881a2c8f" prot="public" virt="non-virtual"><scope>Character</scope><name>getJumpHopMaxTime</name></member>
+      <member refid="class_character_1aa231ac523656d8db870efe76689980b1" prot="public" virt="non-virtual"><scope>Character</scope><name>getJumpHopTime</name></member>
+      <member refid="class_character_1aff483f397946442bdfc2e3ba62a825b2" prot="public" virt="non-virtual"><scope>Character</scope><name>getMass</name></member>
+      <member refid="class_character_1af638ed886b717330d0f53ec423433732" prot="public" virt="non-virtual"><scope>Character</scope><name>getMaxVelocity</name></member>
+      <member refid="class_character_1a5262be8fbf6e4b9bde4101b80ee93efd" prot="public" virt="non-virtual"><scope>Character</scope><name>getMove</name></member>
+      <member refid="class_character_1a4f20bbd3e971408207fcf28083051059" prot="public" virt="non-virtual"><scope>Character</scope><name>getMultiplier</name></member>
+      <member refid="class_character_1aa7a8c328a450c3e4c8100094a9b91d76" prot="public" virt="non-virtual"><scope>Character</scope><name>getPhase</name></member>
+      <member refid="class_character_1a35e1bd3c1dcda5b3e12100a0a0a67ec2" prot="public" virt="non-virtual"><scope>Character</scope><name>getPlatformVelocity</name></member>
+      <member refid="class_character_1a6d677474346bf9589e9c940ae165537c" prot="public" virt="non-virtual"><scope>Character</scope><name>godMode</name></member>
+      <member refid="class_character_1ad8394447f46610e326d2d4ff402d7c0f" prot="private" virt="non-virtual"><scope>Character</scope><name>jumpHopTimer</name></member>
+      <member refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" prot="public" virt="non-virtual"><scope>Character</scope><name>jumpImpulse</name></member>
+      <member refid="class_character_1a836c3d49233261bc0f47368f248cb8e2" prot="private" virt="non-virtual"><scope>Character</scope><name>m_attractEnable</name></member>
+      <member refid="class_character_1a55df604c0038e97408b666b16c4d493f" prot="private" virt="non-virtual"><scope>Character</scope><name>m_cameraDir</name></member>
+      <member refid="class_character_1a8ea86975355f8a2e0d023ac338c134c5" prot="private" virt="non-virtual"><scope>Character</scope><name>m_charPos</name></member>
+      <member refid="class_character_1adf1aef863381adbbc129bfceacf87f55" prot="private" virt="non-virtual"><scope>Character</scope><name>m_clamp</name></member>
+      <member refid="class_character_1ad258845c9da04191ee7da74ce8f0fc24" prot="private" virt="non-virtual"><scope>Character</scope><name>m_collisionNormal</name></member>
+      <member refid="class_character_1a078ac71adaa3064f31e63218b4c29dc1" prot="private" virt="non-virtual"><scope>Character</scope><name>m_doubleJump</name></member>
+      <member refid="class_character_1a0ea65599d30e2c3c45eeb59077e8d9ea" prot="private" virt="non-virtual"><scope>Character</scope><name>m_formOne</name></member>
+      <member refid="class_character_1ab50213ee8f05c708a09972a7628c48dd" prot="private" virt="non-virtual"><scope>Character</scope><name>m_formTwo</name></member>
+      <member refid="class_character_1a0e8cc490e41042e8e83e01d9e8df30d6" prot="private" virt="non-virtual"><scope>Character</scope><name>m_freezeTimer</name></member>
+      <member refid="class_character_1a2dfa0c4b87a1dedd9244f7d736b3844f" prot="private" virt="non-virtual"><scope>Character</scope><name>m_friction</name></member>
+      <member refid="class_character_1a858107df3765f056a9f086c66f853b70" prot="private" virt="non-virtual"><scope>Character</scope><name>m_initialBallPos</name></member>
+      <member refid="class_character_1ad8bf8171526411509af859833a15f929" prot="private" virt="non-virtual"><scope>Character</scope><name>m_jumpForce</name></member>
+      <member refid="class_character_1af86394a65cd6858cfa637a498dcafacd" prot="private" virt="non-virtual"><scope>Character</scope><name>m_jumpHopMaxTime</name></member>
+      <member refid="class_character_1a2b397643a3859b752d6639d30ce6b644" prot="private" virt="non-virtual"><scope>Character</scope><name>m_jumpHopTime</name></member>
+      <member refid="class_character_1ad2ceabd17b91a24b911e8bb8601140ee" prot="private" virt="non-virtual"><scope>Character</scope><name>m_mass</name></member>
+      <member refid="class_character_1af598009da48e6db8018244cf0c220b03" prot="private" virt="non-virtual"><scope>Character</scope><name>m_maxVelocity</name></member>
+      <member refid="class_character_1a8a94d25ee0d08457535de4cd25908f1b" prot="private" virt="non-virtual"><scope>Character</scope><name>m_move</name></member>
+      <member refid="class_character_1a7eeb974118f798b5867285da69317c6f" prot="private" virt="non-virtual"><scope>Character</scope><name>m_mulitplier</name></member>
+      <member refid="class_character_1a2621f702b319095271fa19858631f1fd" prot="private" virt="non-virtual"><scope>Character</scope><name>m_oldPlatformVelocity</name></member>
+      <member refid="class_character_1a6f0d6db2f9131bc4d5dc0e95aba1b16d" prot="private" virt="non-virtual"><scope>Character</scope><name>m_physics</name></member>
+      <member refid="class_character_1a223c0023ec80b95f70fa80637d72de72" prot="private" virt="non-virtual"><scope>Character</scope><name>m_platformVelocity</name></member>
+      <member refid="class_character_1a297c3ff486b4c7e6c0d44cb185d85a5b" prot="private" virt="non-virtual"><scope>Character</scope><name>m_shapeshift</name></member>
+      <member refid="class_character_1ac39315e1fcce2d75bd0e9225b6dadf9f" prot="private" virt="non-virtual"><scope>Character</scope><name>m_shiftable</name></member>
+      <member refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" prot="public" virt="non-virtual"><scope>Character</scope><name>resetCharacter</name></member>
+      <member refid="class_character_1abf65a3e82060c02dfdf85c482f868cd1" prot="public" virt="non-virtual"><scope>Character</scope><name>setAttractFlag</name></member>
+      <member refid="class_character_1a5e34c8029b899a4886cc44eb255ff632" prot="public" virt="non-virtual"><scope>Character</scope><name>setCameraInfo</name></member>
+      <member refid="class_character_1afcca5a72e720c5821073e046ad6c2eb9" prot="public" virt="non-virtual"><scope>Character</scope><name>setClampFlag</name></member>
+      <member refid="class_character_1a6c2156c8ebaa2bf50dfb0a91233d0e10" prot="public" virt="non-virtual"><scope>Character</scope><name>setFrictionNegative</name></member>
+      <member refid="class_character_1ab5efbe11f7ea8e0d45fd37388de25532" prot="public" virt="non-virtual"><scope>Character</scope><name>setFrictionPositive</name></member>
+      <member refid="class_character_1ae2da28d0ab94aa7b19781b864191d814" prot="public" virt="non-virtual"><scope>Character</scope><name>setGravityForCharacter</name></member>
+      <member refid="class_character_1a90043197d4c927c2816d1b2892593fa8" prot="public" virt="non-virtual"><scope>Character</scope><name>setJumpForceNegative</name></member>
+      <member refid="class_character_1a879566e3231e71d372df9505c5f99a50" prot="public" virt="non-virtual"><scope>Character</scope><name>setJumpForcePositive</name></member>
+      <member refid="class_character_1a34971bffe0ea866a0c7665ecf8a43244" prot="public" virt="non-virtual"><scope>Character</scope><name>setJumpHopMaxTimeNegative</name></member>
+      <member refid="class_character_1a8227f22bd71a7d880e7c28e41fc07602" prot="public" virt="non-virtual"><scope>Character</scope><name>setJumpHopMaxTimePositive</name></member>
+      <member refid="class_character_1a2521deae9b9dd48eb87d7870a7f83f1f" prot="public" virt="non-virtual"><scope>Character</scope><name>setMassNegative</name></member>
+      <member refid="class_character_1ad2a929e7c3f2403b92114d5d7bf50c3c" prot="public" virt="non-virtual"><scope>Character</scope><name>setMassPositive</name></member>
+      <member refid="class_character_1ae9aa7651b279192c65b7649e2d624fad" prot="public" virt="non-virtual"><scope>Character</scope><name>setMaxVelNegative</name></member>
+      <member refid="class_character_1ad00fc05ccd10c3819c7b5f0efba7e1a2" prot="public" virt="non-virtual"><scope>Character</scope><name>setMaxVelPositive</name></member>
+      <member refid="class_character_1ac71793e33ec4e29a9289cd922e464b09" prot="public" virt="non-virtual"><scope>Character</scope><name>setMultiplierNegative</name></member>
+      <member refid="class_character_1a37eefb510c8be344bc5afc46b4686746" prot="public" virt="non-virtual"><scope>Character</scope><name>setMultiplierPositive</name></member>
+      <member refid="class_character_1a0ce1f173db69e7147aedc15ccc4820d9" prot="public" virt="non-virtual"><scope>Character</scope><name>setShiftable</name></member>
+      <member refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" prot="public" virt="non-virtual"><scope>Character</scope><name>shapeshift</name></member>
+      <member refid="class_character_1a4840e45e2d4c6d89b8dc88281ea545a3" prot="public" virt="non-virtual"><scope>Character</scope><name>speed</name></member>
+      <member refid="class_character_1ae58527d608910235f06445cd9d274a56" prot="public" virt="non-virtual"><scope>Character</scope><name>startJumpHopTimer</name></member>
+      <member refid="class_character_1a128fe63126613c48f495a0c467ebe337" prot="public" virt="non-virtual"><scope>Character</scope><name>stopJumpHopTimer</name></member>
+      <member refid="class_character_1a9e9be564d05ded80962b2045aa70b3fc" prot="public" virt="non-virtual"><scope>Character</scope><name>~Character</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

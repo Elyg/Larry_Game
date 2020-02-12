@@ -1,0 +1,3 @@
+<map id="Character::getCollisionNormal" name="Character::getCollisionNormal">
+<area shape="rect" id="node2" href="$class_physics_world.html#a68c31016abc95c051890c9a211ac4565" title="fires a ray from a to b and returns the normal of the object at the hit point " alt="" coords="251,5,448,32"/>
+</map>

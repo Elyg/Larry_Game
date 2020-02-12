@@ -1,0 +1,6 @@
+<map id="Character::startJumpHopTimer" name="Character::startJumpHopTimer">
+<area shape="rect" id="node2" href="$class_character.html#aaced86bac9a90ddadf34c946c56f04a4" title="detects if character is standing on a mesh " alt="" coords="256,23,429,65"/>
+<area shape="rect" id="node5" href="$class_l_timer.html#a7dc11f05cf5098a6d06ebd6ebec96ed6" title="LTimer::start" alt="" coords="295,89,391,116"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a692161a381b2015cba102b08c02f6c3f" title="returns the position of the specified shape " alt="" coords="477,5,653,32"/>
+<area shape="rect" id="node4" href="$class_physics_world.html#aa5c4661e5ac86c996bd4e8f66f39e980" title="fires a ray from a to b and returns true if a collision object is obstructing it " alt="" coords="488,56,643,83"/>
+</map>

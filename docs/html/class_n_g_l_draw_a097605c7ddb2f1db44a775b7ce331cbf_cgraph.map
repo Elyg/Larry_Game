@@ -1,0 +1,4 @@
+<map id="NGLDraw::debugPhysicsWorld" name="NGLDraw::debugPhysicsWorld">
+<area shape="rect" id="node2" href="$class_collision_shape.html#a419073488476916f9dba2dd97ae2bf76" title="create instance of the collision shape " alt="" coords="278,5,445,32"/>
+<area shape="rect" id="node3" href="$class_collision_shape.html#a577a537932f6650525bd52937ed597ab" title="prints the shape map " alt="" coords="259,56,463,83"/>
+</map>

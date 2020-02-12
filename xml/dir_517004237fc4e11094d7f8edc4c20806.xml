@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_517004237fc4e11094d7f8edc4c20806" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="_animation_8cpp">Animation.cpp</innerfile>
+    <innerfile refid="_bullet_debug_draw_8cpp">BulletDebugDraw.cpp</innerfile>
+    <innerfile refid="_camera_8cpp">Camera.cpp</innerfile>
+    <innerfile refid="_character_8cpp">Character.cpp</innerfile>
+    <innerfile refid="_coin_8cpp">Coin.cpp</innerfile>
+    <innerfile refid="_coinfactory_8cpp">Coinfactory.cpp</innerfile>
+    <innerfile refid="_collision_shape_8cpp">CollisionShape.cpp</innerfile>
+    <innerfile refid="_controls_8cpp">Controls.cpp</innerfile>
+    <innerfile refid="_g_u_i_draw_8cpp">GUIDraw.cpp</innerfile>
+    <innerfile refid="_high_score_8cpp">HighScore.cpp</innerfile>
+    <innerfile refid="_level_8cpp">Level.cpp</innerfile>
+    <innerfile refid="_ltimer_8cpp">Ltimer.cpp</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="_n_g_l_draw_8cpp">NGLDraw.cpp</innerfile>
+    <innerfile refid="_physics_world_8cpp">PhysicsWorld.cpp</innerfile>
+    <innerfile refid="_platform_8cpp">Platform.cpp</innerfile>
+    <innerfile refid="_platform_factory_8cpp">PlatformFactory.cpp</innerfile>
+    <innerfile refid="_shader_factory_8cpp">ShaderFactory.cpp</innerfile>
+    <innerfile refid="_text_8cpp">Text.cpp</innerfile>
+    <innerfile refid="_trigger_8cpp">Trigger.cpp</innerfile>
+    <innerfile refid="_trigger_factory_8cpp">TriggerFactory.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/"/>
+  </compounddef>
+</doxygen>

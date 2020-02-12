@@ -1,0 +1,19 @@
+<map id="Coin.h" name="Coin.h">
+<area shape="rect" id="node2" href="$_n_g_l_draw_8h.html" title="NGLDraw.h" alt="" coords="910,80,1000,107"/>
+<area shape="rect" id="node33" href="$_trigger_8h.html" title="Trigger.h" alt="" coords="2061,229,2134,256"/>
+<area shape="rect" id="node27" href="$_ltimer_8h.html" title="Ltimer.h" alt="" coords="1091,304,1160,331"/>
+<area shape="rect" id="node9" href="$_text_8h.html" title="Basic text rendering for OpenGL 3.x. " alt="" coords="206,229,264,256"/>
+<area shape="rect" id="node15" href="$_character_8h.html" title="Character.h" alt="" coords="547,229,638,256"/>
+<area shape="rect" id="node28" href="$_level_8h.html" title="Level.h" alt="" coords="350,155,414,181"/>
+<area shape="rect" id="node29" href="$_animation_8h.html" title="Animation.h" alt="" coords="762,155,852,181"/>
+<area shape="rect" id="node31" href="$_camera_8h.html" title="Camera.h" alt="" coords="877,155,955,181"/>
+<area shape="rect" id="node32" href="$_coin_factory_8h.html" title="CoinFactory.h" alt="" coords="2062,155,2166,181"/>
+<area shape="rect" id="node35" href="$_platform_factory_8h.html" title="PlatformFactory.h" alt="" coords="438,155,564,181"/>
+<area shape="rect" id="node37" href="$_high_score_8h.html" title="HighScore.h" alt="" coords="1068,155,1162,181"/>
+<area shape="rect" id="node41" href="$_trigger_factory_8h.html" title="TriggerFactory.h" alt="" coords="1256,155,1374,181"/>
+<area shape="rect" id="node45" href="$_shader_factory_8h.html" title="ShaderFactory.h" alt="" coords="1461,155,1579,181"/>
+<area shape="rect" id="node16" href="$_physics_world_8h.html" title="PhysicsWorld.h" alt="" coords="796,304,911,331"/>
+<area shape="rect" id="node24" href="$_collision_shape_8h.html" title="CollisionShape.h" alt="" coords="532,304,652,331"/>
+<area shape="rect" id="node21" href="$_bullet_debug_draw_8h.html" title="BulletDebugDraw.h" alt="" coords="830,379,964,405"/>
+<area shape="rect" id="node36" href="$_platform_8h.html" title="Platform.h" alt="" coords="440,229,523,256"/>
+</map>

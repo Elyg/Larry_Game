@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_camera_8h" kind="file">
+    <compoundname>Camera.h</compoundname>
+    <includes refid="_physics_world_8h" local="yes">PhysicsWorld.h</includes>
+    <includes local="yes">ngl/Camera.h</includes>
+    <includedby refid="_camera_8cpp" local="yes">Camera.cpp</includedby>
+    <includedby refid="_n_g_l_draw_8h" local="yes">NGLDraw.h</includedby>
+    <incdepgraph>
+      <node id="1522">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="1523" relation="include">
+        </childnode>
+        <childnode refid="1524" relation="include">
+        </childnode>
+        <childnode refid="1517" relation="include">
+        </childnode>
+      </node>
+      <node id="1519">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="1524">
+        <label>vector</label>
+      </node>
+      <node id="1518">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="1514">
+        <label>Camera.h</label>
+        <link refid="Camera.h"/>
+        <childnode refid="1515" relation="include">
+        </childnode>
+        <childnode refid="1525" relation="include">
+        </childnode>
+      </node>
+      <node id="1516">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="1523">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="1521">
+        <label>set</label>
+      </node>
+      <node id="1517">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="1525">
+        <label>ngl/Camera.h</label>
+      </node>
+      <node id="1520">
+        <label>memory</label>
+      </node>
+      <node id="1515">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="1516" relation="include">
+        </childnode>
+        <childnode refid="1517" relation="include">
+        </childnode>
+        <childnode refid="1518" relation="include">
+        </childnode>
+        <childnode refid="1519" relation="include">
+        </childnode>
+        <childnode refid="1520" relation="include">
+        </childnode>
+        <childnode refid="1521" relation="include">
+        </childnode>
+        <childnode refid="1522" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1537">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1538" relation="include">
+        </childnode>
+        <childnode refid="1528" relation="include">
+        </childnode>
+      </node>
+      <node id="1533">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1534" relation="include">
+        </childnode>
+        <childnode refid="1528" relation="include">
+        </childnode>
+      </node>
+      <node id="1542">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="1536">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="1529">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1541">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1534" relation="include">
+        </childnode>
+        <childnode refid="1542" relation="include">
+        </childnode>
+        <childnode refid="1528" relation="include">
+        </childnode>
+      </node>
+      <node id="1527">
+        <label>Camera.cpp</label>
+        <link refid="_camera_8cpp"/>
+      </node>
+      <node id="1539">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="1540" relation="include">
+        </childnode>
+        <childnode refid="1529" relation="include">
+        </childnode>
+      </node>
+      <node id="1538">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="1528">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1529" relation="include">
+        </childnode>
+        <childnode refid="1530" relation="include">
+        </childnode>
+        <childnode refid="1531" relation="include">
+        </childnode>
+        <childnode refid="1533" relation="include">
+        </childnode>
+        <childnode refid="1535" relation="include">
+        </childnode>
+        <childnode refid="1539" relation="include">
+        </childnode>
+        <childnode refid="1541" relation="include">
+        </childnode>
+      </node>
+      <node id="1530">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="1526">
+        <label>Camera.h</label>
+        <link refid="Camera.h"/>
+        <childnode refid="1527" relation="include">
+        </childnode>
+        <childnode refid="1528" relation="include">
+        </childnode>
+      </node>
+      <node id="1531">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="1532" relation="include">
+        </childnode>
+        <childnode refid="1529" relation="include">
+        </childnode>
+        <childnode refid="1530" relation="include">
+        </childnode>
+        <childnode refid="1528" relation="include">
+        </childnode>
+      </node>
+      <node id="1534">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="1532">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="1535">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="1536" relation="include">
+        </childnode>
+        <childnode refid="1537" relation="include">
+        </childnode>
+      </node>
+      <node id="1540">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_camera" prot="public">Camera</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Tom Rule </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CAMERA__</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMERA__</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_physics_world_8h" kindref="compound">PhysicsWorld.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ngl/Camera.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_camera" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_camera" kindref="compound">Camera</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_camera_1af0c271467c41064642beb2f1d28ef5d6" kindref="member">Camera</ref>(<ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<sp/>_physics);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_camera_1ad1897942d0ccf91052386388a497349f" kindref="member">~Camera</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" kindref="member">updatePos</ref>(std::string<sp/>_name);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" kindref="member">snapPos</ref>(std::string<sp/>_name);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" kindref="member">snapPos</ref>(std::string<sp/>_name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_angle);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" kindref="member">forcePos</ref>(std::string<sp/>_name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_angle);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" kindref="member">forcePos</ref>(std::string<sp/>_name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_angle,<sp/>ngl::Vec3<sp/>_focus);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec4<sp/><ref refid="class_camera_1a3b565fb6a9ec8aab39fb5f57ee188a0d" kindref="member">getEye</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a00fd996bda56a58447739f2543abc545" kindref="member">setEye</ref>(ngl::Vec4<sp/>_eye);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec4<sp/><ref refid="class_camera_1ae19b3c8112edf783476dd2197baa4a36" kindref="member">getLook</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1ab46fe10a05b101d6b4fa14fd09117748" kindref="member">setLook</ref>(ngl::Vec4<sp/>_look);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Mat4<sp/><ref refid="class_camera_1aef53a322f457d7524838961257a9209e" kindref="member">getViewMatrix</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Mat4<sp/><ref refid="class_camera_1a376f5df8168b969cea49fea6b7881160" kindref="member">getVPMatrix</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Mat4<sp/><ref refid="class_camera_1ad6b6e1eeb63a2a9e1bfdb0a2ce99ea7e" kindref="member">getProjectionMatrix</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_camera_1acfdfc9d8b5b2ac82108a5c538aca8f83" kindref="member">getDistance</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a64a11237be8d57b468666cae99741864" kindref="member">setDistance</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_distance);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="class_camera_1a6aa244c08427100da9e8ea5b2fa88cd8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a6aa244c08427100da9e8ea5b2fa88cd8" kindref="member">getHeight</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" kindref="member">m_camHeight</ref>;}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="class_camera_1a1ccc13246c520c77b09f680bd5bfaf86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a1ccc13246c520c77b09f680bd5bfaf86" kindref="member">setHeight</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_height)<sp/>{<ref refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" kindref="member">m_camHeight</ref><sp/>=<sp/>_height;}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_camera_1aeb2fffe048b65431de6b2beccdb34135" kindref="member">getAngle</ref>();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a60d0c53628aa3654b64eb1bc8beb1e28" kindref="member">setAngle</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_angle);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_camera_1a8936b4a8ca0426b7fcd99fd3aafd3748" kindref="member">getIdealPos</ref>();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a49e8ca8db6e215ada90c8c2db6fbb4fd" kindref="member">setIdealPos</ref>(ngl::Vec3<sp/>_pos);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_1ae8ed31422d897f6a8df266048beb14ea" kindref="member">setShape</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_angle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_aspect,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_near,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_far);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="121" refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Camera<sp/>*<ref refid="class_camera_1a452e787ab424125456f1c78f0b9508b6" kindref="member">m_camera</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_camera_1a8aa7769c1bd695f705c2efa12e887b52" kindref="member">m_camIdealPos</ref>;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_camera_1ae0462f3e9b30983eed14c39c892ffe0f" kindref="member">m_camDistance</ref>;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a3bf5da6c6cc92ccaa8a10c6a0955197e" kindref="member">m_tempDistance</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="class_camera_1a799ac266489a22baf8dbbc6243895407" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a799ac266489a22baf8dbbc6243895407" kindref="member">m_camAngle</ref>;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_camera_1a67ddb8cc8866c76f7b6cc238d3f076bd" kindref="member">m_camHeight</ref>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_camera_1a753dd77b11956734d5384a0b3a0f992f" kindref="member">m_camVel</ref>;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="class_camera_1a648178657732de1dfa9102997a79dc91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<sp/><ref refid="class_camera_1a648178657732de1dfa9102997a79dc91" kindref="member">m_physics</ref>;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CAMERA</highlight></codeline>
+<codeline lineno="146"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Camera.h"/>
+  </compounddef>
+</doxygen>

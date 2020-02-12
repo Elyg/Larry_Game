@@ -1,0 +1,23 @@
+<map id="CollisionShape.h" name="CollisionShape.h">
+<area shape="rect" id="node2" href="$_collision_shape_8cpp.html" title="CollisionShape.cpp" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$_n_g_l_draw_8cpp.html" title="NGLDraw.cpp" alt="" coords="65,379,169,405"/>
+<area shape="rect" id="node4" href="$_physics_world_8cpp.html" title="PhysicsWorld.cpp" alt="" coords="748,80,876,107"/>
+<area shape="rect" id="node5" href="$_platform_8h.html" title="Platform.h" alt="" coords="464,80,547,107"/>
+<area shape="rect" id="node7" href="$_platform_factory_8h.html" title="PlatformFactory.h" alt="" coords="495,155,621,181"/>
+<area shape="rect" id="node13" href="$_character_8h.html" title="Character.h" alt="" coords="673,304,764,331"/>
+<area shape="rect" id="node21" href="$_level_8h.html" title="Level.h" alt="" coords="788,304,852,331"/>
+<area shape="rect" id="node6" href="$_platform_8cpp.html" title="Platform.cpp" alt="" coords="375,155,471,181"/>
+<area shape="rect" id="node8" href="$_platform_factory_8cpp.html" title="PlatformFactory.cpp" alt="" coords="358,229,497,256"/>
+<area shape="rect" id="node9" href="$_n_g_l_draw_8h.html" title="NGLDraw.h" alt="" coords="523,229,613,256"/>
+<area shape="rect" id="node10" href="$main_8cpp.html" title="main.cpp" alt="" coords="324,379,399,405"/>
+<area shape="rect" id="node11" href="$_animation_8h.html" title="Animation.h" alt="" coords="265,304,356,331"/>
+<area shape="rect" id="node15" href="$_coin_8h.html" title="Coin.h" alt="" coords="538,304,597,331"/>
+<area shape="rect" id="node19" href="$_controls_8h.html" title="Controls.h" alt="" coords="431,304,513,331"/>
+<area shape="rect" id="node12" href="$_animation_8cpp.html" title="Animation.cpp" alt="" coords="194,379,299,405"/>
+<area shape="rect" id="node14" href="$_character_8cpp.html" title="Character.cpp" alt="" coords="769,379,873,405"/>
+<area shape="rect" id="node16" href="$_coin_8cpp.html" title="Coin.cpp" alt="" coords="543,379,617,405"/>
+<area shape="rect" id="node17" href="$_coin_factory_8h.html" title="CoinFactory.h" alt="" coords="641,379,745,405"/>
+<area shape="rect" id="node18" href="$_coinfactory_8cpp.html" title="Coinfactory.cpp" alt="" coords="636,453,751,480"/>
+<area shape="rect" id="node20" href="$_controls_8cpp.html" title="Controls.cpp" alt="" coords="423,379,519,405"/>
+<area shape="rect" id="node22" href="$_level_8cpp.html" title="Level.cpp" alt="" coords="898,379,976,405"/>
+</map>

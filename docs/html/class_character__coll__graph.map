@@ -1,0 +1,5 @@
+<map id="Character" name="Character">
+<area shape="rect" id="node2" href="$class_physics_world.html" title="This manages coin creation and collisions of the coins. " alt="" coords="5,177,187,562"/>
+<area shape="rect" id="node3" href="$struct_physics_world_1_1_body.html" title="{PhysicsWorld::Body\n|+ name\l+ body\l|}" alt="" coords="25,6,167,98"/>
+<area shape="rect" id="node4" href="$class_l_timer.html" title="This class is timer that uses SDL to manage time Modified from &#45;: Lazyfoo.net. (2014). Lazy Foo&#39; Productions. [online] Available at: http://lazyfoo.net/SDL_tutorials/lesson15/ [Accessed 8 Dec. 2015]. " alt="" coords="212,250,335,489"/>
+</map>

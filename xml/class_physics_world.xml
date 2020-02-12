@@ -1,0 +1,1615 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_physics_world" kind="class" prot="public">
+    <compoundname>PhysicsWorld</compoundname>
+    <includes refid="_physics_world_8h" local="no">PhysicsWorld.h</includes>
+    <innerclass refid="struct_physics_world_1_1_body" prot="private">PhysicsWorld::Body</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_physics_world_1a39c3dd8e153fb75904cef2bb43382ec6" prot="private" static="no">
+        <type>std::pair&lt; const btRigidBody *, const btRigidBody * &gt;</type>
+        <definition>typedef std::pair&lt;const btRigidBody*, const btRigidBody*&gt; PhysicsWorld::collisionPair</definition>
+        <argsstring></argsstring>
+        <name>collisionPair</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="245" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_physics_world_1a91f5efbab95526e5882a43726f977ea3" prot="private" static="no">
+        <type>std::set&lt; <ref refid="class_physics_world_1a39c3dd8e153fb75904cef2bb43382ec6" kindref="member">collisionPair</ref> &gt;</type>
+        <definition>typedef std::set&lt;collisionPair&gt; PhysicsWorld::collisionPairs</definition>
+        <argsstring></argsstring>
+        <name>collisionPairs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="246" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_physics_world_1aafe85a6dd0cbccf4c6fe2fe74e467caf" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_bullet_debug_draw" kindref="compound">BulletDebugDraw</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;BulletDebugDraw&gt; PhysicsWorld::debugDrawer</definition>
+        <argsstring></argsstring>
+        <name>debugDrawer</name>
+        <briefdescription>
+<para>the debug drawer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="233" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="233" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" compoundref="_physics_world_8cpp" startline="17" endline="46">PhysicsWorld</referencedby>
+        <referencedby refid="class_physics_world_1a9912925d440ee83d22fc00f692574ca1" compoundref="_physics_world_8cpp" startline="574" endline="578">debugWorldDraw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a0e94c5e2ddfb045e096149274bcca439" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; btDefaultCollisionConfiguration &gt;</type>
+        <definition>std::unique_ptr&lt;btDefaultCollisionConfiguration&gt; PhysicsWorld::m_collisionConfiguration</definition>
+        <argsstring></argsstring>
+        <name>m_collisionConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="236" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="236" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" compoundref="_physics_world_8cpp" startline="17" endline="46">PhysicsWorld</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a16151e671d784d31a9b0fde1679804b7" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; btCollisionDispatcher &gt;</type>
+        <definition>std::unique_ptr&lt;btCollisionDispatcher&gt; PhysicsWorld::m_dispatcher</definition>
+        <argsstring></argsstring>
+        <name>m_dispatcher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="237" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="237" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" compoundref="_physics_world_8cpp" startline="17" endline="46">PhysicsWorld</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a6668df1ffb922daa039b5f7ffe4bba8b" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; btBroadphaseInterface &gt;</type>
+        <definition>std::unique_ptr&lt;btBroadphaseInterface&gt; PhysicsWorld::m_overlappingPairCache</definition>
+        <argsstring></argsstring>
+        <name>m_overlappingPairCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="238" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="238" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" compoundref="_physics_world_8cpp" startline="17" endline="46">PhysicsWorld</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1af8d39a3b5ecea4037dd08446a8fcfd42" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; btSequentialImpulseConstraintSolver &gt;</type>
+        <definition>std::unique_ptr&lt;btSequentialImpulseConstraintSolver&gt; PhysicsWorld::m_solver</definition>
+        <argsstring></argsstring>
+        <name>m_solver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="239" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="239" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" compoundref="_physics_world_8cpp" startline="17" endline="46">PhysicsWorld</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a09619087b797b3325fee215a657ede9f" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; btDiscreteDynamicsWorld &gt;</type>
+        <definition>std::unique_ptr&lt;btDiscreteDynamicsWorld&gt; PhysicsWorld::m_dynamicsWorld</definition>
+        <argsstring></argsstring>
+        <name>m_dynamicsWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="240" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="240" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" compoundref="_physics_world_8cpp" startline="17" endline="46">PhysicsWorld</referencedby>
+        <referencedby refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">addSphere</referencedby>
+        <referencedby refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" compoundref="_physics_world_8cpp" startline="88" endline="125">addLegSphere</referencedby>
+        <referencedby refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" compoundref="_physics_world_8cpp" startline="128" endline="153">addLevelMesh</referencedby>
+        <referencedby refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" compoundref="_physics_world_8cpp" startline="154" endline="183">addMesh</referencedby>
+        <referencedby refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" compoundref="_physics_world_8cpp" startline="185" endline="220">addBox</referencedby>
+        <referencedby refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" compoundref="_physics_world_8cpp" startline="227" endline="262">addPlatform</referencedby>
+        <referencedby refid="class_physics_world_1a0a5ebdf9925b48d0a8725545010267f2" compoundref="_physics_world_8cpp" startline="264" endline="268">step</referencedby>
+        <referencedby refid="class_physics_world_1a2abd0187fc57fdef29022bc2f69980ea" compoundref="_physics_world_8cpp" startline="492" endline="501">reset</referencedby>
+        <referencedby refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" compoundref="_physics_world_8cpp" startline="560" endline="572">removeCollisionObj</referencedby>
+        <referencedby refid="class_physics_world_1a9912925d440ee83d22fc00f692574ca1" compoundref="_physics_world_8cpp" startline="574" endline="578">debugWorldDraw</referencedby>
+        <referencedby refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" compoundref="_physics_world_8cpp" startline="580" endline="600">rayTest</referencedby>
+        <referencedby refid="class_physics_world_1a2eb74a13ee526a3fcf449f28fa95c516" compoundref="_physics_world_8cpp" startline="602" endline="633">getVelocityOfPlatform</referencedby>
+        <referencedby refid="class_physics_world_1a68c31016abc95c051890c9a211ac4565" compoundref="_physics_world_8cpp" startline="710" endline="729">rayNormalTest</referencedby>
+        <referencedby refid="class_physics_world_1a0d04a6ac71656dbaa41394b3bfe9e4be" compoundref="_physics_world_8h" startline="37" endline="40">setGravity</referencedby>
+        <referencedby refid="class_physics_world_1a23a2c8693eb25ad28e13b66e95a7c573" compoundref="_physics_world_8h" startline="48" endline="51">getNumCollisionObjects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a8ca5d5cfae3ab66acc40bb705d1a955b" prot="private" static="no" mutable="no">
+        <type>btCollisionShape *</type>
+        <definition>btCollisionShape* PhysicsWorld::m_groundShape</definition>
+        <argsstring></argsstring>
+        <name>m_groundShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="241" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref> &gt;</type>
+        <definition>std::vector&lt;Body&gt; PhysicsWorld::m_bodies</definition>
+        <argsstring></argsstring>
+        <name>m_bodies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="242" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="242" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" compoundref="_physics_world_8cpp" startline="47" endline="86">addSphere</referencedby>
+        <referencedby refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" compoundref="_physics_world_8cpp" startline="88" endline="125">addLegSphere</referencedby>
+        <referencedby refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" compoundref="_physics_world_8cpp" startline="128" endline="153">addLevelMesh</referencedby>
+        <referencedby refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" compoundref="_physics_world_8cpp" startline="154" endline="183">addMesh</referencedby>
+        <referencedby refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" compoundref="_physics_world_8cpp" startline="185" endline="220">addBox</referencedby>
+        <referencedby refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" compoundref="_physics_world_8cpp" startline="227" endline="262">addPlatform</referencedby>
+        <referencedby refid="class_physics_world_1acef2efa13c576073a2a907709114422d" compoundref="_physics_world_8cpp" startline="270" endline="284">getTransformMatrix</referencedby>
+        <referencedby refid="class_physics_world_1a59241bfca0313e9d049f55f546e6b184" compoundref="_physics_world_8cpp" startline="323" endline="348">setTransformMatrix</referencedby>
+        <referencedby refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" compoundref="_physics_world_8cpp" startline="350" endline="378">getPosition</referencedby>
+        <referencedby refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">getLinVelocity</referencedby>
+        <referencedby refid="class_physics_world_1a9898273f563625b150091d5657de02f3" compoundref="_physics_world_8cpp" startline="411" endline="434">setAngVelocity</referencedby>
+        <referencedby refid="class_physics_world_1a63bc2c028b9a49498411038100181ed1" compoundref="_physics_world_8cpp" startline="436" endline="464">getAngVelocity</referencedby>
+        <referencedby refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" compoundref="_physics_world_8cpp" startline="466" endline="489">setLinVelocity</referencedby>
+        <referencedby refid="class_physics_world_1a2abd0187fc57fdef29022bc2f69980ea" compoundref="_physics_world_8cpp" startline="492" endline="501">reset</referencedby>
+        <referencedby refid="class_physics_world_1ae993e38768816889858cc953e36271ed" compoundref="_physics_world_8cpp" startline="502" endline="509">printBodies</referencedby>
+        <referencedby refid="class_physics_world_1a4cb52e883aaf26f356dc6906757af84d" compoundref="_physics_world_8cpp" startline="510" endline="523">addImpulse</referencedby>
+        <referencedby refid="class_physics_world_1ac14ab775fcccc66e75fb4f70da54ac72" compoundref="_physics_world_8cpp" startline="527" endline="540">applyForceCentral</referencedby>
+        <referencedby refid="class_physics_world_1a6d5cca57854b708690441dd0a75cb2fd" compoundref="_physics_world_8cpp" startline="541" endline="558">getCentreOfMass</referencedby>
+        <referencedby refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" compoundref="_physics_world_8cpp" startline="560" endline="572">removeCollisionObj</referencedby>
+        <referencedby refid="class_physics_world_1a2eb74a13ee526a3fcf449f28fa95c516" compoundref="_physics_world_8cpp" startline="602" endline="633">getVelocityOfPlatform</referencedby>
+        <referencedby refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" compoundref="_physics_world_8cpp" startline="658" endline="670">setGravityForBody</referencedby>
+        <referencedby refid="class_physics_world_1a6f01ee5e9135ac370a8a19767de1a838" compoundref="_physics_world_8cpp" startline="673" endline="690">freezeBody</referencedby>
+        <referencedby refid="class_physics_world_1a98831beb054a4668161a113aa770c3dc" compoundref="_physics_world_8cpp" startline="692" endline="708">FindGameObject</referencedby>
+        <referencedby refid="class_physics_world_1a68a706855bc60f6d404cfbab4ca0d8fa" compoundref="_physics_world_8h" startline="56" endline="56">getBodyNameAtIndex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1acc61607e3995af6acdd2d6b9bef041f6" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref></type>
+        <definition>Body PhysicsWorld::collisionPairA</definition>
+        <argsstring></argsstring>
+        <name>collisionPairA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="247" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a681fa4ec76a590735c2f6e6ad99f9324" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref></type>
+        <definition>Body PhysicsWorld::collisionPairB</definition>
+        <argsstring></argsstring>
+        <name>collisionPairB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="248" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a0ba57170f80894014e04f33ff4a425ed" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref> &gt;</type>
+        <definition>std::vector&lt;Body&gt; PhysicsWorld::m_collisionBodies</definition>
+        <argsstring></argsstring>
+        <name>m_collisionBodies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="249" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="249" bodyend="-1"/>
+        <referencedby refid="class_physics_world_1a98831beb054a4668161a113aa770c3dc" compoundref="_physics_world_8cpp" startline="692" endline="708">FindGameObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a1cf0d1b71518b8fb8fcbbdf9f760ad6c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector &lt;Body&gt; &gt; PhysicsWorld::m_collisionBodiesPair</definition>
+        <argsstring></argsstring>
+        <name>m_collisionBodiesPair</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="250" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a258c6d6f5ba325725af45f66ebb2dc20" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_physics_world_1_1_body" kindref="compound">Body</ref> &gt;</type>
+        <definition>std::vector&lt;Body&gt; PhysicsWorld::m_findGameBodies</definition>
+        <argsstring></argsstring>
+        <name>m_findGameBodies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="251" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_physics_world_1a19acd3323c2662f4cc8af20b7d5101a2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world_1a91f5efbab95526e5882a43726f977ea3" kindref="member">collisionPairs</ref></type>
+        <definition>collisionPairs PhysicsWorld::m_pairsLastUpdate</definition>
+        <argsstring></argsstring>
+        <name>m_pairsLastUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="252" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PhysicsWorld::PhysicsWorld</definition>
+        <argsstring>(bool _debug)</argsstring>
+        <name>PhysicsWorld</name>
+        <param>
+          <type>bool</type>
+          <declname>_debug</declname>
+        </param>
+        <briefdescription>
+<para>ctor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_debug</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- enables or disables debug drawing </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>collision configuration contains default setup for memory, collision setup. Advanced users can create their own configuration.</para><para>use the default collision dispatcher. For parallel processing you can use a diffent dispatcher (see Extras/BulletMultiThreaded)</para><para>btDbvtBroadphase is a good general purpose broadphase. You can also try out btAxis3Sweep.</para><para>the default constraint solver. For parallel processing you can use a different solver (see Extras/BulletMultiThreaded) </para>        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="25" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="17" bodyend="46"/>
+        <references refid="class_physics_world_1aafe85a6dd0cbccf4c6fe2fe74e467caf" compoundref="_physics_world_8h" startline="233">debugDrawer</references>
+        <references refid="class_physics_world_1a0e94c5e2ddfb045e096149274bcca439" compoundref="_physics_world_8h" startline="236">m_collisionConfiguration</references>
+        <references refid="class_physics_world_1a16151e671d784d31a9b0fde1679804b7" compoundref="_physics_world_8h" startline="237">m_dispatcher</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <references refid="class_physics_world_1a6668df1ffb922daa039b5f7ffe4bba8b" compoundref="_physics_world_8h" startline="238">m_overlappingPairCache</references>
+        <references refid="class_physics_world_1af8d39a3b5ecea4037dd08446a8fcfd42" compoundref="_physics_world_8h" startline="239">m_solver</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1abf1573b008b52b60a83a8f36cbdd51bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PhysicsWorld::~PhysicsWorld</definition>
+        <argsstring>()</argsstring>
+        <name>~PhysicsWorld</name>
+        <briefdescription>
+<para>dtor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="29" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="222" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a0d04a6ac71656dbaa41394b3bfe9e4be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::setGravity</definition>
+        <argsstring>(float _x, float _y, float _z)</argsstring>
+        <name>setGravity</name>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_z</declname>
+        </param>
+        <briefdescription>
+<para>set the gravity for the whole world </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- single vector for gravity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="37" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="37" bodyend="40"/>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a2cdbd862a8cd35eed77772fa870a3d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::setGravity</definition>
+        <argsstring>(ngl::Vec3 _g)</argsstring>
+        <name>setGravity</name>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="41" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="41" bodyend="44"/>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a23a2c8693eb25ad28e13b66e95a7c573" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int PhysicsWorld::getNumCollisionObjects</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumCollisionObjects</name>
+        <briefdescription>
+<para>returns the number of collision objects in the world </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="48" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="48" bodyend="51"/>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a68a706855bc60f6d404cfbab4ca0d8fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string PhysicsWorld::getBodyNameAtIndex</definition>
+        <argsstring>(unsigned int i) const </argsstring>
+        <name>getBodyNameAtIndex</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>returns the name of the body at the chosen index </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the index of the desired body </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="56" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="56" bodyend="56"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::addSphere</definition>
+        <argsstring>(std::string _shapeName, const ngl::Vec3 &amp;_pos, ngl::Real _mass, const ngl::Vec3 &amp;_inertia, bool _draw)</argsstring>
+        <name>addSphere</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shapeName</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_pos</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_mass</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_inertia</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_draw</declname>
+        </param>
+        <briefdescription>
+<para>adds a rigid body sphere to the physics world </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shapeName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the shape&apos;s position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_mass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the mass of the shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_inertia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the local inertia for the shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_draw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- enables drawing of the collision mesh in debug mode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Create Dynamic Objects </para>        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="65" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="47" bodyend="86"/>
+        <references refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" compoundref="_physics_world_8h" startline="229">PhysicsWorld::Body::body</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77af087de47c8d9a5b010e7e89f4787cc0f" compoundref="_physics_world_8cpp" startline="10">COL_BALL</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a21be7ed7a7decb355e8293284300e43b" compoundref="_physics_world_8cpp" startline="12">COL_ENVI</references>
+        <references refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" compoundref="_collision_shape_8cpp" startline="87" endline="97">CollisionShape::getShape</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <references refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" compoundref="_physics_world_8h" startline="228">PhysicsWorld::Body::name</references>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">Camera::snapPos</referencedby>
+        <referencedby refid="class_character_1ae302146e2d121694631a48618bda6aec" compoundref="_character_8cpp" startline="40" endline="46">Character::createCharacter</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">Character::resetCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::addLegSphere</definition>
+        <argsstring>(std::string _shapeName, const ngl::Vec3 &amp;_pos, ngl::Real _mass, const ngl::Vec3 &amp;_inertia)</argsstring>
+        <name>addLegSphere</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shapeName</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_pos</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_mass</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_inertia</declname>
+        </param>
+        <briefdescription>
+<para>adds a rigid body capsule to the physics world, used for standing character </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shapeName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the shape&apos;s position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_mass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the mass of the shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_inertia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the local inertia for the shape </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Create Dynamic Objects </para>        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="73" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="88" bodyend="125"/>
+        <references refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" compoundref="_physics_world_8h" startline="229">PhysicsWorld::Body::body</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77af087de47c8d9a5b010e7e89f4787cc0f" compoundref="_physics_world_8cpp" startline="10">COL_BALL</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a21be7ed7a7decb355e8293284300e43b" compoundref="_physics_world_8cpp" startline="12">COL_ENVI</references>
+        <references refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" compoundref="_collision_shape_8cpp" startline="87" endline="97">CollisionShape::getShape</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <references refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" compoundref="_physics_world_8h" startline="228">PhysicsWorld::Body::name</references>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::addMesh</definition>
+        <argsstring>(std::string _shapeName, const ngl::Vec3 &amp;_pos, ngl::Real _mass, const ngl::Vec3 &amp;_inertia)</argsstring>
+        <name>addMesh</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shapeName</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_pos</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_mass</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_inertia</declname>
+        </param>
+        <briefdescription>
+<para>adds a rigid body mesh to the physics world </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shapeName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape, must match the name of an existing collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the shape&apos;s position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_mass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the mass of the shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_inertia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the local inertia for the shape </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Create Dynamic Objects </para>        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="81" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="154" bodyend="183"/>
+        <references refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" compoundref="_physics_world_8h" startline="229">PhysicsWorld::Body::body</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a21be7ed7a7decb355e8293284300e43b" compoundref="_physics_world_8cpp" startline="12">COL_ENVI</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a35b75a8b1b7af85428f0e996a8ab18ae" compoundref="_physics_world_8cpp" startline="11">COL_MESH</references>
+        <references refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" compoundref="_collision_shape_8cpp" startline="87" endline="97">CollisionShape::getShape</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <references refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" compoundref="_physics_world_8h" startline="228">PhysicsWorld::Body::name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::addLevelMesh</definition>
+        <argsstring>(std::string _shapeName, const ngl::Vec3 &amp;_pos)</argsstring>
+        <name>addLevelMesh</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shapeName</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_pos</declname>
+        </param>
+        <briefdescription>
+<para>adds an unmoving rigid body mesh to the physics world. Creates a convex collision shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shapeName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape, must match the name of an existing collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the shape&apos;s position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Create Dynamic Objects </para>        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="87" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="128" bodyend="153"/>
+        <references refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" compoundref="_physics_world_8h" startline="229">PhysicsWorld::Body::body</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77af087de47c8d9a5b010e7e89f4787cc0f" compoundref="_physics_world_8cpp" startline="10">COL_BALL</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a21be7ed7a7decb355e8293284300e43b" compoundref="_physics_world_8cpp" startline="12">COL_ENVI</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a35b75a8b1b7af85428f0e996a8ab18ae" compoundref="_physics_world_8cpp" startline="11">COL_MESH</references>
+        <references refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" compoundref="_collision_shape_8cpp" startline="87" endline="97">CollisionShape::getShape</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <references refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" compoundref="_physics_world_8h" startline="228">PhysicsWorld::Body::name</references>
+        <referencedby refid="class_level_1af91b84fa1d96f6ee770c2d10f252c4b1" compoundref="_level_8cpp" startline="35" endline="38">Level::createLevel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::addBox</definition>
+        <argsstring>(std::string _shapeName, const ngl::Vec3 &amp;_pos)</argsstring>
+        <name>addBox</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shapeName</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_pos</declname>
+        </param>
+        <briefdescription>
+<para>adds a rigid body cube to the physics world </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shapeName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the shape&apos;s position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Create Dynamic Objects </para>        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="93" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="185" bodyend="220"/>
+        <references refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" compoundref="_physics_world_8h" startline="229">PhysicsWorld::Body::body</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77af087de47c8d9a5b010e7e89f4787cc0f" compoundref="_physics_world_8cpp" startline="10">COL_BALL</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a21be7ed7a7decb355e8293284300e43b" compoundref="_physics_world_8cpp" startline="12">COL_ENVI</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a35b75a8b1b7af85428f0e996a8ab18ae" compoundref="_physics_world_8cpp" startline="11">COL_MESH</references>
+        <references refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" compoundref="_collision_shape_8cpp" startline="87" endline="97">CollisionShape::getShape</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <references refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" compoundref="_physics_world_8h" startline="228">PhysicsWorld::Body::name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a0a5ebdf9925b48d0a8725545010267f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::step</definition>
+        <argsstring>(float _timeStep, float _maxSubSteps, float _fixedTimeStep)</argsstring>
+        <name>step</name>
+        <param>
+          <type>float</type>
+          <declname>_timeStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_maxSubSteps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_fixedTimeStep</declname>
+        </param>
+        <briefdescription>
+<para>steps through the physics simulation </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_timeStep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- time between two physics updates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_maxSubSteps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the maximum number of steps Bullet may use each time this function is called </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_fixedTimeStep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the maximum size of a step </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="100" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="264" bodyend="268"/>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::addPlatform</definition>
+        <argsstring>(std::string _shapeName, const ngl::Vec3 &amp;_pos, ngl::Real _mass, const ngl::Vec3 &amp;_inertia)</argsstring>
+        <name>addPlatform</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shapeName</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_pos</declname>
+        </param>
+        <param>
+          <type>ngl::Real</type>
+          <declname>_mass</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_inertia</declname>
+        </param>
+        <briefdescription>
+<para>adds a rigid body platform mesh to the physics world. These don&apos;t collide with level meshes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shapeName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape, must match the name of an existing collision shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the shape&apos;s position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_mass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the mass of the shape </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_inertia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the local inertia for the shape </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Create Dynamic Objects </para>        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="108" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="227" bodyend="262"/>
+        <references refid="struct_physics_world_1_1_body_1a7a98d8e1416c0ec47fa6a5831ea317c9" compoundref="_physics_world_8h" startline="229">PhysicsWorld::Body::body</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77af087de47c8d9a5b010e7e89f4787cc0f" compoundref="_physics_world_8cpp" startline="10">COL_BALL</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a21be7ed7a7decb355e8293284300e43b" compoundref="_physics_world_8cpp" startline="12">COL_ENVI</references>
+        <references refid="_physics_world_8cpp_1ab16fc896e7569b09b11d0b587b50aa77a35b75a8b1b7af85428f0e996a8ab18ae" compoundref="_physics_world_8cpp" startline="11">COL_MESH</references>
+        <references refid="class_collision_shape_1ac2fc5b4b07d9b6f6551d1e021e65626e" compoundref="_collision_shape_8cpp" startline="87" endline="97">CollisionShape::getShape</references>
+        <references refid="class_collision_shape_1a419073488476916f9dba2dd97ae2bf76" compoundref="_collision_shape_8cpp" startline="5" endline="10">CollisionShape::instance</references>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <references refid="struct_physics_world_1_1_body_1a76d993462af7a4aef4bb58d53e780679" compoundref="_physics_world_8h" startline="228">PhysicsWorld::Body::name</references>
+        <referencedby refid="class_platform_1a929d8b9fcdbc32332673d8d48540b909" compoundref="_platform_8cpp" startline="62" endline="67">Platform::createPlatform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a4cb52e883aaf26f356dc6906757af84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::addImpulse</definition>
+        <argsstring>(const ngl::Vec3 &amp;_i, std::string _shape)</argsstring>
+        <name>addImpulse</name>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_i</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>adds an impulse force to the shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the vector for the force </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to apply the force to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="114" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="510" bodyend="523"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">Character::jumpImpulse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1ac14ab775fcccc66e75fb4f70da54ac72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::applyForceCentral</definition>
+        <argsstring>(const ngl::Vec3 &amp;_p, std::string _shape)</argsstring>
+        <name>applyForceCentral</name>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_p</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>applies a force to the shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the vector for the force </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to apply the force to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="120" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="527" bodyend="540"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">Character::characterMove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 PhysicsWorld::getLinVelocity</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>getLinVelocity</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>returns the linear velocity of the specified shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="125" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="379" bodyend="408"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">Camera::updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">Camera::snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">Camera::forcePos</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</referencedby>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">Character::jumpImpulse</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">Character::characterMove</referencedby>
+        <referencedby refid="class_character_1abf33e302dfc561564363d48a518f74a8" compoundref="_character_8cpp" startline="257" endline="275">Character::clampVel</referencedby>
+        <referencedby refid="class_character_1a4840e45e2d4c6d89b8dc88281ea545a3" compoundref="_character_8cpp" startline="277" endline="283">Character::speed</referencedby>
+        <referencedby refid="main_8cpp_1a3499094500944e03f86eb2f89e77f2bc" compoundref="main_8cpp" startline="463" endline="671">game</referencedby>
+        <referencedby refid="class_physics_world_1a2eb74a13ee526a3fcf449f28fa95c516" compoundref="_physics_world_8cpp" startline="602" endline="633">getVelocityOfPlatform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::setLinVelocity</definition>
+        <argsstring>(std::string _shape, ngl::Vec3 &amp;_velocity)</argsstring>
+        <name>setLinVelocity</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3 &amp;</type>
+          <declname>_velocity</declname>
+        </param>
+        <briefdescription>
+<para>sets the linear velocity of the specified shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the new velocity vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="131" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="466" bodyend="489"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">Camera::updatePos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">Camera::forcePos</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</referencedby>
+        <referencedby refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" compoundref="_character_8cpp" startline="83" endline="97">Character::jumpImpulse</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">Character::characterMove</referencedby>
+        <referencedby refid="class_character_1abf33e302dfc561564363d48a518f74a8" compoundref="_character_8cpp" startline="257" endline="275">Character::clampVel</referencedby>
+        <referencedby refid="class_character_1a4840e45e2d4c6d89b8dc88281ea545a3" compoundref="_character_8cpp" startline="277" endline="283">Character::speed</referencedby>
+        <referencedby refid="class_platform_1a4267f5b2b2e9505c7375dcda9af1749e" compoundref="_platform_8cpp" startline="117" endline="181">Platform::movePlatform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a63bc2c028b9a49498411038100181ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 PhysicsWorld::getAngVelocity</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>getAngVelocity</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>returns the angular velocity of the specified shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="136" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="436" bodyend="464"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a9898273f563625b150091d5657de02f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::setAngVelocity</definition>
+        <argsstring>(std::string _shape, ngl::Vec3 &amp;_velocity)</argsstring>
+        <name>setAngVelocity</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3 &amp;</type>
+          <declname>_velocity</declname>
+        </param>
+        <briefdescription>
+<para>sets the angular velocity of the specified shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the new velocity vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="142" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="411" bodyend="434"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a2abd0187fc57fdef29022bc2f69980ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>removes all physics bodies </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="146" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="492" bodyend="501"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 PhysicsWorld::getPosition</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>getPosition</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>returns the position of the specified shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="151" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="350" bodyend="378"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">Camera::updatePos</referencedby>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">Camera::snapPos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">Camera::forcePos</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</referencedby>
+        <referencedby refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">Character::detectCollisionForJump</referencedby>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">Character::characterMove</referencedby>
+        <referencedby refid="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" compoundref="_character_8cpp" startline="303" endline="345">Character::attractForce</referencedby>
+        <referencedby refid="class_level_1adc77f8d6ad3f6dbe32dfd69404e0fdab" compoundref="_level_8cpp" startline="45" endline="151">Level::checkpoints</referencedby>
+        <referencedby refid="class_platform_1a4267f5b2b2e9505c7375dcda9af1749e" compoundref="_platform_8cpp" startline="117" endline="181">Platform::movePlatform</referencedby>
+        <referencedby refid="class_platform_1ab6f1873ee4d7bb018c9b0706f813c270" compoundref="_platform_8cpp" startline="183" endline="186">Platform::getPlatformPos</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1acef2efa13c576073a2a907709114422d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Mat4</type>
+        <definition>ngl::Mat4 PhysicsWorld::getTransformMatrix</definition>
+        <argsstring>(unsigned int _index)</argsstring>
+        <name>getTransformMatrix</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>_index</declname>
+        </param>
+        <briefdescription>
+<para>returns the transformation matrix of the specified shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the index of the desired shape in the bodies array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="156" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="270" bodyend="284"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_platform_1a126ca5dbffe1f3f908a00fcbd5eaa72c" compoundref="_platform_8cpp" startline="80" endline="113">Platform::rotatePlatform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a428dd5813f8bd296083e9a4ca1984211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Mat4</type>
+        <definition>ngl::Mat4 PhysicsWorld::getTransformMatrix</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>getTransformMatrix</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>returns the transformation matrix of the specified shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="161" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="288" bodyend="321"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a59241bfca0313e9d049f55f546e6b184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::setTransformMatrix</definition>
+        <argsstring>(std::string _shape, ngl::Mat4 _mat)</argsstring>
+        <name>setTransformMatrix</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <param>
+          <type>ngl::Mat4</type>
+          <declname>_mat</declname>
+        </param>
+        <briefdescription>
+<para>sets the transformation matrix of the specified shape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_mat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the new matrix </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="167" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="323" bodyend="348"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_platform_1a126ca5dbffe1f3f908a00fcbd5eaa72c" compoundref="_platform_8cpp" startline="80" endline="113">Platform::rotatePlatform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1ae993e38768816889858cc953e36271ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::printBodies</definition>
+        <argsstring>()</argsstring>
+        <name>printBodies</name>
+        <briefdescription>
+<para>prints the names of all rigid bodies in the world </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="171" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="502" bodyend="509"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::removeCollisionObj</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>removeCollisionObj</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>removes the specified rigid body from the world </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="176" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="560" bodyend="572"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">Camera::snapPos</referencedby>
+        <referencedby refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" compoundref="_character_8cpp" startline="48" endline="81">Character::shapeshift</referencedby>
+        <referencedby refid="class_character_1a28f0ea3db0f230c29a4e4bdfa8fa8d6a" compoundref="_character_8cpp" startline="444" endline="462">Character::resetCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a6d5cca57854b708690441dd0a75cb2fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 PhysicsWorld::getCentreOfMass</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>getCentreOfMass</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>returns the position of the specified shape&apos;s centre of mass </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="181" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="541" bodyend="558"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_trigger_1aa93984db488edcfe733bd269755587bc" compoundref="_trigger_8cpp" startline="51" endline="70">Trigger::isHit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a9912925d440ee83d22fc00f692574ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::debugWorldDraw</definition>
+        <argsstring>()</argsstring>
+        <name>debugWorldDraw</name>
+        <briefdescription>
+<para>draws all the collision shapes as wireframes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="185" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="574" bodyend="578"/>
+        <references refid="class_physics_world_1aafe85a6dd0cbccf4c6fe2fe74e467caf" compoundref="_physics_world_8h" startline="233">debugDrawer</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PhysicsWorld::rayTest</definition>
+        <argsstring>(const ngl::Vec3 &amp;_a, const ngl::Vec3 &amp;_b)</argsstring>
+        <name>rayTest</name>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_a</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_b</declname>
+        </param>
+        <briefdescription>
+<para>fires a ray from a to b and returns true if a collision object is obstructing it </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the origin point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the target point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the position of the impact point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="192" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="580" bodyend="600"/>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <referencedby refid="class_camera_1ab65565a0e02bd33806d264c972ed083d" compoundref="_camera_8cpp" startline="31" endline="100">Camera::updatePos</referencedby>
+        <referencedby refid="class_camera_1a7c68c706aa05e265b14a140d97a04b75" compoundref="_camera_8cpp" startline="154" endline="215">Camera::forcePos</referencedby>
+        <referencedby refid="class_character_1aaced86bac9a90ddadf34c946c56f04a4" compoundref="_character_8cpp" startline="99" endline="117">Character::detectCollisionForJump</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a9b736fecd9f428bf52abf04c150a4bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PhysicsWorld::rayTest</definition>
+        <argsstring>(const ngl::Vec3 &amp;_a, const ngl::Vec3 &amp;_b, ngl::Vec3 &amp;_out)</argsstring>
+        <name>rayTest</name>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_a</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_b</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3 &amp;</type>
+          <declname>_out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="193" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="635" bodyend="656"/>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a2eb74a13ee526a3fcf449f28fa95c516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 PhysicsWorld::getVelocityOfPlatform</definition>
+        <argsstring>(const ngl::Vec3 &amp;_a, const ngl::Vec3 &amp;_b)</argsstring>
+        <name>getVelocityOfPlatform</name>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_a</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_b</declname>
+        </param>
+        <briefdescription>
+<para>fires a ray from a to b and returns the velocity of the object it hits </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the origin point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the target point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="199" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="602" bodyend="633"/>
+        <references refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" compoundref="_physics_world_8cpp" startline="379" endline="408">getLinVelocity</references>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <referencedby refid="class_character_1a595fba03a652891741ee6631a6079674" compoundref="_character_8cpp" startline="119" endline="236">Character::characterMove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a68c31016abc95c051890c9a211ac4565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Vec3</type>
+        <definition>ngl::Vec3 PhysicsWorld::rayNormalTest</definition>
+        <argsstring>(const ngl::Vec3 &amp;_a, const ngl::Vec3 &amp;_b)</argsstring>
+        <name>rayNormalTest</name>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_a</declname>
+        </param>
+        <param>
+          <type>const ngl::Vec3 &amp;</type>
+          <declname>_b</declname>
+        </param>
+        <briefdescription>
+<para>fires a ray from a to b and returns the normal of the object at the hit point </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the origin point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the target point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="205" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="710" bodyend="729"/>
+        <references refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" compoundref="_physics_world_8h" startline="240">m_dynamicsWorld</references>
+        <referencedby refid="class_character_1a8c3293540d07bee2542a6ec32d4f3bc5" compoundref="_character_8cpp" startline="362" endline="366">Character::getCollisionNormal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::setGravityForBody</definition>
+        <argsstring>(std::string _shape, ngl::Vec3 _vec)</argsstring>
+        <name>setGravityForBody</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_vec</declname>
+        </param>
+        <briefdescription>
+<para>sets the gravity multiplier for a specific body (useful for making things weightless) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_vec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the new gravity vector to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="211" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="658" bodyend="670"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_camera_1abd7aa4cdc35c9c95203090bbd4a8279a" compoundref="_camera_8cpp" startline="102" endline="126">Camera::snapPos</referencedby>
+        <referencedby refid="class_character_1a4794ae0e4c8c715d9f0cd1c1abc5b233" compoundref="_character_8cpp" startline="303" endline="345">Character::attractForce</referencedby>
+        <referencedby refid="class_character_1a6d677474346bf9589e9c940ae165537c" compoundref="_character_8cpp" startline="374" endline="378">Character::godMode</referencedby>
+        <referencedby refid="class_character_1ae2da28d0ab94aa7b19781b864191d814" compoundref="_character_8cpp" startline="439" endline="442">Character::setGravityForCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a6f01ee5e9135ac370a8a19767de1a838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PhysicsWorld::freezeBody</definition>
+        <argsstring>(std::string _shape)</argsstring>
+        <name>freezeBody</name>
+        <param>
+          <type>std::string</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>stops all motion for the specified body </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="216" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="673" bodyend="690"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <referencedby refid="class_character_1ae8b490e08f56e1570caf7f60c1b8f7a9" compoundref="_character_8cpp" startline="286" endline="301">Character::freezeCharacter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_physics_world_1a98831beb054a4668161a113aa770c3dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>btRigidBody *</type>
+        <definition>btRigidBody * PhysicsWorld::FindGameObject</definition>
+        <argsstring>(btRigidBody *_shape)</argsstring>
+        <name>FindGameObject</name>
+        <param>
+          <type>btRigidBody *</type>
+          <declname>_shape</declname>
+        </param>
+        <briefdescription>
+<para>function checks whether specific shape is in m_bodies. If true it is added to m_collisionBodies </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the name of the shape to find </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="221" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/PhysicsWorld.cpp" bodystart="692" bodyend="708"/>
+        <references refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" compoundref="_physics_world_8h" startline="242">m_bodies</references>
+        <references refid="class_physics_world_1a0ba57170f80894014e04f33ff4a425ed" compoundref="_physics_world_8h" startline="249">m_collisionBodies</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This manages coin creation and collisions of the coins. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="137">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="138" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="138">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" line="19" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/PhysicsWorld.h" bodystart="18" bodyend="254"/>
+    <listofallmembers>
+      <member refid="class_physics_world_1a41946ba3915c46b678d300f3d606cf10" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>addBox</name></member>
+      <member refid="class_physics_world_1a4cb52e883aaf26f356dc6906757af84d" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>addImpulse</name></member>
+      <member refid="class_physics_world_1ab1459e80fc7dda7447371dbd79ecb116" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>addLegSphere</name></member>
+      <member refid="class_physics_world_1add30f5869f0a212c4f12e67d40d41ceb" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>addLevelMesh</name></member>
+      <member refid="class_physics_world_1a45f8d6d437d7a42ab3dca7295aef4fa1" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>addMesh</name></member>
+      <member refid="class_physics_world_1a59cd5dbd3e7791bd23db032bcc64c202" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>addPlatform</name></member>
+      <member refid="class_physics_world_1a416466367496b5525a6e676ef1e9d1a3" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>addSphere</name></member>
+      <member refid="class_physics_world_1ac14ab775fcccc66e75fb4f70da54ac72" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>applyForceCentral</name></member>
+      <member refid="class_physics_world_1a39c3dd8e153fb75904cef2bb43382ec6" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>collisionPair</name></member>
+      <member refid="class_physics_world_1acc61607e3995af6acdd2d6b9bef041f6" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>collisionPairA</name></member>
+      <member refid="class_physics_world_1a681fa4ec76a590735c2f6e6ad99f9324" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>collisionPairB</name></member>
+      <member refid="class_physics_world_1a91f5efbab95526e5882a43726f977ea3" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>collisionPairs</name></member>
+      <member refid="class_physics_world_1aafe85a6dd0cbccf4c6fe2fe74e467caf" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>debugDrawer</name></member>
+      <member refid="class_physics_world_1a9912925d440ee83d22fc00f692574ca1" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>debugWorldDraw</name></member>
+      <member refid="class_physics_world_1a98831beb054a4668161a113aa770c3dc" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>FindGameObject</name></member>
+      <member refid="class_physics_world_1a6f01ee5e9135ac370a8a19767de1a838" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>freezeBody</name></member>
+      <member refid="class_physics_world_1a63bc2c028b9a49498411038100181ed1" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getAngVelocity</name></member>
+      <member refid="class_physics_world_1a68a706855bc60f6d404cfbab4ca0d8fa" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getBodyNameAtIndex</name></member>
+      <member refid="class_physics_world_1a6d5cca57854b708690441dd0a75cb2fd" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getCentreOfMass</name></member>
+      <member refid="class_physics_world_1ab00e4b94b999ddf53a637e4a999959ee" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getLinVelocity</name></member>
+      <member refid="class_physics_world_1a23a2c8693eb25ad28e13b66e95a7c573" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getNumCollisionObjects</name></member>
+      <member refid="class_physics_world_1a692161a381b2015cba102b08c02f6c3f" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getPosition</name></member>
+      <member refid="class_physics_world_1acef2efa13c576073a2a907709114422d" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getTransformMatrix</name></member>
+      <member refid="class_physics_world_1a428dd5813f8bd296083e9a4ca1984211" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getTransformMatrix</name></member>
+      <member refid="class_physics_world_1a2eb74a13ee526a3fcf449f28fa95c516" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>getVelocityOfPlatform</name></member>
+      <member refid="class_physics_world_1a31f6f65ace404661cc9954580fe3c64d" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_bodies</name></member>
+      <member refid="class_physics_world_1a0ba57170f80894014e04f33ff4a425ed" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_collisionBodies</name></member>
+      <member refid="class_physics_world_1a1cf0d1b71518b8fb8fcbbdf9f760ad6c" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_collisionBodiesPair</name></member>
+      <member refid="class_physics_world_1a0e94c5e2ddfb045e096149274bcca439" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_collisionConfiguration</name></member>
+      <member refid="class_physics_world_1a16151e671d784d31a9b0fde1679804b7" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_dispatcher</name></member>
+      <member refid="class_physics_world_1a09619087b797b3325fee215a657ede9f" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_dynamicsWorld</name></member>
+      <member refid="class_physics_world_1a258c6d6f5ba325725af45f66ebb2dc20" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_findGameBodies</name></member>
+      <member refid="class_physics_world_1a8ca5d5cfae3ab66acc40bb705d1a955b" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_groundShape</name></member>
+      <member refid="class_physics_world_1a6668df1ffb922daa039b5f7ffe4bba8b" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_overlappingPairCache</name></member>
+      <member refid="class_physics_world_1a19acd3323c2662f4cc8af20b7d5101a2" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_pairsLastUpdate</name></member>
+      <member refid="class_physics_world_1af8d39a3b5ecea4037dd08446a8fcfd42" prot="private" virt="non-virtual"><scope>PhysicsWorld</scope><name>m_solver</name></member>
+      <member refid="class_physics_world_1a1131de11bec4d9c67f0199ed90e8c26c" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>PhysicsWorld</name></member>
+      <member refid="class_physics_world_1ae993e38768816889858cc953e36271ed" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>printBodies</name></member>
+      <member refid="class_physics_world_1a68c31016abc95c051890c9a211ac4565" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>rayNormalTest</name></member>
+      <member refid="class_physics_world_1aa5c4661e5ac86c996bd4e8f66f39e980" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>rayTest</name></member>
+      <member refid="class_physics_world_1a9b736fecd9f428bf52abf04c150a4bcc" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>rayTest</name></member>
+      <member refid="class_physics_world_1a7195c3626fb4be06217660c8a8038ffe" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>removeCollisionObj</name></member>
+      <member refid="class_physics_world_1a2abd0187fc57fdef29022bc2f69980ea" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>reset</name></member>
+      <member refid="class_physics_world_1a9898273f563625b150091d5657de02f3" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>setAngVelocity</name></member>
+      <member refid="class_physics_world_1a0d04a6ac71656dbaa41394b3bfe9e4be" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>setGravity</name></member>
+      <member refid="class_physics_world_1a2cdbd862a8cd35eed77772fa870a3d83" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>setGravity</name></member>
+      <member refid="class_physics_world_1af0f1309e7a7e9c47763248e5772b5230" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>setGravityForBody</name></member>
+      <member refid="class_physics_world_1a73a5f631224e1486c7d6343f0a148ac0" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>setLinVelocity</name></member>
+      <member refid="class_physics_world_1a59241bfca0313e9d049f55f546e6b184" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>setTransformMatrix</name></member>
+      <member refid="class_physics_world_1a0a5ebdf9925b48d0a8725545010267f2" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>step</name></member>
+      <member refid="class_physics_world_1abf1573b008b52b60a83a8f36cbdd51bc" prot="public" virt="non-virtual"><scope>PhysicsWorld</scope><name>~PhysicsWorld</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

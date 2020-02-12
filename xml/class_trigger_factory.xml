@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_trigger_factory" kind="class" prot="public">
+    <compoundname>TriggerFactory</compoundname>
+    <includes refid="_trigger_factory_8h" local="no">TriggerFactory.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_trigger_factory_1a41c0c7fd77ab1e1bd38c6e3f7ac05181" prot="private" static="no" mutable="no">
+        <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+        <definition>PhysicsWorld* TriggerFactory::m_physics</definition>
+        <argsstring></argsstring>
+        <name>m_physics</name>
+        <briefdescription>
+<para>a pointer used to hold the physics world pointer to acces the physics world of the game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="74" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_trigger_factory_1a9526c5bef065af99d57932f2293157b3" compoundref="_trigger_factory_8cpp" startline="3" endline="7">TriggerFactory</referencedby>
+        <referencedby refid="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" compoundref="_trigger_factory_8cpp" startline="8" endline="14">createTrigger</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="class_trigger" kindref="compound">Trigger</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;Trigger&gt; &gt; TriggerFactory::m_triggerList</definition>
+        <argsstring></argsstring>
+        <name>m_triggerList</name>
+        <briefdescription>
+<para>used to hold the list of shared pointer of trigger volumes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="78" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" compoundref="_trigger_factory_8cpp" startline="8" endline="14">createTrigger</referencedby>
+        <referencedby refid="class_trigger_factory_1aabf73828ff05cd2def0724af889874ac" compoundref="_trigger_factory_8cpp" startline="29" endline="51">deleteTrigger</referencedby>
+        <referencedby refid="class_trigger_factory_1aaa16c6afd3400b9b0a301d51c2873c6f" compoundref="_trigger_factory_8cpp" startline="74" endline="96">getTransform</referencedby>
+        <referencedby refid="class_trigger_factory_1a9125324cc88775da4dce5b29fa015d50" compoundref="_trigger_factory_8cpp" startline="109" endline="118">printTriggerList</referencedby>
+        <referencedby refid="class_trigger_factory_1afda600ddf4fcb5a6582cacc51c13a36d" compoundref="_trigger_factory_8cpp" startline="119" endline="141">checkPairHit</referencedby>
+        <referencedby refid="class_trigger_factory_1a1288a741512e213883b80df4d98c7dfa" compoundref="_trigger_factory_8h" startline="68" endline="68">getTriggerListSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; TriggerFactory::m_triggerListUnordered</definition>
+        <argsstring></argsstring>
+        <name>m_triggerListUnordered</name>
+        <briefdescription>
+<para>a string list that is populated when a txt file is read with trigger volume positions </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="82" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_trigger_factory_1a31f1c9cd8eb3afe37717fdb3eab41310" compoundref="_trigger_factory_8cpp" startline="15" endline="28">createTriggerFromFile</referencedby>
+        <referencedby refid="class_trigger_factory_1ad9baf0e40c92308cff1646e8bcb91a78" compoundref="_trigger_factory_8cpp" startline="53" endline="73">readTriggerPosData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_trigger_factory_1a9526c5bef065af99d57932f2293157b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TriggerFactory::TriggerFactory</definition>
+        <argsstring>(PhysicsWorld *_physics)</argsstring>
+        <name>TriggerFactory</name>
+        <param>
+          <type><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref> *</type>
+          <declname>_physics</declname>
+        </param>
+        <briefdescription>
+<para>ctor for <ref refid="class_trigger_factory" kindref="compound">TriggerFactory</ref> class </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_physics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the game physics world </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="24" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="3" bodyend="7"/>
+        <references refid="class_trigger_factory_1a41c0c7fd77ab1e1bd38c6e3f7ac05181" compoundref="_trigger_factory_8h" startline="74">m_physics</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerFactory::createTrigger</definition>
+        <argsstring>(std::string _id, ngl::Vec3 _pointOne, ngl::Vec3 _pointTwo)</argsstring>
+        <name>createTrigger</name>
+        <param>
+          <type>std::string</type>
+          <declname>_id</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pointOne</declname>
+        </param>
+        <param>
+          <type>ngl::Vec3</type>
+          <declname>_pointTwo</declname>
+        </param>
+        <briefdescription>
+<para>this is called in order to create a trigger volume </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a name of the trigger volume to create </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pointOne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a position of either min/max point of the trigger volume </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_pointTwo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a position of either min/max point of the trigger volume </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="31" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="8" bodyend="14"/>
+        <references refid="class_trigger_factory_1a41c0c7fd77ab1e1bd38c6e3f7ac05181" compoundref="_trigger_factory_8h" startline="74">m_physics</references>
+        <references refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" compoundref="_trigger_factory_8h" startline="78">m_triggerList</references>
+        <referencedby refid="class_trigger_factory_1a31f1c9cd8eb3afe37717fdb3eab41310" compoundref="_trigger_factory_8cpp" startline="15" endline="28">createTriggerFromFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1aabf73828ff05cd2def0724af889874ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerFactory::deleteTrigger</definition>
+        <argsstring>(std::string _id)</argsstring>
+        <name>deleteTrigger</name>
+        <param>
+          <type>std::string</type>
+          <declname>_id</declname>
+        </param>
+        <briefdescription>
+<para>this is called in order to remove the trigger volume from the list </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a name of the trigger volume to delete </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="36" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="29" bodyend="51"/>
+        <references refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" compoundref="_trigger_factory_8h" startline="78">m_triggerList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1ad9baf0e40c92308cff1646e8bcb91a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerFactory::readTriggerPosData</definition>
+        <argsstring>()</argsstring>
+        <name>readTriggerPosData</name>
+        <briefdescription>
+<para>reads trigger volume position data from a txt file </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="40" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="53" bodyend="73"/>
+        <references refid="main_8cpp_1a822c103b79ef8d6a36c81a14cd038e07" compoundref="main_8cpp" startline="757" endline="810">exit</references>
+        <references refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" compoundref="_trigger_factory_8h" startline="82">m_triggerListUnordered</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1a31f1c9cd8eb3afe37717fdb3eab41310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerFactory::createTriggerFromFile</definition>
+        <argsstring>()</argsstring>
+        <name>createTriggerFromFile</name>
+        <briefdescription>
+<para>creates trigger volumes using the position data from the read file </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="44" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="15" bodyend="28"/>
+        <references refid="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" compoundref="_trigger_factory_8cpp" startline="8" endline="14">createTrigger</references>
+        <references refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" compoundref="_trigger_factory_8h" startline="82">m_triggerListUnordered</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1a9125324cc88775da4dce5b29fa015d50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerFactory::printTriggerList</definition>
+        <argsstring>()</argsstring>
+        <name>printTriggerList</name>
+        <briefdescription>
+<para>prints a list of trigger volumes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="48" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="109" bodyend="118"/>
+        <references refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" compoundref="_trigger_factory_8h" startline="78">m_triggerList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1afda600ddf4fcb5a6582cacc51c13a36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TriggerFactory::checkPairHit</definition>
+        <argsstring>(std::string _id, std::string _physicsObjName)</argsstring>
+        <name>checkPairHit</name>
+        <param>
+          <type>std::string</type>
+          <declname>_id</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_physicsObjName</declname>
+        </param>
+        <briefdescription>
+<para>checks collision between a trigger object and a trigger volume returning a true if collision occurs and false if not </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a name of the trigger volume to check collision with </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_physicsObjName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a name of the physics object in the physics world to check collision with </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="54" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="119" bodyend="141"/>
+        <references refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" compoundref="_trigger_factory_8h" startline="78">m_triggerList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1aaa16c6afd3400b9b0a301d51c2873c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation TriggerFactory::getTransform</definition>
+        <argsstring>(std::string _id)</argsstring>
+        <name>getTransform</name>
+        <param>
+          <type>std::string</type>
+          <declname>_id</declname>
+        </param>
+        <briefdescription>
+<para>gets a ngl::transformation of trigger with the given _id name </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a name of the trigger volume to get the transformation of </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="59" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="74" bodyend="96"/>
+        <references refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" compoundref="_trigger_factory_8h" startline="78">m_triggerList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1ae496e29c2f9a9b23760fe68e5d7de648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ngl::Transformation</type>
+        <definition>ngl::Transformation TriggerFactory::getTransform</definition>
+        <argsstring>(int _index)</argsstring>
+        <name>getTransform</name>
+        <param>
+          <type>int</type>
+          <declname>_index</declname>
+        </param>
+        <briefdescription>
+<para>gets a ngl::transformation of trigger with the given index from the list </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the trigger volume in the list </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="64" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/TriggerFactory.cpp" bodystart="97" bodyend="108"/>
+        <references refid="class_trigger_factory_1a1288a741512e213883b80df4d98c7dfa" compoundref="_trigger_factory_8h" startline="68" endline="68">getTriggerListSize</references>
+        <references refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" compoundref="_trigger_factory_8h" startline="78">m_triggerList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_trigger_factory_1a1288a741512e213883b80df4d98c7dfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TriggerFactory::getTriggerListSize</definition>
+        <argsstring>()</argsstring>
+        <name>getTriggerListSize</name>
+        <briefdescription>
+<para>gets the trigger volume list size </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="68" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" bodystart="68" bodyend="68"/>
+        <references refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" compoundref="_trigger_factory_8h" startline="78">m_triggerList</references>
+        <referencedby refid="class_trigger_factory_1ae496e29c2f9a9b23760fe68e5d7de648" compoundref="_trigger_factory_8cpp" startline="97" endline="108">getTransform</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class manages the trigger volumes, which are volumes that check collisions with the physics objects (character, platform etc.) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="157">
+        <label>TriggerFactory</label>
+        <link refid="class_trigger_factory"/>
+        <childnode refid="158" relation="usage">
+          <edgelabel>-m_physics</edgelabel>
+        </childnode>
+      </node>
+      <node id="158">
+        <label>PhysicsWorld</label>
+        <link refid="class_physics_world"/>
+        <childnode refid="159" relation="usage">
+          <edgelabel>-collisionPairA</edgelabel>
+          <edgelabel>-collisionPairB</edgelabel>
+        </childnode>
+      </node>
+      <node id="159">
+        <label>PhysicsWorld::Body</label>
+        <link refid="struct_physics_world_1_1_body"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" line="18" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/TriggerFactory.h" bodystart="17" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_trigger_factory_1afda600ddf4fcb5a6582cacc51c13a36d" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>checkPairHit</name></member>
+      <member refid="class_trigger_factory_1a35e99acf719c609b7e3bd961ccf94c38" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>createTrigger</name></member>
+      <member refid="class_trigger_factory_1a31f1c9cd8eb3afe37717fdb3eab41310" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>createTriggerFromFile</name></member>
+      <member refid="class_trigger_factory_1aabf73828ff05cd2def0724af889874ac" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>deleteTrigger</name></member>
+      <member refid="class_trigger_factory_1aaa16c6afd3400b9b0a301d51c2873c6f" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>getTransform</name></member>
+      <member refid="class_trigger_factory_1ae496e29c2f9a9b23760fe68e5d7de648" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>getTransform</name></member>
+      <member refid="class_trigger_factory_1a1288a741512e213883b80df4d98c7dfa" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>getTriggerListSize</name></member>
+      <member refid="class_trigger_factory_1a41c0c7fd77ab1e1bd38c6e3f7ac05181" prot="private" virt="non-virtual"><scope>TriggerFactory</scope><name>m_physics</name></member>
+      <member refid="class_trigger_factory_1aa2a2d631897be100d75e7641967b399f" prot="private" virt="non-virtual"><scope>TriggerFactory</scope><name>m_triggerList</name></member>
+      <member refid="class_trigger_factory_1a7bea9ec7dbe02a4ee26068d6309f285c" prot="private" virt="non-virtual"><scope>TriggerFactory</scope><name>m_triggerListUnordered</name></member>
+      <member refid="class_trigger_factory_1a9125324cc88775da4dce5b29fa015d50" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>printTriggerList</name></member>
+      <member refid="class_trigger_factory_1ad9baf0e40c92308cff1646e8bcb91a78" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>readTriggerPosData</name></member>
+      <member refid="class_trigger_factory_1a9526c5bef065af99d57932f2293157b3" prot="public" virt="non-virtual"><scope>TriggerFactory</scope><name>TriggerFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

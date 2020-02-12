@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_animation_8cpp" kind="file">
+    <compoundname>Animation.cpp</compoundname>
+    <includes refid="_animation_8h" local="yes">Animation.h</includes>
+    <incdepgraph>
+      <node id="1388">
+        <label>list</label>
+      </node>
+      <node id="1376">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="1354" relation="include">
+        </childnode>
+      </node>
+      <node id="1379">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1380" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1381" relation="include">
+        </childnode>
+      </node>
+      <node id="1364">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1351" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1373" relation="include">
+        </childnode>
+        <childnode refid="1376" relation="include">
+        </childnode>
+      </node>
+      <node id="1382">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="1354">
+        <label>SDL.h</label>
+      </node>
+      <node id="1360">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="1375">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="1353">
+        <label>ngl/Light.h</label>
+      </node>
+      <node id="1361">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="1370">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="1371" relation="include">
+        </childnode>
+        <childnode refid="1372" relation="include">
+        </childnode>
+        <childnode refid="1367" relation="include">
+        </childnode>
+      </node>
+      <node id="1359">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="1355">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="1373">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="1366" relation="include">
+        </childnode>
+        <childnode refid="1374" relation="include">
+        </childnode>
+        <childnode refid="1356" relation="include">
+        </childnode>
+        <childnode refid="1375" relation="include">
+        </childnode>
+        <childnode refid="1362" relation="include">
+        </childnode>
+      </node>
+      <node id="1381">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="1367" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1382" relation="include">
+        </childnode>
+        <childnode refid="1355" relation="include">
+        </childnode>
+      </node>
+      <node id="1362">
+        <label>string</label>
+      </node>
+      <node id="1394">
+        <label>ngl/ShaderLib.h</label>
+      </node>
+      <node id="1363">
+        <label>map</label>
+      </node>
+      <node id="1384">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1373" relation="include">
+        </childnode>
+        <childnode refid="1376" relation="include">
+        </childnode>
+      </node>
+      <node id="1383">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="1384" relation="include">
+        </childnode>
+        <childnode refid="1373" relation="include">
+        </childnode>
+      </node>
+      <node id="1385">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="1386" relation="include">
+        </childnode>
+        <childnode refid="1376" relation="include">
+        </childnode>
+        <childnode refid="1387" relation="include">
+        </childnode>
+      </node>
+      <node id="1377">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1351" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1373" relation="include">
+        </childnode>
+        <childnode refid="1358" relation="include">
+        </childnode>
+      </node>
+      <node id="1357">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="1392">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="1358">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="1359" relation="include">
+        </childnode>
+        <childnode refid="1360" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1363" relation="include">
+        </childnode>
+      </node>
+      <node id="1372">
+        <label>vector</label>
+      </node>
+      <node id="1351">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1352" relation="include">
+        </childnode>
+        <childnode refid="1353" relation="include">
+        </childnode>
+        <childnode refid="1354" relation="include">
+        </childnode>
+        <childnode refid="1355" relation="include">
+        </childnode>
+        <childnode refid="1356" relation="include">
+        </childnode>
+        <childnode refid="1357" relation="include">
+        </childnode>
+        <childnode refid="1358" relation="include">
+        </childnode>
+        <childnode refid="1364" relation="include">
+        </childnode>
+        <childnode refid="1377" relation="include">
+        </childnode>
+        <childnode refid="1350" relation="include">
+        </childnode>
+        <childnode refid="1378" relation="include">
+        </childnode>
+        <childnode refid="1379" relation="include">
+        </childnode>
+        <childnode refid="1383" relation="include">
+        </childnode>
+        <childnode refid="1385" relation="include">
+        </childnode>
+        <childnode refid="1381" relation="include">
+        </childnode>
+        <childnode refid="1388" relation="include">
+        </childnode>
+        <childnode refid="1389" relation="include">
+        </childnode>
+        <childnode refid="1393" relation="include">
+        </childnode>
+      </node>
+      <node id="1368">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="1378">
+        <label>Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1352" relation="include">
+        </childnode>
+      </node>
+      <node id="1350">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="1351" relation="include">
+        </childnode>
+        <childnode refid="1395" relation="include">
+        </childnode>
+      </node>
+      <node id="1386">
+        <label>iostream</label>
+      </node>
+      <node id="1387">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="1374">
+        <label>unordered_map</label>
+      </node>
+      <node id="1395">
+        <label>ngl/NCCAPointBake.h</label>
+      </node>
+      <node id="1391">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="1349">
+        <label>Animation.cpp</label>
+        <link refid="Animation.cpp"/>
+        <childnode refid="1350" relation="include">
+        </childnode>
+      </node>
+      <node id="1393">
+        <label>ShaderFactory.h</label>
+        <link refid="_shader_factory_8h"/>
+        <childnode refid="1394" relation="include">
+        </childnode>
+      </node>
+      <node id="1366">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="1380">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="1351" relation="include">
+        </childnode>
+        <childnode refid="1381" relation="include">
+        </childnode>
+        <childnode refid="1376" relation="include">
+        </childnode>
+      </node>
+      <node id="1371">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="1369">
+        <label>set</label>
+      </node>
+      <node id="1389">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="1381" relation="include">
+        </childnode>
+        <childnode refid="1390" relation="include">
+        </childnode>
+        <childnode refid="1387" relation="include">
+        </childnode>
+        <childnode refid="1391" relation="include">
+        </childnode>
+        <childnode refid="1392" relation="include">
+        </childnode>
+      </node>
+      <node id="1367">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="1390">
+        <label>ngl/NGLStream.h</label>
+      </node>
+      <node id="1352">
+        <label>ngl/Camera.h</label>
+      </node>
+      <node id="1356">
+        <label>memory</label>
+      </node>
+      <node id="1365">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="1366" relation="include">
+        </childnode>
+        <childnode refid="1367" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1357" relation="include">
+        </childnode>
+        <childnode refid="1356" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+        <childnode refid="1370" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_animation_8h" kindref="compound">Animation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_animation_1a83f0a16cef7117f187ad596de38dd9d6" refkind="member"><highlight class="normal"><ref refid="class_animation_1a83f0a16cef7117f187ad596de38dd9d6" kindref="member">Animation::Animation</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_animation_1a401b68793d4fbf48d481c030ee4b2a16" refkind="member"><highlight class="normal"><ref refid="class_animation_1a401b68793d4fbf48d481c030ee4b2a16" kindref="member">Animation::~Animation</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_animation_1a5bc23aec96e127173d415dab364b0d6e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a5bc23aec96e127173d415dab364b0d6e" kindref="member">Animation::loadAnimationData</ref>(<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>our<sp/>xml<sp/>files<sp/>for<sp/>various<sp/>animation<sp/>types/objects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" kindref="member">animType::CHAR_TYPE</ref>)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1ae4b243d757d8b117048df190b83b364f" kindref="member">m_characterAnimData</ref>.reset(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ngl::NCCAPointBake(</highlight><highlight class="stringliteral">&quot;models/sphereCharAnim.xml&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" kindref="member">animType::COIN_TYPE</ref>)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a82a4a77bd00d6a3f812a6ccb6bc7c183" kindref="member">m_coinAnimData</ref>.reset(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ngl::NCCAPointBake(</highlight><highlight class="stringliteral">&quot;models/coinAnim.xml&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_animation_1aac1afb06935594fb8c18a6e2f9aae3ff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1aac1afb06935594fb8c18a6e2f9aae3ff" kindref="member">Animation::setAnimationTo</ref>(<ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5" kindref="member">animCycle</ref><sp/>_cycle)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>start,end<sp/>frames<sp/>depending<sp/>on<sp/>chosen<sp/>animation<sp/>cycle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_cycle<sp/>==<sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5abb2dfc184fa2e91373d3ff304cb01b8a" kindref="member">animCycle::WALK</ref>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref><sp/>=<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref><sp/>+<sp/>40;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_cycle<sp/>==<sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a40222410c7347ec4b6bcaba3bcb21f3b" kindref="member">animCycle::JUMP</ref>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref><sp/>=<sp/>42;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref><sp/>=<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref><sp/>+<sp/>51<sp/>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_cycle<sp/>==<sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5a50780f47f6839d47d60bc4555ee00c3f" kindref="member">animCycle::REST</ref>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref><sp/>=<sp/>95;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref><sp/>=<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref><sp/>+<sp/>99<sp/>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_cycle<sp/>==<sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5adebfae3b16a947c76151de63710d3cc7" kindref="member">animCycle::REST2</ref>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref><sp/>=<sp/>196;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref><sp/>=<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref><sp/>+<sp/>163<sp/>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_cycle<sp/>==<sp/><ref refid="_animation_8h_1adb300d88138d1dab49b16e9706f211b5add6c30845bb26cf9caf2e3968192947d" kindref="member">animCycle::COIN_REST</ref>)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a0837afaac12ad923bd3d253c816e9aa4" kindref="member">m_coinAnimStartFrame</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1ae704c55c7784b443bd2e88419de1a4b1" kindref="member">m_coinAnimEndFrame</ref><sp/>=<sp/><ref refid="class_animation_1a0837afaac12ad923bd3d253c816e9aa4" kindref="member">m_coinAnimStartFrame</ref><sp/>+<sp/>58;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="class_animation_1a5bc4557cd8655a7c0f27e86714ad76a9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a5bc4557cd8655a7c0f27e86714ad76a9" kindref="member">Animation::attachAnimToMesh</ref>(std::unique_ptr&lt;ngl::Obj&gt;<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>_mesh,<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>bind<sp/>our<sp/>animation<sp/>data<sp/>to<sp/>the<sp/>corresponding<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" kindref="member">animType::CHAR_TYPE</ref>)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1ae4b243d757d8b117048df190b83b364f" kindref="member">m_characterAnimData</ref>-&gt;setFrame(0);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1ae4b243d757d8b117048df190b83b364f" kindref="member">m_characterAnimData</ref>-&gt;attachMesh(_mesh.get());</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" kindref="member">animType::COIN_TYPE</ref>)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a82a4a77bd00d6a3f812a6ccb6bc7c183" kindref="member">m_coinAnimData</ref>-&gt;setFrame(0);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a82a4a77bd00d6a3f812a6ccb6bc7c183" kindref="member">m_coinAnimData</ref>-&gt;attachMesh(_mesh.get());</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="class_animation_1aa5c387b4815b70ef5dbcd5df63077f61" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1aa5c387b4815b70ef5dbcd5df63077f61" kindref="member">Animation::setAnimationLoopOn</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_state,<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" kindref="member">animType::CHAR_TYPE</ref>)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>animation<sp/>is<sp/>active,<sp/>continously<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_state<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref><sp/>&gt;<sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref>)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>current<sp/>frame<sp/>is<sp/>greater<sp/>than<sp/>the<sp/>end<sp/>frame,<sp/>reset<sp/>it<sp/>back<sp/>to<sp/>start<sp/>to<sp/>loop<sp/>again</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref><sp/>=<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref><sp/>&lt;<sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref><sp/>)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>current<sp/>frame<sp/>is<sp/>less<sp/>than<sp/>end<sp/>frame,<sp/>set<sp/>our<sp/>mesh<sp/>to<sp/>the<sp/>current<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1ae4b243d757d8b117048df190b83b364f" kindref="member">m_characterAnimData</ref>-&gt;setMeshToFrame(<ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref><sp/>=<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>animtion<sp/>state<sp/>is<sp/>set<sp/>to<sp/>inactive,<sp/>complete<sp/>current<sp/>loop<sp/>and<sp/>stop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_state<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref><sp/>&lt;<sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref>)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1ae4b243d757d8b117048df190b83b364f" kindref="member">m_characterAnimData</ref>-&gt;setMeshToFrame(<ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref><sp/>&gt;=<sp/><ref refid="class_animation_1a9bdae7549c49096e4cea4bb45f094dbe" kindref="member">m_charAnimEndFrame</ref>)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref><sp/>=<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" kindref="member">animType::COIN_TYPE</ref>)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_state<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref><sp/>&gt;<sp/><ref refid="class_animation_1ae704c55c7784b443bd2e88419de1a4b1" kindref="member">m_coinAnimEndFrame</ref>)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref><sp/>=<sp/><ref refid="class_animation_1a0837afaac12ad923bd3d253c816e9aa4" kindref="member">m_coinAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref><sp/>&lt;<sp/><ref refid="class_animation_1ae704c55c7784b443bd2e88419de1a4b1" kindref="member">m_coinAnimEndFrame</ref><sp/>)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a82a4a77bd00d6a3f812a6ccb6bc7c183" kindref="member">m_coinAnimData</ref>-&gt;setMeshToFrame(<ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref>);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref><sp/>=<sp/><ref refid="class_animation_1a0837afaac12ad923bd3d253c816e9aa4" kindref="member">m_coinAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_state<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref><sp/>&lt;<sp/><ref refid="class_animation_1ae704c55c7784b443bd2e88419de1a4b1" kindref="member">m_coinAnimEndFrame</ref>)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a82a4a77bd00d6a3f812a6ccb6bc7c183" kindref="member">m_coinAnimData</ref>-&gt;setMeshToFrame(<ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref>);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref><sp/>&gt;=<sp/><ref refid="class_animation_1ae704c55c7784b443bd2e88419de1a4b1" kindref="member">m_coinAnimEndFrame</ref>)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref><sp/>=<sp/><ref refid="class_animation_1a0837afaac12ad923bd3d253c816e9aa4" kindref="member">m_coinAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="class_animation_1a01db389fa87bb375521010f7d0a3ee36" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a01db389fa87bb375521010f7d0a3ee36" kindref="member">Animation::initStartFrame</ref>()</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref><sp/>=<sp/><ref refid="class_animation_1a8cdeb2be34855e378a26512b684d35e7" kindref="member">m_charAnimStartFrame</ref>;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="class_animation_1a9356b81e836167df2a3a2c5288d6148b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a9356b81e836167df2a3a2c5288d6148b" kindref="member">Animation::setAnimUpdate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_update,<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>our<sp/>characteranimation<sp/>state<sp/>to<sp/>active/inactive</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" kindref="member">animType::CHAR_TYPE</ref>)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1ade2fa6e2a13073502afe3d8402546a63" kindref="member">m_charAnimUpdate</ref><sp/>=<sp/>_update;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>our<sp/>coin<sp/>animation<sp/>state<sp/>to<sp/>active/inactive</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" kindref="member">animType::COIN_TYPE</ref>)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a8cc2ee1bb0cd86b743e0aa52ad597a60" kindref="member">m_coinAnimUpdate</ref><sp/>=<sp/>_update;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="class_animation_1aea90609393fddad53e84062f225dce1b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_animation_1aea90609393fddad53e84062f225dce1b" kindref="member">Animation::getAnimUpdate</ref>(<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" kindref="member">animType::CHAR_TYPE</ref>)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_animation_1ade2fa6e2a13073502afe3d8402546a63" kindref="member">m_charAnimUpdate</ref>;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" kindref="member">animType::COIN_TYPE</ref>)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_animation_1a8cc2ee1bb0cd86b743e0aa52ad597a60" kindref="member">m_coinAnimUpdate</ref>;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="class_animation_1aa4223bf81fb5cb06c3e60fc222fc63bd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_animation_1aa4223bf81fb5cb06c3e60fc222fc63bd" kindref="member">Animation::incrCurrentFrame</ref>(<ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44" kindref="member">animType</ref><sp/>_type)</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44aeeaa1347515c2724fe4bac0ebf6ab89e" kindref="member">animType::CHAR_TYPE</ref>)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a944006eacaa923620b3a6047d211708b" kindref="member">m_charCurrentAnimFrame</ref>++;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_type<sp/>==<sp/><ref refid="_animation_8h_1afc269ae202f54df81320fe5fe37caa44a74c520823d817368fde963836ab62b77" kindref="member">animType::COIN_TYPE</ref>)</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_animation_1a54ec7e8b9f6abbf92ff1c165a4ffcfd1" kindref="member">m_coinCurrentAnimFrame</ref>++;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Animation.cpp"/>
+  </compounddef>
+</doxygen>

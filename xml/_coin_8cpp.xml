@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_coin_8cpp" kind="file">
+    <compoundname>Coin.cpp</compoundname>
+    <includes refid="_coin_8h" local="yes">Coin.h</includes>
+    <incdepgraph>
+      <node id="1692">
+        <label>list</label>
+      </node>
+      <node id="1679">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="1657" relation="include">
+        </childnode>
+      </node>
+      <node id="1684">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1653" relation="include">
+        </childnode>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1685" relation="include">
+        </childnode>
+      </node>
+      <node id="1667">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1654" relation="include">
+        </childnode>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1676" relation="include">
+        </childnode>
+        <childnode refid="1679" relation="include">
+        </childnode>
+      </node>
+      <node id="1686">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="1657">
+        <label>SDL.h</label>
+      </node>
+      <node id="1663">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="1678">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="1656">
+        <label>ngl/Light.h</label>
+      </node>
+      <node id="1664">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="1673">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="1674" relation="include">
+        </childnode>
+        <childnode refid="1675" relation="include">
+        </childnode>
+        <childnode refid="1670" relation="include">
+        </childnode>
+      </node>
+      <node id="1662">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="1652">
+        <label>Coin.cpp</label>
+        <link refid="Coin.cpp"/>
+        <childnode refid="1653" relation="include">
+        </childnode>
+      </node>
+      <node id="1658">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="1676">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="1669" relation="include">
+        </childnode>
+        <childnode refid="1677" relation="include">
+        </childnode>
+        <childnode refid="1659" relation="include">
+        </childnode>
+        <childnode refid="1678" relation="include">
+        </childnode>
+        <childnode refid="1665" relation="include">
+        </childnode>
+      </node>
+      <node id="1685">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="1670" relation="include">
+        </childnode>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1686" relation="include">
+        </childnode>
+        <childnode refid="1658" relation="include">
+        </childnode>
+      </node>
+      <node id="1665">
+        <label>string</label>
+      </node>
+      <node id="1698">
+        <label>ngl/ShaderLib.h</label>
+      </node>
+      <node id="1666">
+        <label>map</label>
+      </node>
+      <node id="1688">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1676" relation="include">
+        </childnode>
+        <childnode refid="1679" relation="include">
+        </childnode>
+      </node>
+      <node id="1687">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="1688" relation="include">
+        </childnode>
+        <childnode refid="1676" relation="include">
+        </childnode>
+      </node>
+      <node id="1689">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="1690" relation="include">
+        </childnode>
+        <childnode refid="1679" relation="include">
+        </childnode>
+        <childnode refid="1691" relation="include">
+        </childnode>
+      </node>
+      <node id="1680">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1654" relation="include">
+        </childnode>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1676" relation="include">
+        </childnode>
+        <childnode refid="1661" relation="include">
+        </childnode>
+      </node>
+      <node id="1660">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="1696">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="1661">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="1662" relation="include">
+        </childnode>
+        <childnode refid="1663" relation="include">
+        </childnode>
+        <childnode refid="1664" relation="include">
+        </childnode>
+        <childnode refid="1665" relation="include">
+        </childnode>
+        <childnode refid="1666" relation="include">
+        </childnode>
+      </node>
+      <node id="1675">
+        <label>vector</label>
+      </node>
+      <node id="1654">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1655" relation="include">
+        </childnode>
+        <childnode refid="1656" relation="include">
+        </childnode>
+        <childnode refid="1657" relation="include">
+        </childnode>
+        <childnode refid="1658" relation="include">
+        </childnode>
+        <childnode refid="1659" relation="include">
+        </childnode>
+        <childnode refid="1660" relation="include">
+        </childnode>
+        <childnode refid="1661" relation="include">
+        </childnode>
+        <childnode refid="1667" relation="include">
+        </childnode>
+        <childnode refid="1680" relation="include">
+        </childnode>
+        <childnode refid="1681" relation="include">
+        </childnode>
+        <childnode refid="1683" relation="include">
+        </childnode>
+        <childnode refid="1684" relation="include">
+        </childnode>
+        <childnode refid="1687" relation="include">
+        </childnode>
+        <childnode refid="1689" relation="include">
+        </childnode>
+        <childnode refid="1685" relation="include">
+        </childnode>
+        <childnode refid="1692" relation="include">
+        </childnode>
+        <childnode refid="1693" relation="include">
+        </childnode>
+        <childnode refid="1697" relation="include">
+        </childnode>
+      </node>
+      <node id="1671">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="1683">
+        <label>Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1655" relation="include">
+        </childnode>
+      </node>
+      <node id="1681">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="1654" relation="include">
+        </childnode>
+        <childnode refid="1682" relation="include">
+        </childnode>
+      </node>
+      <node id="1690">
+        <label>iostream</label>
+      </node>
+      <node id="1691">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="1677">
+        <label>unordered_map</label>
+      </node>
+      <node id="1682">
+        <label>ngl/NCCAPointBake.h</label>
+      </node>
+      <node id="1695">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="1697">
+        <label>ShaderFactory.h</label>
+        <link refid="_shader_factory_8h"/>
+        <childnode refid="1698" relation="include">
+        </childnode>
+      </node>
+      <node id="1669">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="1653">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="1654" relation="include">
+        </childnode>
+        <childnode refid="1685" relation="include">
+        </childnode>
+        <childnode refid="1679" relation="include">
+        </childnode>
+      </node>
+      <node id="1674">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="1672">
+        <label>set</label>
+      </node>
+      <node id="1693">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="1685" relation="include">
+        </childnode>
+        <childnode refid="1694" relation="include">
+        </childnode>
+        <childnode refid="1691" relation="include">
+        </childnode>
+        <childnode refid="1695" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+      </node>
+      <node id="1670">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="1694">
+        <label>ngl/NGLStream.h</label>
+      </node>
+      <node id="1655">
+        <label>ngl/Camera.h</label>
+      </node>
+      <node id="1659">
+        <label>memory</label>
+      </node>
+      <node id="1668">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="1669" relation="include">
+        </childnode>
+        <childnode refid="1670" relation="include">
+        </childnode>
+        <childnode refid="1671" relation="include">
+        </childnode>
+        <childnode refid="1660" relation="include">
+        </childnode>
+        <childnode refid="1659" relation="include">
+        </childnode>
+        <childnode refid="1672" relation="include">
+        </childnode>
+        <childnode refid="1673" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_coin_8h" kindref="compound">Coin.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" refkind="member"><highlight class="normal"><ref refid="class_coin_1a9a92f17be465d821f371c7ee28b14fd4" kindref="member">Coin::Coin</ref>(ngl::Vec3<sp/>_pos,<sp/>std::string<sp/>_id,<sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<sp/>_physics)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>initalise<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a70aae6475b7b8802569b15db5659d97f" kindref="member">m_physics</ref><sp/>=<sp/>_physics;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref><sp/>=<sp/>_pos;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a03eae9d4311b1548c5a94aa0f314e4b4" kindref="member">m_coinID</ref><sp/>=<sp/>_id;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" kindref="member">m_coinTimer</ref>.<ref refid="class_l_timer_1a7dc11f05cf5098a6d06ebd6ebec96ed6" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" kindref="member">m_coinTimer</ref>.<ref refid="class_l_timer_1a8a6c6af5435bdaa825a30f84877dc059" kindref="member">pause</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//create<sp/>the<sp/>bbox<sp/>for<sp/>the<sp/>trigger<sp/>around<sp/>the<sp/>coin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a0cd3ca9ac75b7a2d4e228623f989c185" kindref="member">m_bboxMin</ref>.set(<ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref>.m_x-4,<ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref>.m_y-4,<ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref>.m_z-4);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a3628e045fc69caa87995bbc0bea33241" kindref="member">m_bboxMax</ref>.set(<ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref>.m_x+4,<ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref>.m_y+4,<ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref>.m_z+4);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>a<sp/>the<sp/>new<sp/>trigger<sp/>for<sp/>the<sp/>coin<sp/>and<sp/>link<sp/>it<sp/>to<sp/>the<sp/>trigger<sp/>pointer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" kindref="member">m_coinTrigger</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_trigger" kindref="compound">Trigger</ref>(_id,<sp/><ref refid="class_coin_1a0cd3ca9ac75b7a2d4e228623f989c185" kindref="member">m_bboxMin</ref>,<ref refid="class_coin_1a3628e045fc69caa87995bbc0bea33241" kindref="member">m_bboxMax</ref>,<sp/>_physics);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_coin_1ad0371a6d98c194a0f6de615206829b16" refkind="member"><highlight class="normal"><ref refid="class_coin_1ad0371a6d98c194a0f6de615206829b16" kindref="member">Coin::~Coin</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>delete<sp/>coin<sp/>trigger<sp/>when<sp/>dtor<sp/>is<sp/>called<sp/>to<sp/>avoid<sp/>memory<sp/>leaks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" kindref="member">m_coinTrigger</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_coin_1af37350c3b81923c3c577fc571136b4f1" refkind="member"><highlight class="normal">ngl::Vec3<sp/><ref refid="class_coin_1af37350c3b81923c3c577fc571136b4f1" kindref="member">Coin::getCoinPos</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a06a2adb992569b3b3e0cc489fe172a77" kindref="member">m_coinPos</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_coin_1af1e8ee1867e6598ac3f031343dacafc5" refkind="member"><highlight class="normal"><ref refid="class_trigger" kindref="compound">Trigger</ref>*<sp/><ref refid="class_coin_1af1e8ee1867e6598ac3f031343dacafc5" kindref="member">Coin::getTrigger</ref>()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" kindref="member">m_coinTrigger</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_coin_1a6ee947aab0802f2bef303d1375459f44" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a6ee947aab0802f2bef303d1375459f44" kindref="member">Coin::isCoinHit</ref>(std::string<sp/>_playerName)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>checks<sp/>if<sp/>the<sp/>coin&apos;s<sp/>trigger<sp/>has<sp/>been<sp/>in<sp/>contact<sp/>with<sp/>player.Returns<sp/>result<sp/>as<sp/>bool.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a35c392e270e4ff87e9d051b895f0fc8e" kindref="member">m_coinTrigger</ref>-&gt;<ref refid="class_trigger_1aa93984db488edcfe733bd269755587bc" kindref="member">isHit</ref>(_playerName);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_coin_1a010ea12b65a5bec9f748dc664d225a12" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_coin_1a010ea12b65a5bec9f748dc664d225a12" kindref="member">Coin::setCoinState</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_state)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_state<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" kindref="member">m_coinState</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_state<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_coin_1a11e49c216f4f4f140bd7037a7bbac97c" kindref="member">m_coinState</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_coin_1ac30185e74f0824d6c462b581da2497f2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_coin_1ac30185e74f0824d6c462b581da2497f2" kindref="member">Coin::startTime</ref>()</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><ref refid="class_coin_1a043f1cd7140ee73680f5b6b5831ca885" kindref="member">m_coinTimer</ref>.<ref refid="class_l_timer_1a67a946bffb25cf5eb8ab430ffb5f7cec" kindref="member">unpause</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Coin.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,6 @@
+<map id="PlatformFactory::createPlatform" name="PlatformFactory::createPlatform">
+<area shape="rect" id="node2" href="$class_platform.html#a929d8b9fcdbc32332673d8d48540b909" title="Creates a platform in the PhysicsWorld. " alt="" coords="262,31,426,57"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a59cd5dbd3e7791bd23db032bcc64c202" title="adds a rigid body platform mesh to the physics world. These don&#39;t collide with level meshes..." alt="" coords="475,31,656,57"/>
+<area shape="rect" id="node4" href="$class_collision_shape.html#ac2fc5b4b07d9b6f6551d1e021e65626e" title="returns the shape of the given name " alt="" coords="705,5,877,32"/>
+<area shape="rect" id="node5" href="$class_collision_shape.html#a419073488476916f9dba2dd97ae2bf76" title="create instance of the collision shape " alt="" coords="707,56,874,83"/>
+</map>

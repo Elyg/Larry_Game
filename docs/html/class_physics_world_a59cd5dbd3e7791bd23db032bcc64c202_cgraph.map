@@ -1,0 +1,4 @@
+<map id="PhysicsWorld::addPlatform" name="PhysicsWorld::addPlatform">
+<area shape="rect" id="node2" href="$class_collision_shape.html#ac2fc5b4b07d9b6f6551d1e021e65626e" title="returns the shape of the given name " alt="" coords="235,5,407,32"/>
+<area shape="rect" id="node3" href="$class_collision_shape.html#a419073488476916f9dba2dd97ae2bf76" title="create instance of the collision shape " alt="" coords="238,56,405,83"/>
+</map>

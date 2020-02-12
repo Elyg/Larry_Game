@@ -1,0 +1,4 @@
+<map id="Camera::getAngle" name="Camera::getAngle">
+<area shape="rect" id="node2" href="$class_n_g_l_draw.html#ad656ac3d12043d9fbb59985db83e5b52" title="ctor this will have a valid OpenGL context so we can create gl stuff " alt="" coords="205,5,352,32"/>
+<area shape="rect" id="node3" href="$class_n_g_l_draw.html#a7950c9e9bfd16dc9b6075881396df876" title="this method is called every time a mouse is moved " alt="" coords="182,56,375,83"/>
+</map>

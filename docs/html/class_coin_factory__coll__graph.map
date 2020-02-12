@@ -1,0 +1,7 @@
+<map id="CoinFactory" name="CoinFactory">
+<area shape="rect" id="node2" href="$class_physics_world.html" title="This manages coin creation and collisions of the coins. " alt="" coords="27,177,209,562"/>
+<area shape="rect" id="node4" href="$class_trigger.html" title="A box that detects if any specified member of the PhysicsWorld is inside. " alt="" coords="59,664,177,829"/>
+<area shape="rect" id="node5" href="$class_coin.html" title="This class creates the coin. " alt="" coords="209,931,327,1184"/>
+<area shape="rect" id="node3" href="$struct_physics_world_1_1_body.html" title="{PhysicsWorld::Body\n|+ name\l+ body\l|}" alt="" coords="48,6,189,98"/>
+<area shape="rect" id="node6" href="$class_l_timer.html" title="This class is timer that uses SDL to manage time Modified from &#45;: Lazyfoo.net. (2014). Lazy Foo&#39; Productions. [online] Available at: http://lazyfoo.net/SDL_tutorials/lesson15/ [Accessed 8 Dec. 2015]. " alt="" coords="344,627,467,866"/>
+</map>

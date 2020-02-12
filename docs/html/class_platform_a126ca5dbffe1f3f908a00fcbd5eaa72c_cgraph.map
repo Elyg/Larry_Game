@@ -1,0 +1,4 @@
+<map id="Platform::rotatePlatform" name="Platform::rotatePlatform">
+<area shape="rect" id="node2" href="$class_physics_world.html#acef2efa13c576073a2a907709114422d" title="returns the transformation matrix of the specified shape " alt="" coords="217,5,405,46"/>
+<area shape="rect" id="node3" href="$class_physics_world.html#a59241bfca0313e9d049f55f546e6b184" title="sets the transformation matrix of the specified shape " alt="" coords="217,70,405,111"/>
+</map>

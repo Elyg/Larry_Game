@@ -1,0 +1,5 @@
+<map id="Character::startJumpHopTimer" name="Character::startJumpHopTimer">
+<area shape="rect" id="node2" href="$class_controls.html#a508630b1ee74d999f41e238c9c45c4c5" title="starts the jump hop timer " alt="" coords="256,5,451,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="499,5,554,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="603,5,653,32"/>
+</map>

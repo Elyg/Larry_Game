@@ -1,0 +1,21 @@
+<map id="CollisionShape::getShape" name="CollisionShape::getShape">
+<area shape="rect" id="node2" href="$class_physics_world.html#a416466367496b5525a6e676ef1e9d1a3" title="adds a rigid body sphere to the physics world " alt="" coords="237,132,411,159"/>
+<area shape="rect" id="node13" href="$class_physics_world.html#ab1459e80fc7dda7447371dbd79ecb116" title="adds a rigid body capsule to the physics world, used for standing character " alt="" coords="227,183,421,209"/>
+<area shape="rect" id="node14" href="$class_physics_world.html#add30f5869f0a212c4f12e67d40d41ceb" title="adds an unmoving rigid body mesh to the physics world. Creates a convex collision shape..." alt="" coords="227,233,421,260"/>
+<area shape="rect" id="node16" href="$class_physics_world.html#a45f8d6d437d7a42ab3dca7295aef4fa1" title="adds a rigid body mesh to the physics world " alt="" coords="242,284,406,311"/>
+<area shape="rect" id="node17" href="$class_physics_world.html#a41946ba3915c46b678d300f3d606cf10" title="adds a rigid body cube to the physics world " alt="" coords="247,335,401,361"/>
+<area shape="rect" id="node18" href="$class_physics_world.html#a59cd5dbd3e7791bd23db032bcc64c202" title="adds a rigid body platform mesh to the physics world. These don&#39;t collide with level meshes..." alt="" coords="233,385,415,412"/>
+<area shape="rect" id="node3" href="$class_camera.html#abd7aa4cdc35c9c95203090bbd4a8279a" title="Can be called as an alternative to updatePos. Snaps the camera&#39;s position to the default position OR ..." alt="" coords="497,31,623,57"/>
+<area shape="rect" id="node8" href="$class_character.html#ae302146e2d121694631a48618bda6aec" title="creates the character at the given position " alt="" coords="470,81,650,108"/>
+<area shape="rect" id="node9" href="$class_character.html#a55574c8044ccf90ef684ba1f2f607ace" title="method to change the character from ball to leged and back " alt="" coords="487,183,633,209"/>
+<area shape="rect" id="node4" href="$class_character.html#a28f0ea3db0f230c29a4e4bdfa8fa8d6a" title="sets the gravity for the character " alt="" coords="716,107,889,133"/>
+<area shape="rect" id="node5" href="$class_n_g_l_draw.html#aec8a377329da67db1e2ef007bd27f026" title="draw the scene " alt="" coords="745,31,861,57"/>
+<area shape="rect" id="node6" href="$class_n_g_l_draw.html#ae5151dc189fd5de5649b72c5e76bcf47" title="resize our screen and set the camera aspect ratio " alt="" coords="973,5,1096,32"/>
+<area shape="rect" id="node7" href="$class_n_g_l_draw.html#a21c11b65d353b76a7cc984db69aad208" title="NGLDraw::updateDraw" alt="" coords="955,56,1114,83"/>
+<area shape="rect" id="node10" href="$class_controls.html#accc352189480c1031ee1446c378cc071" title="shapeshifts the character into a ball/ball with legs " alt="" coords="733,183,872,209"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#a3499094500944e03f86eb2f89e77f2bc" title="game" alt="" coords="1007,183,1062,209"/>
+<area shape="rect" id="node12" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1163,183,1213,209"/>
+<area shape="rect" id="node15" href="$class_level.html#af91b84fa1d96f6ee770c2d10f252c4b1" title="used to create a level mesh " alt="" coords="496,233,624,260"/>
+<area shape="rect" id="node19" href="$class_platform.html#a929d8b9fcdbc32332673d8d48540b909" title="Creates a platform in the PhysicsWorld. " alt="" coords="478,385,642,412"/>
+<area shape="rect" id="node20" href="$class_platform_factory.html#a3f20e6b434a5bfa7b2532fde223e7c89" title="creates a new platform by calling our platform class " alt="" coords="699,385,907,412"/>
+</map>

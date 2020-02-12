@@ -1,0 +1,3 @@
+<map id="PhysicsWorld::getVelocityOfPlatform" name="PhysicsWorld::getVelocityOfPlatform">
+<area shape="rect" id="node2" href="$class_physics_world.html#ab00e4b94b999ddf53a637e4a999959ee" title="returns the linear velocity of the specified shape " alt="" coords="230,12,423,39"/>
+</map>

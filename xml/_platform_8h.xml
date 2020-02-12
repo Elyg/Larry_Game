@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_platform_8h" kind="file">
+    <compoundname>Platform.h</compoundname>
+    <includes refid="_physics_world_8h" local="yes">PhysicsWorld.h</includes>
+    <includes refid="_collision_shape_8h" local="yes">CollisionShape.h</includes>
+    <includes refid="_ltimer_8h" local="yes">Ltimer.h</includes>
+    <includedby refid="_platform_8cpp" local="yes">Platform.cpp</includedby>
+    <includedby refid="_platform_factory_8h" local="yes">PlatformFactory.h</includedby>
+    <incdepgraph>
+      <node id="2460">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="2461" relation="include">
+        </childnode>
+      </node>
+      <node id="2461">
+        <label>SDL.h</label>
+      </node>
+      <node id="2458">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="2453">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="2454" relation="include">
+        </childnode>
+        <childnode refid="2455" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+      </node>
+      <node id="2456">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="2447" relation="include">
+        </childnode>
+        <childnode refid="2457" relation="include">
+        </childnode>
+        <childnode refid="2451" relation="include">
+        </childnode>
+        <childnode refid="2458" relation="include">
+        </childnode>
+        <childnode refid="2459" relation="include">
+        </childnode>
+      </node>
+      <node id="2459">
+        <label>string</label>
+      </node>
+      <node id="2445">
+        <label>Platform.h</label>
+        <link refid="Platform.h"/>
+        <childnode refid="2446" relation="include">
+        </childnode>
+        <childnode refid="2456" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+      </node>
+      <node id="2450">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="2455">
+        <label>vector</label>
+      </node>
+      <node id="2449">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="2457">
+        <label>unordered_map</label>
+      </node>
+      <node id="2447">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2454">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="2452">
+        <label>set</label>
+      </node>
+      <node id="2448">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="2451">
+        <label>memory</label>
+      </node>
+      <node id="2446">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="2447" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+        <childnode refid="2449" relation="include">
+        </childnode>
+        <childnode refid="2450" relation="include">
+        </childnode>
+        <childnode refid="2451" relation="include">
+        </childnode>
+        <childnode refid="2452" relation="include">
+        </childnode>
+        <childnode refid="2453" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2475">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="2476" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+      </node>
+      <node id="2471">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="2472" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+      </node>
+      <node id="2480">
+        <label>Level.cpp</label>
+        <link refid="_level_8cpp"/>
+      </node>
+      <node id="2474">
+        <label>Coin.cpp</label>
+        <link refid="_coin_8cpp"/>
+      </node>
+      <node id="2463">
+        <label>Platform.cpp</label>
+        <link refid="_platform_8cpp"/>
+      </node>
+      <node id="2467">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2462">
+        <label>Platform.h</label>
+        <link refid="Platform.h"/>
+        <childnode refid="2463" relation="include">
+        </childnode>
+        <childnode refid="2464" relation="include">
+        </childnode>
+      </node>
+      <node id="2464">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="2465" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+      </node>
+      <node id="2479">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="2472" relation="include">
+        </childnode>
+        <childnode refid="2480" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+      </node>
+      <node id="2477">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="2478" relation="include">
+        </childnode>
+        <childnode refid="2467" relation="include">
+        </childnode>
+      </node>
+      <node id="2476">
+        <label>Coinfactory.cpp</label>
+        <link refid="_coinfactory_8cpp"/>
+      </node>
+      <node id="2466">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="2467" relation="include">
+        </childnode>
+        <childnode refid="2468" relation="include">
+        </childnode>
+        <childnode refid="2469" relation="include">
+        </childnode>
+        <childnode refid="2471" relation="include">
+        </childnode>
+        <childnode refid="2473" relation="include">
+        </childnode>
+        <childnode refid="2477" relation="include">
+        </childnode>
+        <childnode refid="2479" relation="include">
+        </childnode>
+      </node>
+      <node id="2468">
+        <label>NGLDraw.cpp</label>
+        <link refid="_n_g_l_draw_8cpp"/>
+      </node>
+      <node id="2469">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="2470" relation="include">
+        </childnode>
+        <childnode refid="2467" relation="include">
+        </childnode>
+        <childnode refid="2468" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+      </node>
+      <node id="2472">
+        <label>Character.cpp</label>
+        <link refid="_character_8cpp"/>
+      </node>
+      <node id="2470">
+        <label>Animation.cpp</label>
+        <link refid="_animation_8cpp"/>
+      </node>
+      <node id="2465">
+        <label>PlatformFactory.cpp</label>
+        <link refid="_platform_factory_8cpp"/>
+      </node>
+      <node id="2473">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="2474" relation="include">
+        </childnode>
+        <childnode refid="2475" relation="include">
+        </childnode>
+      </node>
+      <node id="2478">
+        <label>Controls.cpp</label>
+        <link refid="_controls_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_platform" prot="public">Platform</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aa" prot="public" static="no">
+        <name>Direction</name>
+        <enumvalue id="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa2759e3c2bb672243131899864a890d33" prot="public">
+          <name>MOVE_Y</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa4854e59b8a894a00ca5f9dda42bb475c" prot="public">
+          <name>MOVE_Z</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa7a40fd5b5569160d38c2328bf2fb5ed4" prot="public">
+          <name>MOVE_X</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa72aa64aabb3d06eb2fccdf86fb644b8d" prot="public">
+          <name>CIRCLEXY</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaaa403f58e62241339452f78972e2ca8a5" prot="public">
+          <name>CIRCLEZY</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaab2f0cd22b1963becef8b91d29d567fe8" prot="public">
+          <name>TEST</name>
+          <initializer>=5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Platform.h" line="11" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Platform.h" bodystart="10" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" prot="public" static="no">
+        <name>PlatType</name>
+        <enumvalue id="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7addacb58043038c6070505710c73516c8" prot="public">
+          <name>MOVE_PLATE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a089b531152ee4090896c6afa68e3fd31" prot="public">
+          <name>BOUNCE_PAD</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a6bf4e51ca30dba9c0f27ae31e6e78e91" prot="public">
+          <name>BARRIER01</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7abb9b1fc2ea7b2a38f0fbf3971a456fa4" prot="public">
+          <name>BARRIER_LARGE</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a8a2a27fa0925406ded2322c372b89d86" prot="public">
+          <name>ROTATING_L</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3bdf1cb21c092d90f750f07e60af6410" prot="public">
+          <name>BRIDGE_1</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3e6d430567f07a9658bf8b32003da464" prot="public">
+          <name>BRIDGE_2</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Platform.h" line="21" column="1" bodyfile="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Platform.h" bodystart="20" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Morgan Henty, Tom Rule </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PLATFORM</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PLATFORM</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_physics_world_8h" kindref="compound">PhysicsWorld.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_collision_shape_8h" kindref="compound">CollisionShape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_ltimer_8h" kindref="compound">Ltimer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aa" kindref="member">Direction</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa2759e3c2bb672243131899864a890d33" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa2759e3c2bb672243131899864a890d33" kindref="member">MOVE_Y</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="13" refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa4854e59b8a894a00ca5f9dda42bb475c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa4854e59b8a894a00ca5f9dda42bb475c" kindref="member">MOVE_Z</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="14" refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa7a40fd5b5569160d38c2328bf2fb5ed4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa7a40fd5b5569160d38c2328bf2fb5ed4" kindref="member">MOVE_X</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="15" refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa72aa64aabb3d06eb2fccdf86fb644b8d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaa72aa64aabb3d06eb2fccdf86fb644b8d" kindref="member">CIRCLEXY</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="16" refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaaa403f58e62241339452f78972e2ca8a5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaaa403f58e62241339452f78972e2ca8a5" kindref="member">CIRCLEZY</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="17" refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaab2f0cd22b1963becef8b91d29d567fe8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aaab2f0cd22b1963becef8b91d29d567fe8" kindref="member">TEST</ref><sp/>=5</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" kindref="member">PlatType</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7addacb58043038c6070505710c73516c8" kindref="member">MOVE_PLATE</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a089b531152ee4090896c6afa68e3fd31" kindref="member">BOUNCE_PAD</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a6bf4e51ca30dba9c0f27ae31e6e78e91" kindref="member">BARRIER01</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7abb9b1fc2ea7b2a38f0fbf3971a456fa4" kindref="member">BARRIER_LARGE</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a8a2a27fa0925406ded2322c372b89d86" kindref="member">ROTATING_L</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3bdf1cb21c092d90f750f07e60af6410" kindref="member">BRIDGE_1</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7a3e6d430567f07a9658bf8b32003da464" kindref="member">BRIDGE_2</ref><sp/>=<sp/>6</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_platform" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platform" kindref="compound">Platform</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_platform_1ab56212b4a4cdc789e1b276c99b7effef" kindref="member">Platform</ref>(ngl::Vec3<sp/>_pos,<sp/>std::string<sp/>_platName,<sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" kindref="member">PlatType</ref><sp/>_platType,<sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*_physics);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_1a929d8b9fcdbc32332673d8d48540b909" kindref="member">createPlatform</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_1a4267f5b2b2e9505c7375dcda9af1749e" kindref="member">movePlatform</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_vel,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_range,<sp/><ref refid="_platform_8h_1a224b9163917ac32fc95a60d8c1eec3aa" kindref="member">Direction</ref><sp/>_d);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_1a3023de66e2e7b4b4e792f9f7e1e01a4d" kindref="member">addRot</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_deg);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_1ab31ff211a1657000b081af0bc14e3a87" kindref="member">setRot</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_rot);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platform_1a126ca5dbffe1f3f908a00fcbd5eaa72c" kindref="member">rotatePlatform</ref>(std::string<sp/>_axis);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_platform_1ab6f1873ee4d7bb018c9b0706f813c270" kindref="member">getPlatformPos</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_platform_1a8e6cb1d96d29cf91025a2e158c020884" kindref="member">getPlatformName</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" kindref="member">PlatType</ref><sp/><ref refid="class_platform_1a84f1f7d90e6e016ff71984a1b1147258" kindref="member">getPlatType</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="class_platform_1a07e29ba185c9fb787212a7d11af3832b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*<ref refid="class_platform_1a07e29ba185c9fb787212a7d11af3832b" kindref="member">m_physics</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="class_platform_1a7b0fcc983d9516ef1883981d63c0d842" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_platform_1a7b0fcc983d9516ef1883981d63c0d842" kindref="member">m_platformDirection</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="class_platform_1a7af270e5bfd69bafe5ec3bee95799995" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ngl::Vec3<sp/><ref refid="class_platform_1a7af270e5bfd69bafe5ec3bee95799995" kindref="member">m_pos</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="class_platform_1ac7aa1bf8aaea0e87cdbe6f27e2375587" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_platform_1ac7aa1bf8aaea0e87cdbe6f27e2375587" kindref="member">m_platName</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="class_platform_1a2cbeeb0dc477da86983368fd2cb8baf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_platform_8h_1a2799f626fb1480c1af15c2bf3096cac7" kindref="member">PlatType</ref><sp/><ref refid="class_platform_1a2cbeeb0dc477da86983368fd2cb8baf2" kindref="member">m_platType</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="class_platform_1a72aaca03b730ed78135f360b519c3ac5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_platform_1a72aaca03b730ed78135f360b519c3ac5" kindref="member">m_deg</ref>;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="class_platform_1ac3b79afd448ae2587b2fc24f68e24c70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_platform_1ac3b79afd448ae2587b2fc24f68e24c70" kindref="member">m_rot</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PLATFORM</highlight></codeline>
+<codeline lineno="114"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/include/Platform.h"/>
+  </compounddef>
+</doxygen>

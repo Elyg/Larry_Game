@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_controls_8cpp" kind="file">
+    <compoundname>Controls.cpp</compoundname>
+    <includes refid="_controls_8h" local="yes">Controls.h</includes>
+    <incdepgraph>
+      <node id="1949">
+        <label>list</label>
+      </node>
+      <node id="1935">
+        <label>Ltimer.h</label>
+        <link refid="_ltimer_8h"/>
+        <childnode refid="1913" relation="include">
+        </childnode>
+      </node>
+      <node id="1940">
+        <label>CoinFactory.h</label>
+        <link refid="_coin_factory_8h"/>
+        <childnode refid="1941" relation="include">
+        </childnode>
+        <childnode refid="1924" relation="include">
+        </childnode>
+        <childnode refid="1942" relation="include">
+        </childnode>
+      </node>
+      <node id="1923">
+        <label>Character.h</label>
+        <link refid="_character_8h"/>
+        <childnode refid="1910" relation="include">
+        </childnode>
+        <childnode refid="1924" relation="include">
+        </childnode>
+        <childnode refid="1932" relation="include">
+        </childnode>
+        <childnode refid="1935" relation="include">
+        </childnode>
+      </node>
+      <node id="1943">
+        <label>ngl/VAOPrimitives.h</label>
+      </node>
+      <node id="1913">
+        <label>SDL.h</label>
+      </node>
+      <node id="1919">
+        <label>ngl/VertexArrayObject.h</label>
+      </node>
+      <node id="1934">
+        <label>ngl/Types.h</label>
+      </node>
+      <node id="1912">
+        <label>ngl/Light.h</label>
+      </node>
+      <node id="1920">
+        <label>ngl/Colour.h</label>
+      </node>
+      <node id="1929">
+        <label>BulletDebugDraw.h</label>
+        <link refid="_bullet_debug_draw_8h"/>
+        <childnode refid="1930" relation="include">
+        </childnode>
+        <childnode refid="1931" relation="include">
+        </childnode>
+        <childnode refid="1926" relation="include">
+        </childnode>
+      </node>
+      <node id="1918">
+        <label>ngl/Vec2.h</label>
+      </node>
+      <node id="1914">
+        <label>ngl/Transformation.h</label>
+      </node>
+      <node id="1932">
+        <label>CollisionShape.h</label>
+        <link refid="_collision_shape_8h"/>
+        <childnode refid="1925" relation="include">
+        </childnode>
+        <childnode refid="1933" relation="include">
+        </childnode>
+        <childnode refid="1915" relation="include">
+        </childnode>
+        <childnode refid="1934" relation="include">
+        </childnode>
+        <childnode refid="1921" relation="include">
+        </childnode>
+      </node>
+      <node id="1942">
+        <label>Trigger.h</label>
+        <link refid="_trigger_8h"/>
+        <childnode refid="1926" relation="include">
+        </childnode>
+        <childnode refid="1924" relation="include">
+        </childnode>
+        <childnode refid="1943" relation="include">
+        </childnode>
+        <childnode refid="1914" relation="include">
+        </childnode>
+      </node>
+      <node id="1921">
+        <label>string</label>
+      </node>
+      <node id="1955">
+        <label>ngl/ShaderLib.h</label>
+      </node>
+      <node id="1922">
+        <label>map</label>
+      </node>
+      <node id="1945">
+        <label>Platform.h</label>
+        <link refid="_platform_8h"/>
+        <childnode refid="1924" relation="include">
+        </childnode>
+        <childnode refid="1932" relation="include">
+        </childnode>
+        <childnode refid="1935" relation="include">
+        </childnode>
+      </node>
+      <node id="1944">
+        <label>PlatformFactory.h</label>
+        <link refid="_platform_factory_8h"/>
+        <childnode refid="1945" relation="include">
+        </childnode>
+        <childnode refid="1932" relation="include">
+        </childnode>
+      </node>
+      <node id="1946">
+        <label>HighScore.h</label>
+        <link refid="_high_score_8h"/>
+        <childnode refid="1947" relation="include">
+        </childnode>
+        <childnode refid="1935" relation="include">
+        </childnode>
+        <childnode refid="1948" relation="include">
+        </childnode>
+      </node>
+      <node id="1936">
+        <label>Level.h</label>
+        <link refid="_level_8h"/>
+        <childnode refid="1910" relation="include">
+        </childnode>
+        <childnode refid="1924" relation="include">
+        </childnode>
+        <childnode refid="1932" relation="include">
+        </childnode>
+        <childnode refid="1917" relation="include">
+        </childnode>
+      </node>
+      <node id="1916">
+        <label>ngl/Obj.h</label>
+      </node>
+      <node id="1909">
+        <label>Controls.h</label>
+        <link refid="_controls_8h"/>
+        <childnode refid="1910" relation="include">
+        </childnode>
+        <childnode refid="1924" relation="include">
+        </childnode>
+      </node>
+      <node id="1953">
+        <label>QtCore/QTextStream</label>
+      </node>
+      <node id="1917">
+        <label>Text.h</label>
+        <link refid="_text_8h"/>
+        <childnode refid="1918" relation="include">
+        </childnode>
+        <childnode refid="1919" relation="include">
+        </childnode>
+        <childnode refid="1920" relation="include">
+        </childnode>
+        <childnode refid="1921" relation="include">
+        </childnode>
+        <childnode refid="1922" relation="include">
+        </childnode>
+      </node>
+      <node id="1931">
+        <label>vector</label>
+      </node>
+      <node id="1910">
+        <label>NGLDraw.h</label>
+        <link refid="_n_g_l_draw_8h"/>
+        <childnode refid="1911" relation="include">
+        </childnode>
+        <childnode refid="1912" relation="include">
+        </childnode>
+        <childnode refid="1913" relation="include">
+        </childnode>
+        <childnode refid="1914" relation="include">
+        </childnode>
+        <childnode refid="1915" relation="include">
+        </childnode>
+        <childnode refid="1916" relation="include">
+        </childnode>
+        <childnode refid="1917" relation="include">
+        </childnode>
+        <childnode refid="1923" relation="include">
+        </childnode>
+        <childnode refid="1936" relation="include">
+        </childnode>
+        <childnode refid="1937" relation="include">
+        </childnode>
+        <childnode refid="1939" relation="include">
+        </childnode>
+        <childnode refid="1940" relation="include">
+        </childnode>
+        <childnode refid="1944" relation="include">
+        </childnode>
+        <childnode refid="1946" relation="include">
+        </childnode>
+        <childnode refid="1942" relation="include">
+        </childnode>
+        <childnode refid="1949" relation="include">
+        </childnode>
+        <childnode refid="1950" relation="include">
+        </childnode>
+        <childnode refid="1954" relation="include">
+        </childnode>
+      </node>
+      <node id="1927">
+        <label>ngl/Mat4.h</label>
+      </node>
+      <node id="1939">
+        <label>Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="1924" relation="include">
+        </childnode>
+        <childnode refid="1911" relation="include">
+        </childnode>
+      </node>
+      <node id="1937">
+        <label>Animation.h</label>
+        <link refid="_animation_8h"/>
+        <childnode refid="1910" relation="include">
+        </childnode>
+        <childnode refid="1938" relation="include">
+        </childnode>
+      </node>
+      <node id="1947">
+        <label>iostream</label>
+      </node>
+      <node id="1948">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="1933">
+        <label>unordered_map</label>
+      </node>
+      <node id="1938">
+        <label>ngl/NCCAPointBake.h</label>
+      </node>
+      <node id="1952">
+        <label>QtCore/QFile</label>
+      </node>
+      <node id="1954">
+        <label>ShaderFactory.h</label>
+        <link refid="_shader_factory_8h"/>
+        <childnode refid="1955" relation="include">
+        </childnode>
+      </node>
+      <node id="1925">
+        <label>btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="1941">
+        <label>Coin.h</label>
+        <link refid="_coin_8h"/>
+        <childnode refid="1910" relation="include">
+        </childnode>
+        <childnode refid="1942" relation="include">
+        </childnode>
+        <childnode refid="1935" relation="include">
+        </childnode>
+      </node>
+      <node id="1930">
+        <label>LinearMath/btIDebugDraw.h</label>
+      </node>
+      <node id="1928">
+        <label>set</label>
+      </node>
+      <node id="1908">
+        <label>Controls.cpp</label>
+        <link refid="Controls.cpp"/>
+        <childnode refid="1909" relation="include">
+        </childnode>
+      </node>
+      <node id="1950">
+        <label>TriggerFactory.h</label>
+        <link refid="_trigger_factory_8h"/>
+        <childnode refid="1942" relation="include">
+        </childnode>
+        <childnode refid="1951" relation="include">
+        </childnode>
+        <childnode refid="1948" relation="include">
+        </childnode>
+        <childnode refid="1952" relation="include">
+        </childnode>
+        <childnode refid="1953" relation="include">
+        </childnode>
+      </node>
+      <node id="1926">
+        <label>ngl/Vec3.h</label>
+      </node>
+      <node id="1951">
+        <label>ngl/NGLStream.h</label>
+      </node>
+      <node id="1911">
+        <label>ngl/Camera.h</label>
+      </node>
+      <node id="1915">
+        <label>memory</label>
+      </node>
+      <node id="1924">
+        <label>PhysicsWorld.h</label>
+        <link refid="_physics_world_8h"/>
+        <childnode refid="1925" relation="include">
+        </childnode>
+        <childnode refid="1926" relation="include">
+        </childnode>
+        <childnode refid="1927" relation="include">
+        </childnode>
+        <childnode refid="1916" relation="include">
+        </childnode>
+        <childnode refid="1915" relation="include">
+        </childnode>
+        <childnode refid="1928" relation="include">
+        </childnode>
+        <childnode refid="1929" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_controls_8h" kindref="compound">Controls.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_controls_1a3fec86d9b99b17d3fb3087207306e883" refkind="member"><highlight class="normal"><ref refid="class_controls_1a3fec86d9b99b17d3fb3087207306e883" kindref="member">Controls::Controls</ref>(<ref refid="class_physics_world" kindref="compound">PhysicsWorld</ref><sp/>*_physics,</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_character" kindref="compound">Character</ref><sp/>*_character)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//stores<sp/>the<sp/>pointers<sp/>for<sp/>character<sp/>and<sp/>the<sp/>physics<sp/>world</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a327aa6cddb871bf75037d9be2e22b6b8" kindref="member">m_physics</ref><sp/>=<sp/>_physics;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref><sp/>=<sp/>_character;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_controls_1a472ff85242095dbe9435de7e5ab51bf5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a472ff85242095dbe9435de7e5ab51bf5" kindref="member">Controls::jumpImpulse</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1ab78c29a4a476cd3e5530e4ea63d35ffb" kindref="member">jumpImpulse</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_controls_1aae150be1e58ea618a6a9f7043727ebe5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1aae150be1e58ea618a6a9f7043727ebe5" kindref="member">Controls::stopJumpHopTimer</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a128fe63126613c48f495a0c467ebe337" kindref="member">stopJumpHopTimer</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_controls_1a508630b1ee74d999f41e238c9c45c4c5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a508630b1ee74d999f41e238c9c45c4c5" kindref="member">Controls::startJumpHopTimer</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1ae58527d608910235f06445cd9d274a56" kindref="member">startJumpHopTimer</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_controls_1a37be7d2dd9722a8c4c65e34728b521e5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a37be7d2dd9722a8c4c65e34728b521e5" kindref="member">Controls::godMode</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a6d677474346bf9589e9c940ae165537c" kindref="member">godMode</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_controls_1a739d7f836e424b3e52bbed5254d05bb2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a739d7f836e424b3e52bbed5254d05bb2" kindref="member">Controls::setMassPositive</ref>()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1ad2a929e7c3f2403b92114d5d7bf50c3c" kindref="member">setMassPositive</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_controls_1a72d9f9954b5bd7f2d9c1eaf8d3e4c133" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a72d9f9954b5bd7f2d9c1eaf8d3e4c133" kindref="member">Controls::setMassNegative</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a2521deae9b9dd48eb87d7870a7f83f1f" kindref="member">setMassNegative</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_controls_1a7ffcbd7eb08abe5ad3384fab5023e6ee" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a7ffcbd7eb08abe5ad3384fab5023e6ee" kindref="member">Controls::setMaxVelPositive</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1ad00fc05ccd10c3819c7b5f0efba7e1a2" kindref="member">setMaxVelPositive</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_controls_1a2b50d9bdd337494c1593be5e6fef5f69" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a2b50d9bdd337494c1593be5e6fef5f69" kindref="member">Controls::setMaxVelNegative</ref>()</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1ae9aa7651b279192c65b7649e2d624fad" kindref="member">setMaxVelNegative</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_controls_1a027e4320b6abb12c327a7469d2a4d42e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a027e4320b6abb12c327a7469d2a4d42e" kindref="member">Controls::setMultiplierPositive</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a37eefb510c8be344bc5afc46b4686746" kindref="member">setMultiplierPositive</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="class_controls_1a5d1e9f2f35434f638cf1cf101002ca8c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a5d1e9f2f35434f638cf1cf101002ca8c" kindref="member">Controls::setMultiplierNegative</ref>()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1ac71793e33ec4e29a9289cd922e464b09" kindref="member">setMultiplierNegative</ref>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="class_controls_1a05b74314f8236b971e20d1868d437286" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a05b74314f8236b971e20d1868d437286" kindref="member">Controls::characterMovement</ref>(ngl::Vec3<sp/>&amp;_move)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a595fba03a652891741ee6631a6079674" kindref="member">characterMove</ref>(_move);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_controls_1a3fed9472c6e44b18935eee2100af7922" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a3fed9472c6e44b18935eee2100af7922" kindref="member">Controls::getMass</ref>()</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1aff483f397946442bdfc2e3ba62a825b2" kindref="member">getMass</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_controls_1af6f57c51504181c793dc5a973e7d2ff7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1af6f57c51504181c793dc5a973e7d2ff7" kindref="member">Controls::getMaxVelocity</ref>()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1af638ed886b717330d0f53ec423433732" kindref="member">getMaxVelocity</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="class_controls_1af04921210f113d639ff0f3564d5ac1e4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1af04921210f113d639ff0f3564d5ac1e4" kindref="member">Controls::getMultiplier</ref>()</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a4f20bbd3e971408207fcf28083051059" kindref="member">getMultiplier</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="class_controls_1accc352189480c1031ee1446c378cc071" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1accc352189480c1031ee1446c378cc071" kindref="member">Controls::shapeshift</ref>()</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a55574c8044ccf90ef684ba1f2f607ace" kindref="member">shapeshift</ref>();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="class_controls_1a7a9edd2f6c56973f63338d2a0c214ced" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a7a9edd2f6c56973f63338d2a0c214ced" kindref="member">Controls::setJumpForcePositive</ref>()</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a879566e3231e71d372df9505c5f99a50" kindref="member">setJumpForcePositive</ref>();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="class_controls_1ae47be44b42b8bebeb0c53572da912db8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1ae47be44b42b8bebeb0c53572da912db8" kindref="member">Controls::setJumpForceNegative</ref>()</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a90043197d4c927c2816d1b2892593fa8" kindref="member">setJumpForceNegative</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="class_controls_1a570899be599209ec6f9bf7f2666c8021" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a570899be599209ec6f9bf7f2666c8021" kindref="member">Controls::setJumpHopMaxTimePositive</ref>()</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a8227f22bd71a7d880e7c28e41fc07602" kindref="member">setJumpHopMaxTimePositive</ref>();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="class_controls_1aef45854f27613d3bc5178cbdee862f68" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1aef45854f27613d3bc5178cbdee862f68" kindref="member">Controls::setJumpHopMaxTimeNegative</ref>()</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a34971bffe0ea866a0c7665ecf8a43244" kindref="member">setJumpHopMaxTimeNegative</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="class_controls_1aeeb1c64a0043037a3e22220c0d0e57eb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1aeeb1c64a0043037a3e22220c0d0e57eb" kindref="member">Controls::getJumpForce</ref>()</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1af58c239cd248b99bb74a6e1534c0a51f" kindref="member">getJumpForce</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="class_controls_1ad5d8ded931c665b857812049ca5f5186" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_controls_1ad5d8ded931c665b857812049ca5f5186" kindref="member">Controls::getJumpHopMaxTime</ref>()</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a150a1c3197b04d03212a65d3881a2c8f" kindref="member">getJumpHopMaxTime</ref>();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="class_controls_1a39668100d8fd76dad5f1cd7246fb1858" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a39668100d8fd76dad5f1cd7246fb1858" kindref="member">Controls::setFrictionPositive</ref>()</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1ab5efbe11f7ea8e0d45fd37388de25532" kindref="member">setFrictionPositive</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="class_controls_1ab39eb41cd98e9e53873b916a9d63cc41" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_controls_1ab39eb41cd98e9e53873b916a9d63cc41" kindref="member">Controls::setFrictionNegative</ref>()</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a6c2156c8ebaa2bf50dfb0a91233d0e10" kindref="member">setFrictionNegative</ref>();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="class_controls_1a0f163ad74f11e47455c023db515d44de" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a0f163ad74f11e47455c023db515d44de" kindref="member">Controls::getFriction</ref>()</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1a6b464972284d01160193a39b736f1b75" kindref="member">getFriction</ref>();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="class_controls_1a48fb94906d136cbc9abefe65a78e5477" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a48fb94906d136cbc9abefe65a78e5477" kindref="member">Controls::getJumpHopTime</ref>()</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_controls_1a024d109da79e781107c763e1033707cb" kindref="member">m_character</ref>-&gt;<ref refid="class_character_1aa231ac523656d8db870efe76689980b1" kindref="member">getJumpHopTime</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/i7257092/may_01/night_master/LevelHeadsCVA3/src/Controls.cpp"/>
+  </compounddef>
+</doxygen>

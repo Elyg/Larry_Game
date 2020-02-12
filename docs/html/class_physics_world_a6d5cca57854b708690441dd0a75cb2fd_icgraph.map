@@ -1,0 +1,4 @@
+<map id="PhysicsWorld::getCentreOfMass" name="PhysicsWorld::getCentreOfMass">
+<area shape="rect" id="node2" href="$class_trigger.html#aa93984db488edcfe733bd269755587bc" title="Returns true if the specified physics body is inside the bounds. " alt="" coords="270,5,367,32"/>
+<area shape="rect" id="node3" href="$class_coin.html#a6ee947aab0802f2bef303d1375459f44" title="returns bool value whether player is in contact with coin&#39;s trigger " alt="" coords="417,5,527,32"/>
+</map>
